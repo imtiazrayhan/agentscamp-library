@@ -1,0 +1,126 @@
+# Agents
+
+> Drop-in Claude Code subagents with focused system prompts — code review, debugging, architecture, and more.
+
+Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agentscamp) CLI (`-g` installs to `~/.claude/` instead of the current project), or open the linked file and copy it into your `.claude/agents/` directory. Each entry links to its full page on [AgentsCamp](https://agentscamp.com).
+
+**49 agents** · [← Back to README](README.md)
+
+## Data AI
+
+- **[Agent Tool Integration Engineer](agents/agent-tool-integration-engineer.md)** — Use this agent to wire tools and function-calling into an agent loop reliably — clean tool schemas, errors fed back as observations, retries with limits, idempotency, and parallel calls. Examples — "connect our APIs as agent tools", "our agent calls tools wrong / ignores tool errors", "add function-calling with proper error recovery to our agent".
+  [↗ Page](https://agentscamp.com/agents/data-ai/agent-tool-integration-engineer) · `npx agentscamp add agents/agent-tool-integration-engineer`
+- **[Browser Agent Engineer](agents/browser-agent-engineer.md)** — Use this agent to build, harden, or debug browser-automation agents — web tasks via Browser Use, Stagehand, Skyvern, or Playwright-based stacks. Examples: automate a portal workflow, make a flaky browser agent reliable, add verification and guardrails to web automation, choose between vision and DOM grounding.
+  [↗ Page](https://agentscamp.com/agents/data-ai/browser-agent-engineer) · `npx agentscamp add agents/browser-agent-engineer`
+- **[Data Engineer](agents/data-engineer.md)** — Use this agent to build and maintain data pipelines — ingestion, ELT/ETL, warehouse modeling, orchestration, and data-quality tests. Examples — building an idempotent ingestion job, modeling a fact/dimension table in dbt, writing a safe backfill for a changed schema.
+  [↗ Page](https://agentscamp.com/agents/data-ai/data-engineer) · `npx agentscamp add agents/data-engineer`
+- **[Data Scientist](agents/data-scientist.md)** — Use this agent for data analysis — exploration, statistics, SQL, and clear findings. Examples — analyzing a dataset, writing an analytical SQL query, summarizing experiment results.
+  [↗ Page](https://agentscamp.com/agents/data-ai/data-scientist) · `npx agentscamp add agents/data-scientist`
+- **[Finetuning Engineer](agents/finetuning-engineer.md)** — Use this agent to fine-tune an open-weight model end to end — confirming fine-tuning is the right tool, preparing the dataset, choosing the method (LoRA/QLoRA vs. full), running training, and proving the result beats the prompted baseline on a held-out eval set. Examples — "fine-tune a small model to match our support tone and answer format", "we have 800 labeled examples — LoRA-tune and show it beats prompting", "our fine-tune overfits and forgot general ability — fix the data and run".
+  [↗ Page](https://agentscamp.com/agents/data-ai/finetuning-engineer) · `npx agentscamp add agents/finetuning-engineer`
+- **[LLM Cost Optimizer](agents/llm-cost-optimizer.md)** — Use this agent to cut the cost and latency of an application's LLM API usage without losing quality — audit where the tokens and dollars go, then apply caching, model right-sizing, prompt trimming, batching, and budgets, proven against an eval bar. Examples — "our OpenAI bill tripled, find where the spend is and cut it", "this endpoint's p95 is 8s, bring it down", "right-size models per task and add prompt caching to our chat feature".
+  [↗ Page](https://agentscamp.com/agents/data-ai/llm-cost-optimizer) · `npx agentscamp add agents/llm-cost-optimizer`
+- **[LLM Evaluation Engineer](agents/llm-evaluation-engineer.md)** — Use this agent to make an LLM feature's quality measurable — building the dataset, choosing metrics, setting a baseline, and turning evals into a CI gate so prompt and model changes are scored, not guessed. Examples — "we changed the prompt and don't know if it's better, set up evals", "add a regression gate for our extraction feature", "our RAG quality is drifting, build an eval suite".
+  [↗ Page](https://agentscamp.com/agents/data-ai/llm-evaluation-engineer) · `npx agentscamp add agents/llm-evaluation-engineer`
+- **[LLM Inference Engineer](agents/llm-inference-engineer.md)** — Use this agent to serve and optimize self-hosted LLM inference — sizing GPUs, configuring a serving engine like vLLM (continuous batching, PagedAttention, tensor parallelism), applying quantization, and tuning throughput and tail latency against a cost and p95 budget. Examples — "serve Llama-3-70B at p95 under 2s on our GPUs", "our self-hosted model is slow and the GPUs sit half-idle — raise throughput", "quantize this model to fit one GPU without wrecking quality".
+  [↗ Page](https://agentscamp.com/agents/data-ai/llm-inference-engineer) · `npx agentscamp add agents/llm-inference-engineer`
+- **[LLM Integration Engineer](agents/llm-integration-engineer.md)** — Use this agent to add an LLM feature to an application and make it production-grade — typed/structured output, streaming, provider fallback and retries, caching, and cost/latency controls. Examples — "add an AI summary endpoint to our app", "our LLM calls return unparseable JSON and break, make them reliable", "add streaming and a fallback provider to our chat feature".
+  [↗ Page](https://agentscamp.com/agents/data-ai/llm-integration-engineer) · `npx agentscamp add agents/llm-integration-engineer`
+- **[LLM Observability Engineer](agents/llm-observability-engineer.md)** — Use this agent to make a production LLM app observable — tracing every step, scoring live traffic with online evals, and monitoring quality, cost, and latency — so you can debug agent runs and catch regressions in production. Examples — "add tracing to our RAG/agent so we can debug bad answers", "set up online evals and cost/latency dashboards", "production quality is slipping and we're flying blind".
+  [↗ Page](https://agentscamp.com/agents/data-ai/llm-observability-engineer) · `npx agentscamp add agents/llm-observability-engineer`
+- **[ML Engineer](agents/ml-engineer.md)** — Use this agent for production ML — pipelines, training, serving, evaluation, and MLOps. Examples — building a training pipeline, deploying a model, setting up evaluation.
+  [↗ Page](https://agentscamp.com/agents/data-ai/ml-engineer) · `npx agentscamp add agents/ml-engineer`
+- **[Postgres Migration Engineer](agents/postgres-migration-engineer.md)** — Use this agent to plan and execute a zero-downtime Postgres schema migration — decomposing a breaking change into expand-contract steps, writing batched backfills, building indexes CONCURRENTLY, validating constraints online, and keeping every step reversible with the project's migration tooling. Examples — "add a NOT NULL column to a 200M-row table without downtime", "rename a column safely across a rolling deploy", "split this risky migration into reversible expand/contract steps".
+  [↗ Page](https://agentscamp.com/agents/data-ai/postgres-migration-engineer) · `npx agentscamp add agents/postgres-migration-engineer`
+- **[Prompt Engineer](agents/prompt-engineer.md)** — Use this agent to design and iterate the prompts behind an LLM-powered product feature — instructions, few-shot examples, tool schemas, and the evals that prove a change actually helped. Examples — "this classification prompt is flaky, make it reliable", "design the system prompt and function schema for our support agent", "our extraction prompt regressed after I tweaked it, set up evals so this stops happening".
+  [↗ Page](https://agentscamp.com/agents/data-ai/prompt-engineer) · `npx agentscamp add agents/prompt-engineer`
+- **[Rag Pipeline Engineer](agents/rag-pipeline-engineer.md)** — Use this agent to design, build, and harden a production retrieval-augmented generation (RAG) pipeline end to end — ingestion, chunking, embeddings, indexing, retrieval, reranking, and grounded generation — with evals that prove each stage works. Examples — "stand up RAG over our docs", "our RAG hallucinates and misses obvious answers, fix the pipeline", "take our prototype RAG to production with evals and citations".
+  [↗ Page](https://agentscamp.com/agents/data-ai/rag-pipeline-engineer) · `npx agentscamp add agents/rag-pipeline-engineer`
+- **[Retrieval Engineer](agents/retrieval-engineer.md)** — Use this agent to raise the retrieval quality of a search or RAG system — recall and precision, hybrid (dense + sparse) search, reranking, query transformation, and metadata filtering — measured against a labeled eval set. Examples — "our RAG retrieves irrelevant chunks, fix recall", "add hybrid search and reranking and prove it helps", "queries with acronyms/IDs return nothing, fix it".
+  [↗ Page](https://agentscamp.com/agents/data-ai/retrieval-engineer) · `npx agentscamp add agents/retrieval-engineer`
+- **[Vector Search Engineer](agents/vector-search-engineer.md)** — Use this agent to design, build, and tune the vector-database layer of a search or RAG system — schema and index design (HNSW/IVF + quantization), metadata/payload filtering, hybrid (dense + sparse) search, and ingestion/upsert pipelines — sized to a real latency, recall, and cost budget. Examples — "set up pgvector for our docs with HNSW and filtered search", "our Qdrant queries are slow and recall dropped after quantization", "add metadata filtering so search only returns the current tenant's documents".
+  [↗ Page](https://agentscamp.com/agents/data-ai/vector-search-engineer) · `npx agentscamp add agents/vector-search-engineer`
+- **[Voice Agent Engineer](agents/voice-agent-engineer.md)** — Use this agent to build or fix a real-time voice agent — the streaming STT → LLM → TTS pipeline, conversational (mouth-to-ear) latency, turn-taking, barge-in/interruptions, and per-stage provider selection. Examples — "our voice bot feels laggy and talks over people, fix the turn-taking and latency", "build a phone agent that transcribes, answers with our LLM, and speaks back", "get our voice agent's response time under a second".
+  [↗ Page](https://agentscamp.com/agents/data-ai/voice-agent-engineer) · `npx agentscamp add agents/voice-agent-engineer`
+
+## Quality Security
+
+- **[Accessibility Auditor](agents/accessibility-auditor.md)** — Use this agent to audit web UI against WCAG 2.2 AA — semantics, keyboard, ARIA, contrast, forms, and motion. Examples — auditing a new component for keyboard traps, checking a form for accessible errors, running a pre-ship a11y pass on a page.
+  [↗ Page](https://agentscamp.com/agents/quality-security/accessibility-auditor) · `npx agentscamp add agents/accessibility-auditor`
+- **[Code Reviewer](agents/code-reviewer.md)** — Use this agent to review code changes for correctness, security, and maintainability before merging. Examples — reviewing a PR diff, auditing a new module, checking a refactor for regressions.
+  [↗ Page](https://agentscamp.com/agents/quality-security/code-reviewer) · `npx agentscamp add agents/code-reviewer`
+- **[Debugger](agents/debugger.md)** — Use this agent to diagnose failing tests, runtime errors, or unexpected behavior by forming and testing hypotheses. Examples — a stack trace to root-cause, a flaky test, a "works locally but not in CI" bug.
+  [↗ Page](https://agentscamp.com/agents/quality-security/debugger) · `npx agentscamp add agents/debugger`
+- **[Performance Engineer](agents/performance-engineer.md)** — Use this agent to profile and optimize performance — latency, throughput, memory, bundle size. Examples — a slow endpoint, an N+1 query, a heavy render, a large JS bundle.
+  [↗ Page](https://agentscamp.com/agents/quality-security/performance-engineer) · `npx agentscamp add agents/performance-engineer`
+- **[Prompt Injection Auditor](agents/prompt-injection-auditor.md)** — Use this agent to audit an LLM app or agent for prompt-injection exposure — mapping where untrusted content enters the model's context (user, RAG, tools, web), assessing the blast radius if an injection succeeds, probing with adversarial inputs, and recommending architectural mitigations. Examples — "audit our RAG agent for indirect prompt injection", "what's the blast radius if our agent gets injected — which tools and credentials are exposed?", "review our LLM app's trust boundaries and tell us what to fix".
+  [↗ Page](https://agentscamp.com/agents/quality-security/prompt-injection-auditor) · `npx agentscamp add agents/prompt-injection-auditor`
+- **[Security Auditor](agents/security-auditor.md)** — Use this agent to find security vulnerabilities — injection, auth flaws, secrets, unsafe deserialization, dependency risks. Examples — auditing an API surface, reviewing auth code, pre-release security pass.
+  [↗ Page](https://agentscamp.com/agents/quality-security/security-auditor) · `npx agentscamp add agents/security-auditor`
+- **[Test Engineer](agents/test-engineer.md)** — Use this agent to write and improve automated tests — unit, integration, and edge cases. Examples — adding coverage to an untested module, writing regression tests for a bug, designing a test plan.
+  [↗ Page](https://agentscamp.com/agents/quality-security/test-engineer) · `npx agentscamp add agents/test-engineer`
+
+## Core Development
+
+- **[API Architect](agents/api-architect.md)** — Use this agent to design APIs — resource modeling, versioning, pagination, error contracts, REST vs GraphQL. Examples — designing a public API, reviewing an API spec, planning a breaking change.
+  [↗ Page](https://agentscamp.com/agents/core-development/api-architect) · `npx agentscamp add agents/api-architect`
+- **[Backend Developer](agents/backend-developer.md)** — Use this agent to build server-side features — endpoints, business logic, data access, background jobs. Examples — a new REST/GraphQL endpoint, a queue worker, a database integration.
+  [↗ Page](https://agentscamp.com/agents/core-development/backend-developer) · `npx agentscamp add agents/backend-developer`
+- **[Frontend Developer](agents/frontend-developer.md)** — Use this agent to build UI — responsive layouts, components, accessibility, and design-system work. Examples — implementing a Figma design, fixing a11y issues, building a reusable component.
+  [↗ Page](https://agentscamp.com/agents/core-development/frontend-developer) · `npx agentscamp add agents/frontend-developer`
+- **[GraphQL Architect](agents/graphql-architect.md)** — Use this agent to design GraphQL schemas and resolvers — types, nullability, connections, dataloaders, federation, depth/complexity limits. Examples — designing a new schema from requirements, killing N+1 queries in resolvers, planning a deprecation, hardening a public graph.
+  [↗ Page](https://agentscamp.com/agents/core-development/graphql-architect) · `npx agentscamp add agents/graphql-architect`
+- **[Mobile Developer](agents/mobile-developer.md)** — Use this agent to build cross-platform mobile apps with React Native + Expo — screens, navigation, native modules, and shipping via EAS. Examples — adding a tab-based navigation flow, fixing a janky FlatList, shipping a build to TestFlight with EAS.
+  [↗ Page](https://agentscamp.com/agents/core-development/mobile-developer) · `npx agentscamp add agents/mobile-developer`
+- **[System Architect](agents/system-architect.md)** — Use this agent for high-level system design — service boundaries, data flow, scaling, trade-offs. Examples — designing a new system, evaluating a monolith-to-services split, a scalability review.
+  [↗ Page](https://agentscamp.com/agents/core-development/system-architect) · `npx agentscamp add agents/system-architect`
+
+## Language Specialists
+
+- **[Golang Pro](agents/golang-pro.md)** — Use this agent for idiomatic Go — concurrency, errors, small interfaces, stdlib-first design, and profiling. Examples — fixing a goroutine leak, designing a context-aware API, profiling a hot path with pprof.
+  [↗ Page](https://agentscamp.com/agents/language-specialists/golang-pro) · `npx agentscamp add agents/golang-pro`
+- **[Python Pro](agents/python-pro.md)** — Use this agent for idiomatic, performant Python — typing, async, packaging, and stdlib mastery. Examples — refactoring to idiomatic Python, async I/O, packaging a library.
+  [↗ Page](https://agentscamp.com/agents/language-specialists/python-pro) · `npx agentscamp add agents/python-pro`
+- **[React Specialist](agents/react-specialist.md)** — Use this agent for React architecture — hooks, state, performance, Server Components, and patterns. Examples — fixing re-render issues, designing component state, adopting RSC.
+  [↗ Page](https://agentscamp.com/agents/language-specialists/react-specialist) · `npx agentscamp add agents/react-specialist`
+- **[Rust Pro](agents/rust-pro.md)** — Use this agent for idiomatic Rust — ownership, lifetimes, error handling, traits, async with tokio, and the cargo toolchain. Examples — fixing borrow-checker errors, designing a trait API, making async code compile cleanly under tokio.
+  [↗ Page](https://agentscamp.com/agents/language-specialists/rust-pro) · `npx agentscamp add agents/rust-pro`
+- **[SQL Pro](agents/sql-pro.md)** — Use this agent for SQL itself — correct joins and window functions, indexing, EXPLAIN plans, schema design, and safe migrations on Postgres/MySQL. Examples — making a slow query fast, designing a normalized schema, writing a reversible migration.
+  [↗ Page](https://agentscamp.com/agents/language-specialists/sql-pro) · `npx agentscamp add agents/sql-pro`
+- **[Typescript Pro](agents/typescript-pro.md)** — Use this agent for advanced TypeScript — generics, type-level programming, strictness, and inference. Examples — typing a tricky API, fixing type errors, designing a type-safe library surface.
+  [↗ Page](https://agentscamp.com/agents/language-specialists/typescript-pro) · `npx agentscamp add agents/typescript-pro`
+
+## Developer Tools
+
+- **[Dependency Manager](agents/dependency-manager.md)** — Use this agent to upgrade project dependencies safely — batching low-risk bumps apart from breaking majors and verifying each step. Examples — clearing months of stale packages, taking a single major version with migration notes, resolving a peer-dependency conflict.
+  [↗ Page](https://agentscamp.com/agents/developer-tools/dependency-manager) · `npx agentscamp add agents/dependency-manager`
+- **[Documentation Engineer](agents/documentation-engineer.md)** — Use this agent to write and maintain technical docs that stay true to the code — READMEs, how-to guides, API references, and runbooks. Examples — updating a stale README after a refactor, documenting a new public API from its signatures, writing an on-call runbook for a service.
+  [↗ Page](https://agentscamp.com/agents/developer-tools/documentation-engineer) · `npx agentscamp add agents/documentation-engineer`
+- **[Git Github Expert](agents/git-github-expert.md)** — Use this agent for Git and GitHub workflows — rebases, conflict resolution, history surgery, PRs, and Actions. Examples — resolving a messy merge, rewriting history safely, fixing a workflow file.
+  [↗ Page](https://agentscamp.com/agents/developer-tools/git-github-expert) · `npx agentscamp add agents/git-github-expert`
+- **[MCP Server Engineer](agents/mcp-server-engineer.md)** — Use this agent to build, harden, or productionize a Model Context Protocol (MCP) server — designing tools/resources/prompts, choosing stdio vs. Streamable HTTP, taking a server remote with OAuth and stateless scaling, and testing it with the MCP Inspector. Examples — "wrap our internal API as an MCP server with three tools", "take our stdio server remote so the team can share it", "our tools confuse the model — fix the names, schemas, and descriptions".
+  [↗ Page](https://agentscamp.com/agents/developer-tools/mcp-server-engineer) · `npx agentscamp add agents/mcp-server-engineer`
+- **[Refactoring Specialist](agents/refactoring-specialist.md)** — Use this agent to safely restructure code without changing behavior — extracting, renaming, decoupling. Examples — breaking up a god object, removing duplication, improving testability.
+  [↗ Page](https://agentscamp.com/agents/developer-tools/refactoring-specialist) · `npx agentscamp add agents/refactoring-specialist`
+
+## Infrastructure DevOps
+
+- **[Cloud Architect](agents/cloud-architect.md)** — Use this agent to design a cloud architecture on AWS, GCP, or Azure — compute, networking, data stores, IAM, and cost trade-offs. Examples — choosing serverless vs containers for a new service, designing a multi-account network boundary, picking a database and estimating its monthly cost.
+  [↗ Page](https://agentscamp.com/agents/infrastructure-devops/cloud-architect) · `npx agentscamp add agents/cloud-architect`
+- **[DevOps Engineer](agents/devops-engineer.md)** — Use this agent for CI/CD, infrastructure, and automation. Examples — writing a CI pipeline, containerizing an app, infrastructure-as-code changes.
+  [↗ Page](https://agentscamp.com/agents/infrastructure-devops/devops-engineer) · `npx agentscamp add agents/devops-engineer`
+- **[Kubernetes Specialist](agents/kubernetes-specialist.md)** — Use this agent for Kubernetes — manifests, Helm, troubleshooting, scaling, and resource tuning. Examples — debugging a CrashLoopBackOff, writing a Deployment, tuning requests/limits.
+  [↗ Page](https://agentscamp.com/agents/infrastructure-devops/kubernetes-specialist) · `npx agentscamp add agents/kubernetes-specialist`
+- **[SRE Engineer](agents/sre-engineer.md)** — Use this agent to make reliability measurable: SLIs/SLOs and error budgets, observability, symptom-based alerting, incident response, and capacity. Examples — defining an SLO for a checkout API, fixing a noisy pager, writing a blameless postmortem.
+  [↗ Page](https://agentscamp.com/agents/infrastructure-devops/sre-engineer) · `npx agentscamp add agents/sre-engineer`
+- **[Terraform Specialist](agents/terraform-specialist.md)** — Use this agent for Terraform and infrastructure-as-code — module design, remote state, plan/apply safety, drift, and provider pinning. Examples — reviewing a plan for destroys before apply, designing a reusable module, resolving state drift after a console change.
+  [↗ Page](https://agentscamp.com/agents/infrastructure-devops/terraform-specialist) · `npx agentscamp add agents/terraform-specialist`
+
+## Meta Orchestration
+
+- **[Agent Architect](agents/agent-architect.md)** — Use this agent to design a new Claude Code subagent or review an existing one — scoping, description, toolset, model, and output contract. Examples — "design an agent that triages flaky tests", "review my code-reviewer agent for scope creep", "why won't Claude auto-delegate to my agent?".
+  [↗ Page](https://agentscamp.com/agents/meta-orchestration/agent-architect) · `npx agentscamp add agents/agent-architect`
+- **[Agent Reliability Reviewer](agents/agent-reliability-reviewer.md)** — Use this agent to make an AI agent production-ready — reviewing its loops, cost controls, error handling, tool use, human-in-the-loop gates, checkpointing, and observability, then reporting concrete failure modes and fixes. Examples — "is our agent safe to ship?", "our agent loops forever / burns tokens, harden it", "add guardrails and recovery before we put this agent in front of users".
+  [↗ Page](https://agentscamp.com/agents/meta-orchestration/agent-reliability-reviewer) · `npx agentscamp add agents/agent-reliability-reviewer`
+- **[Workflow Orchestrator](agents/workflow-orchestrator.md)** — Use this agent to break large tasks into coordinated multi-step plans and delegate to other agents. Examples — planning a multi-file refactor, orchestrating a migration, decomposing an epic.
+  [↗ Page](https://agentscamp.com/agents/meta-orchestration/workflow-orchestrator) · `npx agentscamp add agents/workflow-orchestrator`
