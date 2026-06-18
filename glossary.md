@@ -4,10 +4,11 @@
 
 Browse the full directory on [AgentsCamp](https://agentscamp.com/glossary). Each entry links to its canonical page.
 
-**61 glossary** · [← Back to README](README.md)
+**71 glossary** · [← Back to README](README.md)
 
 ## Term
 
+- **[A2A (Agent2Agent Protocol)](https://agentscamp.com/glossary/a2a-protocol)** — A2A is an open protocol that lets AI agents discover each other's capabilities and delegate tasks across vendors, complementing MCP's tool connections.
 - **[Agent Engineering](https://agentscamp.com/glossary/agent-engineering)** — Agent engineering is the discipline of building reliable AI agents — designing the tools, context, guardrails, evals, and recovery paths around the model.
 - **[Agent Harness](https://agentscamp.com/glossary/agent-harness)** — An agent harness is the system around the model that makes it an agent — the loop, tools, context management, permissions, and recovery machinery.
 - **[Agent Memory](https://agentscamp.com/glossary/agent-memory)** — Agent memory is how an AI agent retains information beyond its context window — working state during a task and persistent knowledge across sessions.
@@ -19,6 +20,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/glossary). Each
 - **[Chunking](https://agentscamp.com/glossary/chunking)** — Chunking splits documents into retrievable pieces before embedding — the RAG design decision that quietly determines retrieval quality.
 - **[Computer Use](https://agentscamp.com/glossary/computer-use)** — Computer use is an AI agent operating software through its real interface — reading the screen, moving the cursor, clicking, and typing like a person would.
 - **[Constitutional AI](https://agentscamp.com/glossary/constitutional-ai)** — Constitutional AI trains models against written principles — the model critiques and revises its own outputs by them, reducing reliance on human labels.
+- **[Context Engineering](https://agentscamp.com/glossary/context-engineering)** — Context engineering is the discipline of curating exactly what enters an LLM's context window so it has the right information and nothing else.
 - **[Context Window](https://agentscamp.com/glossary/context-window)** — The context window is the maximum text — measured in tokens — an LLM can consider at once: prompt, conversation, documents, and its own output combined.
 - **[Cosine Similarity](https://agentscamp.com/glossary/cosine-similarity)** — Cosine similarity measures how alike two embeddings are by the angle between them — the standard relevance score behind semantic search and RAG retrieval.
 - **[Distillation](https://agentscamp.com/glossary/distillation)** — Distillation trains a smaller model to imitate a larger one — using its outputs as training data to get most of the capability at a fraction of the cost.
@@ -26,6 +28,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/glossary). Each
 - **[Embedding](https://agentscamp.com/glossary/embedding)** — An embedding is a vector of numbers representing text's meaning, placed so similar texts land close together — the foundation of semantic search and RAG.
 - **[Embedding Dimension](https://agentscamp.com/glossary/embedding-dimension)** — Embedding dimension is the length of an embedding vector — how many numbers represent each text — trading capacity against storage and search cost.
 - **[Eval Dataset](https://agentscamp.com/glossary/eval-dataset)** — An eval dataset is the curated set of test cases — inputs with expected outcomes — that an LLM application's quality is measured against.
+- **[Extended Thinking](https://agentscamp.com/glossary/extended-thinking)** — Extended thinking is the reasoning tokens a model generates before its final answer, trading latency and cost for higher accuracy on hard problems.
 - **[Few-Shot Prompting](https://agentscamp.com/glossary/few-shot-prompting)** — Few-shot prompting includes worked examples in the prompt so the model learns the task's pattern from demonstrations instead of instructions alone.
 - **[Fine-Tuning](https://agentscamp.com/glossary/fine-tuning)** — Fine-tuning continues training a pretrained model on your own examples, changing its weights to teach durable behavior, format, or domain style.
 - **[Frontier Model](https://agentscamp.com/glossary/frontier-model)** — A frontier model is one of the most capable AI models available — the leading edge from labs like Anthropic, OpenAI, and Google, defining the state of the art.
@@ -40,20 +43,24 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/glossary). Each
 - **[KV Cache](https://agentscamp.com/glossary/kv-cache)** — The KV cache stores each token's attention keys and values so an LLM doesn't recompute the whole context per new token — the memory that makes generation fast.
 - **[LLM-as-Judge](https://agentscamp.com/glossary/llm-as-judge)** — LLM-as-judge uses a language model to score AI outputs against a rubric — evaluating quality at scale where exact-match metrics fail and humans don't scale.
 - **[Token (LLM)](https://agentscamp.com/glossary/llm-token)** — A token is the unit LLMs read and write — a word fragment of roughly 3–4 characters in English. Models are priced, limited, and measured in tokens, not words.
+- **[LLMOps](https://agentscamp.com/glossary/llmops)** — LLMOps is the practices and tooling for running LLM apps in production: prompt versioning, evals, tracing, cost and latency monitoring, and guardrails.
 - **[LoRA (Low-Rank Adaptation)](https://agentscamp.com/glossary/lora)** — LoRA fine-tunes a model by training small low-rank adapter matrices instead of all weights — a fraction of the memory and cost, nearly full-tune quality.
 - **[Mixture of Experts (MoE)](https://agentscamp.com/glossary/mixture-of-experts)** — MoE is a model architecture where a router activates only a few expert subnetworks per token — huge total capacity, a fraction of the compute per token.
 - **[MCP (Model Context Protocol)](https://agentscamp.com/glossary/model-context-protocol)** — MCP is the open standard for connecting AI models to external tools and data: write one server, and any MCP client — Claude Code, IDEs, agents — can use it.
 - **[Multimodal AI](https://agentscamp.com/glossary/multimodal-ai)** — Multimodal AI processes more than one kind of input or output — text, images, audio, video — in a single model, like an LLM that reads screenshots or speaks.
+- **[Needle in a Haystack](https://agentscamp.com/glossary/needle-in-a-haystack)** — Needle in a haystack is a long-context eval that hides a fact in filler text and tests whether the model can retrieve it at varying depths and lengths.
 - **[Open Weights](https://agentscamp.com/glossary/open-weights)** — An open-weights model publishes its parameters for anyone to download and run — unlike API-only models — with licenses from permissive to restricted.
 - **[Prompt Caching](https://agentscamp.com/glossary/prompt-caching)** — Prompt caching reuses the computed state of a repeated prompt prefix across requests — dramatically cutting cost and time-to-first-token for stable context.
 - **[Prompt Injection](https://agentscamp.com/glossary/prompt-injection)** — Prompt injection is an attack where untrusted content carries instructions an LLM then follows — overriding its task, leaking data, or triggering tool calls.
 - **[Prompt Template](https://agentscamp.com/glossary/prompt-template)** — A prompt template is a parameterized prompt — fixed instructions with variable slots — turning prompts from strings into versioned, testable components.
 - **[Quantization](https://agentscamp.com/glossary/quantization)** — Quantization shrinks a model by storing weights in lower precision (8-, 4-, even 2-bit) — cutting memory and speeding inference at a small accuracy cost.
 - **[RAG (Retrieval-Augmented Generation)](https://agentscamp.com/glossary/rag)** — RAG retrieves relevant documents from your own data and injects them into an LLM's prompt at query time, grounding answers in facts the model wasn't trained on.
+- **[ReAct (Reasoning + Acting)](https://agentscamp.com/glossary/react-agent)** — ReAct is an agent loop that interleaves reasoning with tool actions — Thought, Action, Observation, repeat — so the model plans, calls a tool, and revises.
 - **[Reasoning Model](https://agentscamp.com/glossary/reasoning-model)** — A reasoning model is an LLM trained to think before answering — generating internal reasoning tokens it can spend adaptively on hard problems.
 - **[Red-Teaming (AI)](https://agentscamp.com/glossary/red-teaming)** — AI red-teaming is adversarial testing — attacking your model or agent with jailbreaks, injections, and misuse scenarios to find failures before users do.
 - **[Reranking](https://agentscamp.com/glossary/reranking)** — Reranking is a second-pass scoring step: a cross-encoder model re-orders the top results from fast retrieval so the truly relevant few rise to the top.
 - **[RLHF (Reinforcement Learning from Human Feedback)](https://agentscamp.com/glossary/rlhf)** — RLHF trains a model against human preferences: people rank outputs, a reward model learns the ranking, and the LLM is optimized to produce preferred responses.
+- **[Semantic Caching](https://agentscamp.com/glossary/semantic-caching)** — Semantic caching reuses LLM responses keyed by meaning rather than exact text, matching queries by embedding similarity to cut cost and latency.
 - **[Semantic Search](https://agentscamp.com/glossary/semantic-search)** — Semantic search retrieves results by meaning rather than keyword overlap — embedding queries and documents in one vector space and matching by similarity.
 - **[SLM (Small Language Model)](https://agentscamp.com/glossary/small-language-model)** — A small language model is a compact LLM — roughly 1–15B parameters — that runs cheaply or locally, trading peak capability for speed and deployability.
 - **[Speculative Decoding](https://agentscamp.com/glossary/speculative-decoding)** — Speculative decoding speeds up generation: a small draft model proposes tokens, the large model verifies them in one parallel pass — same output, fewer steps.
@@ -62,9 +69,12 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/glossary). Each
 - **[Synthetic Data](https://agentscamp.com/glossary/synthetic-data)** — Synthetic data is training or eval data generated by a model rather than collected from the world — filling gaps, balancing classes, bootstrapping fine-tunes.
 - **[System Prompt](https://agentscamp.com/glossary/system-prompt)** — The system prompt is the standing instruction layer an LLM receives before user input — defining its role, rules, tools, and tone for the whole conversation.
 - **[Temperature](https://agentscamp.com/glossary/temperature)** — Temperature controls how random an LLM's token choices are: low values make output focused and repeatable, high values make it varied and creative.
+- **[Test-Time Compute](https://agentscamp.com/glossary/test-time-compute)** — Test-time compute is spending more computation at inference — longer reasoning, sampling, or search — to improve answers without retraining the model.
 - **[Token Streaming](https://agentscamp.com/glossary/token-streaming)** — Token streaming delivers model output incrementally as it's generated — via SSE or websockets — so users see text immediately instead of waiting.
+- **[Top-k Sampling](https://agentscamp.com/glossary/top-k)** — Top-k sampling restricts an LLM's next-token choice to the k most probable tokens before sampling; lower k is more deterministic, higher k more diverse.
 - **[Top-p (Nucleus Sampling)](https://agentscamp.com/glossary/top-p)** — Top-p sampling restricts an LLM's next-token choices to the smallest set whose probabilities sum to p — cutting the long tail of unlikely tokens adaptively.
 - **[Tracing (LLM)](https://agentscamp.com/glossary/tracing)** — LLM tracing records every step of a model-driven request — prompts, tool calls, retrievals, tokens, latency — so multi-step behavior is debuggable.
+- **[Tree of Thoughts](https://agentscamp.com/glossary/tree-of-thoughts)** — Tree of Thoughts is a prompting method that explores multiple reasoning branches as a search tree, evaluating and backtracking among them.
 - **[Vector Database](https://agentscamp.com/glossary/vector-database)** — A vector database stores embeddings and answers nearest-neighbor queries fast — the retrieval layer under RAG and semantic search, using ANN indexes like HNSW.
 - **[Vibe Coding](https://agentscamp.com/glossary/vibe-coding)** — Vibe coding is building software by describing intent in natural language and letting an AI agent write the code, judging results by behavior.
 - **[VLM (Vision-Language Model)](https://agentscamp.com/glossary/vision-language-model)** — A VLM jointly understands images and text — reading documents, screenshots, charts, and photos and reasoning about them in language.

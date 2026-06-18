@@ -4,19 +4,23 @@
 
 Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each entry links to its canonical page.
 
-**99 guides** · [← Back to README](README.md)
+**105 guides** · [← Back to README](README.md)
 
 ## Comparisons
 
+- **[Aider vs Claude Code: Open-Source vs Anthropic's Agent (2026)](https://agentscamp.com/guides/comparisons/aider-vs-claude-code)** — Aider vs Claude Code — model-agnostic open-source pair-programmer vs Anthropic's tuned terminal harness. Which terminal coding agent fits your stack.
 - **[Best AI App Builders in 2026: v0 vs Lovable vs Bolt vs Replit](https://agentscamp.com/guides/comparisons/best-ai-app-builders-2026)** — The prompt-to-app builders compared — v0 for production UI, Lovable for full apps, Bolt for in-browser velocity, Replit for build-and-host in one place.
 - **[Best AI Code Review Tools in 2026](https://agentscamp.com/guides/comparisons/best-ai-code-review-tools-2026)** — The AI code reviewers worth running in 2026 — CodeRabbit, Greptile, and Qodo compared, plus the open-source PR-Agent and when Copilot's built-in review is enough.
 - **[Best Tools for Running LLMs Locally in 2026](https://agentscamp.com/guides/comparisons/best-local-llm-tools-2026)** — The local LLM stack, ranked by job: Ollama for serving tools, LM Studio and Jan for desktop exploration, llama.cpp for control, vLLM when it's real serving.
+- **[Best RAG Frameworks in 2026](https://agentscamp.com/guides/comparisons/best-rag-frameworks-2026)** — A roundup of the top RAG frameworks in 2026 — LlamaIndex, LangChain, Haystack, and DSPy — and which one fits your retrieval stack.
 - **[Browser Agents in 2026: Browser Use vs Stagehand vs Skyvern vs Playwright MCP](https://agentscamp.com/guides/comparisons/browser-agents-compared-2026)** — The four ways to give AI a browser — autonomous framework, code-first SDK, workflow platform, or MCP server — compared honestly by control, cost, and reliability.
 - **[Claude Code vs Codex CLI: Terminal Agents Compared (2026)](https://agentscamp.com/guides/comparisons/claude-code-vs-codex-cli)** — Claude Code vs OpenAI's Codex CLI — autonomy vs sandboxed control, extensibility vs open source, model ecosystems, and which terminal agent fits your work.
 - **[Claude Code vs Cursor: Which AI Coding Tool in 2026?](https://agentscamp.com/guides/comparisons/claude-code-vs-cursor)** — Claude Code vs Cursor compared honestly — terminal agent vs AI-first editor, autonomy vs inline control, pricing models, and when to run both.
+- **[Claude Code vs Gemini CLI: Which Terminal Agent (2026)](https://agentscamp.com/guides/comparisons/claude-code-vs-gemini-cli)** — Claude Code vs Gemini CLI — first-party stability and a deep programmable harness vs open-source TypeScript, big free tier, and a looming Antigravity transition.
 - **[Claude Code vs OpenCode: First-Party vs Open Source (2026)](https://agentscamp.com/guides/comparisons/claude-code-vs-opencode)** — Claude Code vs OpenCode — Anthropic's tuned first-party agent vs the most-starred open-source one with 75+ providers. Control vs polish, decided honestly.
 - **[Cursor vs Windsurf (Devin Desktop) in 2026](https://agentscamp.com/guides/comparisons/cursor-vs-windsurf)** — Cursor vs Windsurf — now Devin Desktop — compared: agent-first editing, Composer vs Devin Local, the Cognition rebrand, and which AI editor fits you.
 - **[DeepEval vs RAGAS: LLM Evaluation Frameworks Compared (2026)](https://agentscamp.com/guides/comparisons/deepeval-vs-ragas)** — DeepEval vs RAGAS — pytest-style general LLM testing vs RAG-specialized metrics. Which open-source eval framework fits your pipeline, or whether you need both.
+- **[Exa vs Tavily: Web Search APIs for AI Agents (2026)](https://agentscamp.com/guides/comparisons/exa-vs-tavily)** — Exa vs Tavily compared — neural semantic discovery vs agent-optimized RAG answers, pricing, MCP support, and which web search API fits your stack.
 - **[GitHub Copilot vs Cursor: Extension or Editor? (2026)](https://agentscamp.com/guides/comparisons/github-copilot-vs-cursor)** — GitHub Copilot vs Cursor compared — stay in your editor with an extension, or switch to an AI-first fork? Completion, agents, enterprise fit, and pricing shape.
 - **[LangChain vs LlamaIndex in 2026: Agents or Data?](https://agentscamp.com/guides/comparisons/langchain-vs-llamaindex)** — The classic framework confusion resolved — LangChain's agent loop and ecosystem vs LlamaIndex's data-and-documents depth — and when you'd genuinely use both.
 - **[Langfuse vs LangSmith: LLM Observability Compared (2026)](https://agentscamp.com/guides/comparisons/langfuse-vs-langsmith)** — Langfuse vs LangSmith — open-source self-hostable observability vs LangChain's first-party platform. Tracing, evals, prompt management, and which to adopt.
@@ -25,10 +29,12 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 - **[Mem0 vs Zep vs Letta: Agent Memory Compared (2026)](https://agentscamp.com/guides/comparisons/mem0-vs-zep-vs-letta)** — Three philosophies of agent memory — Mem0's drop-in layer, Zep's temporal knowledge graphs, Letta's self-managing agents — and which fits your architecture.
 - **[n8n vs Dify: Which AI Workflow Platform? (2026)](https://agentscamp.com/guides/comparisons/n8n-vs-dify)** — Automation-first vs AI-native — n8n's 400+ integrations with agent nodes vs Dify's LLM-app platform with built-in RAG. Licenses, pricing shapes, and the fit test.
 - **[Ollama vs LM Studio: Running LLMs Locally (2026)](https://agentscamp.com/guides/comparisons/ollama-vs-lm-studio)** — Ollama vs LM Studio compared — CLI-first server for developers vs polished desktop app for exploring local models. Which local LLM tool fits how you work.
+- **[OpenAI Agents SDK vs LangGraph: Minimal vs Controllable (2026)](https://agentscamp.com/guides/comparisons/openai-agents-sdk-vs-langgraph)** — OpenAI Agents SDK's three-primitive minimalism vs LangGraph's explicit graph and durable state — which agent framework matches your reliability bar in 2026.
 - **[pgvector vs Pinecone: Do You Need a Vector Database? (2026)](https://agentscamp.com/guides/comparisons/pgvector-vs-pinecone)** — pgvector vs Pinecone compared — vector search inside the Postgres you already run vs a dedicated managed service. Scale thresholds, ops, and the honest default.
 - **[Qdrant vs Pinecone: Which Vector Database? (2026)](https://agentscamp.com/guides/comparisons/qdrant-vs-pinecone)** — Qdrant vs Pinecone compared — open-source control vs fully managed serverless, filtering and hybrid search, cost shape, and which fits your RAG stack.
 - **[v0 vs Lovable: AI App Builders Compared (2026)](https://agentscamp.com/guides/comparisons/v0-vs-lovable)** — v0 vs Lovable — Vercel's generative UI tool vs the full-app builder. Component quality vs end-to-end apps, code ownership, and who each serves best.
 - **[vLLM vs Ollama: Local Convenience or Serving Throughput? (2026)](https://agentscamp.com/guides/comparisons/vllm-vs-ollama)** — vLLM vs Ollama compared — developer-friendly local runtime vs high-throughput production inference engine. Concurrency, hardware, and when to graduate.
+- **[Weaviate vs Pinecone: Open-Source vs Managed Vector DB (2026)](https://agentscamp.com/guides/comparisons/weaviate-vs-pinecone)** — Weaviate vs Pinecone — BSD-3 open source you self-host vs fully managed serverless. Hybrid search, scaling, cost shape, and which fits your RAG stack.
 
 ## Concepts
 

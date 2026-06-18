@@ -4,11 +4,11 @@
   "counts": {
     "agents": 49,
     "skills": 38,
-    "guides": 99,
+    "guides": 105,
     "tools": 113,
     "commands": 29,
-    "glossary": 61,
-    "total": 389
+    "glossary": 71,
+    "total": 405
   },
   "items": [
     {
@@ -1114,6 +1114,18 @@
       "install": "npx agentscamp add commands/write-tests"
     },
     {
+      "id": "glossary/a2a-protocol",
+      "type": "glossary",
+      "slug": "a2a-protocol",
+      "category": "term",
+      "title": "A2A (Agent2Agent Protocol)",
+      "description": "A2A is an open protocol that lets AI agents discover each other's capabilities and delegate tasks across vendors, complementing MCP's tool connections.",
+      "topics": [
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/glossary/a2a-protocol"
+    },
+    {
       "id": "glossary/agent-engineering",
       "type": "glossary",
       "slug": "agent-engineering",
@@ -1246,6 +1258,18 @@
       "url": "https://agentscamp.com/glossary/constitutional-ai"
     },
     {
+      "id": "glossary/context-engineering",
+      "type": "glossary",
+      "slug": "context-engineering",
+      "category": "term",
+      "title": "Context Engineering",
+      "description": "Context engineering is the discipline of curating exactly what enters an LLM's context window so it has the right information and nothing else.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/glossary/context-engineering"
+    },
+    {
       "id": "glossary/context-window",
       "type": "glossary",
       "slug": "context-window",
@@ -1328,6 +1352,18 @@
         "llm-evals"
       ],
       "url": "https://agentscamp.com/glossary/eval-dataset"
+    },
+    {
+      "id": "glossary/extended-thinking",
+      "type": "glossary",
+      "slug": "extended-thinking",
+      "category": "term",
+      "title": "Extended Thinking",
+      "description": "Extended thinking is the reasoning tokens a model generates before its final answer, trading latency and cost for higher accuracy on hard problems.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/glossary/extended-thinking"
     },
     {
       "id": "glossary/few-shot-prompting",
@@ -1498,6 +1534,18 @@
       "url": "https://agentscamp.com/glossary/llm-token"
     },
     {
+      "id": "glossary/llmops",
+      "type": "glossary",
+      "slug": "llmops",
+      "category": "term",
+      "title": "LLMOps",
+      "description": "LLMOps is the practices and tooling for running LLM apps in production: prompt versioning, evals, tracing, cost and latency monitoring, and guardrails.",
+      "topics": [
+        "mlops-ai-infra"
+      ],
+      "url": "https://agentscamp.com/glossary/llmops"
+    },
+    {
       "id": "glossary/lora",
       "type": "glossary",
       "slug": "lora",
@@ -1544,6 +1592,18 @@
         "mlops-ai-infra"
       ],
       "url": "https://agentscamp.com/glossary/multimodal-ai"
+    },
+    {
+      "id": "glossary/needle-in-a-haystack",
+      "type": "glossary",
+      "slug": "needle-in-a-haystack",
+      "category": "term",
+      "title": "Needle in a Haystack",
+      "description": "Needle in a haystack is a long-context eval that hides a fact in filler text and tests whether the model can retrieve it at varying depths and lengths.",
+      "topics": [
+        "llm-evals"
+      ],
+      "url": "https://agentscamp.com/glossary/needle-in-a-haystack"
     },
     {
       "id": "glossary/open-weights",
@@ -1618,6 +1678,18 @@
       "url": "https://agentscamp.com/glossary/rag"
     },
     {
+      "id": "glossary/react-agent",
+      "type": "glossary",
+      "slug": "react-agent",
+      "category": "term",
+      "title": "ReAct (Reasoning + Acting)",
+      "description": "ReAct is an agent loop that interleaves reasoning with tool actions — Thought, Action, Observation, repeat — so the model plans, calls a tool, and revises.",
+      "topics": [
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/glossary/react-agent"
+    },
+    {
       "id": "glossary/reasoning-model",
       "type": "glossary",
       "slug": "reasoning-model",
@@ -1664,6 +1736,18 @@
         "mlops-ai-infra"
       ],
       "url": "https://agentscamp.com/glossary/rlhf"
+    },
+    {
+      "id": "glossary/semantic-caching",
+      "type": "glossary",
+      "slug": "semantic-caching",
+      "category": "term",
+      "title": "Semantic Caching",
+      "description": "Semantic caching reuses LLM responses keyed by meaning rather than exact text, matching queries by embedding similarity to cut cost and latency.",
+      "topics": [
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/glossary/semantic-caching"
     },
     {
       "id": "glossary/semantic-search",
@@ -1762,6 +1846,18 @@
       "url": "https://agentscamp.com/glossary/temperature"
     },
     {
+      "id": "glossary/test-time-compute",
+      "type": "glossary",
+      "slug": "test-time-compute",
+      "category": "term",
+      "title": "Test-Time Compute",
+      "description": "Test-time compute is spending more computation at inference — longer reasoning, sampling, or search — to improve answers without retraining the model.",
+      "topics": [
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/glossary/test-time-compute"
+    },
+    {
       "id": "glossary/token-streaming",
       "type": "glossary",
       "slug": "token-streaming",
@@ -1772,6 +1868,18 @@
         "llm-app-dev"
       ],
       "url": "https://agentscamp.com/glossary/token-streaming"
+    },
+    {
+      "id": "glossary/top-k",
+      "type": "glossary",
+      "slug": "top-k",
+      "category": "term",
+      "title": "Top-k Sampling",
+      "description": "Top-k sampling restricts an LLM's next-token choice to the k most probable tokens before sampling; lower k is more deterministic, higher k more diverse.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/glossary/top-k"
     },
     {
       "id": "glossary/top-p",
@@ -1796,6 +1904,18 @@
         "llm-evals"
       ],
       "url": "https://agentscamp.com/glossary/tracing"
+    },
+    {
+      "id": "glossary/tree-of-thoughts",
+      "type": "glossary",
+      "slug": "tree-of-thoughts",
+      "category": "term",
+      "title": "Tree of Thoughts",
+      "description": "Tree of Thoughts is a prompting method that explores multiple reasoning branches as a search tree, evaluating and backtracking among them.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/glossary/tree-of-thoughts"
     },
     {
       "id": "glossary/vector-database",
@@ -1934,6 +2054,18 @@
       "url": "https://agentscamp.com/guides/getting-started/ai-engineer-roadmap-2026"
     },
     {
+      "id": "guides/aider-vs-claude-code",
+      "type": "guide",
+      "slug": "aider-vs-claude-code",
+      "category": "comparisons",
+      "title": "Aider vs Claude Code: Open-Source vs Anthropic's Agent (2026)",
+      "description": "Aider vs Claude Code — model-agnostic open-source pair-programmer vs Anthropic's tuned terminal harness. Which terminal coding agent fits your stack.",
+      "topics": [
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/aider-vs-claude-code"
+    },
+    {
       "id": "guides/best-ai-app-builders-2026",
       "type": "guide",
       "slug": "best-ai-app-builders-2026",
@@ -2005,6 +2137,18 @@
         "architecture"
       ],
       "url": "https://agentscamp.com/guides/mcp/best-mcp-servers-2026"
+    },
+    {
+      "id": "guides/best-rag-frameworks-2026",
+      "type": "guide",
+      "slug": "best-rag-frameworks-2026",
+      "category": "comparisons",
+      "title": "Best RAG Frameworks in 2026",
+      "description": "A roundup of the top RAG frameworks in 2026 — LlamaIndex, LangChain, Haystack, and DSPy — and which one fits your retrieval stack.",
+      "topics": [
+        "rag-retrieval"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-rag-frameworks-2026"
     },
     {
       "id": "guides/best-stt-apis-2026",
@@ -2269,6 +2413,18 @@
       "url": "https://agentscamp.com/guides/comparisons/claude-code-vs-cursor"
     },
     {
+      "id": "guides/claude-code-vs-gemini-cli",
+      "type": "guide",
+      "slug": "claude-code-vs-gemini-cli",
+      "category": "comparisons",
+      "title": "Claude Code vs Gemini CLI: Which Terminal Agent (2026)",
+      "description": "Claude Code vs Gemini CLI — first-party stability and a deep programmable harness vs open-source TypeScript, big free tier, and a looming Antigravity transition.",
+      "topics": [
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/claude-code-vs-gemini-cli"
+    },
+    {
       "id": "guides/claude-code-vs-opencode",
       "type": "guide",
       "slug": "claude-code-vs-opencode",
@@ -2416,6 +2572,18 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/guides/prompting/effective-tool-use"
+    },
+    {
+      "id": "guides/exa-vs-tavily",
+      "type": "guide",
+      "slug": "exa-vs-tavily",
+      "category": "comparisons",
+      "title": "Exa vs Tavily: Web Search APIs for AI Agents (2026)",
+      "description": "Exa vs Tavily compared — neural semantic discovery vs agent-optimized RAG answers, pricing, MCP support, and which web search API fits your stack.",
+      "topics": [
+        "rag-retrieval"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/exa-vs-tavily"
     },
     {
       "id": "guides/finetune-dataset-prep",
@@ -2725,6 +2893,18 @@
       "url": "https://agentscamp.com/guides/comparisons/ollama-vs-lm-studio"
     },
     {
+      "id": "guides/openai-agents-sdk-vs-langgraph",
+      "type": "guide",
+      "slug": "openai-agents-sdk-vs-langgraph",
+      "category": "comparisons",
+      "title": "OpenAI Agents SDK vs LangGraph: Minimal vs Controllable (2026)",
+      "description": "OpenAI Agents SDK's three-primitive minimalism vs LangGraph's explicit graph and durable state — which agent framework matches your reliability bar in 2026.",
+      "topics": [
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/openai-agents-sdk-vs-langgraph"
+    },
+    {
       "id": "guides/owasp-agentic-top-10",
       "type": "guide",
       "slug": "owasp-agentic-top-10",
@@ -2992,6 +3172,18 @@
         "data-ml"
       ],
       "url": "https://agentscamp.com/guides/vision/vlm-ocr-documents"
+    },
+    {
+      "id": "guides/weaviate-vs-pinecone",
+      "type": "guide",
+      "slug": "weaviate-vs-pinecone",
+      "category": "comparisons",
+      "title": "Weaviate vs Pinecone: Open-Source vs Managed Vector DB (2026)",
+      "description": "Weaviate vs Pinecone — BSD-3 open source you self-host vs fully managed serverless. Hybrid search, scaling, cost shape, and which fits your RAG stack.",
+      "topics": [
+        "rag-retrieval"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/weaviate-vs-pinecone"
     },
     {
       "id": "guides/web-data-for-ai-agents",
