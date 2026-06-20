@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "source": "https://agentscamp.com",
   "counts": {
-    "agents": 49,
-    "skills": 38,
-    "guides": 105,
-    "tools": 113,
-    "commands": 29,
-    "glossary": 71,
-    "total": 405
+    "agents": 58,
+    "skills": 90,
+    "guides": 122,
+    "tools": 129,
+    "commands": 50,
+    "glossary": 79,
+    "total": 528
   },
   "items": [
     {
@@ -111,6 +111,34 @@
       "install": "npx agentscamp add agents/browser-agent-engineer"
     },
     {
+      "id": "agents/ci-cd-engineer",
+      "type": "agent",
+      "slug": "ci-cd-engineer",
+      "category": "infrastructure-devops",
+      "title": "CI/CD Engineer",
+      "description": "Use this agent to design, speed up, and harden CI/CD pipelines on any provider (GitHub Actions, GitLab CI, CircleCI, Buildkite). Examples — setting up a build→test→deploy pipeline from scratch, cutting a 25-minute CI run down with caching and matrix parallelism, adding a canary or blue-green deploy with automatic rollback, or reviewing a workflow for leaked secrets, over-broad tokens, and unpinned third-party actions.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/agents/infrastructure-devops/ci-cd-engineer",
+      "file": "agents/ci-cd-engineer.md",
+      "install": "npx agentscamp add agents/ci-cd-engineer"
+    },
+    {
+      "id": "agents/cli-tooling-engineer",
+      "type": "agent",
+      "slug": "cli-tooling-engineer",
+      "category": "developer-tools",
+      "title": "CLI Tooling Engineer",
+      "description": "Use this agent to design or build a command-line tool — subcommand and flag layout, --help and error UX, exit codes, --json/machine output, config precedence, stdin/stdout/stderr and pipe behavior, TTY/color/NO_COLOR detection, and CLI testing. Examples — \"design the command and flag surface for our new deploy CLI\", \"this tool prints errors to stdout and returns 0 on failure — fix its ergonomics\", \"make our command pipe-friendly and add a --json mode for CI\".",
+      "topics": [
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/agents/developer-tools/cli-tooling-engineer",
+      "file": "agents/cli-tooling-engineer.md",
+      "install": "npx agentscamp add agents/cli-tooling-engineer"
+    },
+    {
       "id": "agents/cloud-architect",
       "type": "agent",
       "slug": "cloud-architect",
@@ -140,6 +168,35 @@
       "install": "npx agentscamp add agents/code-reviewer"
     },
     {
+      "id": "agents/context-engineer",
+      "type": "agent",
+      "slug": "context-engineer",
+      "category": "meta-orchestration",
+      "title": "Context Engineer",
+      "description": "Use this agent to engineer what an LLM agent carries in its context window — deciding what to include vs exclude vs retrieve on demand, designing project/agent memory (CLAUDE.md), compacting growing history, and allocating the token budget across system prompt, memory, retrieved docs, tool results, and conversation. Examples — \"my agent forgets the schema we agreed on three turns ago\", \"the agent gets dumber and more inconsistent as the chat grows\", \"we're burning 60k tokens of tool output every turn\", \"what should this support agent always know vs look up?\".",
+      "topics": [
+        "ai-agents-systems",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/agents/meta-orchestration/context-engineer",
+      "file": "agents/context-engineer.md",
+      "install": "npx agentscamp add agents/context-engineer"
+    },
+    {
+      "id": "agents/csharp-pro",
+      "type": "agent",
+      "slug": "csharp-pro",
+      "category": "language-specialists",
+      "title": "C# Pro",
+      "description": "Use this agent for modern C#/.NET 8+ — records, pattern matching, nullable reference types, correct async/await, LINQ, Span<T>, and source generators — plus ASP.NET Core and EF Core. Examples — building a minimal-API service, fixing an EF Core N+1 or tracking leak, hunting a deadlock from sync-over-async, or turning on nullable reference types across a project.",
+      "topics": [
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/agents/language-specialists/csharp-pro",
+      "file": "agents/csharp-pro.md",
+      "install": "npx agentscamp add agents/csharp-pro"
+    },
+    {
       "id": "agents/data-engineer",
       "type": "agent",
       "slug": "data-engineer",
@@ -166,6 +223,20 @@
       "url": "https://agentscamp.com/agents/data-ai/data-scientist",
       "file": "agents/data-scientist.md",
       "install": "npx agentscamp add agents/data-scientist"
+    },
+    {
+      "id": "agents/database-architect",
+      "type": "agent",
+      "slug": "database-architect",
+      "category": "core-development",
+      "title": "Database Architect",
+      "description": "Use this agent to design data models and storage strategy from access patterns — schema design, normalization vs deliberate denormalization, relational vs document vs key-value vs wide-column vs graph selection, indexing, partitioning/sharding, transaction boundaries, and consistency models. Examples — modeling a new feature's schema, choosing a database for a write-heavy event workload, reviewing a schema for missing indexes or scaling cliffs, planning how to shard a table that no longer fits one node.",
+      "topics": [
+        "architecture"
+      ],
+      "url": "https://agentscamp.com/agents/core-development/database-architect",
+      "file": "agents/database-architect.md",
+      "install": "npx agentscamp add agents/database-architect"
     },
     {
       "id": "agents/debugger",
@@ -222,6 +293,21 @@
       "url": "https://agentscamp.com/agents/developer-tools/documentation-engineer",
       "file": "agents/documentation-engineer.md",
       "install": "npx agentscamp add agents/documentation-engineer"
+    },
+    {
+      "id": "agents/eval-driven-developer",
+      "type": "agent",
+      "slug": "eval-driven-developer",
+      "category": "meta-orchestration",
+      "title": "Eval Driven Developer",
+      "description": "Use this agent to drive AI feature development with evals the way TDD drives code with tests — define success criteria and a representative eval set BEFORE iterating on prompts/models, then optimize against measured scores instead of vibes. Examples — \"make the summarizer better\" (turn it into measurable criteria first), \"our prompt change keeps regressing quality, set up a loop that catches it\", \"add an eval gate to CI so a model swap can't silently degrade output\", \"we tweak prompts and pray — give us a baseline and a change-by-change scoreboard\".",
+      "topics": [
+        "llm-evals",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/agents/meta-orchestration/eval-driven-developer",
+      "file": "agents/eval-driven-developer.md",
+      "install": "npx agentscamp add agents/eval-driven-developer"
     },
     {
       "id": "agents/finetuning-engineer",
@@ -292,6 +378,34 @@
       "url": "https://agentscamp.com/agents/core-development/graphql-architect",
       "file": "agents/graphql-architect.md",
       "install": "npx agentscamp add agents/graphql-architect"
+    },
+    {
+      "id": "agents/incident-responder",
+      "type": "agent",
+      "slug": "incident-responder",
+      "category": "infrastructure-devops",
+      "title": "Incident Responder",
+      "description": "Use this agent during a live production incident to restore service fast and learn from it — triage and severity, mitigation-first action (roll back, fail over, shed load), change correlation, status updates, and the blameless postmortem. Examples — an alert just fired and the API is 5xx-ing, a deploy broke checkout and you need to decide rollback vs. forward-fix, latency is climbing and the pager is going off, or you're writing the postmortem the morning after.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/agents/infrastructure-devops/incident-responder",
+      "file": "agents/incident-responder.md",
+      "install": "npx agentscamp add agents/incident-responder"
+    },
+    {
+      "id": "agents/java-pro",
+      "type": "agent",
+      "slug": "java-pro",
+      "category": "language-specialists",
+      "title": "Java Pro",
+      "description": "Use this agent for idiomatic, modern Java (17/21+) — records, sealed types, pattern matching, virtual threads and structured concurrency, the Streams API, and JVM/GC performance. Examples — modernizing a legacy POJO-and-thread-pool service to records and virtual threads, diagnosing a GC pause or allocation hotspot, reviewing concurrency correctness, or fixing a Spring Boot service that blocks the wrong threads.",
+      "topics": [
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/agents/language-specialists/java-pro",
+      "file": "agents/java-pro.md",
+      "install": "npx agentscamp add agents/java-pro"
     },
     {
       "id": "agents/kubernetes-specialist",
@@ -490,6 +604,20 @@
       "url": "https://agentscamp.com/agents/language-specialists/python-pro",
       "file": "agents/python-pro.md",
       "install": "npx agentscamp add agents/python-pro"
+    },
+    {
+      "id": "agents/qa-automation-engineer",
+      "type": "agent",
+      "slug": "qa-automation-engineer",
+      "category": "quality-security",
+      "title": "QA Automation Engineer",
+      "description": "Use this agent for end-to-end and UI test automation — building flake-resistant Playwright/Cypress suites, stabilizing flaky browser tests, structuring page objects and fixtures, and reviewing E2E suites. Examples — adding E2E coverage for a checkout or signup flow, killing a test that fails 1-in-5 in CI, choosing a framework and folder structure, replacing sleeps with web-first waits, or auditing a suite that's slow and brittle.",
+      "topics": [
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/agents/quality-security/qa-automation-engineer",
+      "file": "agents/qa-automation-engineer.md",
+      "install": "npx agentscamp add agents/qa-automation-engineer"
     },
     {
       "id": "agents/rag-pipeline-engineer",
@@ -705,6 +833,20 @@
       "install": "npx agentscamp add agents/workflow-orchestrator"
     },
     {
+      "id": "commands/add-caching",
+      "type": "command",
+      "slug": "add-caching",
+      "category": "perf",
+      "title": "Add Caching",
+      "description": "Add a caching layer to one expensive function or endpoint correctly — confirm it's cacheable, design the cache key/TTL/layer/invalidation, handle stampedes, wrap the call in one place, and report the design.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/commands/perf/add-caching",
+      "file": "commands/add-caching.md",
+      "install": "npx agentscamp add commands/add-caching"
+    },
+    {
       "id": "commands/add-docstrings",
       "type": "command",
       "slug": "add-docstrings",
@@ -762,6 +904,20 @@
       "install": "npx agentscamp add commands/add-streaming-endpoint"
     },
     {
+      "id": "commands/audit-accessibility",
+      "type": "command",
+      "slug": "audit-accessibility",
+      "category": "analyze",
+      "title": "Audit Accessibility",
+      "description": "Audit a component or page for accessibility against WCAG — semantics, names, keyboard, ARIA, contrast, forms, motion.",
+      "topics": [
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/commands/analyze/audit-accessibility",
+      "file": "commands/audit-accessibility.md",
+      "install": "npx agentscamp add commands/audit-accessibility"
+    },
+    {
       "id": "commands/benchmark-rerankers",
       "type": "command",
       "slug": "benchmark-rerankers",
@@ -788,6 +944,20 @@
       "url": "https://agentscamp.com/commands/plan/breakdown-task",
       "file": "commands/breakdown-task.md",
       "install": "npx agentscamp add commands/breakdown-task"
+    },
+    {
+      "id": "commands/clean-branches",
+      "type": "command",
+      "slug": "clean-branches",
+      "category": "git",
+      "title": "Clean Branches",
+      "description": "Safely prune merged and stale Git branches: drop dead remote-tracking refs, list merged candidates for review, then delete with the safe -d variant.",
+      "topics": [
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/commands/git/clean-branches",
+      "file": "commands/clean-branches.md",
+      "install": "npx agentscamp add commands/clean-branches"
     },
     {
       "id": "commands/commit",
@@ -818,6 +988,49 @@
       "install": "npx agentscamp add commands/create-pr"
     },
     {
+      "id": "commands/create-skill",
+      "type": "command",
+      "slug": "create-skill",
+      "category": "workflow",
+      "title": "Create Skill",
+      "description": "Scaffold a new Claude Code skill into .claude/skills/<name>/SKILL.md — a model-invoked capability with a trigger-rich description, scoped tools, and a lean body that pushes detail into resource files.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/workflow/create-skill",
+      "file": "commands/create-skill.md",
+      "install": "npx agentscamp add commands/create-skill"
+    },
+    {
+      "id": "commands/create-slash-command",
+      "type": "command",
+      "slug": "create-slash-command",
+      "category": "workflow",
+      "title": "Create Slash Command",
+      "description": "Scaffold a new Claude Code slash command into .claude/commands/ — a valid Markdown file with frontmatter, a least-privilege allowed-tools allowlist, and a $ARGUMENTS-driven body of numbered steps ending in a Report.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/workflow/create-slash-command",
+      "file": "commands/create-slash-command.md",
+      "install": "npx agentscamp add commands/create-slash-command"
+    },
+    {
+      "id": "commands/create-subagent",
+      "type": "command",
+      "slug": "create-subagent",
+      "category": "workflow",
+      "title": "Create Subagent",
+      "description": "Scaffold a new Claude Code subagent definition file into .claude/agents/ with a routing-ready description, scoped tools, and a system prompt.",
+      "topics": [
+        "workflow-prompting",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/commands/workflow/create-subagent",
+      "file": "commands/create-subagent.md",
+      "install": "npx agentscamp add commands/create-subagent"
+    },
+    {
       "id": "commands/db-migrate",
       "type": "command",
       "slug": "db-migrate",
@@ -830,6 +1043,21 @@
       "url": "https://agentscamp.com/commands/db/db-migrate",
       "file": "commands/db-migrate.md",
       "install": "npx agentscamp add commands/db-migrate"
+    },
+    {
+      "id": "commands/estimate-effort",
+      "type": "command",
+      "slug": "estimate-effort",
+      "category": "plan",
+      "title": "Estimate Effort",
+      "description": "Produce a grounded effort and complexity estimate for a task by exploring the codebase read-only.",
+      "topics": [
+        "workflow-prompting",
+        "architecture"
+      ],
+      "url": "https://agentscamp.com/commands/plan/estimate-effort",
+      "file": "commands/estimate-effort.md",
+      "install": "npx agentscamp add commands/estimate-effort"
     },
     {
       "id": "commands/explain-code",
@@ -888,6 +1116,20 @@
       "install": "npx agentscamp add commands/find-bug"
     },
     {
+      "id": "commands/find-n-plus-one",
+      "type": "command",
+      "slug": "find-n-plus-one",
+      "category": "perf",
+      "title": "Find N+1 Queries",
+      "description": "Scan code read-only for N+1 query patterns — loops that query per iteration and handlers that fan out per-row — and report each with a location, why it is N+1, and the concrete eager-load/batch/set-based fix.",
+      "topics": [
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/commands/perf/find-n-plus-one",
+      "file": "commands/find-n-plus-one.md",
+      "install": "npx agentscamp add commands/find-n-plus-one"
+    },
+    {
       "id": "commands/fix-failing-test",
       "type": "command",
       "slug": "fix-failing-test",
@@ -900,6 +1142,48 @@
       "url": "https://agentscamp.com/commands/testing/fix-failing-test",
       "file": "commands/fix-failing-test.md",
       "install": "npx agentscamp add commands/fix-failing-test"
+    },
+    {
+      "id": "commands/flaky-test-hunt",
+      "type": "command",
+      "slug": "flaky-test-hunt",
+      "category": "testing",
+      "title": "Hunt Flaky Tests",
+      "description": "Reproduce a flaky test, find the real source of nondeterminism, and fix the cause.",
+      "topics": [
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/commands/testing/flaky-test-hunt",
+      "file": "commands/flaky-test-hunt.md",
+      "install": "npx agentscamp add commands/flaky-test-hunt"
+    },
+    {
+      "id": "commands/generate-e2e-test",
+      "type": "command",
+      "slug": "generate-e2e-test",
+      "category": "testing",
+      "title": "Generate E2E Test",
+      "description": "Scaffold a resilient end-to-end test for a user flow grounded in the real UI.",
+      "topics": [
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/commands/testing/generate-e2e-test",
+      "file": "commands/generate-e2e-test.md",
+      "install": "npx agentscamp add commands/generate-e2e-test"
+    },
+    {
+      "id": "commands/git-bisect",
+      "type": "command",
+      "slug": "git-bisect",
+      "category": "git",
+      "title": "Git Bisect",
+      "description": "Drive git bisect to find the exact commit that introduced a regression.",
+      "topics": [
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/commands/git/git-bisect",
+      "file": "commands/git-bisect.md",
+      "install": "npx agentscamp add commands/git-bisect"
     },
     {
       "id": "commands/new-component",
@@ -973,6 +1257,34 @@
       "install": "npx agentscamp add commands/refactor"
     },
     {
+      "id": "commands/rename-symbol",
+      "type": "command",
+      "slug": "rename-symbol",
+      "category": "refactor",
+      "title": "Rename Symbol",
+      "description": "Safely rename a symbol project-wide, distinguishing the real symbol from coincidental substring matches.",
+      "topics": [
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/commands/refactor/rename-symbol",
+      "file": "commands/rename-symbol.md",
+      "install": "npx agentscamp add commands/rename-symbol"
+    },
+    {
+      "id": "commands/resolve-conflict",
+      "type": "command",
+      "slug": "resolve-conflict",
+      "category": "git",
+      "title": "Resolve Merge Conflicts",
+      "description": "Walk through resolving the in-progress merge, rebase, or cherry-pick conflict in the current repo by understanding both sides, then verify before continuing.",
+      "topics": [
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/commands/git/resolve-conflict",
+      "file": "commands/resolve-conflict.md",
+      "install": "npx agentscamp add commands/resolve-conflict"
+    },
+    {
       "id": "commands/review-pr",
       "type": "command",
       "slug": "review-pr",
@@ -985,6 +1297,20 @@
       "url": "https://agentscamp.com/commands/review/review-pr",
       "file": "commands/review-pr.md",
       "install": "npx agentscamp add commands/review-pr"
+    },
+    {
+      "id": "commands/review-tests",
+      "type": "command",
+      "slug": "review-tests",
+      "category": "review",
+      "title": "Review Tests",
+      "description": "Review the quality of a test suite, not just whether it passes — find weak assertions, missing edge cases, and tests coupled to implementation.",
+      "topics": [
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/commands/review/review-tests",
+      "file": "commands/review-tests.md",
+      "install": "npx agentscamp add commands/review-tests"
     },
     {
       "id": "commands/run-evals",
@@ -1001,6 +1327,34 @@
       "install": "npx agentscamp add commands/run-evals"
     },
     {
+      "id": "commands/scaffold-dockerfile",
+      "type": "command",
+      "slug": "scaffold-dockerfile",
+      "category": "scaffold",
+      "title": "Scaffold Dockerfile",
+      "description": "Scaffold a production-grade multi-stage Dockerfile and .dockerignore for the current project.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/commands/scaffold/scaffold-dockerfile",
+      "file": "commands/scaffold-dockerfile.md",
+      "install": "npx agentscamp add commands/scaffold-dockerfile"
+    },
+    {
+      "id": "commands/scaffold-github-action",
+      "type": "command",
+      "slug": "scaffold-github-action",
+      "category": "scaffold",
+      "title": "Scaffold GitHub Action",
+      "description": "Scaffold a hardened GitHub Actions workflow for a stated goal, wired to the project's real test/lint/build commands.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/commands/scaffold/scaffold-github-action",
+      "file": "commands/scaffold-github-action.md",
+      "install": "npx agentscamp add commands/scaffold-github-action"
+    },
+    {
       "id": "commands/scaffold-pgvector-schema",
       "type": "command",
       "slug": "scaffold-pgvector-schema",
@@ -1014,6 +1368,21 @@
       "url": "https://agentscamp.com/commands/db/scaffold-pgvector-schema",
       "file": "commands/scaffold-pgvector-schema.md",
       "install": "npx agentscamp add commands/scaffold-pgvector-schema"
+    },
+    {
+      "id": "commands/scaffold-rag-pipeline",
+      "type": "command",
+      "slug": "scaffold-rag-pipeline",
+      "category": "scaffold",
+      "title": "Scaffold RAG Pipeline",
+      "description": "Scaffold a Retrieval-Augmented Generation pipeline — ingestion (load, chunk, embed, upsert) and retrieval (search, rerank, grounded prompt with citations) — fitted to the project's stack.",
+      "topics": [
+        "rag-retrieval",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/commands/scaffold/scaffold-rag-pipeline",
+      "file": "commands/scaffold-rag-pipeline.md",
+      "install": "npx agentscamp add commands/scaffold-rag-pipeline"
     },
     {
       "id": "commands/scaffold-vllm-config",
@@ -1044,6 +1413,20 @@
       "install": "npx agentscamp add commands/security-scan"
     },
     {
+      "id": "commands/seed-data",
+      "type": "command",
+      "slug": "seed-data",
+      "category": "db",
+      "title": "Seed Data",
+      "description": "Generate realistic, referentially-consistent seed data and a re-runnable seed script from your actual schema — types and constraints respected, plausible values, FK-dependency insert order, idempotent, never aimed at production.",
+      "topics": [
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/commands/db/seed-data",
+      "file": "commands/seed-data.md",
+      "install": "npx agentscamp add commands/seed-data"
+    },
+    {
       "id": "commands/set-perf-budget",
       "type": "command",
       "slug": "set-perf-budget",
@@ -1072,6 +1455,20 @@
       "install": "npx agentscamp add commands/setup-claude-ci"
     },
     {
+      "id": "commands/setup-precommit-hooks",
+      "type": "command",
+      "slug": "setup-precommit-hooks",
+      "category": "workflow",
+      "title": "Setup Pre-commit Hooks",
+      "description": "Set up fast pre-commit hooks that catch problems before they land — detect the repo's existing stack and hook mechanism, run lint/format/typecheck plus a secret scan on staged files only, keep the slow test suite in CI, and make the setup reproducible for the whole team.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/commands/workflow/setup-precommit-hooks",
+      "file": "commands/setup-precommit-hooks.md",
+      "install": "npx agentscamp add commands/setup-precommit-hooks"
+    },
+    {
       "id": "commands/sync-branch",
       "type": "command",
       "slug": "sync-branch",
@@ -1086,6 +1483,21 @@
       "install": "npx agentscamp add commands/sync-branch"
     },
     {
+      "id": "commands/trace-data-flow",
+      "type": "command",
+      "slug": "trace-data-flow",
+      "category": "analyze",
+      "title": "Trace Data Flow",
+      "description": "Trace how a value, field, or variable flows through the codebase from source to sink.",
+      "topics": [
+        "coding-languages",
+        "architecture"
+      ],
+      "url": "https://agentscamp.com/commands/analyze/trace-data-flow",
+      "file": "commands/trace-data-flow.md",
+      "install": "npx agentscamp add commands/trace-data-flow"
+    },
+    {
       "id": "commands/update-readme",
       "type": "command",
       "slug": "update-readme",
@@ -1098,6 +1510,21 @@
       "url": "https://agentscamp.com/commands/docs/update-readme",
       "file": "commands/update-readme.md",
       "install": "npx agentscamp add commands/update-readme"
+    },
+    {
+      "id": "commands/write-design-doc",
+      "type": "command",
+      "slug": "write-design-doc",
+      "category": "plan",
+      "title": "Write Design Doc",
+      "description": "Explore the codebase and write a decision-oriented design doc / RFC for a feature or system change.",
+      "topics": [
+        "architecture",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/plan/write-design-doc",
+      "file": "commands/write-design-doc.md",
+      "install": "npx agentscamp add commands/write-design-doc"
     },
     {
       "id": "commands/write-tests",
@@ -1196,6 +1623,18 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/glossary/ai-slop"
+    },
+    {
+      "id": "glossary/attention-mechanism",
+      "type": "glossary",
+      "slug": "attention-mechanism",
+      "category": "term",
+      "title": "Attention Mechanism",
+      "description": "Attention lets a model weigh how relevant every other token is to each token, building a context-aware representation as a weighted blend of their values.",
+      "topics": [
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/glossary/attention-mechanism"
     },
     {
       "id": "glossary/batch-inference",
@@ -1390,6 +1829,18 @@
       "url": "https://agentscamp.com/glossary/fine-tuning"
     },
     {
+      "id": "glossary/flash-attention",
+      "type": "glossary",
+      "slug": "flash-attention",
+      "category": "term",
+      "title": "Flash Attention",
+      "description": "FlashAttention is an IO-aware, exact attention algorithm that runs standard attention far faster and with less memory by tiling on-chip.",
+      "topics": [
+        "mlops-ai-infra"
+      ],
+      "url": "https://agentscamp.com/glossary/flash-attention"
+    },
+    {
       "id": "glossary/frontier-model",
       "type": "glossary",
       "slug": "frontier-model",
@@ -1498,6 +1949,18 @@
       "url": "https://agentscamp.com/glossary/jailbreak"
     },
     {
+      "id": "glossary/knowledge-cutoff",
+      "type": "glossary",
+      "slug": "knowledge-cutoff",
+      "category": "term",
+      "title": "Knowledge Cutoff",
+      "description": "A knowledge cutoff is the date a model's training data ends, so it has no built-in knowledge of any event, release, or fact that came after it.",
+      "topics": [
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/glossary/knowledge-cutoff"
+    },
+    {
       "id": "glossary/kv-cache",
       "type": "glossary",
       "slug": "kv-cache",
@@ -1582,6 +2045,18 @@
       "url": "https://agentscamp.com/glossary/model-context-protocol"
     },
     {
+      "id": "glossary/model-routing",
+      "type": "glossary",
+      "slug": "model-routing",
+      "category": "term",
+      "title": "Model Routing",
+      "description": "Model routing sends each request to the cheapest model that can handle it, escalating only hard cases to a stronger model — cutting cost and latency.",
+      "topics": [
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/glossary/model-routing"
+    },
+    {
       "id": "glossary/multimodal-ai",
       "type": "glossary",
       "slug": "multimodal-ai",
@@ -1618,6 +2093,18 @@
       "url": "https://agentscamp.com/glossary/open-weights"
     },
     {
+      "id": "glossary/perplexity",
+      "type": "glossary",
+      "slug": "perplexity",
+      "category": "term",
+      "title": "Perplexity",
+      "description": "Perplexity measures how well a language model predicts a text sample — the exponential of its average per-token negative log-likelihood. Lower is better.",
+      "topics": [
+        "llm-evals"
+      ],
+      "url": "https://agentscamp.com/glossary/perplexity"
+    },
+    {
       "id": "glossary/prompt-caching",
       "type": "glossary",
       "slug": "prompt-caching",
@@ -1628,6 +2115,18 @@
         "llm-app-dev"
       ],
       "url": "https://agentscamp.com/glossary/prompt-caching"
+    },
+    {
+      "id": "glossary/prompt-engineering",
+      "type": "glossary",
+      "slug": "prompt-engineering",
+      "category": "term",
+      "title": "Prompt Engineering",
+      "description": "Prompt engineering is the practice of designing an LLM's inputs — instructions, context, examples, and format — to reliably get the output you want.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/glossary/prompt-engineering"
     },
     {
       "id": "glossary/prompt-injection",
@@ -1870,6 +2369,18 @@
       "url": "https://agentscamp.com/glossary/token-streaming"
     },
     {
+      "id": "glossary/tokenization",
+      "type": "glossary",
+      "slug": "tokenization",
+      "category": "term",
+      "title": "Tokenization",
+      "description": "Tokenization splits text into tokens — the sub-word units a model reads and writes — and maps each to an integer ID the model processes.",
+      "topics": [
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/glossary/tokenization"
+    },
+    {
       "id": "glossary/top-k",
       "type": "glossary",
       "slug": "top-k",
@@ -1904,6 +2415,18 @@
         "llm-evals"
       ],
       "url": "https://agentscamp.com/glossary/tracing"
+    },
+    {
+      "id": "glossary/transformer",
+      "type": "glossary",
+      "slug": "transformer",
+      "category": "term",
+      "title": "Transformer",
+      "description": "The neural-network architecture (Vaswani et al., 2017) that uses self-attention to process sequences in parallel — the basis of nearly all modern LLMs.",
+      "topics": [
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/glossary/transformer"
     },
     {
       "id": "glossary/tree-of-thoughts",
@@ -1964,6 +2487,19 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/glossary/zero-shot-prompting"
+    },
+    {
+      "id": "guides/add-image-understanding-to-your-app",
+      "type": "guide",
+      "slug": "add-image-understanding-to-your-app",
+      "category": "vision",
+      "title": "Add Image Understanding to Your App",
+      "description": "A practical guide to sending images to a vision model and getting reliable, structured results: base64 vs URL, resolution, prompting, cost, and errors.",
+      "topics": [
+        "multimodal-ai",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/guides/vision/add-image-understanding-to-your-app"
     },
     {
       "id": "guides/agent-frameworks-2026",
@@ -2083,7 +2619,7 @@
       "slug": "best-ai-code-review-tools-2026",
       "category": "comparisons",
       "title": "Best AI Code Review Tools in 2026",
-      "description": "The AI code reviewers worth running in 2026 — CodeRabbit, Greptile, and Qodo compared, plus the open-source PR-Agent and when Copilot's built-in review is enough.",
+      "description": "The AI code reviewers worth running in 2026 — CodeRabbit, Greptile, and Qodo compared, plus open-source PR-Agent and when Copilot's review is enough.",
       "topics": [
         "review-qa"
       ],
@@ -2131,7 +2667,7 @@
       "slug": "best-mcp-servers-2026",
       "category": "mcp",
       "title": "The Best MCP Servers in 2026",
-      "description": "The MCP servers actually worth connecting in 2026 — Context7, GitHub, Chrome DevTools, Playwright, Serena, Exa, Firecrawl, and the best official vendor servers, by use case.",
+      "description": "The MCP servers actually worth connecting in 2026 — Context7, GitHub, Chrome DevTools, Playwright, Serena, Exa, Firecrawl, and official vendor servers.",
       "topics": [
         "mcp",
         "architecture"
@@ -2195,7 +2731,7 @@
       "slug": "browser-agents-compared-2026",
       "category": "comparisons",
       "title": "Browser Agents in 2026: Browser Use vs Stagehand vs Skyvern vs Playwright MCP",
-      "description": "The four ways to give AI a browser — autonomous framework, code-first SDK, workflow platform, or MCP server — compared honestly by control, cost, and reliability.",
+      "description": "Four ways to give AI a browser — Browser Use, Stagehand, Skyvern, and Playwright MCP compared honestly on control, cost, and reliability for 2026.",
       "topics": [
         "ai-agents-systems"
       ],
@@ -2234,7 +2770,7 @@
       "slug": "building-multi-step-workflows",
       "category": "advanced",
       "title": "Building Multi-Step Agent Workflows",
-      "description": "Patterns for decomposing big tasks and coordinating multiple agents.",
+      "description": "Patterns for building multi-step agent workflows in Claude Code: decompose tasks, fan-out to parallel subagents, verify every step, and orchestrate.",
       "topics": [
         "workflow-prompting"
       ],
@@ -2271,7 +2807,7 @@
       "slug": "choosing-the-right-model",
       "category": "getting-started",
       "title": "Choosing the Right Model: Haiku vs Sonnet vs Opus",
-      "description": "How to pick the right Claude model tier for an agent or task.",
+      "description": "How to pick the right Claude model tier — Haiku, Sonnet, or Opus — for any Claude Code agent or task, with a clear decision rubric and per-agent examples.",
       "topics": [
         "workflow-prompting"
       ],
@@ -2356,11 +2892,23 @@
       "slug": "claude-code-settings-permissions",
       "category": "configuration",
       "title": "Claude Code Settings & Permissions: settings.json Explained",
-      "description": "Every Claude Code settings file and which one wins, the permission-rule syntax with its Bash matching gotchas, permission modes, and a safe starter settings.json.",
+      "description": "Every Claude Code settings file and which one wins, the permission-rule syntax with its Bash matching gotchas, modes, and a safe starter settings.json.",
       "topics": [
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/guides/configuration/claude-code-settings-permissions"
+    },
+    {
+      "id": "guides/claude-code-skills-best-practices",
+      "type": "guide",
+      "slug": "claude-code-skills-best-practices",
+      "category": "skills",
+      "title": "Claude Code Skills: Best Practices",
+      "description": "The patterns that make Claude Code skills reliable: trigger-first descriptions, one job per skill, lean bodies, bundled scripts, and scoped tools.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/skills/claude-code-skills-best-practices"
     },
     {
       "id": "guides/claude-code-tips",
@@ -2368,7 +2916,7 @@
       "slug": "claude-code-tips",
       "category": "getting-started",
       "title": "25 Claude Code Tips, Shortcuts, and Power Features",
-      "description": "The 25 highest-leverage Claude Code tips — keyboard shortcuts, bash and memory shortcuts, session commands, model tricks, and the power features most people miss.",
+      "description": "The 25 highest-leverage Claude Code tips — keyboard shortcuts, bash and memory prefixes, session commands, model tricks, and power features most people miss.",
       "topics": [
         "workflow-prompting"
       ],
@@ -2380,7 +2928,7 @@
       "slug": "claude-code-troubleshooting",
       "category": "troubleshooting",
       "title": "Claude Code Troubleshooting: Fixes for the Most Common Problems",
-      "description": "Practical fixes for the Claude Code issues people actually hit — install and auth failures, context-limit errors, MCP servers that won't connect, permission loops, and CI quirks.",
+      "description": "Fixes for the Claude Code problems people actually hit — install and auth failures, context-limit errors, MCP servers that won't connect, permission loops.",
       "topics": [
         "workflow-prompting"
       ],
@@ -2418,7 +2966,7 @@
       "slug": "claude-code-vs-gemini-cli",
       "category": "comparisons",
       "title": "Claude Code vs Gemini CLI: Which Terminal Agent (2026)",
-      "description": "Claude Code vs Gemini CLI — first-party stability and a deep programmable harness vs open-source TypeScript, big free tier, and a looming Antigravity transition.",
+      "description": "Claude Code vs Gemini CLI: first-party stability and a deep programmable harness vs open-source TypeScript, a big free tier, and the Antigravity cutover.",
       "topics": [
         "ai-agents-systems"
       ],
@@ -2501,6 +3049,18 @@
       "url": "https://agentscamp.com/guides/comparisons/cursor-vs-windsurf"
     },
     {
+      "id": "guides/data-privacy-for-llm-apps",
+      "type": "guide",
+      "slug": "data-privacy-for-llm-apps",
+      "category": "ai-safety",
+      "title": "Data Privacy for LLM Apps: Stop Leaking Sensitive Data",
+      "description": "Where LLM apps leak PII and secrets — prompts, logs, traces, vector stores, providers — and the controls (redaction, ZDR, tenant isolation) that stop it.",
+      "topics": [
+        "ai-safety-security"
+      ],
+      "url": "https://agentscamp.com/guides/ai-safety/data-privacy-for-llm-apps"
+    },
+    {
       "id": "guides/debugging-ai-agents",
       "type": "guide",
       "slug": "debugging-ai-agents",
@@ -2548,6 +3108,30 @@
         "architecture"
       ],
       "url": "https://agentscamp.com/guides/mcp/deploy-remote-mcp-server"
+    },
+    {
+      "id": "guides/deploying-llms-to-production",
+      "type": "guide",
+      "slug": "deploying-llms-to-production",
+      "category": "mlops",
+      "title": "Deploying LLMs to Production: A Reliability & Cost Checklist",
+      "description": "Take an LLM feature from prototype to production: API vs self-host, provider fallback, retries, caching, observability, eval gates, and safe rollout.",
+      "topics": [
+        "mlops-ai-infra"
+      ],
+      "url": "https://agentscamp.com/guides/mlops/deploying-llms-to-production"
+    },
+    {
+      "id": "guides/designing-system-prompts",
+      "type": "guide",
+      "slug": "designing-system-prompts",
+      "category": "prompting",
+      "title": "Designing System Prompts for LLM Apps and Agents",
+      "description": "How to write system prompts that hold up in production: what belongs there vs. the user turn, structure that survives long context, and format/refusal rules.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/prompting/designing-system-prompts"
     },
     {
       "id": "guides/dspy-prompt-optimization",
@@ -2672,6 +3256,19 @@
       "url": "https://agentscamp.com/guides/concepts/how-computer-use-agents-work"
     },
     {
+      "id": "guides/how-embeddings-work",
+      "type": "guide",
+      "slug": "how-embeddings-work",
+      "category": "concepts",
+      "title": "How Embeddings Work: Vectors, Similarity, and Choosing a Model",
+      "description": "What an embedding actually is, how similarity is measured, how the models are trained, and the practical rules for using embeddings well in search and RAG.",
+      "topics": [
+        "data-ml",
+        "rag-retrieval"
+      ],
+      "url": "https://agentscamp.com/guides/concepts/how-embeddings-work"
+    },
+    {
       "id": "guides/how-rag-works",
       "type": "guide",
       "slug": "how-rag-works",
@@ -2682,6 +3279,19 @@
         "rag-retrieval"
       ],
       "url": "https://agentscamp.com/guides/concepts/how-rag-works"
+    },
+    {
+      "id": "guides/human-in-the-loop-ai-workflows",
+      "type": "guide",
+      "slug": "human-in-the-loop-ai-workflows",
+      "category": "workflow",
+      "title": "Human-in-the-Loop AI Workflows: Approval Gates That Keep Agents Safe and Trusted",
+      "description": "How to design human-in-the-loop into agent workflows — when to require approval, gate patterns, confidence escalation, review UX, and feedback loops.",
+      "topics": [
+        "ai-agents-systems",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/workflow/human-in-the-loop-ai-workflows"
     },
     {
       "id": "guides/hybrid-search-reranking",
@@ -2794,6 +3404,18 @@
       "url": "https://agentscamp.com/guides/advanced/llm-cost-latency-engineering"
     },
     {
+      "id": "guides/llm-evaluation-metrics-explained",
+      "type": "guide",
+      "slug": "llm-evaluation-metrics-explained",
+      "category": "evaluation",
+      "title": "LLM Evaluation Metrics Explained: Which One to Use and When",
+      "description": "A practical map of LLM and RAG evaluation metrics — why BLEU/ROUGE fail open-ended text, how LLM-as-judge and RAG metrics work, and which to pick per task.",
+      "topics": [
+        "llm-evals"
+      ],
+      "url": "https://agentscamp.com/guides/evaluation/llm-evaluation-metrics-explained"
+    },
+    {
       "id": "guides/llm-gateways-compared",
       "type": "guide",
       "slug": "llm-gateways-compared",
@@ -2836,7 +3458,7 @@
       "slug": "mcp-vs-a2a",
       "category": "mcp",
       "title": "MCP vs A2A: AI Agent Protocols Explained",
-      "description": "What MCP and A2A each standardize, how Agent Cards and Tasks work, why the protocols are complementary — and who governs them now (spoiler: both are Linux Foundation).",
+      "description": "What MCP and A2A each standardize, how Agent Cards and Tasks work, why the two protocols are complementary, and who governs them now (both Linux Foundation).",
       "topics": [
         "mcp",
         "architecture"
@@ -2869,12 +3491,38 @@
       "url": "https://agentscamp.com/guides/advanced/multi-agent-orchestration"
     },
     {
+      "id": "guides/multimodal-embeddings-and-image-search",
+      "type": "guide",
+      "slug": "multimodal-embeddings-and-image-search",
+      "category": "vision",
+      "title": "Multimodal Embeddings and Image Search",
+      "description": "How multimodal embeddings put images and text in one vector space, and how to build text-to-image and image-to-image search on top of it.",
+      "topics": [
+        "multimodal-ai",
+        "rag-retrieval"
+      ],
+      "url": "https://agentscamp.com/guides/vision/multimodal-embeddings-and-image-search"
+    },
+    {
+      "id": "guides/multimodal-rag-images-pdfs",
+      "type": "guide",
+      "slug": "multimodal-rag-images-pdfs",
+      "category": "vision",
+      "title": "Multimodal RAG over PDFs, Scans & Charts: Two Approaches That Actually Work",
+      "description": "RAG over visual documents — PDFs, scans, charts — where text-only extraction loses tables and layout. Parse-then-text vs embed-the-page-image, with trade-offs.",
+      "topics": [
+        "multimodal-ai",
+        "rag-retrieval"
+      ],
+      "url": "https://agentscamp.com/guides/vision/multimodal-rag-images-pdfs"
+    },
+    {
       "id": "guides/n8n-vs-dify",
       "type": "guide",
       "slug": "n8n-vs-dify",
       "category": "comparisons",
       "title": "n8n vs Dify: Which AI Workflow Platform? (2026)",
-      "description": "Automation-first vs AI-native — n8n's 400+ integrations with agent nodes vs Dify's LLM-app platform with built-in RAG. Licenses, pricing shapes, and the fit test.",
+      "description": "Automation-first vs AI-native: n8n's 400+ integrations and agent nodes vs Dify's LLM-app platform with built-in RAG. Licenses, pricing, and the fit test.",
       "topics": [
         "ai-agents-systems"
       ],
@@ -2915,6 +3563,18 @@
         "ai-safety-security"
       ],
       "url": "https://agentscamp.com/guides/ai-safety/owasp-agentic-top-10"
+    },
+    {
+      "id": "guides/packaging-and-sharing-skills",
+      "type": "guide",
+      "slug": "packaging-and-sharing-skills",
+      "category": "skills",
+      "title": "Packaging and Sharing Claude Code Skills",
+      "description": "Take a skill from your personal ~/.claude folder to a versioned plugin your whole team installs from a marketplace — portably and with governance.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/skills/packaging-and-sharing-skills"
     },
     {
       "id": "guides/parallel-claude-code-worktrees",
@@ -3030,7 +3690,7 @@
       "slug": "realtime-voice-apis",
       "category": "voice",
       "title": "Realtime Voice Agents: Build on LiveKit, Buy Vapi, or Pipeline with Pipecat",
-      "description": "The three ways to ship a realtime voice agent in 2026 — open infrastructure, managed platform, or OSS pipeline framework — and how speech-to-speech models change it.",
+      "description": "The three ways to ship a realtime voice agent in 2026 — open infrastructure, managed platform, or OSS pipeline — and how speech-to-speech models fit in.",
       "topics": [
         "multimodal-ai",
         "ai-agents-systems"
@@ -3043,12 +3703,25 @@
       "slug": "sandboxing-ai-generated-code",
       "category": "advanced",
       "title": "Sandboxing AI-Generated Code: E2B vs Modal vs Daytona vs Vercel Sandbox",
-      "description": "Where should agent-written code run? The four sandbox platforms compared — isolation models, persistence, economics — plus the design rules that keep execution safe.",
+      "description": "Where should agent-written code run? E2B vs Modal vs Daytona vs Vercel Sandbox compared on isolation, persistence, and cost, plus rules for safe execution.",
       "topics": [
         "ai-agents-systems",
         "ai-safety-security"
       ],
       "url": "https://agentscamp.com/guides/advanced/sandboxing-ai-generated-code"
+    },
+    {
+      "id": "guides/screenshot-to-code-with-ai",
+      "type": "guide",
+      "slug": "screenshot-to-code-with-ai",
+      "category": "vision",
+      "title": "Screenshot-to-Code: Building UIs from Images with AI",
+      "description": "Turn a screenshot, mockup, or Figma frame into working frontend code with AI vision models — the realistic workflow, the right tools, and the honest pitfalls.",
+      "topics": [
+        "multimodal-ai",
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/guides/vision/screenshot-to-code-with-ai"
     },
     {
       "id": "guides/self-host-vs-api-llm",
@@ -3073,6 +3746,19 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/guides/skills/skills-vs-agents-vs-commands"
+    },
+    {
+      "id": "guides/skills-vs-mcp-servers",
+      "type": "guide",
+      "slug": "skills-vs-mcp-servers",
+      "category": "skills",
+      "title": "Skills vs MCP Servers: When to Use Which",
+      "description": "Skills inject procedure into context; MCP servers expose tools and live data over a protocol. A decision framework, the combine pattern, and examples.",
+      "topics": [
+        "workflow-prompting",
+        "mcp"
+      ],
+      "url": "https://agentscamp.com/guides/skills/skills-vs-mcp-servers"
     },
     {
       "id": "guides/spec-driven-development",
@@ -3124,6 +3810,32 @@
       "url": "https://agentscamp.com/guides/testing/testing-ai-generated-code"
     },
     {
+      "id": "guides/testing-and-debugging-skills",
+      "type": "guide",
+      "slug": "testing-and-debugging-skills",
+      "category": "skills",
+      "title": "Testing and Debugging Claude Code Skills",
+      "description": "Verify a Claude Code skill triggers on the right prompts, check its output, and fix the five common failures — from vague triggers to broken paths.",
+      "topics": [
+        "workflow-prompting",
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/guides/skills/testing-and-debugging-skills"
+    },
+    {
+      "id": "guides/testing-llm-applications",
+      "type": "guide",
+      "slug": "testing-llm-applications",
+      "category": "testing",
+      "title": "Testing LLM Applications: How to Test Non-Deterministic Software",
+      "description": "How to test software that calls LLMs when outputs are non-deterministic — the testing pyramid, assertion strategies, golden datasets, and CI gating.",
+      "topics": [
+        "llm-evals",
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/guides/testing/testing-llm-applications"
+    },
+    {
       "id": "guides/v0-vs-lovable",
       "type": "guide",
       "slug": "v0-vs-lovable",
@@ -3136,6 +3848,19 @@
       "url": "https://agentscamp.com/guides/comparisons/v0-vs-lovable"
     },
     {
+      "id": "guides/vector-search-at-scale",
+      "type": "guide",
+      "slug": "vector-search-at-scale",
+      "category": "database",
+      "title": "Vector Search at Scale: ANN Indexes, Quantization & Sharding",
+      "description": "How to run vector search over millions to billions of vectors without blowing latency, memory, or cost — index families, quantization, filtering, and sharding.",
+      "topics": [
+        "rag-retrieval",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/guides/database/vector-search-at-scale"
+    },
+    {
       "id": "guides/vibe-coding-guide",
       "type": "guide",
       "slug": "vibe-coding-guide",
@@ -3146,6 +3871,18 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/guides/prompting/vibe-coding-guide"
+    },
+    {
+      "id": "guides/vision-language-models-compared-2026",
+      "type": "guide",
+      "slug": "vision-language-models-compared-2026",
+      "category": "vision",
+      "title": "Vision-Language Models Compared (2026)",
+      "description": "Which vision-language model to reach for, by job: Claude, GPT, Gemini, and open models like Qwen3-VL compared on OCR, charts, grounding, video, and cost.",
+      "topics": [
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/guides/vision/vision-language-models-compared-2026"
     },
     {
       "id": "guides/vllm-vs-ollama",
@@ -3273,6 +4010,78 @@
       "install": "npx agentscamp add skills/adr-writer"
     },
     {
+      "id": "skills/agent-memory-designer",
+      "type": "skill",
+      "slug": "agent-memory-designer",
+      "category": "workflow",
+      "title": "Agent Memory Designer",
+      "description": "Design a project's CLAUDE.md and memory hierarchy by exploring the repo to learn its real build/test/lint commands, architecture, and non-obvious gotchas, then writing a concise, skimmable memory that keeps only what belongs in context. Use when onboarding a repo to Claude Code with no CLAUDE.md, or when an existing one is bloated, stale, or being ignored.",
+      "topics": [
+        "workflow-prompting",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/skills/workflow/agent-memory-designer",
+      "file": "skills/agent-memory-designer/SKILL.md",
+      "install": "npx agentscamp add skills/agent-memory-designer"
+    },
+    {
+      "id": "skills/agent-trajectory-evaluator",
+      "type": "skill",
+      "slug": "agent-trajectory-evaluator",
+      "category": "data",
+      "title": "Agent Trajectory Evaluator",
+      "description": "Evaluate a multi-step AI agent's whole run — tool calls, intermediate steps, and final result — not just final-answer correctness, so you can pinpoint WHERE it went wrong. Use when building or debugging a tool-using or multi-step agent, when final-answer-only evals can't explain failures, or when a prompt/model change quietly makes the agent less efficient or more error-prone even though the answer still looks right.",
+      "topics": [
+        "llm-evals",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/skills/data/agent-trajectory-evaluator",
+      "file": "skills/agent-trajectory-evaluator/SKILL.md",
+      "install": "npx agentscamp add skills/agent-trajectory-evaluator"
+    },
+    {
+      "id": "skills/alerting-rules-tuner",
+      "type": "skill",
+      "slug": "alerting-rules-tuner",
+      "category": "observability",
+      "title": "Alerting Rules Tuner",
+      "description": "Cut alert noise and make every page mean something — rewrite alerting rules to fire on user-felt symptoms (error rate, latency SLO burn, failed requests) instead of causes (high CPU, full disk), with duration windows and severity routing so only urgent, actionable conditions reach a human. Use when on-call is fatigued by low-value pages, when real incidents get missed in the noise, or when alerts fire on causes rather than impact.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/observability/alerting-rules-tuner",
+      "file": "skills/alerting-rules-tuner/SKILL.md",
+      "install": "npx agentscamp add skills/alerting-rules-tuner"
+    },
+    {
+      "id": "skills/architecture-diagram-generator",
+      "type": "skill",
+      "slug": "architecture-diagram-generator",
+      "category": "docs",
+      "title": "Architecture Diagram Generator",
+      "description": "Generate accurate architecture diagrams as Mermaid — straight from the codebase, not from imagination — by first choosing which view answers the question (container/component, sequence, ER, or state) and then reading the real entry points, module boundaries, service calls, and schema. Use when onboarding to an unfamiliar repo, documenting a system, or visualizing one complex flow.",
+      "topics": [
+        "architecture"
+      ],
+      "url": "https://agentscamp.com/skills/docs/architecture-diagram-generator",
+      "file": "skills/architecture-diagram-generator/SKILL.md",
+      "install": "npx agentscamp add skills/architecture-diagram-generator"
+    },
+    {
+      "id": "skills/auth-flow-reviewer",
+      "type": "skill",
+      "slug": "auth-flow-reviewer",
+      "category": "security",
+      "title": "Auth Flow Reviewer",
+      "description": "Read-only review of authentication AND authorization flows — session/token model, cookie flags, CSRF, token rotation, password-reset/email-verification, OAuth redirect/state, and per-route object-level access checks — for exploitable gaps. Use before shipping login/session/token code, when adding a protected route or sharing-by-URL feature, or during a security pass. Reports findings by severity with location, impact, and the concrete fix; never edits code.",
+      "topics": [
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/skills/security/auth-flow-reviewer",
+      "file": "skills/auth-flow-reviewer/SKILL.md",
+      "install": "npx agentscamp add skills/auth-flow-reviewer"
+    },
+    {
       "id": "skills/branch-rebaser",
       "type": "skill",
       "slug": "branch-rebaser",
@@ -3299,6 +4108,20 @@
       "url": "https://agentscamp.com/skills/performance/bundle-analyzer",
       "file": "skills/bundle-analyzer/SKILL.md",
       "install": "npx agentscamp add skills/bundle-analyzer"
+    },
+    {
+      "id": "skills/canary-release-planner",
+      "type": "skill",
+      "slug": "canary-release-planner",
+      "category": "release",
+      "title": "Canary Release Planner",
+      "description": "Design a canary / progressive rollout so a bad release reaches 1% of users instead of 100% — staged traffic with bake times, gating metrics compared against the concurrently-running stable baseline, and automated promote-or-rollback. Use when shipping a risky change, when you want automatic rollback on regression, or when moving off all-at-once deploys.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/release/canary-release-planner",
+      "file": "skills/canary-release-planner/SKILL.md",
+      "install": "npx agentscamp add skills/canary-release-planner"
     },
     {
       "id": "skills/changelog-from-prs",
@@ -3329,6 +4152,20 @@
       "install": "npx agentscamp add skills/chunking-strategy-optimizer"
     },
     {
+      "id": "skills/circular-dependency-breaker",
+      "type": "skill",
+      "slug": "circular-dependency-breaker",
+      "category": "refactor",
+      "title": "Circular Dependency Breaker",
+      "description": "Detect and break a circular import — map the exact cycle with a real tool, then break the right edge by extracting the shared piece into a leaf module, inverting a layering dependency, merging two falsely-split modules, or (last resort) deferring an import. Use when you hit an import cycle error, an undefined-on-import or 'cannot access before initialization' bug, or a bundler/linter flags a cycle.",
+      "topics": [
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/skills/refactor/circular-dependency-breaker",
+      "file": "skills/circular-dependency-breaker/SKILL.md",
+      "install": "npx agentscamp add skills/circular-dependency-breaker"
+    },
+    {
       "id": "skills/claude-settings-auditor",
       "type": "skill",
       "slug": "claude-settings-auditor",
@@ -3341,6 +4178,62 @@
       "url": "https://agentscamp.com/skills/workflow/claude-settings-auditor",
       "file": "skills/claude-settings-auditor/SKILL.md",
       "install": "npx agentscamp add skills/claude-settings-auditor"
+    },
+    {
+      "id": "skills/cold-start-optimizer",
+      "type": "skill",
+      "slug": "cold-start-optimizer",
+      "category": "performance",
+      "title": "Cold Start Optimizer",
+      "description": "Cut cold-start latency for serverless functions and slow-booting apps by measuring the init breakdown, then attacking the dominant phase — artifact size, eager imports, eager connections, or under-provisioned memory — instead of reflexively buying provisioned concurrency. Use when serverless p99 spikes on the first request, when a function times out during init, or when scale-to-zero is hurting user-facing latency.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/performance/cold-start-optimizer",
+      "file": "skills/cold-start-optimizer/SKILL.md",
+      "install": "npx agentscamp add skills/cold-start-optimizer"
+    },
+    {
+      "id": "skills/commit-splitter",
+      "type": "skill",
+      "slug": "commit-splitter",
+      "category": "git",
+      "title": "Commit Splitter",
+      "description": "Split one big, mixed-up change into a series of small, atomic commits — each a single logical change that builds and passes tests on its own — by grouping hunks by intent and staging them piecemeal. Use when a working tree or a fat commit mixes a feature, a refactor, a bug fix, and formatting, or before opening a PR you want reviewers to actually read.",
+      "topics": [
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/skills/git/commit-splitter",
+      "file": "skills/commit-splitter/SKILL.md",
+      "install": "npx agentscamp add skills/commit-splitter"
+    },
+    {
+      "id": "skills/connection-pool-tuner",
+      "type": "skill",
+      "slug": "connection-pool-tuner",
+      "category": "database",
+      "title": "Connection Pool Tuner",
+      "description": "Size and tune a database connection pool from the real constraint — the database's shared max_connections and its core count — so total connections (per-instance pool × instance count) stay safely under the cap and a too-large pool stops adding latency. Use when the app throws 'too many connections' or pool-acquire timeouts, when the DB is saturated by connection count, or when deploying to serverless.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/database/connection-pool-tuner",
+      "file": "skills/connection-pool-tuner/SKILL.md",
+      "install": "npx agentscamp add skills/connection-pool-tuner"
+    },
+    {
+      "id": "skills/contract-test-designer",
+      "type": "skill",
+      "slug": "contract-test-designer",
+      "category": "testing",
+      "title": "Contract Test Designer",
+      "description": "Design consumer-driven contract tests between services so an API provider can't break its consumers unnoticed — without slow, flaky full end-to-end environments. Use when independent services or teams integrate over an API, when integration bugs only surface in staging or prod, or when E2E suites are too slow and brittle to catch breaking API changes.",
+      "topics": [
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/skills/testing/contract-test-designer",
+      "file": "skills/contract-test-designer/SKILL.md",
+      "install": "npx agentscamp add skills/contract-test-designer"
     },
     {
       "id": "skills/conventional-commits",
@@ -3371,6 +4264,20 @@
       "install": "npx agentscamp add skills/coverage-gap-finder"
     },
     {
+      "id": "skills/dashboard-designer",
+      "type": "skill",
+      "slug": "dashboard-designer",
+      "category": "observability",
+      "title": "Dashboard Designer",
+      "description": "Design a service dashboard that answers one question at a glance — is the service healthy, and if not, where's the problem? — by structuring panels around RED/USE instead of dumping every metric. Use when a service has no dashboard, when the existing one is an unreadable metric wall, or during incident-readiness prep.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/observability/dashboard-designer",
+      "file": "skills/dashboard-designer/SKILL.md",
+      "install": "npx agentscamp add skills/dashboard-designer"
+    },
+    {
       "id": "skills/dead-code-finder",
       "type": "skill",
       "slug": "dead-code-finder",
@@ -3385,6 +4292,20 @@
       "install": "npx agentscamp add skills/dead-code-finder"
     },
     {
+      "id": "skills/deadlock-diagnoser",
+      "type": "skill",
+      "slug": "deadlock-diagnoser",
+      "category": "database",
+      "title": "Deadlock Diagnoser",
+      "description": "Diagnose a database deadlock from the engine's own deadlock report, reconstruct the lock cycle (A holds 1 wants 2, B holds 2 wants 1), name the root cause — almost always two code paths locking the same rows in different orders — and fix it with consistent lock ordering, shorter transactions, and a retry-the-victim safeguard. Use when the DB logs deadlock errors, when transactions intermittently fail under load, or when queries mysteriously block each other.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/database/deadlock-diagnoser",
+      "file": "skills/deadlock-diagnoser/SKILL.md",
+      "install": "npx agentscamp add skills/deadlock-diagnoser"
+    },
+    {
       "id": "skills/dependency-audit",
       "type": "skill",
       "slug": "dependency-audit",
@@ -3397,6 +4318,48 @@
       "url": "https://agentscamp.com/skills/security/dependency-audit",
       "file": "skills/dependency-audit/SKILL.md",
       "install": "npx agentscamp add skills/dependency-audit"
+    },
+    {
+      "id": "skills/dependency-upgrade-planner",
+      "type": "skill",
+      "slug": "dependency-upgrade-planner",
+      "category": "refactor",
+      "title": "Dependency Upgrade Planner",
+      "description": "Plan and de-risk a major dependency, framework, or runtime upgrade — map the full version path, read every intermediate migration guide, and pin the breaking changes to your actual call sites instead of bumping the number and hoping. Use when a key dependency is several majors behind, when a security advisory forces an upgrade, or before a framework migration.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/refactor/dependency-upgrade-planner",
+      "file": "skills/dependency-upgrade-planner/SKILL.md",
+      "install": "npx agentscamp add skills/dependency-upgrade-planner"
+    },
+    {
+      "id": "skills/devcontainer-designer",
+      "type": "skill",
+      "slug": "devcontainer-designer",
+      "category": "workflow",
+      "title": "Dev Container Designer",
+      "description": "Design a reproducible dev environment (Dev Container / Docker) so onboarding is one command and 'works on my machine' dies — by detecting the project's real stack and versions, authoring a devcontainer.json (+ Dockerfile/compose) that pins the runtime to what the repo targets, wires dependent services, caches dependencies, and injects secrets instead of baking them. Use when new contributors struggle to set up the project, when environment drift causes inconsistent behavior, or when standardizing tooling across a team.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/workflow/devcontainer-designer",
+      "file": "skills/devcontainer-designer/SKILL.md",
+      "install": "npx agentscamp add skills/devcontainer-designer"
+    },
+    {
+      "id": "skills/distributed-tracing-instrumenter",
+      "type": "skill",
+      "slug": "distributed-tracing-instrumenter",
+      "category": "observability",
+      "title": "Distributed Tracing Instrumenter",
+      "description": "Instrument a service (or a chain of services) with OpenTelemetry so a single request can be followed end-to-end — context propagated across every hop including async/queue boundaries, spans at the boundaries that matter, deliberate trace-wide sampling, and trace_id stamped on log lines. Use when latency or failures span multiple services, when you have logs but can't reconstruct a request's full path, or when adopting OpenTelemetry.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/observability/distributed-tracing-instrumenter",
+      "file": "skills/distributed-tracing-instrumenter/SKILL.md",
+      "install": "npx agentscamp add skills/distributed-tracing-instrumenter"
     },
     {
       "id": "skills/embedding-index-tuner",
@@ -3428,6 +4391,35 @@
       "install": "npx agentscamp add skills/embedding-set-inspector"
     },
     {
+      "id": "skills/extract-module",
+      "type": "skill",
+      "slug": "extract-module",
+      "category": "refactor",
+      "title": "Extract Module",
+      "description": "Split an overgrown file into cohesive, well-bounded modules — find the natural seams, design each new module's public interface before moving a line, then relocate one unit at a time keeping tests green. Use when a file has grown too large, mixes unrelated responsibilities, or every change to it forces unrelated diffs and merge conflicts.",
+      "topics": [
+        "coding-languages",
+        "architecture"
+      ],
+      "url": "https://agentscamp.com/skills/refactor/extract-module",
+      "file": "skills/extract-module/SKILL.md",
+      "install": "npx agentscamp add skills/extract-module"
+    },
+    {
+      "id": "skills/feature-flag-retirer",
+      "type": "skill",
+      "slug": "feature-flag-retirer",
+      "category": "refactor",
+      "title": "Feature Flag Retirer",
+      "description": "Retire stale feature flags by confirming each flag's decided final state, then collapsing every conditional to the winning branch and deleting the loser plus the now-dead code it reached. Use when temporary flags have outlived their rollout, when flag conditionals clutter the code, or during a flag-debt cleanup.",
+      "topics": [
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/skills/refactor/feature-flag-retirer",
+      "file": "skills/feature-flag-retirer/SKILL.md",
+      "install": "npx agentscamp add skills/feature-flag-retirer"
+    },
+    {
       "id": "skills/finetune-dataset-builder",
       "type": "skill",
       "slug": "finetune-dataset-builder",
@@ -3442,6 +4434,62 @@
       "install": "npx agentscamp add skills/finetune-dataset-builder"
     },
     {
+      "id": "skills/flamegraph-analyzer",
+      "type": "skill",
+      "slug": "flamegraph-analyzer",
+      "category": "performance",
+      "title": "Flamegraph Analyzer",
+      "description": "Turn a CPU profile or flamegraph into a concrete optimization instead of guessing where the time goes: capture under a realistic workload with a sampling profiler, read the graph correctly (width = time, depth ≠ time), find the widest self-time leaves, ask if that work is necessary/redundant/algorithmically wrong, fix the biggest contributor, then re-profile. Use when code is CPU-bound and slow, a function is hot but you don't know which part, or you have a profile you can't interpret.",
+      "topics": [
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/skills/performance/flamegraph-analyzer",
+      "file": "skills/flamegraph-analyzer/SKILL.md",
+      "install": "npx agentscamp add skills/flamegraph-analyzer"
+    },
+    {
+      "id": "skills/git-blame-investigator",
+      "type": "skill",
+      "slug": "git-blame-investigator",
+      "category": "git",
+      "title": "Git Blame Investigator",
+      "description": "Reconstruct why a line of code exists from Git history — find the originating commit, read its message and full diff for intent, and see through reformatting/rename commits with ignore-revs and the pickaxe — before you change or delete it. Use when a line looks wrong or pointless and you want to remove it, when tracing a regression to its commit, or when onboarding to unfamiliar code.",
+      "topics": [
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/skills/git/git-blame-investigator",
+      "file": "skills/git-blame-investigator/SKILL.md",
+      "install": "npx agentscamp add skills/git-blame-investigator"
+    },
+    {
+      "id": "skills/github-actions-optimizer",
+      "type": "skill",
+      "slug": "github-actions-optimizer",
+      "category": "workflow",
+      "title": "GitHub Actions Optimizer",
+      "description": "Make a GitHub Actions workflow faster, cheaper, and harder to attack — by profiling where wall-clock and billed minutes actually go, then adding content-keyed caching, matrix/job parallelism, run-cancellation, and path filters, and hardening the supply chain (SHA-pinned actions, least-privilege GITHUB_TOKEN, safe fork-PR handling). Use when CI is slow or queues, when a repo burns Actions minutes, or before trusting a workflow that runs on untrusted pull requests.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/workflow/github-actions-optimizer",
+      "file": "skills/github-actions-optimizer/SKILL.md",
+      "install": "npx agentscamp add skills/github-actions-optimizer"
+    },
+    {
+      "id": "skills/graphql-schema-designer",
+      "type": "skill",
+      "slug": "graphql-schema-designer",
+      "category": "api",
+      "title": "GraphQL Schema Designer",
+      "description": "Design a clean, evolvable GraphQL schema (SDL) that won't paint you into a corner — model the graph around domain types and their relationships rather than as RPC-over-GraphQL, set nullability deliberately, standardize lists with Relay connections, plan DataLoader batching for per-parent fields, and evolve by adding + @deprecated instead of versioning. Use when designing a new GraphQL API, reviewing an SDL, or migrating REST endpoints to a graph.",
+      "topics": [
+        "architecture"
+      ],
+      "url": "https://agentscamp.com/skills/api/graphql-schema-designer",
+      "file": "skills/graphql-schema-designer/SKILL.md",
+      "install": "npx agentscamp add skills/graphql-schema-designer"
+    },
+    {
       "id": "skills/graphrag-scaffolder",
       "type": "skill",
       "slug": "graphrag-scaffolder",
@@ -3454,6 +4502,20 @@
       "url": "https://agentscamp.com/skills/data/graphrag-scaffolder",
       "file": "skills/graphrag-scaffolder/SKILL.md",
       "install": "npx agentscamp add skills/graphrag-scaffolder"
+    },
+    {
+      "id": "skills/hallucination-evaluator",
+      "type": "skill",
+      "slug": "hallucination-evaluator",
+      "category": "data",
+      "title": "Hallucination Evaluator",
+      "description": "Detect and measure ungroundedness in LLM and RAG outputs — claims the source doesn't support — by decomposing answers into atomic claims and checking each for entailment, so you can quantify faithfulness and gate on it instead of eyeballing it. Use when a RAG/LLM feature makes confident wrong claims, before shipping anything that must be factual, or to add a groundedness gate to evals/CI.",
+      "topics": [
+        "llm-evals"
+      ],
+      "url": "https://agentscamp.com/skills/data/hallucination-evaluator",
+      "file": "skills/hallucination-evaluator/SKILL.md",
+      "install": "npx agentscamp add skills/hallucination-evaluator"
     },
     {
       "id": "skills/hook-writer",
@@ -3482,6 +4544,34 @@
       "url": "https://agentscamp.com/skills/workflow/human-in-the-loop-gate",
       "file": "skills/human-in-the-loop-gate/SKILL.md",
       "install": "npx agentscamp add skills/human-in-the-loop-gate"
+    },
+    {
+      "id": "skills/idempotency-designer",
+      "type": "skill",
+      "slug": "idempotency-designer",
+      "category": "api",
+      "title": "Idempotency Designer",
+      "description": "Make unsafe, retryable API operations idempotent so a client retry or a network hiccup can't double-charge, double-create, or double-send — design a client-supplied idempotency key, an atomic store-and-check (unique constraint or conditional write), in-flight conflict handling, and a retention policy. Use when a POST/mutation can be retried (payments, order creation, sends, webhooks), or when duplicate side effects have already shown up in production.",
+      "topics": [
+        "architecture"
+      ],
+      "url": "https://agentscamp.com/skills/api/idempotency-designer",
+      "file": "skills/idempotency-designer/SKILL.md",
+      "install": "npx agentscamp add skills/idempotency-designer"
+    },
+    {
+      "id": "skills/integration-test-designer",
+      "type": "skill",
+      "slug": "integration-test-designer",
+      "category": "testing",
+      "title": "Integration Test Designer",
+      "description": "Design integration tests that exercise components against REAL collaborators — actual database, queue, HTTP boundary — at a deliberately chosen seam, instead of a unit suite that mocks everything or a slow flaky full E2E. Use when bugs slip past green unit tests, when wiring or contracts between layers break in production, or when a mocked DB test passes but the real query/migration/serialization fails.",
+      "topics": [
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/skills/testing/integration-test-designer",
+      "file": "skills/integration-test-designer/SKILL.md",
+      "install": "npx agentscamp add skills/integration-test-designer"
     },
     {
       "id": "skills/llm-as-judge-scorer",
@@ -3540,6 +4630,20 @@
       "install": "npx agentscamp add skills/llm-output-schema-generator"
     },
     {
+      "id": "skills/load-test-designer",
+      "type": "skill",
+      "slug": "load-test-designer",
+      "category": "performance",
+      "title": "Load Test Designer",
+      "description": "Design a defensible load test — a realistic workload model, a deliberate test type, and SLO-tied pass/fail thresholds — instead of a meaningless tight-loop script that hammers one endpoint. Use when validating capacity or SLOs before a launch or scaling event, when sizing infrastructure, or when an existing load test reports averages that nobody trusts.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/performance/load-test-designer",
+      "file": "skills/load-test-designer/SKILL.md",
+      "install": "npx agentscamp add skills/load-test-designer"
+    },
+    {
       "id": "skills/mcp-server-scaffolder",
       "type": "skill",
       "slug": "mcp-server-scaffolder",
@@ -3555,6 +4659,34 @@
       "install": "npx agentscamp add skills/mcp-server-scaffolder"
     },
     {
+      "id": "skills/memory-leak-hunter",
+      "type": "skill",
+      "slug": "memory-leak-hunter",
+      "category": "performance",
+      "title": "Memory Leak Hunter",
+      "description": "Find and fix a memory leak in a running app: confirm it's a real leak under steady load, diff two heap snapshots to name the growing object and its retention path, cut the root reference that blocks collection, and re-run to confirm memory plateaus. Use when RSS climbs until OOM/restart, heap grows unbounded across a steady workload, or GC pauses worsen the longer the process runs.",
+      "topics": [
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/skills/performance/memory-leak-hunter",
+      "file": "skills/memory-leak-hunter/SKILL.md",
+      "install": "npx agentscamp add skills/memory-leak-hunter"
+    },
+    {
+      "id": "skills/migration-writer",
+      "type": "skill",
+      "slug": "migration-writer",
+      "category": "database",
+      "title": "Migration Writer",
+      "description": "Write a safe, reversible, zero-downtime database migration using expand-contract — add the new shape, backfill in batches, switch reads/writes, then drop the old — so every deploy stays compatible with the running app version. Use when adding or changing schema on a live system, renaming/dropping a column, adding NOT NULL or a foreign key on a large table, or when a migration risks locks, table rewrites, or an unrevertable step.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/database/migration-writer",
+      "file": "skills/migration-writer/SKILL.md",
+      "install": "npx agentscamp add skills/migration-writer"
+    },
+    {
       "id": "skills/mock-data-factory",
       "type": "skill",
       "slug": "mock-data-factory",
@@ -3567,6 +4699,20 @@
       "url": "https://agentscamp.com/skills/testing/mock-data-factory",
       "file": "skills/mock-data-factory/SKILL.md",
       "install": "npx agentscamp add skills/mock-data-factory"
+    },
+    {
+      "id": "skills/model-router-designer",
+      "type": "skill",
+      "slug": "model-router-designer",
+      "category": "data",
+      "title": "Model Router Designer",
+      "description": "Design a model router that sends each LLM request to the cheapest model that can handle it and escalates only the hard cases to the strongest — cutting cost and latency without tanking quality, gated by an eval set so the savings don't come from silently worse answers. Use when one expensive model serves all traffic (most of it easy), when LLM cost or latency is too high, or when balancing quality against spend across a range of request difficulty.",
+      "topics": [
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/skills/data/model-router-designer",
+      "file": "skills/model-router-designer/SKILL.md",
+      "install": "npx agentscamp add skills/model-router-designer"
     },
     {
       "id": "skills/multimodal-document-extractor",
@@ -3584,6 +4730,34 @@
       "install": "npx agentscamp add skills/multimodal-document-extractor"
     },
     {
+      "id": "skills/mutation-test-runner",
+      "type": "skill",
+      "slug": "mutation-test-runner",
+      "category": "testing",
+      "title": "Mutation Test Runner",
+      "description": "Measure whether a test suite actually catches bugs by running mutation testing — introduce small faults into the code and check which ones a test kills versus which slip through silently. Use when line coverage is high but bugs still ship, when you suspect tests assert weakly, or to find the exact assertions a suite is missing.",
+      "topics": [
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/skills/testing/mutation-test-runner",
+      "file": "skills/mutation-test-runner/SKILL.md",
+      "install": "npx agentscamp add skills/mutation-test-runner"
+    },
+    {
+      "id": "skills/onboarding-guide-writer",
+      "type": "skill",
+      "slug": "onboarding-guide-writer",
+      "category": "docs",
+      "title": "Onboarding Guide Writer",
+      "description": "Write a developer onboarding guide that gets a new contributor from clone to first merged change fast — a verified golden path, a quick architecture map, the real workflow conventions, and the gotchas that live only in senior engineers' heads. Use when a repo has no onboarding doc, when new hires keep asking the same setup questions, or when the README is a marketing page instead of a contributor guide.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/docs/onboarding-guide-writer",
+      "file": "skills/onboarding-guide-writer/SKILL.md",
+      "install": "npx agentscamp add skills/onboarding-guide-writer"
+    },
+    {
       "id": "skills/openapi-doc-writer",
       "type": "skill",
       "slug": "openapi-doc-writer",
@@ -3596,6 +4770,20 @@
       "url": "https://agentscamp.com/skills/docs/openapi-doc-writer",
       "file": "skills/openapi-doc-writer/SKILL.md",
       "install": "npx agentscamp add skills/openapi-doc-writer"
+    },
+    {
+      "id": "skills/pagination-designer",
+      "type": "skill",
+      "slug": "pagination-designer",
+      "category": "api",
+      "title": "Pagination Designer",
+      "description": "Design correct, scalable pagination (plus the filtering and sorting that ride with it) for a list endpoint — pick cursor (keyset) vs offset and justify it, define an opaque cursor with a unique tiebreaker so no row is skipped or repeated, return a consistent envelope, bound page size, and name the indexes the sort actually needs. Use when adding a list endpoint, when OFFSET pagination crawls on a large table, or when clients see duplicate or missing rows while paging.",
+      "topics": [
+        "architecture"
+      ],
+      "url": "https://agentscamp.com/skills/api/pagination-designer",
+      "file": "skills/pagination-designer/SKILL.md",
+      "install": "npx agentscamp add skills/pagination-designer"
     },
     {
       "id": "skills/plugin-scaffolder",
@@ -3682,6 +4870,35 @@
       "install": "npx agentscamp add skills/prompt-pii-redactor"
     },
     {
+      "id": "skills/prompt-regression-tester",
+      "type": "skill",
+      "slug": "prompt-regression-tester",
+      "category": "data",
+      "title": "Prompt Regression Tester",
+      "description": "Build a regression test harness for an LLM prompt so a prompt edit or model upgrade can't silently degrade quality — a fixed eval set, checkable assertions, and a diff against a committed baseline. Use when changing a production prompt, migrating model versions, or any time 'I tweaked the prompt' needs to be backed by evidence instead of eyeballing two outputs.",
+      "topics": [
+        "llm-evals",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/data/prompt-regression-tester",
+      "file": "skills/prompt-regression-tester/SKILL.md",
+      "install": "npx agentscamp add skills/prompt-regression-tester"
+    },
+    {
+      "id": "skills/property-test-designer",
+      "type": "skill",
+      "slug": "property-test-designer",
+      "category": "testing",
+      "title": "Property Test Designer",
+      "description": "Design property-based tests — generate hundreds of random inputs and assert invariants that must hold for ALL of them — to surface the edge cases hand-picked examples never reach. Use when code has a large input space (parsers, serializers, encoders, math, data transforms), when a bug keeps slipping through despite green example tests, or when you can't enumerate every case worth checking.",
+      "topics": [
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/skills/testing/property-test-designer",
+      "file": "skills/property-test-designer/SKILL.md",
+      "install": "npx agentscamp add skills/property-test-designer"
+    },
+    {
       "id": "skills/provider-fallback-wrapper",
       "type": "skill",
       "slug": "provider-fallback-wrapper",
@@ -3710,6 +4927,64 @@
       "install": "npx agentscamp add skills/qlora-finetune-runner"
     },
     {
+      "id": "skills/query-plan-analyzer",
+      "type": "skill",
+      "slug": "query-plan-analyzer",
+      "category": "database",
+      "title": "Query Plan Analyzer",
+      "description": "Read a slow query's execution plan and turn it into a concrete fix — the exact index to add, the rewrite, or the ANALYZE to run — by getting the REAL plan with EXPLAIN ANALYZE (actual rows + timing, not estimates), finding the offending node, and confirming the fix removes it. Use when one specific query is slow and you need to know WHY, not just that it is.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/database/query-plan-analyzer",
+      "file": "skills/query-plan-analyzer/SKILL.md",
+      "install": "npx agentscamp add skills/query-plan-analyzer"
+    },
+    {
+      "id": "skills/rate-limiter-designer",
+      "type": "skill",
+      "slug": "rate-limiter-designer",
+      "category": "api",
+      "title": "Rate Limiter Designer",
+      "description": "Design and implement API rate limiting that actually holds under load — pick the algorithm (token bucket vs sliding-window-counter vs fixed window) and justify it, choose the limiting key and per-tier limits, use cross-instance atomic storage, and return standard 429 signals. Use when protecting an API from abuse or scrapers, enforcing per-tier quotas, or replacing an in-memory limiter that breaks behind multiple replicas.",
+      "topics": [
+        "architecture",
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/api/rate-limiter-designer",
+      "file": "skills/rate-limiter-designer/SKILL.md",
+      "install": "npx agentscamp add skills/rate-limiter-designer"
+    },
+    {
+      "id": "skills/rbac-designer",
+      "type": "skill",
+      "slug": "rbac-designer",
+      "category": "security",
+      "title": "RBAC Designer",
+      "description": "Design the authorization model itself — fine-grained permissions on resources composed into roles, with the right amount of resource/tenant scoping — instead of scattering role-name checks through handlers. Use when building multi-user or multi-tenant authorization, when `if user.isAdmin` checks are sprawling across the codebase, or when 'who can do what' needs a real model rather than ad-hoc gates.",
+      "topics": [
+        "architecture"
+      ],
+      "url": "https://agentscamp.com/skills/security/rbac-designer",
+      "file": "skills/rbac-designer/SKILL.md",
+      "install": "npx agentscamp add skills/rbac-designer"
+    },
+    {
+      "id": "skills/react-render-profiler",
+      "type": "skill",
+      "slug": "react-render-profiler",
+      "category": "performance",
+      "title": "React Render Profiler",
+      "description": "Find and fix wasteful React re-renders by classifying the cause — unstable prop/callback/object identities, context value churn, state lifted too high, expensive work in render, or unvirtualized lists — confirming it with a measurement, then applying the one targeted fix and re-measuring. Use when a React UI is janky, slow to type in, or re-renders far more than the data actually changed.",
+      "topics": [
+        "coding-languages",
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/skills/performance/react-render-profiler",
+      "file": "skills/react-render-profiler/SKILL.md",
+      "install": "npx agentscamp add skills/react-render-profiler"
+    },
+    {
       "id": "skills/readme-generator",
       "type": "skill",
       "slug": "readme-generator",
@@ -3722,6 +4997,34 @@
       "url": "https://agentscamp.com/skills/docs/readme-generator",
       "file": "skills/readme-generator/SKILL.md",
       "install": "npx agentscamp add skills/readme-generator"
+    },
+    {
+      "id": "skills/release-notes-writer",
+      "type": "skill",
+      "slug": "release-notes-writer",
+      "category": "release",
+      "title": "Release Notes Writer",
+      "description": "Write user-facing release notes — the curated 'what's new and what it means for you' — by starting from the real changes (git log / merged PRs / the changelog since the last release) and translating developer-speak into user impact, grouped by what the user cares about with breaking changes and required actions surfaced first. Use when shipping a release to users or customers and the raw commit log isn't something a user should read, when you need a published GitHub-release / blog / in-app announcement, or when a breaking change must be made unmissable so upgrades don't break.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/release/release-notes-writer",
+      "file": "skills/release-notes-writer/SKILL.md",
+      "install": "npx agentscamp add skills/release-notes-writer"
+    },
+    {
+      "id": "skills/runbook-writer",
+      "type": "skill",
+      "slug": "runbook-writer",
+      "category": "docs",
+      "title": "Runbook Writer",
+      "description": "Write an operational runbook a half-asleep on-call engineer can execute at 3am — scoped to ONE alert, leading with how to confirm the problem, the copy-pasteable mitigation that stops user pain, then diagnosis, escalation, and verification. Use when an alert has no documented response, after an incident exposed a missing procedure, or when standing up on-call for a service.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/docs/runbook-writer",
+      "file": "skills/runbook-writer/SKILL.md",
+      "install": "npx agentscamp add skills/runbook-writer"
     },
     {
       "id": "skills/secret-scanner",
@@ -3738,6 +5041,62 @@
       "install": "npx agentscamp add skills/secret-scanner"
     },
     {
+      "id": "skills/security-headers-hardener",
+      "type": "skill",
+      "slug": "security-headers-hardener",
+      "category": "security",
+      "title": "Security Headers Hardener",
+      "description": "Audit and harden a web app's or API's HTTP security headers — Content-Security-Policy, HSTS, X-Content-Type-Options, frame-ancestors, Referrer-Policy, Permissions-Policy, and CORS — and produce a staged rollout that won't break the site. Use before a launch, during a security pass, or when a scanner (Mozilla Observatory, securityheaders.com, a pentest) flags missing or weak headers. Audits and edits header config; rolls CSP out Report-Only first.",
+      "topics": [
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/skills/security/security-headers-hardener",
+      "file": "skills/security-headers-hardener/SKILL.md",
+      "install": "npx agentscamp add skills/security-headers-hardener"
+    },
+    {
+      "id": "skills/semantic-cache-designer",
+      "type": "skill",
+      "slug": "semantic-cache-designer",
+      "category": "data",
+      "title": "Semantic Cache Designer",
+      "description": "Design a semantic cache for LLM responses — serve a cached answer when a new query is similar enough to a past one — to cut cost and latency on repetitive traffic, with the similarity threshold calibrated on real query pairs and a cache key that prevents cross-user/model leaks. Use when an LLM app sees many near-duplicate prompts (FAQs, support, search), when token spend on repetitive queries is high, or when latency on common questions matters.",
+      "topics": [
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/skills/data/semantic-cache-designer",
+      "file": "skills/semantic-cache-designer/SKILL.md",
+      "install": "npx agentscamp add skills/semantic-cache-designer"
+    },
+    {
+      "id": "skills/semver-advisor",
+      "type": "skill",
+      "slug": "semver-advisor",
+      "category": "release",
+      "title": "SemVer Advisor",
+      "description": "Decide the correct semantic-version bump — major, minor, or patch — by diffing a release range, mapping the changes onto the public API surface, and classifying each as breaking, additive, or a fix. Use before cutting a release when you are unsure whether changes are breaking, when a teammate proposes a bump you want to sanity-check, or when a behavior change has no signature change and you need to know if it is still breaking.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/release/semver-advisor",
+      "file": "skills/semver-advisor/SKILL.md",
+      "install": "npx agentscamp add skills/semver-advisor"
+    },
+    {
+      "id": "skills/slo-definer",
+      "type": "skill",
+      "slug": "slo-definer",
+      "category": "observability",
+      "title": "SLO Definer",
+      "description": "Turn a vague reliability goal into concrete SLIs, SLOs, an error budget, and burn-rate alerts — service-level indicators measured at the user-facing boundary, targets over a rolling window, and a written policy for what happens when the budget runs out. Use when a service has no defined reliability target, when on-call is noisy and alert-fatigued, or before you commit to an SLA you can't measure.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/observability/slo-definer",
+      "file": "skills/slo-definer/SKILL.md",
+      "install": "npx agentscamp add skills/slo-definer"
+    },
+    {
       "id": "skills/sql-optimizer",
       "type": "skill",
       "slug": "sql-optimizer",
@@ -3750,6 +5109,34 @@
       "url": "https://agentscamp.com/skills/data/sql-optimizer",
       "file": "skills/sql-optimizer/SKILL.md",
       "install": "npx agentscamp add skills/sql-optimizer"
+    },
+    {
+      "id": "skills/strangler-fig-migrator",
+      "type": "skill",
+      "slug": "strangler-fig-migrator",
+      "category": "refactor",
+      "title": "Strangler Fig Migrator",
+      "description": "Plan the incremental replacement of a legacy module or service using the strangler-fig pattern — grow new code around the old behind an interception seam until the old is dead, instead of a big-bang rewrite. Use when a legacy system is too risky to rewrite at once, or when migrating off a deprecated framework/dependency gradually while staying shippable and rollback-able at every step.",
+      "topics": [
+        "architecture"
+      ],
+      "url": "https://agentscamp.com/skills/refactor/strangler-fig-migrator",
+      "file": "skills/strangler-fig-migrator/SKILL.md",
+      "install": "npx agentscamp add skills/strangler-fig-migrator"
+    },
+    {
+      "id": "skills/structured-logging-designer",
+      "type": "skill",
+      "slug": "structured-logging-designer",
+      "category": "observability",
+      "title": "Structured Logging Designer",
+      "description": "Design a structured (JSON) logging strategy with a stable field schema, correlation-ID propagation, and a disciplined level policy — then migrate ad-hoc string logs toward it. Use when logs are unsearchable plain text, when debugging a request across services means grepping multiple log streams by hand, or when standing up logging for a new service.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/observability/structured-logging-designer",
+      "file": "skills/structured-logging-designer/SKILL.md",
+      "install": "npx agentscamp add skills/structured-logging-designer"
     },
     {
       "id": "skills/test-scaffolder",
@@ -3766,6 +5153,34 @@
       "install": "npx agentscamp add skills/test-scaffolder"
     },
     {
+      "id": "skills/threat-model-builder",
+      "type": "skill",
+      "slug": "threat-model-builder",
+      "category": "security",
+      "title": "Threat Model Builder",
+      "description": "Build a practical threat model for a feature or system using STRIDE — diagram the data flow, mark trust boundaries, enumerate concrete threats where data crosses them, and prioritize by likelihood × impact so security is reasoned about before shipping instead of bolted on after. Use when designing a feature that touches auth, money, or sensitive data, running a security design review, or hardening before a launch.",
+      "topics": [
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/skills/security/threat-model-builder",
+      "file": "skills/threat-model-builder/SKILL.md",
+      "install": "npx agentscamp add skills/threat-model-builder"
+    },
+    {
+      "id": "skills/token-usage-profiler",
+      "type": "skill",
+      "slug": "token-usage-profiler",
+      "category": "data",
+      "title": "Token Usage Profiler",
+      "description": "Measure and attribute LLM token usage and cost across an app — input vs output tokens by feature, route, model, and tenant — then rank the waste and the specific lever to cut it. Use when LLM spend is high or climbing with no clear cause, before scaling a feature that calls a model, or when you need per-feature or per-tenant cost attribution for billing or budgets.",
+      "topics": [
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/skills/data/token-usage-profiler",
+      "file": "skills/token-usage-profiler/SKILL.md",
+      "install": "npx agentscamp add skills/token-usage-profiler"
+    },
+    {
       "id": "skills/tool-definition-generator",
       "type": "skill",
       "slug": "tool-definition-generator",
@@ -3780,6 +5195,34 @@
       "install": "npx agentscamp add skills/tool-definition-generator"
     },
     {
+      "id": "skills/type-coverage-improver",
+      "type": "skill",
+      "slug": "type-coverage-improver",
+      "category": "refactor",
+      "title": "Type Coverage Improver",
+      "description": "Raise TypeScript type strictness incrementally — measure the any/implicit-any baseline, enable one strict sub-flag at a time, and fix the fallout per flag instead of all at once, keeping the typecheck green at every step. Use when a codebase is loosely typed, when you want strict mode on without a big-bang break, or when `any` keeps hiding bugs that surface in production.",
+      "topics": [
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/skills/refactor/type-coverage-improver",
+      "file": "skills/type-coverage-improver/SKILL.md",
+      "install": "npx agentscamp add skills/type-coverage-improver"
+    },
+    {
+      "id": "skills/version-bumper",
+      "type": "skill",
+      "slug": "version-bumper",
+      "category": "release",
+      "title": "Version Bumper",
+      "description": "Bump the project version everywhere it lives in one consistent pass — package.json, lockfile, nested/CLI package manifests, version constants, README badges, docs — then roll the changelog's Unreleased section under the new version and stage an annotated git tag. Use when you've already decided the new version (X.Y.Z or a pre-release like -rc.1) and need every artifact updated to the same value without drift, or before cutting a release.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/release/version-bumper",
+      "file": "skills/version-bumper/SKILL.md",
+      "install": "npx agentscamp add skills/version-bumper"
+    },
+    {
       "id": "skills/web-research-pipeline",
       "type": "skill",
       "slug": "web-research-pipeline",
@@ -3792,6 +5235,34 @@
       "url": "https://agentscamp.com/skills/data/web-research-pipeline",
       "file": "skills/web-research-pipeline/SKILL.md",
       "install": "npx agentscamp add skills/web-research-pipeline"
+    },
+    {
+      "id": "skills/web-vitals-optimizer",
+      "type": "skill",
+      "slug": "web-vitals-optimizer",
+      "category": "performance",
+      "title": "Web Vitals Optimizer",
+      "description": "Diagnose and fix Core Web Vitals — LCP, CLS, and INP — by treating real-user field data at p75 as the source of truth, using Lighthouse/WebPageTest only to find the at-fault element, script, or shift, then applying the one targeted fix per metric and re-measuring. Use when a page feels slow, scores poorly on PageSpeed/Lighthouse, or fails CWV in CrUX/RUM field data.",
+      "topics": [
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/skills/performance/web-vitals-optimizer",
+      "file": "skills/web-vitals-optimizer/SKILL.md",
+      "install": "npx agentscamp add skills/web-vitals-optimizer"
+    },
+    {
+      "id": "skills/webhook-handler-scaffolder",
+      "type": "skill",
+      "slug": "webhook-handler-scaffolder",
+      "category": "api",
+      "title": "Webhook Handler Scaffolder",
+      "description": "Scaffold a robust inbound webhook handler that verifies the signature on the raw body first, dedupes on the provider's event id, acknowledges fast, and processes asynchronously — the four things naive handlers get wrong. Use when wiring up events from a third party (Stripe, GitHub, Shopify, Slack, Twilio), when a provider keeps retrying because your endpoint times out or 500s, or when duplicate events are double-charging or double-creating records.",
+      "topics": [
+        "architecture"
+      ],
+      "url": "https://agentscamp.com/skills/api/webhook-handler-scaffolder",
+      "file": "skills/webhook-handler-scaffolder/SKILL.md",
+      "install": "npx agentscamp add skills/webhook-handler-scaffolder"
     },
     {
       "id": "tools/agentops",
@@ -3811,7 +5282,7 @@
       "slug": "aider",
       "category": "cli",
       "title": "Aider",
-      "description": "AI pair programming in your terminal, with strong Git integration.",
+      "description": "Open-source terminal AI pair programmer that edits files in your Git repo and auto-commits each change, working with Claude, GPT, and other models you bring.",
       "topics": [
         "coding-languages"
       ],
@@ -3859,7 +5330,7 @@
       "slug": "assemblyai",
       "category": "voice",
       "title": "Assemblyai",
-      "description": "Speech AI platform: Universal STT models (promptable Universal-3 Pro), a flat-rate Voice Agent API, and speech understanding — summarization, sentiment, PII redaction.",
+      "description": "Speech AI platform: promptable Universal-3 Pro STT, a flat-rate Voice Agent API, and speech understanding — summarization, sentiment, PII redaction.",
       "topics": [
         "mlops-ai-infra",
         "multimodal-ai"
@@ -3889,6 +5360,19 @@
         "llm-app-dev"
       ],
       "url": "https://agentscamp.com/tools/baml"
+    },
+    {
+      "id": "tools/baseten",
+      "type": "tool",
+      "slug": "baseten",
+      "category": "platform",
+      "title": "Baseten",
+      "description": "Production inference platform for ML and LLM models — autoscaling GPU deployments, scale-to-zero, and packaging via the open-source Truss framework.",
+      "topics": [
+        "mlops-ai-infra",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/tools/baseten"
     },
     {
       "id": "tools/bolt",
@@ -4007,7 +5491,7 @@
       "slug": "cline",
       "category": "extension",
       "title": "Cline",
-      "description": "An open-source autonomous coding agent for VS Code.",
+      "description": "Open-source autonomous coding agent for VS Code that plans, edits files, and runs commands with diff approval, using any model you bring or a local runtime.",
       "topics": [
         "coding-languages"
       ],
@@ -4185,6 +5669,19 @@
       "url": "https://agentscamp.com/tools/dify"
     },
     {
+      "id": "tools/docling",
+      "type": "tool",
+      "slug": "docling",
+      "category": "sdk",
+      "title": "Docling",
+      "description": "Open-source Python library that parses PDFs, DOCX, PPTX, HTML, and images into structured Markdown and JSON with layout, tables, and reading order for RAG.",
+      "topics": [
+        "rag-retrieval",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/tools/docling"
+    },
+    {
       "id": "tools/dspy",
       "type": "tool",
       "slug": "dspy",
@@ -4202,7 +5699,7 @@
       "slug": "e2b",
       "category": "platform",
       "title": "E2b",
-      "description": "Open-source Firecracker-microVM sandboxes where AI agents safely execute untrusted code — stateful code interpreters with full Linux, pause/resume, and desktop VMs.",
+      "description": "Open-source Firecracker-microVM sandboxes where AI agents safely run untrusted code — stateful interpreters, full Linux, pause/resume, desktop VMs.",
       "topics": [
         "ai-agents-systems"
       ],
@@ -4271,6 +5768,19 @@
       "url": "https://agentscamp.com/tools/firecrawl"
     },
     {
+      "id": "tools/fireworks-ai",
+      "type": "tool",
+      "slug": "fireworks-ai",
+      "category": "platform",
+      "title": "Fireworks AI",
+      "description": "Fast production inference for open models — serverless and dedicated GPU deployments, fine-tuning, and an OpenAI-compatible API on the FireAttention engine.",
+      "topics": [
+        "mlops-ai-infra",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/tools/fireworks-ai"
+    },
+    {
       "id": "tools/gemini-cli",
       "type": "tool",
       "slug": "gemini-cli",
@@ -4332,6 +5842,19 @@
       "url": "https://agentscamp.com/tools/greptile"
     },
     {
+      "id": "tools/groq",
+      "type": "tool",
+      "slug": "groq",
+      "category": "platform",
+      "title": "Groq",
+      "description": "GroqCloud runs open-weight LLMs on custom LPU hardware for very fast, low-latency inference through an OpenAI-compatible API.",
+      "topics": [
+        "mlops-ai-infra",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/tools/groq"
+    },
+    {
       "id": "tools/helicone",
       "type": "tool",
       "slug": "helicone",
@@ -4378,6 +5901,18 @@
         "ai-agents-systems"
       ],
       "url": "https://agentscamp.com/tools/jina-reader"
+    },
+    {
+      "id": "tools/kilo-code",
+      "type": "tool",
+      "slug": "kilo-code",
+      "category": "extension",
+      "title": "Kilo Code",
+      "description": "Open-source AI coding agent extension for VS Code and JetBrains, built as a superset of Roo Code and Cline, with bring-your-own-key and zero model markup.",
+      "topics": [
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/kilo-code"
     },
     {
       "id": "tools/lancedb",
@@ -4515,6 +6050,19 @@
       "url": "https://agentscamp.com/tools/llamaindex"
     },
     {
+      "id": "tools/llamaparse",
+      "type": "tool",
+      "slug": "llamaparse",
+      "category": "platform",
+      "title": "LlamaParse",
+      "description": "Hosted document-parsing API from LlamaIndex that turns complex PDFs — tables, charts, figures, handwriting — into clean, LLM-ready Markdown for RAG.",
+      "topics": [
+        "rag-retrieval",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/tools/llamaparse"
+    },
+    {
       "id": "tools/llm-guard",
       "type": "tool",
       "slug": "llm-guard",
@@ -4549,6 +6097,19 @@
         "coding-languages"
       ],
       "url": "https://agentscamp.com/tools/lovable"
+    },
+    {
+      "id": "tools/marker",
+      "type": "tool",
+      "slug": "marker",
+      "category": "sdk",
+      "title": "Marker",
+      "description": "Open-source pipeline that converts PDFs, images, and Office docs into clean Markdown, JSON, or HTML fast, with optional LLM assist for tables and equations.",
+      "topics": [
+        "rag-retrieval",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/tools/marker"
     },
     {
       "id": "tools/mcp-inspector",
@@ -4608,7 +6169,7 @@
       "slug": "n8n",
       "category": "platform",
       "title": "N8n",
-      "description": "Fair-code workflow automation with native AI — a visual canvas plus code, 400+ integrations, and LangChain-based agent nodes; self-host free or cloud per-execution.",
+      "description": "Fair-code workflow automation with native AI: a visual canvas plus code, 400+ integrations, and LangChain agent nodes; self-host free or cloud per-run.",
       "topics": [
         "ai-agents-systems"
       ],
@@ -4673,6 +6234,18 @@
         "coding-languages"
       ],
       "url": "https://agentscamp.com/tools/opencode"
+    },
+    {
+      "id": "tools/openhands",
+      "type": "tool",
+      "slug": "openhands",
+      "category": "agent",
+      "title": "OpenHands",
+      "description": "Open-source autonomous AI software-development agent (formerly OpenDevin) — writes code, runs commands, and browses the web in a sandbox.",
+      "topics": [
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/openhands"
     },
     {
       "id": "tools/openrouter",
@@ -4793,7 +6366,7 @@
       "slug": "pydantic-ai",
       "category": "sdk",
       "title": "Pydantic AI",
-      "description": "The type-safe agent framework from the Pydantic team — validated structured outputs, dependency injection, durable execution, and 'that FastAPI feeling' for agents.",
+      "description": "Type-safe agent framework from the Pydantic team: validated structured outputs, dependency injection, durable execution, 'that FastAPI feeling.'",
       "topics": [
         "ai-agents-systems"
       ],
@@ -4850,6 +6423,32 @@
         "rag-retrieval"
       ],
       "url": "https://agentscamp.com/tools/ragas"
+    },
+    {
+      "id": "tools/reducto",
+      "type": "tool",
+      "slug": "reducto",
+      "category": "platform",
+      "title": "Reducto",
+      "description": "High-accuracy document ingestion API — parsing, agentic OCR, table and figure extraction, and splitting that turns messy PDFs into LLM-ready data for RAG.",
+      "topics": [
+        "rag-retrieval",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/tools/reducto"
+    },
+    {
+      "id": "tools/replicate",
+      "type": "tool",
+      "slug": "replicate",
+      "category": "platform",
+      "title": "Replicate",
+      "description": "Run and deploy any open ML model — LLMs, image, video, audio — through one API with pay-per-second billing, and package your own with open-source Cog.",
+      "topics": [
+        "mlops-ai-infra",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/tools/replicate"
     },
     {
       "id": "tools/replit-agent",
@@ -4954,7 +6553,7 @@
       "slug": "spec-kit",
       "category": "cli",
       "title": "Spec Kit",
-      "description": "GitHub's open-source toolkit for spec-driven development — the specify CLI and /speckit slash commands that walk any coding agent from constitution to implementation.",
+      "description": "GitHub's open-source toolkit for spec-driven development — a specify CLI and /speckit slash commands that walk any coding agent from spec to implementation.",
       "topics": [
         "workflow-prompting"
       ],
@@ -4997,6 +6596,31 @@
       "url": "https://agentscamp.com/tools/supabase-mcp"
     },
     {
+      "id": "tools/swe-agent",
+      "type": "tool",
+      "slug": "swe-agent",
+      "category": "agent",
+      "title": "Swe Agent",
+      "description": "Open-source autonomous coding agent from Princeton/Stanford that turns an LLM into a software engineer to fix real GitHub issues.",
+      "topics": [
+        "ai-agents-systems",
+        "llm-evals"
+      ],
+      "url": "https://agentscamp.com/tools/swe-agent"
+    },
+    {
+      "id": "tools/tabby",
+      "type": "tool",
+      "slug": "tabby",
+      "category": "extension",
+      "title": "Tabby",
+      "description": "Self-hosted, open-source AI coding assistant by TabbyML — run your own completion and chat models on your infrastructure, with IDE extensions.",
+      "topics": [
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/tools/tabby"
+    },
+    {
       "id": "tools/tabnine",
       "type": "tool",
       "slug": "tabnine",
@@ -5021,6 +6645,19 @@
       "url": "https://agentscamp.com/tools/tavily"
     },
     {
+      "id": "tools/together-ai",
+      "type": "tool",
+      "slug": "together-ai",
+      "category": "platform",
+      "title": "Together AI",
+      "description": "A cloud for running, fine-tuning, and deploying open-source models (Llama, DeepSeek, Qwen) via an OpenAI-compatible API plus dedicated GPU endpoints.",
+      "topics": [
+        "mlops-ai-infra",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/tools/together-ai"
+    },
+    {
       "id": "tools/unsloth",
       "type": "tool",
       "slug": "unsloth",
@@ -5031,6 +6668,19 @@
         "mlops-ai-infra"
       ],
       "url": "https://agentscamp.com/tools/unsloth"
+    },
+    {
+      "id": "tools/unstructured",
+      "type": "tool",
+      "slug": "unstructured",
+      "category": "platform",
+      "title": "Unstructured",
+      "description": "Open-source library plus hosted Platform/API that turns messy documents — PDF, HTML, docx, images, email — into clean, chunked JSON for LLMs and RAG.",
+      "topics": [
+        "rag-retrieval",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/tools/unstructured"
     },
     {
       "id": "tools/v0",
@@ -5094,6 +6744,18 @@
       "url": "https://agentscamp.com/tools/vllm"
     },
     {
+      "id": "tools/void",
+      "type": "tool",
+      "slug": "void",
+      "category": "ide",
+      "title": "Void — Open-Source AI Code Editor (VS Code Fork)",
+      "description": "Open-source AI code editor forked from VS Code, an alternative to Cursor that connects directly to your chosen model with no proprietary backend.",
+      "topics": [
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/tools/void"
+    },
+    {
       "id": "tools/voyage-ai",
       "type": "tool",
       "slug": "voyage-ai",
@@ -5117,6 +6779,19 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/tools/warp"
+    },
+    {
+      "id": "tools/wave-terminal",
+      "type": "tool",
+      "slug": "wave-terminal",
+      "category": "terminal",
+      "title": "Wave Terminal",
+      "description": "Open-source terminal that blends the CLI with inline file previews, a built-in editor, a web browser, and a context-aware AI assistant in one window.",
+      "topics": [
+        "devops-infra",
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/tools/wave-terminal"
     },
     {
       "id": "tools/weaviate",
