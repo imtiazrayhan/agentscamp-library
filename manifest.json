@@ -5,10 +5,10 @@
     "agents": 58,
     "skills": 90,
     "guides": 122,
-    "tools": 129,
+    "tools": 139,
     "commands": 50,
     "glossary": 79,
-    "total": 528
+    "total": 538
   },
   "items": [
     {
@@ -5277,6 +5277,19 @@
       "url": "https://agentscamp.com/tools/agentops"
     },
     {
+      "id": "tools/agno",
+      "type": "tool",
+      "slug": "agno",
+      "category": "sdk",
+      "title": "Agno",
+      "description": "A Python framework for building multi-agent systems with memory, knowledge, and tools — formerly Phidata, now with the AgentOS runtime.",
+      "topics": [
+        "ai-agents-systems",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/tools/agno"
+    },
+    {
       "id": "tools/aider",
       "type": "tool",
       "slug": "aider",
@@ -5336,6 +5349,19 @@
         "multimodal-ai"
       ],
       "url": "https://agentscamp.com/tools/assemblyai"
+    },
+    {
+      "id": "tools/augment-code",
+      "type": "tool",
+      "slug": "augment-code",
+      "category": "extension",
+      "title": "Augment Code",
+      "description": "AI coding assistant built for large, real-world codebases — a Context Engine that indexes the whole repo, with agents, chat, and completions in IDEs and a CLI.",
+      "topics": [
+        "coding-languages",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/augment-code"
     },
     {
       "id": "tools/autogen",
@@ -5410,6 +5436,19 @@
         "ai-agents-systems"
       ],
       "url": "https://agentscamp.com/tools/browser-use"
+    },
+    {
+      "id": "tools/browserbase",
+      "type": "tool",
+      "slug": "browserbase",
+      "category": "platform",
+      "title": "Browserbase",
+      "description": "Managed headless-browser infrastructure for AI agents and web automation — serverless cloud browsers with stealth, proxies, live view, and Playwright/Stagehand.",
+      "topics": [
+        "ai-agents-systems",
+        "mlops-ai-infra"
+      ],
+      "url": "https://agentscamp.com/tools/browserbase"
     },
     {
       "id": "tools/cartesia",
@@ -5731,6 +5770,32 @@
       "url": "https://agentscamp.com/tools/exa"
     },
     {
+      "id": "tools/factory",
+      "type": "tool",
+      "slug": "factory",
+      "category": "agent",
+      "title": "Factory",
+      "description": "Factory is an agent-native software development platform whose Droids plan, write, test, and ship code from the terminal, IDE, and web with org context.",
+      "topics": [
+        "ai-agents-systems",
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/tools/factory"
+    },
+    {
+      "id": "tools/fal",
+      "type": "tool",
+      "slug": "fal",
+      "category": "platform",
+      "title": "fal",
+      "description": "fal is a generative-media inference cloud for running image, video, and audio diffusion models fast — 1,000+ models, a simple API, and pay-per-use pricing.",
+      "topics": [
+        "mlops-ai-infra",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/tools/fal"
+    },
+    {
       "id": "tools/fastmcp",
       "type": "tool",
       "slug": "fastmcp",
@@ -5781,6 +5846,19 @@
       "url": "https://agentscamp.com/tools/fireworks-ai"
     },
     {
+      "id": "tools/flowise",
+      "type": "tool",
+      "slug": "flowise",
+      "category": "platform",
+      "title": "Flowise",
+      "description": "Open-source, low-code visual builder for LLM apps and AI agents — drag-and-drop to assemble chains, agents, and RAG; self-host or use Flowise Cloud.",
+      "topics": [
+        "ai-agents-systems",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/tools/flowise"
+    },
+    {
       "id": "tools/gemini-cli",
       "type": "tool",
       "slug": "gemini-cli",
@@ -5815,6 +5893,19 @@
         "mcp"
       ],
       "url": "https://agentscamp.com/tools/github-mcp-server"
+    },
+    {
+      "id": "tools/google-adk",
+      "type": "tool",
+      "slug": "google-adk",
+      "category": "sdk",
+      "title": "Google ADK",
+      "description": "Google's open-source, code-first framework to build, evaluate, and deploy AI agents. Python and Java, model-agnostic, deploys to Vertex AI Agent Engine.",
+      "topics": [
+        "ai-agents-systems",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/tools/google-adk"
     },
     {
       "id": "tools/goose",
@@ -6110,6 +6201,19 @@
         "data-ml"
       ],
       "url": "https://agentscamp.com/tools/marker"
+    },
+    {
+      "id": "tools/mastra",
+      "type": "tool",
+      "slug": "mastra",
+      "category": "sdk",
+      "title": "Mastra",
+      "description": "An open-source TypeScript framework for building AI agents, workflows, RAG, and tool-calling, with memory, model routing, and built-in observability.",
+      "topics": [
+        "ai-agents-systems",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/tools/mastra"
     },
     {
       "id": "tools/mcp-inspector",
@@ -6656,6 +6760,32 @@
         "llm-app-dev"
       ],
       "url": "https://agentscamp.com/tools/together-ai"
+    },
+    {
+      "id": "tools/trae",
+      "type": "tool",
+      "slug": "trae",
+      "category": "ide",
+      "title": "Trae",
+      "description": "Trae is an AI-native IDE from ByteDance — a VS Code-style editor with a built-in Builder agent and an autonomous SOLO mode that writes code across a project.",
+      "topics": [
+        "coding-languages",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/trae"
+    },
+    {
+      "id": "tools/turbopuffer",
+      "type": "tool",
+      "slug": "turbopuffer",
+      "category": "platform",
+      "title": "turbopuffer",
+      "description": "A serverless vector and full-text search database built on object storage (S3/GCS/Azure) — usage-based pricing, hybrid search, and low cost per GB at scale.",
+      "topics": [
+        "rag-retrieval",
+        "mlops-ai-infra"
+      ],
+      "url": "https://agentscamp.com/tools/turbopuffer"
     },
     {
       "id": "tools/unsloth",

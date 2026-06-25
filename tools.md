@@ -4,19 +4,22 @@
 
 Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each entry links to its canonical page.
 
-**129 tools** · [← Back to README](README.md)
+**139 tools** · [← Back to README](README.md)
 
 ## Platform
 
 - **[Baseten](https://agentscamp.com/tools/baseten)** — Production inference platform for ML and LLM models — autoscaling GPU deployments, scale-to-zero, and packaging via the open-source Truss framework.
 - **[Bolt](https://agentscamp.com/tools/bolt)** — StackBlitz's in-browser AI agent that builds, runs, and deploys full-stack web apps in a WebContainer.
+- **[Browserbase](https://agentscamp.com/tools/browserbase)** — Managed headless-browser infrastructure for AI agents and web automation — serverless cloud browsers with stealth, proxies, live view, and Playwright/Stagehand.
 - **[Cohere Rerank](https://agentscamp.com/tools/cohere-rerank)** — A hosted reranking API that reorders retrieved passages by true relevance to a query.
 - **[Daytona](https://agentscamp.com/tools/daytona)** — Sub-90ms agent sandboxes — isolated computers with snapshots, volumes, Git and LSP tools, on Linux, Windows, or Android; AGPL self-host or managed cloud.
 - **[Dify](https://agentscamp.com/tools/dify)** — The visual platform for LLM apps and agentic workflows — canvas-built chatflows, RAG pipeline, agent nodes with 50+ tools, and LLMOps, self-hosted via Docker.
 - **[E2b](https://agentscamp.com/tools/e2b)** — Open-source Firecracker-microVM sandboxes where AI agents safely run untrusted code — stateful interpreters, full Linux, pause/resume, desktop VMs.
 - **[Exa](https://agentscamp.com/tools/exa)** — The search engine built for AIs — semantic web search, page contents, Websets, and research APIs, plus the ecosystem's most-used search MCP server.
+- **[fal](https://agentscamp.com/tools/fal)** — fal is a generative-media inference cloud for running image, video, and audio diffusion models fast — 1,000+ models, a simple API, and pay-per-use pricing.
 - **[Firecrawl](https://agentscamp.com/tools/firecrawl)** — The API to search, scrape, and crawl the web for AI — clean Markdown out of any site, LLM-powered extraction, and a first-class MCP server.
 - **[Fireworks AI](https://agentscamp.com/tools/fireworks-ai)** — Fast production inference for open models — serverless and dedicated GPU deployments, fine-tuning, and an OpenAI-compatible API on the FireAttention engine.
+- **[Flowise](https://agentscamp.com/tools/flowise)** — Open-source, low-code visual builder for LLM apps and AI agents — drag-and-drop to assemble chains, agents, and RAG; self-host or use Flowise Cloud.
 - **[Groq](https://agentscamp.com/tools/groq)** — GroqCloud runs open-weight LLMs on custom LPU hardware for very fast, low-latency inference through an OpenAI-compatible API.
 - **[Jan](https://agentscamp.com/tools/jan)** — An open-source ChatGPT alternative that runs fully offline — a polished desktop app over llama.cpp with a model hub, MCP support, and a local API server.
 - **[Jina Reader](https://agentscamp.com/tools/jina-reader)** — Prepend r.jina.ai/ to any URL and get LLM-ready markdown — JS rendering, PDFs and Office docs, image captioning, and s.jina.ai for read-the-results search.
@@ -39,6 +42,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each en
 - **[Smithery](https://agentscamp.com/tools/smithery)** — A registry and hosting platform for Model Context Protocol servers — discover, deploy, and connect MCP servers from one place.
 - **[Tavily](https://agentscamp.com/tools/tavily)** — The web-access layer for agents — Search, Extract, Crawl, Map, and Research APIs purpose-built for LLMs, behind one key, with a hosted MCP server.
 - **[Together AI](https://agentscamp.com/tools/together-ai)** — A cloud for running, fine-tuning, and deploying open-source models (Llama, DeepSeek, Qwen) via an OpenAI-compatible API plus dedicated GPU endpoints.
+- **[turbopuffer](https://agentscamp.com/tools/turbopuffer)** — A serverless vector and full-text search database built on object storage (S3/GCS/Azure) — usage-based pricing, hybrid search, and low cost per GB at scale.
 - **[Unstructured](https://agentscamp.com/tools/unstructured)** — Open-source library plus hosted Platform/API that turns messy documents — PDF, HTML, docx, images, email — into clean, chunked JSON for LLMs and RAG.
 - **[V0](https://agentscamp.com/tools/v0)** — Vercel's generative UI builder that turns prompts into production-ready React, Next.js, and shadcn/ui apps.
 - **[Vercel Sandbox](https://agentscamp.com/tools/vercel-sandbox)** — Ephemeral Firecracker microVMs on Vercel for untrusted and AI-generated code — millisecond startup, Node and Python runtimes, persistent by default.
@@ -48,6 +52,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each en
 
 ## SDK
 
+- **[Agno](https://agentscamp.com/tools/agno)** — A Python framework for building multi-agent systems with memory, knowledge, and tools — formerly Phidata, now with the AgentOS runtime.
 - **[AutoGen (AG2)](https://agentscamp.com/tools/autogen)** — A multi-agent conversation framework where agents collaborate via message-passing, with group chat and code execution.
 - **[BAML](https://agentscamp.com/tools/baml)** — A domain-specific language for type-safe LLM functions, with generated clients and schema-aligned parsing.
 - **[Browser Use](https://agentscamp.com/tools/browser-use)** — The most-adopted open-source browser-agent framework — point an LLM at a task and it drives a real browser: navigating, clicking, typing, extracting.
@@ -58,6 +63,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each en
 - **[Docling](https://agentscamp.com/tools/docling)** — Open-source Python library that parses PDFs, DOCX, PPTX, HTML, and images into structured Markdown and JSON with layout, tables, and reading order for RAG.
 - **[DSPy](https://agentscamp.com/tools/dspy)** — Program language models instead of prompting them: declare tasks as typed signatures and let optimizers compile the prompts and few-shot examples for you.
 - **[FastMCP](https://agentscamp.com/tools/fastmcp)** — A Pythonic framework for building Model Context Protocol servers and clients — decorator-based tools, resources, and prompts, with auth and deployment built in.
+- **[Google ADK](https://agentscamp.com/tools/google-adk)** — Google's open-source, code-first framework to build, evaluate, and deploy AI agents. Python and Java, model-agnostic, deploys to Vertex AI Agent Engine.
 - **[Instructor](https://agentscamp.com/tools/instructor)** — Get structured, validated output from LLMs using plain type definitions, with automatic retries on validation failure.
 - **[LanceDB](https://agentscamp.com/tools/lancedb)** — An open-source embedded vector database built on the Lance columnar format — serverless, multimodal, and designed to scale on local disk or object storage.
 - **[Langchain](https://agentscamp.com/tools/langchain)** — The provider-agnostic agent framework, post-1.0: a standard create_agent loop on the LangGraph runtime, middleware hooks, and the largest integration ecosystem.
@@ -66,6 +72,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each en
 - **[Llamaindex](https://agentscamp.com/tools/llamaindex)** — The data framework for LLM apps — ingestion, indexing, query engines, and document agents — now centered on document processing with LlamaParse and LlamaCloud.
 - **[LLM Guard](https://agentscamp.com/tools/llm-guard)** — An open-source security toolkit of input and output scanners for LLM apps — prompt injection, PII/anonymize, secrets, toxicity, and more, from Protect AI.
 - **[Marker](https://agentscamp.com/tools/marker)** — Open-source pipeline that converts PDFs, images, and Office docs into clean Markdown, JSON, or HTML fast, with optional LLM assist for tables and equations.
+- **[Mastra](https://agentscamp.com/tools/mastra)** — An open-source TypeScript framework for building AI agents, workflows, RAG, and tool-calling, with memory, model routing, and built-in observability.
 - **[Mem0](https://agentscamp.com/tools/mem0)** — A memory layer for AI agents and apps — persistent, personalized long-term memory across sessions.
 - **[NeMo Guardrails](https://agentscamp.com/tools/nemo-guardrails)** — NVIDIA's open-source toolkit for adding programmable guardrails to LLM apps — input, dialog, retrieval, and output rails defined in the Colang language.
 - **[OpenAI Agents SDK](https://agentscamp.com/tools/openai-agents-sdk)** — OpenAI's lightweight, open-source framework for agents — handoffs, guardrails, sessions, and built-in tracing.
@@ -109,6 +116,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each en
 
 ## Extension
 
+- **[Augment Code](https://agentscamp.com/tools/augment-code)** — AI coding assistant built for large, real-world codebases — a Context Engine that indexes the whole repo, with agents, chat, and completions in IDEs and a CLI.
 - **[Cline](https://agentscamp.com/tools/cline)** — Open-source autonomous coding agent for VS Code that plans, edits files, and runs commands with diff approval, using any model you bring or a local runtime.
 - **[Cody](https://agentscamp.com/tools/cody)** — Sourcegraph's AI coding assistant for the IDE, grounded in deep codebase context.
 - **[Continue](https://agentscamp.com/tools/continue)** — An open-source IDE extension for building custom AI coding assistants.
@@ -133,6 +141,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each en
 
 - **[Amp](https://agentscamp.com/tools/amp)** — Sourcegraph's agentic coding tool — a CLI and editor extensions tuned for frontier-model coding.
 - **[Devin](https://agentscamp.com/tools/devin)** — Cognition's autonomous AI software engineer that works in its own cloud workspace with an editor, terminal, and browser.
+- **[Factory](https://agentscamp.com/tools/factory)** — Factory is an agent-native software development platform whose Droids plan, write, test, and ship code from the terminal, IDE, and web with org context.
 - **[Goose](https://agentscamp.com/tools/goose)** — Block's open-source, on-machine AI agent that is MCP-native and model-agnostic, with a CLI and desktop app.
 - **[OpenHands](https://agentscamp.com/tools/openhands)** — Open-source autonomous AI software-development agent (formerly OpenDevin) — writes code, runs commands, and browses the web in a sandbox.
 - **[Swe Agent](https://agentscamp.com/tools/swe-agent)** — Open-source autonomous coding agent from Princeton/Stanford that turns an LLM into a software engineer to fix real GitHub issues.
@@ -141,6 +150,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each en
 
 - **[Google Antigravity](https://agentscamp.com/tools/antigravity)** — Google's agentic development platform — an agent-first IDE and Manager surface where multiple agents work across editor, terminal, and browser, on Gemini 3.
 - **[Cursor](https://agentscamp.com/tools/cursor)** — An AI-first code editor built on VS Code with deep in-editor agent features, parallel agents, in-house Composer models, and a plugin marketplace.
+- **[Trae](https://agentscamp.com/tools/trae)** — Trae is an AI-native IDE from ByteDance — a VS Code-style editor with a built-in Builder agent and an autonomous SOLO mode that writes code across a project.
 - **[Void — Open-Source AI Code Editor (VS Code Fork)](https://agentscamp.com/tools/void)** — Open-source AI code editor forked from VS Code, an alternative to Cursor that connects directly to your chosen model with no proprietary backend.
 - **[Devin Desktop (formerly Windsurf)](https://agentscamp.com/tools/windsurf)** — An agentic IDE — formerly Windsurf, now Devin Desktop from Cognition AI — with flows that take multi-step actions across your codebase.
 - **[Zed](https://agentscamp.com/tools/zed)** — A high-performance, multiplayer code editor with built-in AI assistance.

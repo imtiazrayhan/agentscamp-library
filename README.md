@@ -23,11 +23,11 @@ Replace `agents/<slug>` with any id from the catalogs below (e.g. `skills/<slug>
 | [Agents](agents.md) | 58 | Specialized subagents for focused work |
 | [Skills](skills.md) | 90 | Reusable capabilities Claude loads on demand |
 | [Guides](guides.md) | 122 | Tutorials and deep-dives |
-| [Tools](tools.md) | 129 | The AI tooling directory |
+| [Tools](tools.md) | 139 | The AI tooling directory |
 | [Commands](commands.md) | 50 | Slash commands for Claude Code |
 | [Glossary](glossary.md) | 79 | AI terms, defined precisely |
 
-**528 items**, all linking back to their canonical pages on [AgentsCamp](https://agentscamp.com).
+**538 items**, all linking back to their canonical pages on [AgentsCamp](https://agentscamp.com).
 
 ## Catalogs
 
