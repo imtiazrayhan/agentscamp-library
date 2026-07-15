@@ -4,7 +4,7 @@
 
 Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agentscamp) CLI (`-g` installs to `~/.claude/` instead of the current project), or open the linked file and copy it into your `.claude/commands/` directory. Each entry links to its full page on [AgentsCamp](https://agentscamp.com).
 
-**50 commands** · [← Back to README](README.md)
+**53 commands** · [← Back to README](README.md)
 
 ## Scaffold
 
@@ -14,6 +14,8 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
   [↗ Page](https://agentscamp.com/commands/scaffold/add-streaming-endpoint) · `npx agentscamp add commands/add-streaming-endpoint`
 - **[New Component](commands/new-component.md)** — Scaffold a new UI component matching the project conventions.
   [↗ Page](https://agentscamp.com/commands/scaffold/new-component) · `npx agentscamp add commands/new-component`
+- **[Scaffold CLI Command](commands/scaffold-cli.md)** — Scaffold a new subcommand for an existing CLI (or a minimal new CLI) in the project's language — flag/argument parsing, --help text, input validation, and correct exit codes — matching the framework and conventions already in use.
+  [↗ Page](https://agentscamp.com/commands/scaffold/scaffold-cli) · `npx agentscamp add commands/scaffold-cli`
 - **[Scaffold Dockerfile](commands/scaffold-dockerfile.md)** — Scaffold a production-grade multi-stage Dockerfile and .dockerignore for the current project.
   [↗ Page](https://agentscamp.com/commands/scaffold/scaffold-dockerfile) · `npx agentscamp add commands/scaffold-dockerfile`
 - **[Scaffold GitHub Action](commands/scaffold-github-action.md)** — Scaffold a hardened GitHub Actions workflow for a stated goal, wired to the project's real test/lint/build commands.
@@ -33,6 +35,8 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
   [↗ Page](https://agentscamp.com/commands/git/create-pr) · `npx agentscamp add commands/create-pr`
 - **[Git Bisect](commands/git-bisect.md)** — Drive git bisect to find the exact commit that introduced a regression.
   [↗ Page](https://agentscamp.com/commands/git/git-bisect) · `npx agentscamp add commands/git-bisect`
+- **[Git Undo](commands/git-undo.md)** — Safely reverse the last Git operation in the current repo — pick the right tool (restore, reset --soft/--mixed, revert, or reflog recovery) based on what happened and whether it was already pushed, and confirm before anything destructive.
+  [↗ Page](https://agentscamp.com/commands/git/git-undo) · `npx agentscamp add commands/git-undo`
 - **[Resolve Merge Conflicts](commands/resolve-conflict.md)** — Walk through resolving the in-progress merge, rebase, or cherry-pick conflict in the current repo by understanding both sides, then verify before continuing.
   [↗ Page](https://agentscamp.com/commands/git/resolve-conflict) · `npx agentscamp add commands/resolve-conflict`
 - **[Sync Branch](commands/sync-branch.md)** — Fetch and rebase the current branch onto its base, resolving conflicts and verifying the build.
@@ -103,6 +107,17 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
 - **[Write Design Doc](commands/write-design-doc.md)** — Explore the codebase and write a decision-oriented design doc / RFC for a feature or system change.
   [↗ Page](https://agentscamp.com/commands/plan/write-design-doc) · `npx agentscamp add commands/write-design-doc`
 
+## Refactor
+
+- **[Extract Function](commands/extract-function.md)** — Extract a code region into a well-named function and update the call site.
+  [↗ Page](https://agentscamp.com/commands/refactor/extract-function) · `npx agentscamp add commands/extract-function`
+- **[Optimize Imports](commands/optimize-imports.md)** — Remove unused imports and organize the rest in a file or directory per the project's conventions — preferring the project's own import tool where one is configured — without changing behavior.
+  [↗ Page](https://agentscamp.com/commands/refactor/optimize-imports) · `npx agentscamp add commands/optimize-imports`
+- **[Refactor](commands/refactor.md)** — Refactor the target for readability and structure without changing behavior.
+  [↗ Page](https://agentscamp.com/commands/refactor/refactor) · `npx agentscamp add commands/refactor`
+- **[Rename Symbol](commands/rename-symbol.md)** — Safely rename a symbol project-wide, distinguishing the real symbol from coincidental substring matches.
+  [↗ Page](https://agentscamp.com/commands/refactor/rename-symbol) · `npx agentscamp add commands/rename-symbol`
+
 ## Analyze
 
 - **[Audit Accessibility](commands/audit-accessibility.md)** — Audit a component or page for accessibility against WCAG — semantics, names, keyboard, ARIA, contrast, forms, motion.
@@ -129,12 +144,3 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
   [↗ Page](https://agentscamp.com/commands/docs/explain-code) · `npx agentscamp add commands/explain-code`
 - **[Update README](commands/update-readme.md)** — Update the README to reflect the current scripts, structure, and features of the repo.
   [↗ Page](https://agentscamp.com/commands/docs/update-readme) · `npx agentscamp add commands/update-readme`
-
-## Refactor
-
-- **[Extract Function](commands/extract-function.md)** — Extract a code region into a well-named function and update the call site.
-  [↗ Page](https://agentscamp.com/commands/refactor/extract-function) · `npx agentscamp add commands/extract-function`
-- **[Refactor](commands/refactor.md)** — Refactor the target for readability and structure without changing behavior.
-  [↗ Page](https://agentscamp.com/commands/refactor/refactor) · `npx agentscamp add commands/refactor`
-- **[Rename Symbol](commands/rename-symbol.md)** — Safely rename a symbol project-wide, distinguishing the real symbol from coincidental substring matches.
-  [↗ Page](https://agentscamp.com/commands/refactor/rename-symbol) · `npx agentscamp add commands/rename-symbol`

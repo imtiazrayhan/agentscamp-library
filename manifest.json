@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "source": "https://agentscamp.com",
   "counts": {
-    "agents": 58,
-    "skills": 90,
+    "agents": 61,
+    "skills": 93,
     "guides": 122,
     "tools": 139,
-    "commands": 50,
+    "commands": 53,
     "glossary": 79,
-    "total": 538
+    "total": 547
   },
   "items": [
     {
@@ -408,6 +408,20 @@
       "install": "npx agentscamp add agents/java-pro"
     },
     {
+      "id": "agents/kotlin-pro",
+      "type": "agent",
+      "slug": "kotlin-pro",
+      "category": "language-specialists",
+      "title": "Kotlin Pro",
+      "description": "Use this agent for idiomatic Kotlin — null safety, coroutines and structured concurrency, Flow, sealed classes with exhaustive when, data classes, and extension functions — on Android and the JVM. Examples — fixing a coroutine leak, replacing callbacks with Flow, removing !! null-safety holes.",
+      "topics": [
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/agents/language-specialists/kotlin-pro",
+      "file": "agents/kotlin-pro.md",
+      "install": "npx agentscamp add agents/kotlin-pro"
+    },
+    {
       "id": "agents/kubernetes-specialist",
       "type": "agent",
       "slug": "kubernetes-specialist",
@@ -547,6 +561,20 @@
       "url": "https://agentscamp.com/agents/quality-security/performance-engineer",
       "file": "agents/performance-engineer.md",
       "install": "npx agentscamp add agents/performance-engineer"
+    },
+    {
+      "id": "agents/php-pro",
+      "type": "agent",
+      "slug": "php-pro",
+      "category": "language-specialists",
+      "title": "Php Pro",
+      "description": "Use this agent for idiomatic, modern PHP 8.3+ — strict types, enums, readonly and promoted properties, Composer/PSR-4 autoloading, and safe PDO data access. Examples — modernizing a PHP 5-era class, killing an ORM N+1, hardening a query against SQL injection.",
+      "topics": [
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/agents/language-specialists/php-pro",
+      "file": "agents/php-pro.md",
+      "install": "npx agentscamp add agents/php-pro"
     },
     {
       "id": "agents/postgres-migration-engineer",
@@ -731,6 +759,20 @@
       "url": "https://agentscamp.com/agents/infrastructure-devops/sre-engineer",
       "file": "agents/sre-engineer.md",
       "install": "npx agentscamp add agents/sre-engineer"
+    },
+    {
+      "id": "agents/swift-pro",
+      "type": "agent",
+      "slug": "swift-pro",
+      "category": "language-specialists",
+      "title": "Swift Pro",
+      "description": "Use this agent for modern Swift 6 — value semantics, optionals done right, async/await and actors, Sendable/data-race safety, and idiomatic SwiftUI. Examples — fixing a data race under strict concurrency, untangling force-unwrap crashes, making a SwiftUI list scroll smoothly.",
+      "topics": [
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/agents/language-specialists/swift-pro",
+      "file": "agents/swift-pro.md",
+      "install": "npx agentscamp add agents/swift-pro"
     },
     {
       "id": "agents/system-architect",
@@ -1186,6 +1228,20 @@
       "install": "npx agentscamp add commands/git-bisect"
     },
     {
+      "id": "commands/git-undo",
+      "type": "command",
+      "slug": "git-undo",
+      "category": "git",
+      "title": "Git Undo",
+      "description": "Safely reverse the last Git operation in the current repo — pick the right tool (restore, reset --soft/--mixed, revert, or reflog recovery) based on what happened and whether it was already pushed, and confirm before anything destructive.",
+      "topics": [
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/commands/git/git-undo",
+      "file": "commands/git-undo.md",
+      "install": "npx agentscamp add commands/git-undo"
+    },
+    {
       "id": "commands/new-component",
       "type": "command",
       "slug": "new-component",
@@ -1198,6 +1254,20 @@
       "url": "https://agentscamp.com/commands/scaffold/new-component",
       "file": "commands/new-component.md",
       "install": "npx agentscamp add commands/new-component"
+    },
+    {
+      "id": "commands/optimize-imports",
+      "type": "command",
+      "slug": "optimize-imports",
+      "category": "refactor",
+      "title": "Optimize Imports",
+      "description": "Remove unused imports and organize the rest in a file or directory per the project's conventions — preferring the project's own import tool where one is configured — without changing behavior.",
+      "topics": [
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/commands/refactor/optimize-imports",
+      "file": "commands/optimize-imports.md",
+      "install": "npx agentscamp add commands/optimize-imports"
     },
     {
       "id": "commands/plan-feature",
@@ -1325,6 +1395,20 @@
       "url": "https://agentscamp.com/commands/testing/run-evals",
       "file": "commands/run-evals.md",
       "install": "npx agentscamp add commands/run-evals"
+    },
+    {
+      "id": "commands/scaffold-cli",
+      "type": "command",
+      "slug": "scaffold-cli",
+      "category": "scaffold",
+      "title": "Scaffold CLI Command",
+      "description": "Scaffold a new subcommand for an existing CLI (or a minimal new CLI) in the project's language — flag/argument parsing, --help text, input validation, and correct exit codes — matching the framework and conventions already in use.",
+      "topics": [
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/commands/scaffold/scaffold-cli",
+      "file": "commands/scaffold-cli.md",
+      "install": "npx agentscamp add commands/scaffold-cli"
     },
     {
       "id": "commands/scaffold-dockerfile",
@@ -4250,6 +4334,20 @@
       "install": "npx agentscamp add skills/conventional-commits"
     },
     {
+      "id": "skills/cors-configurator",
+      "type": "skill",
+      "slug": "cors-configurator",
+      "category": "api",
+      "title": "CORS Configurator",
+      "description": "Diagnose and fix a failing cross-origin browser request — read the exact console error, work out whether it's a simple or preflighted request, and set the minimal correct Access-Control-* response headers (including the wildcard-with-credentials trap and the OPTIONS preflight) on the server. Use when the browser blocks a fetch/XHR with a CORS error but the API itself works from curl or Postman.",
+      "topics": [
+        "architecture"
+      ],
+      "url": "https://agentscamp.com/skills/api/cors-configurator",
+      "file": "skills/cors-configurator/SKILL.md",
+      "install": "npx agentscamp add skills/cors-configurator"
+    },
+    {
       "id": "skills/coverage-gap-finder",
       "type": "skill",
       "slug": "coverage-gap-finder",
@@ -4360,6 +4458,20 @@
       "url": "https://agentscamp.com/skills/observability/distributed-tracing-instrumenter",
       "file": "skills/distributed-tracing-instrumenter/SKILL.md",
       "install": "npx agentscamp add skills/distributed-tracing-instrumenter"
+    },
+    {
+      "id": "skills/dockerfile-optimizer",
+      "type": "skill",
+      "slug": "dockerfile-optimizer",
+      "category": "workflow",
+      "title": "Dockerfile Optimizer",
+      "description": "Shrink and harden an existing Dockerfile — multi-stage builds, cache-friendly layer order, a lean pinned base image, a .dockerignore, and a non-root runtime user — without changing what the image runs. Use when an image is too large, builds are slow because the cache never hits, or a scan flags the container running as root.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/workflow/dockerfile-optimizer",
+      "file": "skills/dockerfile-optimizer/SKILL.md",
+      "install": "npx agentscamp add skills/dockerfile-optimizer"
     },
     {
       "id": "skills/embedding-index-tuner",
@@ -4572,6 +4684,20 @@
       "url": "https://agentscamp.com/skills/testing/integration-test-designer",
       "file": "skills/integration-test-designer/SKILL.md",
       "install": "npx agentscamp add skills/integration-test-designer"
+    },
+    {
+      "id": "skills/license-compliance-checker",
+      "type": "skill",
+      "slug": "license-compliance-checker",
+      "category": "security",
+      "title": "License Compliance Checker",
+      "description": "Audit the licenses of a project's dependencies for compatibility with how the project is distributed — flagging copyleft (GPL/AGPL/LGPL), missing or unknown licenses, and other obligations that conflict with your own license or SaaS/proprietary model. Use before shipping or open-sourcing, when adding a dependency, or when legal/procurement asks for a license inventory. This is a licensing review, not a vulnerability scan.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/security/license-compliance-checker",
+      "file": "skills/license-compliance-checker/SKILL.md",
+      "install": "npx agentscamp add skills/license-compliance-checker"
     },
     {
       "id": "skills/llm-as-judge-scorer",

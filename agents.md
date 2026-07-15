@@ -4,7 +4,7 @@
 
 Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agentscamp) CLI (`-g` installs to `~/.claude/` instead of the current project), or open the linked file and copy it into your `.claude/agents/` directory. Each entry links to its full page on [AgentsCamp](https://agentscamp.com).
 
-**58 agents** · [← Back to README](README.md)
+**61 agents** · [← Back to README](README.md)
 
 ## Data AI
 
@@ -51,6 +51,10 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
   [↗ Page](https://agentscamp.com/agents/language-specialists/golang-pro) · `npx agentscamp add agents/golang-pro`
 - **[Java Pro](agents/java-pro.md)** — Use this agent for idiomatic, modern Java (17/21+) — records, sealed types, pattern matching, virtual threads and structured concurrency, the Streams API, and JVM/GC performance. Examples — modernizing a legacy POJO-and-thread-pool service to records and virtual threads, diagnosing a GC pause or allocation hotspot, reviewing concurrency correctness, or fixing a Spring Boot service that blocks the wrong threads.
   [↗ Page](https://agentscamp.com/agents/language-specialists/java-pro) · `npx agentscamp add agents/java-pro`
+- **[Kotlin Pro](agents/kotlin-pro.md)** — Use this agent for idiomatic Kotlin — null safety, coroutines and structured concurrency, Flow, sealed classes with exhaustive when, data classes, and extension functions — on Android and the JVM. Examples — fixing a coroutine leak, replacing callbacks with Flow, removing !! null-safety holes.
+  [↗ Page](https://agentscamp.com/agents/language-specialists/kotlin-pro) · `npx agentscamp add agents/kotlin-pro`
+- **[Php Pro](agents/php-pro.md)** — Use this agent for idiomatic, modern PHP 8.3+ — strict types, enums, readonly and promoted properties, Composer/PSR-4 autoloading, and safe PDO data access. Examples — modernizing a PHP 5-era class, killing an ORM N+1, hardening a query against SQL injection.
+  [↗ Page](https://agentscamp.com/agents/language-specialists/php-pro) · `npx agentscamp add agents/php-pro`
 - **[Python Pro](agents/python-pro.md)** — Use this agent for idiomatic, performant Python — typing, async, packaging, and stdlib mastery. Examples — refactoring to idiomatic Python, async I/O, packaging a library.
   [↗ Page](https://agentscamp.com/agents/language-specialists/python-pro) · `npx agentscamp add agents/python-pro`
 - **[React Specialist](agents/react-specialist.md)** — Use this agent for React architecture — hooks, state, performance, Server Components, and patterns. Examples — fixing re-render issues, designing component state, adopting RSC.
@@ -59,6 +63,8 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
   [↗ Page](https://agentscamp.com/agents/language-specialists/rust-pro) · `npx agentscamp add agents/rust-pro`
 - **[SQL Pro](agents/sql-pro.md)** — Use this agent for SQL itself — correct joins and window functions, indexing, EXPLAIN plans, schema design, and safe migrations on Postgres/MySQL. Examples — making a slow query fast, designing a normalized schema, writing a reversible migration.
   [↗ Page](https://agentscamp.com/agents/language-specialists/sql-pro) · `npx agentscamp add agents/sql-pro`
+- **[Swift Pro](agents/swift-pro.md)** — Use this agent for modern Swift 6 — value semantics, optionals done right, async/await and actors, Sendable/data-race safety, and idiomatic SwiftUI. Examples — fixing a data race under strict concurrency, untangling force-unwrap crashes, making a SwiftUI list scroll smoothly.
+  [↗ Page](https://agentscamp.com/agents/language-specialists/swift-pro) · `npx agentscamp add agents/swift-pro`
 - **[Typescript Pro](agents/typescript-pro.md)** — Use this agent for advanced TypeScript — generics, type-level programming, strictness, and inference. Examples — typing a tricky API, fixing type errors, designing a type-safe library surface.
   [↗ Page](https://agentscamp.com/agents/language-specialists/typescript-pro) · `npx agentscamp add agents/typescript-pro`
 
