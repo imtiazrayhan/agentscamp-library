@@ -4,7 +4,7 @@
 
 Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agentscamp) CLI (`-g` installs to `~/.claude/` instead of the current project), or open the linked file and copy it into your `.claude/skills/` directory. Each entry links to its full page on [AgentsCamp](https://agentscamp.com).
 
-**93 skills** · [← Back to README](README.md)
+**94 skills** · [← Back to README](README.md)
 
 ## Data
 
@@ -64,27 +64,6 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
 - **[Webhook Handler Scaffolder](skills/webhook-handler-scaffolder/SKILL.md)** — Scaffold a robust inbound webhook handler that verifies the signature on the raw body first, dedupes on the provider's event id, acknowledges fast, and processes asynchronously — the four things naive handlers get wrong. Use when wiring up events from a third party (Stripe, GitHub, Shopify, Slack, Twilio), when a provider keeps retrying because your endpoint times out or 500s, or when duplicate events are double-charging or double-creating records.
   [↗ Page](https://agentscamp.com/skills/api/webhook-handler-scaffolder) · `npx agentscamp add skills/webhook-handler-scaffolder`
 
-## Security
-
-- **[Auth Flow Reviewer](skills/auth-flow-reviewer/SKILL.md)** — Read-only review of authentication AND authorization flows — session/token model, cookie flags, CSRF, token rotation, password-reset/email-verification, OAuth redirect/state, and per-route object-level access checks — for exploitable gaps. Use before shipping login/session/token code, when adding a protected route or sharing-by-URL feature, or during a security pass. Reports findings by severity with location, impact, and the concrete fix; never edits code.
-  [↗ Page](https://agentscamp.com/skills/security/auth-flow-reviewer) · `npx agentscamp add skills/auth-flow-reviewer`
-- **[Dependency Audit](skills/dependency-audit/SKILL.md)** — Audit project dependencies for known vulnerabilities and turn the raw scanner output into a triaged, prioritized upgrade plan. Use when an audit is noisy, a CVE was reported, or you need to know which advisories actually matter.
-  [↗ Page](https://agentscamp.com/skills/security/dependency-audit) · `npx agentscamp add skills/dependency-audit`
-- **[License Compliance Checker](skills/license-compliance-checker/SKILL.md)** — Audit the licenses of a project's dependencies for compatibility with how the project is distributed — flagging copyleft (GPL/AGPL/LGPL), missing or unknown licenses, and other obligations that conflict with your own license or SaaS/proprietary model. Use before shipping or open-sourcing, when adding a dependency, or when legal/procurement asks for a license inventory. This is a licensing review, not a vulnerability scan.
-  [↗ Page](https://agentscamp.com/skills/security/license-compliance-checker) · `npx agentscamp add skills/license-compliance-checker`
-- **[LLM Guardrails Designer](skills/llm-guardrails-designer/SKILL.md)** — Design input and output guardrails for an LLM app — decide what to check (injection patterns, PII, secrets, policy, schema, leakage, toxicity), place them as input vs. output rails, implement with a library like NeMo Guardrails or LLM Guard, and fail closed. Use when adding a safety/validation layer around an LLM, not relying on the prompt alone.
-  [↗ Page](https://agentscamp.com/skills/security/llm-guardrails-designer) · `npx agentscamp add skills/llm-guardrails-designer`
-- **[Prompt Pii Redactor](skills/prompt-pii-redactor/SKILL.md)** — Detect and redact PII and secrets from prompts (and logs/traces) before they reach an LLM provider — mask or tokenize emails, phone numbers, names, IDs, and API keys, reversibly where the response needs the real values back. Use when sending user or document data to a third-party model, or when LLM request logs may capture sensitive data.
-  [↗ Page](https://agentscamp.com/skills/security/prompt-pii-redactor) · `npx agentscamp add skills/prompt-pii-redactor`
-- **[RBAC Designer](skills/rbac-designer/SKILL.md)** — Design the authorization model itself — fine-grained permissions on resources composed into roles, with the right amount of resource/tenant scoping — instead of scattering role-name checks through handlers. Use when building multi-user or multi-tenant authorization, when `if user.isAdmin` checks are sprawling across the codebase, or when 'who can do what' needs a real model rather than ad-hoc gates.
-  [↗ Page](https://agentscamp.com/skills/security/rbac-designer) · `npx agentscamp add skills/rbac-designer`
-- **[Secret Scanner](skills/secret-scanner/SKILL.md)** — Scan a repo or a diff for committed secrets — API keys, tokens, private keys, .env files, and high-entropy strings — then triage real leaks from fixtures. Use before pushing, in review, or when a credential may have leaked.
-  [↗ Page](https://agentscamp.com/skills/security/secret-scanner) · `npx agentscamp add skills/secret-scanner`
-- **[Security Headers Hardener](skills/security-headers-hardener/SKILL.md)** — Audit and harden a web app's or API's HTTP security headers — Content-Security-Policy, HSTS, X-Content-Type-Options, frame-ancestors, Referrer-Policy, Permissions-Policy, and CORS — and produce a staged rollout that won't break the site. Use before a launch, during a security pass, or when a scanner (Mozilla Observatory, securityheaders.com, a pentest) flags missing or weak headers. Audits and edits header config; rolls CSP out Report-Only first.
-  [↗ Page](https://agentscamp.com/skills/security/security-headers-hardener) · `npx agentscamp add skills/security-headers-hardener`
-- **[Threat Model Builder](skills/threat-model-builder/SKILL.md)** — Build a practical threat model for a feature or system using STRIDE — diagram the data flow, mark trust boundaries, enumerate concrete threats where data crosses them, and prioritize by likelihood × impact so security is reasoned about before shipping instead of bolted on after. Use when designing a feature that touches auth, money, or sensitive data, running a security design review, or hardening before a launch.
-  [↗ Page](https://agentscamp.com/skills/security/threat-model-builder) · `npx agentscamp add skills/threat-model-builder`
-
 ## Workflow
 
 - **[Agent Memory Designer](skills/agent-memory-designer/SKILL.md)** — Design a project's CLAUDE.md and memory hierarchy by exploring the repo to learn its real build/test/lint commands, architecture, and non-obvious gotchas, then writing a concise, skimmable memory that keeps only what belongs in context. Use when onboarding a repo to Claude Code with no CLAUDE.md, or when an existing one is bloated, stale, or being ignored.
@@ -105,6 +84,29 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
   [↗ Page](https://agentscamp.com/skills/workflow/plugin-scaffolder) · `npx agentscamp add skills/plugin-scaffolder`
 - **[Prompt Optimizer](skills/prompt-optimizer/SKILL.md)** — Diagnose why a prompt underperforms and rewrite it with the technique that fixes it — clearer structure, few-shot examples, an explicit output contract, or reasoning scaffolding — returning an optimized prompt, the rationale for every change, and what to measure to confirm the lift. Use when a prompt is flaky, verbose, drifting in format, or just not good enough.
   [↗ Page](https://agentscamp.com/skills/workflow/prompt-optimizer) · `npx agentscamp add skills/prompt-optimizer`
+- **[Skill Auditor](skills/skill-auditor/SKILL.md)** — Audit an installed set of Claude Code skills for the failure modes that make them misfire — overlapping descriptions that misroute tasks, trigger phrasing that never matches, bloated bodies, missing boundaries, and over-broad tool grants — and return a prioritized fix list with rewritten descriptions. Use when a skill fires on the wrong tasks, never fires at all, or a skills folder has grown past what anyone reviews.
+  [↗ Page](https://agentscamp.com/skills/workflow/skill-auditor) · `npx agentscamp add skills/skill-auditor`
+
+## Security
+
+- **[Auth Flow Reviewer](skills/auth-flow-reviewer/SKILL.md)** — Read-only review of authentication AND authorization flows — session/token model, cookie flags, CSRF, token rotation, password-reset/email-verification, OAuth redirect/state, and per-route object-level access checks — for exploitable gaps. Use before shipping login/session/token code, when adding a protected route or sharing-by-URL feature, or during a security pass. Reports findings by severity with location, impact, and the concrete fix; never edits code.
+  [↗ Page](https://agentscamp.com/skills/security/auth-flow-reviewer) · `npx agentscamp add skills/auth-flow-reviewer`
+- **[Dependency Audit](skills/dependency-audit/SKILL.md)** — Audit project dependencies for known vulnerabilities and turn the raw scanner output into a triaged, prioritized upgrade plan. Use when an audit is noisy, a CVE was reported, or you need to know which advisories actually matter.
+  [↗ Page](https://agentscamp.com/skills/security/dependency-audit) · `npx agentscamp add skills/dependency-audit`
+- **[License Compliance Checker](skills/license-compliance-checker/SKILL.md)** — Audit the licenses of a project's dependencies for compatibility with how the project is distributed — flagging copyleft (GPL/AGPL/LGPL), missing or unknown licenses, and other obligations that conflict with your own license or SaaS/proprietary model. Use before shipping or open-sourcing, when adding a dependency, or when legal/procurement asks for a license inventory. This is a licensing review, not a vulnerability scan.
+  [↗ Page](https://agentscamp.com/skills/security/license-compliance-checker) · `npx agentscamp add skills/license-compliance-checker`
+- **[LLM Guardrails Designer](skills/llm-guardrails-designer/SKILL.md)** — Design input and output guardrails for an LLM app — decide what to check (injection patterns, PII, secrets, policy, schema, leakage, toxicity), place them as input vs. output rails, implement with a library like NeMo Guardrails or LLM Guard, and fail closed. Use when adding a safety/validation layer around an LLM, not relying on the prompt alone.
+  [↗ Page](https://agentscamp.com/skills/security/llm-guardrails-designer) · `npx agentscamp add skills/llm-guardrails-designer`
+- **[Prompt Pii Redactor](skills/prompt-pii-redactor/SKILL.md)** — Detect and redact PII and secrets from prompts (and logs/traces) before they reach an LLM provider — mask or tokenize emails, phone numbers, names, IDs, and API keys, reversibly where the response needs the real values back. Use when sending user or document data to a third-party model, or when LLM request logs may capture sensitive data.
+  [↗ Page](https://agentscamp.com/skills/security/prompt-pii-redactor) · `npx agentscamp add skills/prompt-pii-redactor`
+- **[RBAC Designer](skills/rbac-designer/SKILL.md)** — Design the authorization model itself — fine-grained permissions on resources composed into roles, with the right amount of resource/tenant scoping — instead of scattering role-name checks through handlers. Use when building multi-user or multi-tenant authorization, when `if user.isAdmin` checks are sprawling across the codebase, or when 'who can do what' needs a real model rather than ad-hoc gates.
+  [↗ Page](https://agentscamp.com/skills/security/rbac-designer) · `npx agentscamp add skills/rbac-designer`
+- **[Secret Scanner](skills/secret-scanner/SKILL.md)** — Scan a repo or a diff for committed secrets — API keys, tokens, private keys, .env files, and high-entropy strings — then triage real leaks from fixtures. Use before pushing, in review, or when a credential may have leaked.
+  [↗ Page](https://agentscamp.com/skills/security/secret-scanner) · `npx agentscamp add skills/secret-scanner`
+- **[Security Headers Hardener](skills/security-headers-hardener/SKILL.md)** — Audit and harden a web app's or API's HTTP security headers — Content-Security-Policy, HSTS, X-Content-Type-Options, frame-ancestors, Referrer-Policy, Permissions-Policy, and CORS — and produce a staged rollout that won't break the site. Use before a launch, during a security pass, or when a scanner (Mozilla Observatory, securityheaders.com, a pentest) flags missing or weak headers. Audits and edits header config; rolls CSP out Report-Only first.
+  [↗ Page](https://agentscamp.com/skills/security/security-headers-hardener) · `npx agentscamp add skills/security-headers-hardener`
+- **[Threat Model Builder](skills/threat-model-builder/SKILL.md)** — Build a practical threat model for a feature or system using STRIDE — diagram the data flow, mark trust boundaries, enumerate concrete threats where data crosses them, and prioritize by likelihood × impact so security is reasoned about before shipping instead of bolted on after. Use when designing a feature that touches auth, money, or sensitive data, running a security design review, or hardening before a launch.
+  [↗ Page](https://agentscamp.com/skills/security/threat-model-builder) · `npx agentscamp add skills/threat-model-builder`
 
 ## Performance
 

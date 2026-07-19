@@ -3,12 +3,12 @@
   "source": "https://agentscamp.com",
   "counts": {
     "agents": 61,
-    "skills": 93,
-    "guides": 122,
+    "skills": 94,
+    "guides": 128,
     "tools": 139,
     "commands": 53,
-    "glossary": 79,
-    "total": 547
+    "glossary": 80,
+    "total": 555
   },
   "items": [
     {
@@ -1673,6 +1673,19 @@
       "url": "https://agentscamp.com/glossary/agent-memory"
     },
     {
+      "id": "glossary/agent-skills",
+      "type": "glossary",
+      "slug": "agent-skills",
+      "category": "term",
+      "title": "Agent Skills",
+      "description": "Agent Skills are reusable procedures packaged as folders with a SKILL.md file — loaded by an AI agent on demand when a task matches, now an open standard.",
+      "topics": [
+        "ai-agents-systems",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/glossary/agent-skills"
+    },
+    {
       "id": "glossary/agentic-ai",
       "type": "glossary",
       "slug": "agentic-ai",
@@ -2722,6 +2735,18 @@
       "url": "https://agentscamp.com/guides/getting-started/best-claude-code-agents-skills"
     },
     {
+      "id": "guides/best-claude-skills-2026",
+      "type": "guide",
+      "slug": "best-claude-skills-2026",
+      "category": "skills",
+      "title": "The Best Claude Skills to Install in 2026",
+      "description": "A skills-only tour of the AgentsCamp library — the Claude Code skills that earn a permanent slot, organized by the job they do.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/skills/best-claude-skills-2026"
+    },
+    {
       "id": "guides/best-llm-eval-tools-2026",
       "type": "guide",
       "slug": "best-llm-eval-tools-2026",
@@ -3082,6 +3107,31 @@
       "url": "https://agentscamp.com/guides/configuration/claude-md-best-practices"
     },
     {
+      "id": "guides/claude-skills-examples",
+      "type": "guide",
+      "slug": "claude-skills-examples",
+      "category": "skills",
+      "title": "Claude Skills Examples: Annotated SKILL.md Files",
+      "description": "Real SKILL.md examples you can copy — a minimal skill, a scoped-tools skill, a bundled-script skill — with the reasoning behind each line.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/skills/claude-skills-examples"
+    },
+    {
+      "id": "guides/claude-skills-on-claude-ai-and-api",
+      "type": "guide",
+      "slug": "claude-skills-on-claude-ai-and-api",
+      "category": "skills",
+      "title": "Claude Skills on claude.ai and the API",
+      "description": "How Agent Skills work beyond Claude Code: uploading to claude.ai, the /v1/skills API with code execution, Managed Agents, and the Agent SDK.",
+      "topics": [
+        "llm-app-dev",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/guides/skills/claude-skills-on-claude-ai-and-api"
+    },
+    {
       "id": "guides/claude-vs-gpt-vs-gemini-coding",
       "type": "guide",
       "slug": "claude-vs-gpt-vs-gemini-coding",
@@ -3363,6 +3413,18 @@
         "rag-retrieval"
       ],
       "url": "https://agentscamp.com/guides/concepts/how-rag-works"
+    },
+    {
+      "id": "guides/how-to-install-claude-skills",
+      "type": "guide",
+      "slug": "how-to-install-claude-skills",
+      "category": "skills",
+      "title": "How to Install Claude Skills",
+      "description": "Every way to install Claude skills: manual copy, the agentscamp CLI, GitHub repos, plugins, team distribution, and uploading to claude.ai.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/skills/how-to-install-claude-skills"
     },
     {
       "id": "guides/human-in-the-loop-ai-workflows",
@@ -3820,6 +3882,18 @@
       "url": "https://agentscamp.com/guides/mlops/self-host-vs-api-llm"
     },
     {
+      "id": "guides/skill-md-reference",
+      "type": "guide",
+      "slug": "skill-md-reference",
+      "category": "skills",
+      "title": "The SKILL.md Reference: Every Frontmatter Field Explained",
+      "description": "A complete reference for the SKILL.md format — all frontmatter fields, naming rules, argument substitution, limits, and where skill files live.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/skills/skill-md-reference"
+    },
+    {
       "id": "guides/skills-vs-agents-vs-commands",
       "type": "guide",
       "slug": "skills-vs-agents-vs-commands",
@@ -4018,6 +4092,19 @@
         "rag-retrieval"
       ],
       "url": "https://agentscamp.com/guides/concepts/web-data-for-ai-agents"
+    },
+    {
+      "id": "guides/what-are-claude-skills",
+      "type": "guide",
+      "slug": "what-are-claude-skills",
+      "category": "skills",
+      "title": "What Are Claude Skills? The Complete Guide",
+      "description": "Claude Skills explained: what a SKILL.md is, how progressive disclosure keeps skills cheap, where they run, and how to install or write your own.",
+      "topics": [
+        "workflow-prompting",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/guides/skills/what-are-claude-skills"
     },
     {
       "id": "guides/what-is-claude-code",
@@ -5207,6 +5294,20 @@
       "url": "https://agentscamp.com/skills/release/semver-advisor",
       "file": "skills/semver-advisor/SKILL.md",
       "install": "npx agentscamp add skills/semver-advisor"
+    },
+    {
+      "id": "skills/skill-auditor",
+      "type": "skill",
+      "slug": "skill-auditor",
+      "category": "workflow",
+      "title": "Skill Auditor",
+      "description": "Audit an installed set of Claude Code skills for the failure modes that make them misfire — overlapping descriptions that misroute tasks, trigger phrasing that never matches, bloated bodies, missing boundaries, and over-broad tool grants — and return a prioritized fix list with rewritten descriptions. Use when a skill fires on the wrong tasks, never fires at all, or a skills folder has grown past what anyone reviews.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/workflow/skill-auditor",
+      "file": "skills/skill-auditor/SKILL.md",
+      "install": "npx agentscamp add skills/skill-auditor"
     },
     {
       "id": "skills/slo-definer",

@@ -4,7 +4,7 @@
 
 Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each entry links to its canonical page.
 
-**122 guides** · [← Back to README](README.md)
+**128 guides** · [← Back to README](README.md)
 
 ## Comparisons
 
@@ -54,6 +54,21 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 - **[Structured Output vs JSON Mode vs Function Calling: Which to Use in 2026](https://agentscamp.com/guides/concepts/structured-output-2026)** — The reliable ways to get typed data out of an LLM — what JSON mode, function calling, and native structured outputs each guarantee, and when to use which.
 - **[Getting Web Data into AI Agents: Search & Scraping APIs Compared](https://agentscamp.com/guides/concepts/web-data-for-ai-agents)** — The agent web-data layer — Exa for semantic search, Firecrawl for extraction at scale, Tavily for all-in-one, Jina Reader for zero-setup — and how they compose.
 
+## Skills
+
+- **[The Best Claude Skills to Install in 2026](https://agentscamp.com/guides/skills/best-claude-skills-2026)** — A skills-only tour of the AgentsCamp library — the Claude Code skills that earn a permanent slot, organized by the job they do.
+- **[Claude Code Skills: Best Practices](https://agentscamp.com/guides/skills/claude-code-skills-best-practices)** — The patterns that make Claude Code skills reliable: trigger-first descriptions, one job per skill, lean bodies, bundled scripts, and scoped tools.
+- **[Claude Skills Examples: Annotated SKILL.md Files](https://agentscamp.com/guides/skills/claude-skills-examples)** — Real SKILL.md examples you can copy — a minimal skill, a scoped-tools skill, a bundled-script skill — with the reasoning behind each line.
+- **[Claude Skills on claude.ai and the API](https://agentscamp.com/guides/skills/claude-skills-on-claude-ai-and-api)** — How Agent Skills work beyond Claude Code: uploading to claude.ai, the /v1/skills API with code execution, Managed Agents, and the Agent SDK.
+- **[How to Install Claude Skills](https://agentscamp.com/guides/skills/how-to-install-claude-skills)** — Every way to install Claude skills: manual copy, the agentscamp CLI, GitHub repos, plugins, team distribution, and uploading to claude.ai.
+- **[Packaging and Sharing Claude Code Skills](https://agentscamp.com/guides/skills/packaging-and-sharing-skills)** — Take a skill from your personal ~/.claude folder to a versioned plugin your whole team installs from a marketplace — portably and with governance.
+- **[The SKILL.md Reference: Every Frontmatter Field Explained](https://agentscamp.com/guides/skills/skill-md-reference)** — A complete reference for the SKILL.md format — all frontmatter fields, naming rules, argument substitution, limits, and where skill files live.
+- **[Skills vs Agents vs Commands](https://agentscamp.com/guides/skills/skills-vs-agents-vs-commands)** — How Claude Code's two extension mechanisms — subagents and skills — differ across three invocation patterns, with a decision table for choosing the right one.
+- **[Skills vs MCP Servers: When to Use Which](https://agentscamp.com/guides/skills/skills-vs-mcp-servers)** — Skills inject procedure into context; MCP servers expose tools and live data over a protocol. A decision framework, the combine pattern, and examples.
+- **[Testing and Debugging Claude Code Skills](https://agentscamp.com/guides/skills/testing-and-debugging-skills)** — Verify a Claude Code skill triggers on the right prompts, check its output, and fix the five common failures — from vague triggers to broken paths.
+- **[What Are Claude Skills? The Complete Guide](https://agentscamp.com/guides/skills/what-are-claude-skills)** — Claude Skills explained: what a SKILL.md is, how progressive disclosure keeps skills cheap, where they run, and how to install or write your own.
+- **[Writing Your First Skill](https://agentscamp.com/guides/skills/writing-your-first-skill)** — A step-by-step guide to packaging a reusable procedure as a Claude Code skill that loads exactly when it's needed.
+
 ## Advanced
 
 - **[Building an MCP Server](https://agentscamp.com/guides/advanced/building-an-mcp-server)** — An accurate introduction to the Model Context Protocol: server anatomy, transports, and connecting a tool to Claude Code.
@@ -100,15 +115,6 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 - **[Connecting and Governing MCP Servers: Registries, Gateways, and Tool Sprawl](https://agentscamp.com/guides/mcp/govern-mcp-servers)** — As MCP servers multiply, discovery, trust, and tool sprawl become the problem. How registries, gateways, and curation keep a growing fleet secure and usable.
 - **[MCP Ecosystem Statistics 2026](https://agentscamp.com/guides/mcp/mcp-ecosystem-statistics)** — The Model Context Protocol by the numbers — SDK downloads, server counts across registries, governance facts, and growth since the Linux Foundation donation.
 - **[MCP vs A2A: AI Agent Protocols Explained](https://agentscamp.com/guides/mcp/mcp-vs-a2a)** — What MCP and A2A each standardize, how Agent Cards and Tasks work, why the two protocols are complementary, and who governs them now (both Linux Foundation).
-
-## Skills
-
-- **[Claude Code Skills: Best Practices](https://agentscamp.com/guides/skills/claude-code-skills-best-practices)** — The patterns that make Claude Code skills reliable: trigger-first descriptions, one job per skill, lean bodies, bundled scripts, and scoped tools.
-- **[Packaging and Sharing Claude Code Skills](https://agentscamp.com/guides/skills/packaging-and-sharing-skills)** — Take a skill from your personal ~/.claude folder to a versioned plugin your whole team installs from a marketplace — portably and with governance.
-- **[Skills vs Agents vs Commands](https://agentscamp.com/guides/skills/skills-vs-agents-vs-commands)** — How Claude Code's two extension mechanisms — subagents and skills — differ across three invocation patterns, with a decision table for choosing the right one.
-- **[Skills vs MCP Servers: When to Use Which](https://agentscamp.com/guides/skills/skills-vs-mcp-servers)** — Skills inject procedure into context; MCP servers expose tools and live data over a protocol. A decision framework, the combine pattern, and examples.
-- **[Testing and Debugging Claude Code Skills](https://agentscamp.com/guides/skills/testing-and-debugging-skills)** — Verify a Claude Code skill triggers on the right prompts, check its output, and fix the five common failures — from vague triggers to broken paths.
-- **[Writing Your First Skill](https://agentscamp.com/guides/skills/writing-your-first-skill)** — A step-by-step guide to packaging a reusable procedure as a Claude Code skill that loads exactly when it's needed.
 
 ## Vision
 

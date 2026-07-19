@@ -4,7 +4,7 @@
 
 Browse the full directory on [AgentsCamp](https://agentscamp.com/glossary). Each entry links to its canonical page.
 
-**79 glossary** · [← Back to README](README.md)
+**80 glossary** · [← Back to README](README.md)
 
 ## Term
 
@@ -12,6 +12,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/glossary). Each
 - **[Agent Engineering](https://agentscamp.com/glossary/agent-engineering)** — Agent engineering is the discipline of building reliable AI agents — designing the tools, context, guardrails, evals, and recovery paths around the model.
 - **[Agent Harness](https://agentscamp.com/glossary/agent-harness)** — An agent harness is the system around the model that makes it an agent — the loop, tools, context management, permissions, and recovery machinery.
 - **[Agent Memory](https://agentscamp.com/glossary/agent-memory)** — Agent memory is how an AI agent retains information beyond its context window — working state during a task and persistent knowledge across sessions.
+- **[Agent Skills](https://agentscamp.com/glossary/agent-skills)** — Agent Skills are reusable procedures packaged as folders with a SKILL.md file — loaded by an AI agent on demand when a task matches, now an open standard.
 - **[Agentic AI](https://agentscamp.com/glossary/agentic-ai)** — Agentic AI is the class of AI systems that act toward goals — planning, calling tools, and iterating on results — rather than only generating content.
 - **[AI Agent](https://agentscamp.com/glossary/ai-agent)** — An AI agent is an LLM-driven system that pursues a goal in a loop — calling tools, observing results, iterating — instead of returning one answer.
 - **[AI Slop](https://agentscamp.com/glossary/ai-slop)** — AI slop is low-effort, mass-produced AI-generated content — fluent, generic, and unchecked — flooding feeds, search results, and codebases.
