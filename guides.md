@@ -4,7 +4,7 @@
 
 Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each entry links to its canonical page.
 
-**128 guides** · [← Back to README](README.md)
+**134 guides** · [← Back to README](README.md)
 
 ## Comparisons
 
@@ -18,6 +18,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 - **[Claude Code vs Cursor: Which AI Coding Tool in 2026?](https://agentscamp.com/guides/comparisons/claude-code-vs-cursor)** — Claude Code vs Cursor compared honestly — terminal agent vs AI-first editor, autonomy vs inline control, pricing models, and when to run both.
 - **[Claude Code vs Gemini CLI: Which Terminal Agent (2026)](https://agentscamp.com/guides/comparisons/claude-code-vs-gemini-cli)** — Claude Code vs Gemini CLI: first-party stability and a deep programmable harness vs open-source TypeScript, a big free tier, and the Antigravity cutover.
 - **[Claude Code vs OpenCode: First-Party vs Open Source (2026)](https://agentscamp.com/guides/comparisons/claude-code-vs-opencode)** — Claude Code vs OpenCode — Anthropic's tuned first-party agent vs the most-starred open-source one with 75+ providers. Control vs polish, decided honestly.
+- **[Claude Skills vs Custom GPTs: Different Answers to Reuse](https://agentscamp.com/guides/comparisons/claude-skills-vs-custom-gpts)** — Claude Skills are portable procedures; Custom GPTs are packaged chatbots inside ChatGPT. How they differ on portability, API access, sharing, and where each wins.
 - **[Cursor vs Windsurf (Devin Desktop) in 2026](https://agentscamp.com/guides/comparisons/cursor-vs-windsurf)** — Cursor vs Windsurf — now Devin Desktop — compared: agent-first editing, Composer vs Devin Local, the Cognition rebrand, and which AI editor fits you.
 - **[DeepEval vs RAGAS: LLM Evaluation Frameworks Compared (2026)](https://agentscamp.com/guides/comparisons/deepeval-vs-ragas)** — DeepEval vs RAGAS — pytest-style general LLM testing vs RAG-specialized metrics. Which open-source eval framework fits your pipeline, or whether you need both.
 - **[Exa vs Tavily: Web Search APIs for AI Agents (2026)](https://agentscamp.com/guides/comparisons/exa-vs-tavily)** — Exa vs Tavily compared — neural semantic discovery vs agent-optimized RAG answers, pricing, MCP support, and which web search API fits your stack.
@@ -56,10 +57,13 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 
 ## Skills
 
+- **[The Agent Skills Standard: One SKILL.md for Every AI Tool](https://agentscamp.com/guides/skills/agent-skills-open-standard)** — Agent Skills became an open standard in December 2025. Which tools read SKILL.md today — Copilot, Cursor, VS Code, Gemini CLI, Codex — and how to write portable skills.
 - **[The Best Claude Skills to Install in 2026](https://agentscamp.com/guides/skills/best-claude-skills-2026)** — A skills-only tour of the AgentsCamp library — the Claude Code skills that earn a permanent slot, organized by the job they do.
 - **[Claude Code Skills: Best Practices](https://agentscamp.com/guides/skills/claude-code-skills-best-practices)** — The patterns that make Claude Code skills reliable: trigger-first descriptions, one job per skill, lean bodies, bundled scripts, and scoped tools.
+- **[Claude's Document Skills: Excel, PowerPoint, Word, and PDF](https://agentscamp.com/guides/skills/claude-document-skills)** — How Anthropic's pre-built document skills let Claude produce real .xlsx, .pptx, .docx, and PDF files — on claude.ai, the API, and in Claude Code.
 - **[Claude Skills Examples: Annotated SKILL.md Files](https://agentscamp.com/guides/skills/claude-skills-examples)** — Real SKILL.md examples you can copy — a minimal skill, a scoped-tools skill, a bundled-script skill — with the reasoning behind each line.
 - **[Claude Skills on claude.ai and the API](https://agentscamp.com/guides/skills/claude-skills-on-claude-ai-and-api)** — How Agent Skills work beyond Claude Code: uploading to claude.ai, the /v1/skills API with code execution, Managed Agents, and the Agent SDK.
+- **[Claude Skills Use Cases: 20 Ideas Worth Building](https://agentscamp.com/guides/skills/claude-skills-use-cases)** — Twenty concrete Claude skills use cases — for engineers, writers, analysts, and ops — with the pattern behind each and links to installable versions.
 - **[How to Install Claude Skills](https://agentscamp.com/guides/skills/how-to-install-claude-skills)** — Every way to install Claude skills: manual copy, the agentscamp CLI, GitHub repos, plugins, team distribution, and uploading to claude.ai.
 - **[Packaging and Sharing Claude Code Skills](https://agentscamp.com/guides/skills/packaging-and-sharing-skills)** — Take a skill from your personal ~/.claude folder to a versioned plugin your whole team installs from a marketplace — portably and with governance.
 - **[The SKILL.md Reference: Every Frontmatter Field Explained](https://agentscamp.com/guides/skills/skill-md-reference)** — A complete reference for the SKILL.md format — all frontmatter fields, naming rules, argument substitution, limits, and where skill files live.
@@ -133,6 +137,21 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 - **[Claude Code Settings & Permissions: settings.json Explained](https://agentscamp.com/guides/configuration/claude-code-settings-permissions)** — Every Claude Code settings file and which one wins, the permission-rule syntax with its Bash matching gotchas, modes, and a safe starter settings.json.
 - **[CLAUDE.md Best Practices](https://agentscamp.com/guides/configuration/claude-md-best-practices)** — How to write a CLAUDE.md that actually helps — what to include, what to leave out, and how to keep it current.
 
+## Troubleshooting
+
+- **[Claude Code Troubleshooting: Fixes for the Most Common Problems](https://agentscamp.com/guides/troubleshooting/claude-code-troubleshooting)** — Fixes for the Claude Code problems people actually hit — install and auth failures, context-limit errors, MCP servers that won't connect, permission loops.
+- **[Claude Skills Not Working? Fixes for Every Failure Mode](https://agentscamp.com/guides/troubleshooting/claude-skills-not-working)** — Skill missing from the / menu, never auto-triggering, firing too often, or breaking mid-run — the symptom-by-symptom fix list for Claude skills.
+- **[Why Your Agent Loops: Debugging AI Agents](https://agentscamp.com/guides/troubleshooting/debugging-ai-agents)** — The recurring agent failure modes — loops, premature victory, tool misuse, context poisoning, scope creep — diagnosed by their signatures, with fixes.
+- **[MCP Troubleshooting: Server Won't Connect & Other Fixes](https://agentscamp.com/guides/troubleshooting/mcp-troubleshooting)** — Fixes for the MCP problems people actually hit — servers failing to connect, missing tools, OAuth loops, timeouts, truncated output, and Windows quirks.
+- **[Why RAG Fails: A Debugging Checklist](https://agentscamp.com/guides/troubleshooting/rag-debugging-checklist)** — A diagnostic checklist for broken RAG — localize the failure to ingestion, retrieval, ranking, or generation, and apply the fix that matches, in order.
+
+## AI Safety
+
+- **[Are Claude Skills Safe? A Security Review Checklist](https://agentscamp.com/guides/ai-safety/are-claude-skills-safe)** — Skills are an instruction supply chain: what can go wrong with third-party SKILL.md files, and the review checklist before installing or distributing one.
+- **[Data Privacy for LLM Apps: Stop Leaking Sensitive Data](https://agentscamp.com/guides/ai-safety/data-privacy-for-llm-apps)** — Where LLM apps leak PII and secrets — prompts, logs, traces, vector stores, providers — and the controls (redaction, ZDR, tenant isolation) that stop it.
+- **[Defending Against Prompt Injection: A Practical Guide for LLM Apps](https://agentscamp.com/guides/ai-safety/defending-prompt-injection)** — Prompt injection can't be solved at the model layer — so you defend in depth: trust boundaries, least privilege, human approval, guardrails, and red-teaming.
+- **[Securing AI Agents: The OWASP Agentic Top 10 in Practice](https://agentscamp.com/guides/ai-safety/owasp-agentic-top-10)** — Agents add risks LLM-app security misses — autonomy, tools, memory, multi-agent trust. The key OWASP agentic threats and how to mitigate each in practice.
+
 ## Database
 
 - **[Best Vector Database in 2026: pgvector vs Pinecone vs Qdrant vs Weaviate vs Milvus vs Chroma vs LanceDB](https://agentscamp.com/guides/database/best-vector-database-2026)** — A decision guide to vector databases — embedded, server, or managed; whether you already run Postgres; and which fits your scale, filtering, and RAG needs.
@@ -147,25 +166,12 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 - **[Fine-Tune vs RAG vs Prompt vs Distill: The 2026 Decision Tree](https://agentscamp.com/guides/mlops/finetune-vs-rag-vs-prompt)** — When to reach for prompt engineering, RAG, fine-tuning, or distillation — what each actually changes, where each fails, and how to combine them.
 - **[Self-Host vs API: When Does Running Your Own LLM Actually Pay Off?](https://agentscamp.com/guides/mlops/self-host-vs-api-llm)** — The real economics of self-hosting an LLM vs. calling a hosted API — GPU utilization, privacy, latency, and the hidden ops costs that decide the crossover.
 
-## Troubleshooting
-
-- **[Claude Code Troubleshooting: Fixes for the Most Common Problems](https://agentscamp.com/guides/troubleshooting/claude-code-troubleshooting)** — Fixes for the Claude Code problems people actually hit — install and auth failures, context-limit errors, MCP servers that won't connect, permission loops.
-- **[Why Your Agent Loops: Debugging AI Agents](https://agentscamp.com/guides/troubleshooting/debugging-ai-agents)** — The recurring agent failure modes — loops, premature victory, tool misuse, context poisoning, scope creep — diagnosed by their signatures, with fixes.
-- **[MCP Troubleshooting: Server Won't Connect & Other Fixes](https://agentscamp.com/guides/troubleshooting/mcp-troubleshooting)** — Fixes for the MCP problems people actually hit — servers failing to connect, missing tools, OAuth loops, timeouts, truncated output, and Windows quirks.
-- **[Why RAG Fails: A Debugging Checklist](https://agentscamp.com/guides/troubleshooting/rag-debugging-checklist)** — A diagnostic checklist for broken RAG — localize the failure to ingestion, retrieval, ranking, or generation, and apply the fix that matches, in order.
-
 ## Voice
 
 - **[Best Speech-to-Text APIs in 2026](https://agentscamp.com/guides/voice/best-stt-apis-2026)** — The STT field, honestly ranked — Deepgram and AssemblyAI's hosted duel, Whisper as the open baseline, Cartesia Ink for latency — and how to pick by workload.
 - **[Best Text-to-Speech APIs in 2026](https://agentscamp.com/guides/voice/best-tts-apis-2026)** — The TTS APIs worth building on — ElevenLabs for quality and breadth, Cartesia Sonic for realtime latency — and how to choose for agents vs produced audio.
 - **[How to Build a Voice Agent: The STT → LLM → TTS Pipeline](https://agentscamp.com/guides/voice/build-a-voice-agent)** — How to build a real-time voice agent: the STT → LLM → TTS pipeline, the latency budget that makes or breaks it, and how to wire each stage.
 - **[Realtime Voice Agents: Build on LiveKit, Buy Vapi, or Pipeline with Pipecat](https://agentscamp.com/guides/voice/realtime-voice-apis)** — The three ways to ship a realtime voice agent in 2026 — open infrastructure, managed platform, or OSS pipeline — and how speech-to-speech models fit in.
-
-## AI Safety
-
-- **[Data Privacy for LLM Apps: Stop Leaking Sensitive Data](https://agentscamp.com/guides/ai-safety/data-privacy-for-llm-apps)** — Where LLM apps leak PII and secrets — prompts, logs, traces, vector stores, providers — and the controls (redaction, ZDR, tenant isolation) that stop it.
-- **[Defending Against Prompt Injection: A Practical Guide for LLM Apps](https://agentscamp.com/guides/ai-safety/defending-prompt-injection)** — Prompt injection can't be solved at the model layer — so you defend in depth: trust boundaries, least privilege, human approval, guardrails, and red-teaming.
-- **[Securing AI Agents: The OWASP Agentic Top 10 in Practice](https://agentscamp.com/guides/ai-safety/owasp-agentic-top-10)** — Agents add risks LLM-app security misses — autonomy, tools, memory, multi-agent trust. The key OWASP agentic threats and how to mitigate each in practice.
 
 ## Evaluation
 

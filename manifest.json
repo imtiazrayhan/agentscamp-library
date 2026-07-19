@@ -4,11 +4,11 @@
   "counts": {
     "agents": 61,
     "skills": 94,
-    "guides": 128,
+    "guides": 134,
     "tools": 139,
     "commands": 53,
     "glossary": 80,
-    "total": 555
+    "total": 561
   },
   "items": [
     {
@@ -2623,6 +2623,19 @@
       "url": "https://agentscamp.com/guides/concepts/agent-memory-architecture"
     },
     {
+      "id": "guides/agent-skills-open-standard",
+      "type": "guide",
+      "slug": "agent-skills-open-standard",
+      "category": "skills",
+      "title": "The Agent Skills Standard: One SKILL.md for Every AI Tool",
+      "description": "Agent Skills became an open standard in December 2025. Which tools read SKILL.md today — Copilot, Cursor, VS Code, Gemini CLI, Codex — and how to write portable skills.",
+      "topics": [
+        "workflow-prompting",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/guides/skills/agent-skills-open-standard"
+    },
+    {
       "id": "guides/agentic-rag",
       "type": "guide",
       "slug": "agentic-rag",
@@ -2697,6 +2710,19 @@
         "ai-agents-systems"
       ],
       "url": "https://agentscamp.com/guides/comparisons/aider-vs-claude-code"
+    },
+    {
+      "id": "guides/are-claude-skills-safe",
+      "type": "guide",
+      "slug": "are-claude-skills-safe",
+      "category": "ai-safety",
+      "title": "Are Claude Skills Safe? A Security Review Checklist",
+      "description": "Skills are an instruction supply chain: what can go wrong with third-party SKILL.md files, and the review checklist before installing or distributing one.",
+      "topics": [
+        "ai-safety-security",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/ai-safety/are-claude-skills-safe"
     },
     {
       "id": "guides/best-ai-app-builders-2026",
@@ -3095,6 +3121,19 @@
       "url": "https://agentscamp.com/guides/comparisons/claude-code-vs-opencode"
     },
     {
+      "id": "guides/claude-document-skills",
+      "type": "guide",
+      "slug": "claude-document-skills",
+      "category": "skills",
+      "title": "Claude's Document Skills: Excel, PowerPoint, Word, and PDF",
+      "description": "How Anthropic's pre-built document skills let Claude produce real .xlsx, .pptx, .docx, and PDF files — on claude.ai, the API, and in Claude Code.",
+      "topics": [
+        "workflow-prompting",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/guides/skills/claude-document-skills"
+    },
+    {
       "id": "guides/claude-md-best-practices",
       "type": "guide",
       "slug": "claude-md-best-practices",
@@ -3119,6 +3158,18 @@
       "url": "https://agentscamp.com/guides/skills/claude-skills-examples"
     },
     {
+      "id": "guides/claude-skills-not-working",
+      "type": "guide",
+      "slug": "claude-skills-not-working",
+      "category": "troubleshooting",
+      "title": "Claude Skills Not Working? Fixes for Every Failure Mode",
+      "description": "Skill missing from the / menu, never auto-triggering, firing too often, or breaking mid-run — the symptom-by-symptom fix list for Claude skills.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/troubleshooting/claude-skills-not-working"
+    },
+    {
       "id": "guides/claude-skills-on-claude-ai-and-api",
       "type": "guide",
       "slug": "claude-skills-on-claude-ai-and-api",
@@ -3130,6 +3181,31 @@
         "ai-agents-systems"
       ],
       "url": "https://agentscamp.com/guides/skills/claude-skills-on-claude-ai-and-api"
+    },
+    {
+      "id": "guides/claude-skills-use-cases",
+      "type": "guide",
+      "slug": "claude-skills-use-cases",
+      "category": "skills",
+      "title": "Claude Skills Use Cases: 20 Ideas Worth Building",
+      "description": "Twenty concrete Claude skills use cases — for engineers, writers, analysts, and ops — with the pattern behind each and links to installable versions.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/skills/claude-skills-use-cases"
+    },
+    {
+      "id": "guides/claude-skills-vs-custom-gpts",
+      "type": "guide",
+      "slug": "claude-skills-vs-custom-gpts",
+      "category": "comparisons",
+      "title": "Claude Skills vs Custom GPTs: Different Answers to Reuse",
+      "description": "Claude Skills are portable procedures; Custom GPTs are packaged chatbots inside ChatGPT. How they differ on portability, API access, sharing, and where each wins.",
+      "topics": [
+        "workflow-prompting",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/claude-skills-vs-custom-gpts"
     },
     {
       "id": "guides/claude-vs-gpt-vs-gemini-coding",
