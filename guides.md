@@ -4,7 +4,7 @@
 
 Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each entry links to its canonical page.
 
-**134 guides** · [← Back to README](README.md)
+**163 guides** · [← Back to README](README.md)
 
 ## Comparisons
 
@@ -37,6 +37,36 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 - **[vLLM vs Ollama: Local Convenience or Serving Throughput? (2026)](https://agentscamp.com/guides/comparisons/vllm-vs-ollama)** — vLLM vs Ollama compared — developer-friendly local runtime vs high-throughput production inference engine. Concurrency, hardware, and when to graduate.
 - **[Weaviate vs Pinecone: Open-Source vs Managed Vector DB (2026)](https://agentscamp.com/guides/comparisons/weaviate-vs-pinecone)** — Weaviate vs Pinecone — BSD-3 open source you self-host vs fully managed serverless. Hybrid search, scaling, cost shape, and which fits your RAG stack.
 
+## Skills
+
+- **[The Agent Skills Standard: One SKILL.md for Every AI Tool](https://agentscamp.com/guides/skills/agent-skills-open-standard)** — Agent Skills became an open standard in December 2025. Which tools read SKILL.md today — Copilot, Cursor, VS Code, Gemini CLI, Codex — and how to write portable skills.
+- **[The Best Claude Skills to Install in 2026](https://agentscamp.com/guides/skills/best-claude-skills-2026)** — A skills-only tour of the AgentsCamp library — the Claude Code skills that earn a permanent slot, organized by the job they do.
+- **[10 Best Claude Skills for Building AI Applications](https://agentscamp.com/guides/skills/best-claude-skills-for-ai-apps)** — Compare Claude skills for structured output, fallbacks, evals, hallucinations, routing, token cost, semantic caching, PII, guardrails, and tools.
+- **[10 Best Claude Skills for API Development](https://agentscamp.com/guides/skills/best-claude-skills-for-api-development)** — Choose Claude skills for error contracts, idempotency, pagination, limits, webhooks, CORS, GraphQL, OpenAPI, tools, and MCP servers.
+- **[9 Best Claude Skills for Code Review](https://agentscamp.com/guides/skills/best-claude-skills-for-code-review)** — Choose Claude skills for security, correctness, maintainability, and focused pull request review without relying on one vague review prompt.
+- **[8 Best Claude Skills for Database Work](https://agentscamp.com/guides/skills/best-claude-skills-for-database-work)** — Compare Claude skills for safe migrations, data backfills, indexes, query plans, pooling, deadlocks, vector search, and SQL tuning.
+- **[10 Best Claude Skills for DevOps and SRE](https://agentscamp.com/guides/skills/best-claude-skills-for-devops-sre)** — Use Claude skills for incidents, rollbacks, SLOs, alerts, dashboards, logs, traces, containers, CI, and safer releases.
+- **[7 Best Claude Skills for Documentation](https://agentscamp.com/guides/skills/best-claude-skills-for-documentation)** — Use Claude skills to verify code examples and create accurate READMEs, API docs, runbooks, onboarding guides, ADRs, and diagrams.
+- **[9 Best Claude Skills for Frontend Development](https://agentscamp.com/guides/skills/best-claude-skills-for-frontend-development)** — Compare Claude skills for accessibility, Web Vitals, React renders, bundles, localization, browser security, test data, tests, and caching.
+- **[9 Best Claude Skills for Performance Engineering](https://agentscamp.com/guides/skills/best-claude-skills-for-performance)** — Compare Claude skills for caching, Web Vitals, bundles, React renders, load tests, cold starts, CPU profiles, memory leaks, and prompt caches.
+- **[9 Best Claude Skills for Release Management](https://agentscamp.com/guides/skills/best-claude-skills-for-release-management)** — Use Claude skills for readiness reviews, canaries, rollbacks, API deprecations, migrations, versioning, changelogs, and release notes.
+- **[10 Best Claude Skills for Security Work](https://agentscamp.com/guides/skills/best-claude-skills-for-security)** — Compare Claude skills for secrets, dependencies, permissions, auth, RBAC, threats, headers, PII, data retention, and LLM guardrails.
+- **[9 Best Claude Skills for Software Testing](https://agentscamp.com/guides/skills/best-claude-skills-for-testing)** — Compare Claude skills for regression, unit, integration, contract, property, mutation, prompt, and test-data workflows.
+- **[Claude Code Skills: Best Practices](https://agentscamp.com/guides/skills/claude-code-skills-best-practices)** — The patterns that make Claude Code skills reliable: trigger-first descriptions, one job per skill, lean bodies, bundled scripts, and scoped tools.
+- **[Claude's Document Skills: Excel, PowerPoint, Word, and PDF](https://agentscamp.com/guides/skills/claude-document-skills)** — How Anthropic's pre-built document skills let Claude produce real .xlsx, .pptx, .docx, and PDF files — on claude.ai, the API, and in Claude Code.
+- **[Claude Skills Examples: Annotated SKILL.md Files](https://agentscamp.com/guides/skills/claude-skills-examples)** — Real SKILL.md examples you can copy — a minimal skill, a scoped-tools skill, a bundled-script skill — with the reasoning behind each line.
+- **[Claude Skills on claude.ai and the API](https://agentscamp.com/guides/skills/claude-skills-on-claude-ai-and-api)** — How Agent Skills work beyond Claude Code: uploading to claude.ai, the /v1/skills API with code execution, Managed Agents, and the Agent SDK.
+- **[Claude Skills Use Cases: 20 Ideas Worth Building](https://agentscamp.com/guides/skills/claude-skills-use-cases)** — Twenty concrete Claude skills use cases — for engineers, writers, analysts, and ops — with the pattern behind each and links to installable versions.
+- **[Codex Skills: Build Reusable Workflows with SKILL.md](https://agentscamp.com/guides/skills/codex-skills-guide)** — Create, install, and test Codex skills with SKILL.md — including trigger descriptions, repo and user paths, progressive disclosure, and distribution.
+- **[How to Install Claude Skills](https://agentscamp.com/guides/skills/how-to-install-claude-skills)** — Every way to install Claude skills: manual copy, the agentscamp CLI, GitHub repos, plugins, team distribution, and uploading to claude.ai.
+- **[Packaging and Sharing Claude Code Skills](https://agentscamp.com/guides/skills/packaging-and-sharing-skills)** — Take a skill from your personal ~/.claude folder to a versioned plugin your whole team installs from a marketplace — portably and with governance.
+- **[The SKILL.md Reference: Every Frontmatter Field Explained](https://agentscamp.com/guides/skills/skill-md-reference)** — A complete reference for the SKILL.md format — all frontmatter fields, naming rules, argument substitution, limits, and where skill files live.
+- **[Skills vs Agents vs Commands](https://agentscamp.com/guides/skills/skills-vs-agents-vs-commands)** — How Claude Code's two extension mechanisms — subagents and skills — differ across three invocation patterns, with a decision table for choosing the right one.
+- **[Skills vs MCP Servers: When to Use Which](https://agentscamp.com/guides/skills/skills-vs-mcp-servers)** — Skills inject procedure into context; MCP servers expose tools and live data over a protocol. A decision framework, the combine pattern, and examples.
+- **[Testing and Debugging Claude Code Skills](https://agentscamp.com/guides/skills/testing-and-debugging-skills)** — Verify a Claude Code skill triggers on the right prompts, check its output, and fix the five common failures — from vague triggers to broken paths.
+- **[What Are Claude Skills? The Complete Guide](https://agentscamp.com/guides/skills/what-are-claude-skills)** — Claude Skills explained: what a SKILL.md is, how progressive disclosure keeps skills cheap, where they run, and how to install or write your own.
+- **[Writing Your First Skill](https://agentscamp.com/guides/skills/writing-your-first-skill)** — A step-by-step guide to packaging a reusable procedure as a Claude Code skill that loads exactly when it's needed.
+
 ## Concepts
 
 - **[Which Agent Framework in 2026? LangGraph vs CrewAI vs AutoGen vs OpenAI Agents SDK vs Claude Agent SDK](https://agentscamp.com/guides/concepts/agent-frameworks-2026)** — A decision guide to the major AI agent frameworks — control vs. abstraction, multi-agent models, state and durability, and which fits your project.
@@ -50,28 +80,11 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 - **[How Embeddings Work: Vectors, Similarity, and Choosing a Model](https://agentscamp.com/guides/concepts/how-embeddings-work)** — What an embedding actually is, how similarity is measured, how the models are trained, and the practical rules for using embeddings well in search and RAG.
 - **[How RAG Actually Works: Ingestion, Chunking, Retrieval & Reranking](https://agentscamp.com/guides/concepts/how-rag-works)** — A clear, practical walkthrough of the retrieval-augmented generation pipeline — what each stage does, where it fails, and how the pieces fit together.
 - **[Hybrid Search & Reranking: From Top-50 Recall to Top-5 Precision](https://agentscamp.com/guides/concepts/hybrid-search-reranking)** — How production RAG combines dense and sparse search, fuses with RRF, and reranks — turning a wide candidate set into the few passages that actually answer.
+- **[Production Model Routing: Cut Cost Without Hiding Regressions](https://agentscamp.com/guides/concepts/production-model-routing)** — Design an LLM model router with capability gates, difficulty signals, cascades, fallbacks, per-route evals, shadow traffic, budgets, and safe rollout.
 - **[Production Tool & Function Calling: Feed Errors Back as Observations](https://agentscamp.com/guides/concepts/production-tool-calling)** — How agents use tools — the call/observe/retry loop, why errors must return to the model, and the schemas, idempotency, and limits that keep it reliable.
 - **[RAG vs Long Context: Do Million-Token Windows Kill Retrieval?](https://agentscamp.com/guides/concepts/rag-vs-long-context)** — Million-token context windows promised the end of RAG. The honest 2026 answer: long context changed where retrieval starts paying, not whether it does.
 - **[Structured Output vs JSON Mode vs Function Calling: Which to Use in 2026](https://agentscamp.com/guides/concepts/structured-output-2026)** — The reliable ways to get typed data out of an LLM — what JSON mode, function calling, and native structured outputs each guarantee, and when to use which.
 - **[Getting Web Data into AI Agents: Search & Scraping APIs Compared](https://agentscamp.com/guides/concepts/web-data-for-ai-agents)** — The agent web-data layer — Exa for semantic search, Firecrawl for extraction at scale, Tavily for all-in-one, Jina Reader for zero-setup — and how they compose.
-
-## Skills
-
-- **[The Agent Skills Standard: One SKILL.md for Every AI Tool](https://agentscamp.com/guides/skills/agent-skills-open-standard)** — Agent Skills became an open standard in December 2025. Which tools read SKILL.md today — Copilot, Cursor, VS Code, Gemini CLI, Codex — and how to write portable skills.
-- **[The Best Claude Skills to Install in 2026](https://agentscamp.com/guides/skills/best-claude-skills-2026)** — A skills-only tour of the AgentsCamp library — the Claude Code skills that earn a permanent slot, organized by the job they do.
-- **[Claude Code Skills: Best Practices](https://agentscamp.com/guides/skills/claude-code-skills-best-practices)** — The patterns that make Claude Code skills reliable: trigger-first descriptions, one job per skill, lean bodies, bundled scripts, and scoped tools.
-- **[Claude's Document Skills: Excel, PowerPoint, Word, and PDF](https://agentscamp.com/guides/skills/claude-document-skills)** — How Anthropic's pre-built document skills let Claude produce real .xlsx, .pptx, .docx, and PDF files — on claude.ai, the API, and in Claude Code.
-- **[Claude Skills Examples: Annotated SKILL.md Files](https://agentscamp.com/guides/skills/claude-skills-examples)** — Real SKILL.md examples you can copy — a minimal skill, a scoped-tools skill, a bundled-script skill — with the reasoning behind each line.
-- **[Claude Skills on claude.ai and the API](https://agentscamp.com/guides/skills/claude-skills-on-claude-ai-and-api)** — How Agent Skills work beyond Claude Code: uploading to claude.ai, the /v1/skills API with code execution, Managed Agents, and the Agent SDK.
-- **[Claude Skills Use Cases: 20 Ideas Worth Building](https://agentscamp.com/guides/skills/claude-skills-use-cases)** — Twenty concrete Claude skills use cases — for engineers, writers, analysts, and ops — with the pattern behind each and links to installable versions.
-- **[How to Install Claude Skills](https://agentscamp.com/guides/skills/how-to-install-claude-skills)** — Every way to install Claude skills: manual copy, the agentscamp CLI, GitHub repos, plugins, team distribution, and uploading to claude.ai.
-- **[Packaging and Sharing Claude Code Skills](https://agentscamp.com/guides/skills/packaging-and-sharing-skills)** — Take a skill from your personal ~/.claude folder to a versioned plugin your whole team installs from a marketplace — portably and with governance.
-- **[The SKILL.md Reference: Every Frontmatter Field Explained](https://agentscamp.com/guides/skills/skill-md-reference)** — A complete reference for the SKILL.md format — all frontmatter fields, naming rules, argument substitution, limits, and where skill files live.
-- **[Skills vs Agents vs Commands](https://agentscamp.com/guides/skills/skills-vs-agents-vs-commands)** — How Claude Code's two extension mechanisms — subagents and skills — differ across three invocation patterns, with a decision table for choosing the right one.
-- **[Skills vs MCP Servers: When to Use Which](https://agentscamp.com/guides/skills/skills-vs-mcp-servers)** — Skills inject procedure into context; MCP servers expose tools and live data over a protocol. A decision framework, the combine pattern, and examples.
-- **[Testing and Debugging Claude Code Skills](https://agentscamp.com/guides/skills/testing-and-debugging-skills)** — Verify a Claude Code skill triggers on the right prompts, check its output, and fix the five common failures — from vague triggers to broken paths.
-- **[What Are Claude Skills? The Complete Guide](https://agentscamp.com/guides/skills/what-are-claude-skills)** — Claude Skills explained: what a SKILL.md is, how progressive disclosure keeps skills cheap, where they run, and how to install or write your own.
-- **[Writing Your First Skill](https://agentscamp.com/guides/skills/writing-your-first-skill)** — A step-by-step guide to packaging a reusable procedure as a Claude Code skill that loads exactly when it's needed.
 
 ## Advanced
 
@@ -79,6 +92,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 - **[Building Multi-Step Agent Workflows](https://agentscamp.com/guides/advanced/building-multi-step-workflows)** — Patterns for building multi-step agent workflows in Claude Code: decompose tasks, fan-out to parallel subagents, verify every step, and orchestrate.
 - **[Building Agents with the Claude Agent SDK](https://agentscamp.com/guides/advanced/claude-agent-sdk-tutorial)** — A working tutorial for the Claude Agent SDK in TypeScript and Python — query(), tool permissions, custom in-process MCP tools, subagents, hooks, and auth.
 - **[Running Claude Code in CI: Headless Mode & GitHub Actions](https://agentscamp.com/guides/advanced/claude-code-ci-github-actions)** — Claude Code without the terminal — claude -p flags, JSON and structured output, safe permission scoping, and the official GitHub Action responding to @claude.
+- **[Codex Subagents: Parallel Work Without Losing Control](https://agentscamp.com/guides/advanced/codex-subagents)** — Use Codex subagents for parallel exploration, review, tests, and implementation — including decomposition, custom agents, permissions, and merge discipline.
 - **[LLM API Pricing in 2026: Every Major Model Compared](https://agentscamp.com/guides/advanced/llm-api-pricing-2026)** — Per-million-token prices for Claude, GPT, Gemini, DeepSeek, Mistral, and Grok — plus caching and batch discounts — verified against vendor pricing pages.
 - **[LLM Context Windows Compared (2026)](https://agentscamp.com/guides/advanced/llm-context-windows-compared)** — Context windows and max output tokens across Claude, GPT, Gemini, DeepSeek, and Grok — the million-token era, what it costs, and what fits in practice.
 - **[LLM Cost and Latency Engineering: Caching, Right-Sizing, and p95 Budgets](https://agentscamp.com/guides/advanced/llm-cost-latency-engineering)** — A practical playbook for cutting LLM cost and tail latency — caching, model right-sizing, prompt trimming, and enforced p95 budgets — without losing quality.
@@ -108,17 +122,47 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 - **[25 Claude Code Tips, Shortcuts, and Power Features](https://agentscamp.com/guides/getting-started/claude-code-tips)** — The 25 highest-leverage Claude Code tips — keyboard shortcuts, bash and memory prefixes, session commands, model tricks, and power features most people miss.
 - **[Getting Started with Claude Code Agents](https://agentscamp.com/guides/getting-started/getting-started-with-agents)** — What Claude Code subagents are, why they help, and how to add your first one.
 - **[Installing Claude Code](https://agentscamp.com/guides/getting-started/installing-claude-code)** — Install Claude Code, authenticate, start a session in a real project, and add a minimal CLAUDE.md.
+- **[OpenAI Codex: A Practical Guide for Developers](https://agentscamp.com/guides/getting-started/openai-codex-guide)** — Learn how OpenAI Codex works across the terminal, IDE, desktop app, and cloud — then set up a safe, repeatable workflow for real repositories.
 - **[What Is Claude Code?](https://agentscamp.com/guides/getting-started/what-is-claude-code)** — A grounded explanation of Claude Code: an agentic command-line coding tool that reads files, runs commands, and works in a loop toward a goal.
 - **[Writing Your First Custom Agent](https://agentscamp.com/guides/getting-started/writing-a-custom-agent)** — A step-by-step guide to authoring a focused, effective custom subagent.
+
+## Configuration
+
+- **[Claude Code Hooks: Automate Formatting, Tests, and Guardrails](https://agentscamp.com/guides/configuration/claude-code-hooks)** — How Claude Code hooks work — the major hook events, the settings.json configuration shape, exit codes and JSON output, plus three hooks worth copying.
+- **[Managing Claude Code Memory & Context: CLAUDE.md, /compact, and Auto-Memory](https://agentscamp.com/guides/configuration/claude-code-memory-context)** — How Claude Code remembers — every CLAUDE.md scope and load order, path-scoped rules, the auto-memory system, and the context commands that keep sessions sharp.
+- **[Claude Code Plugins: Install, Use, and Build Your Own](https://agentscamp.com/guides/configuration/claude-code-plugins)** — How Claude Code plugins work — what they can bundle, the /plugin and marketplace commands, the plugin.json manifest, and building and testing your own.
+- **[Claude Code Settings & Permissions: settings.json Explained](https://agentscamp.com/guides/configuration/claude-code-settings-permissions)** — Every Claude Code settings file and which one wins, the permission-rule syntax with its Bash matching gotchas, modes, and a safe starter settings.json.
+- **[CLAUDE.md Best Practices](https://agentscamp.com/guides/configuration/claude-md-best-practices)** — How to write a CLAUDE.md that actually helps — what to include, what to leave out, and how to keep it current.
+- **[AGENTS.md for Codex: Project Instructions That Actually Work](https://agentscamp.com/guides/configuration/codex-agents-md)** — Write an effective AGENTS.md for OpenAI Codex — what belongs in it, how nested overrides work, and how to verify the instructions Codex loaded.
+- **[Codex config.toml: Settings, Precedence, and Safe Defaults](https://agentscamp.com/guides/configuration/codex-config-toml)** — Configure OpenAI Codex with config.toml — user and project scopes, precedence, sandbox and approvals, MCP, subagents, profiles, and safe defaults.
 
 ## MCP
 
 - **[The Best MCP Servers in 2026](https://agentscamp.com/guides/mcp/best-mcp-servers-2026)** — The MCP servers actually worth connecting in 2026 — Context7, GitHub, Chrome DevTools, Playwright, Serena, Exa, Firecrawl, and official vendor servers.
 - **[Adding MCP Servers to Claude Code: Local, Remote, and Project-Scoped](https://agentscamp.com/guides/mcp/claude-code-mcp-setup)** — The complete claude mcp add reference — stdio vs HTTP transports, local/project/user scopes, .mcp.json with env expansion, OAuth via /mcp, and the gotchas.
+- **[Codex MCP Setup: Connect Tools and Live Context](https://agentscamp.com/guides/mcp/codex-mcp-setup)** — Connect OpenAI Codex to MCP servers through the CLI, desktop app, IDE, or config.toml — with practical scoping, OAuth, and tool-approval guidance.
 - **[Deploying a Remote MCP Server: Stateless, Streamable HTTP, and Horizontal Scaling](https://agentscamp.com/guides/mcp/deploy-remote-mcp-server)** — Take an MCP server from local stdio to a remote, multi-user HTTP service — Streamable HTTP, stateless vs. stateful sessions, OAuth, and horizontal scaling.
 - **[Connecting and Governing MCP Servers: Registries, Gateways, and Tool Sprawl](https://agentscamp.com/guides/mcp/govern-mcp-servers)** — As MCP servers multiply, discovery, trust, and tool sprawl become the problem. How registries, gateways, and curation keep a growing fleet secure and usable.
 - **[MCP Ecosystem Statistics 2026](https://agentscamp.com/guides/mcp/mcp-ecosystem-statistics)** — The Model Context Protocol by the numbers — SDK downloads, server counts across registries, governance facts, and growth since the Linux Foundation donation.
 - **[MCP vs A2A: AI Agent Protocols Explained](https://agentscamp.com/guides/mcp/mcp-vs-a2a)** — What MCP and A2A each standardize, how Agent Cards and Tasks work, why the two protocols are complementary, and who governs them now (both Linux Foundation).
+
+## AI Safety
+
+- **[Are Claude Skills Safe? A Security Review Checklist](https://agentscamp.com/guides/ai-safety/are-claude-skills-safe)** — Skills are an instruction supply chain: what can go wrong with third-party SKILL.md files, and the review checklist before installing or distributing one.
+- **[Data Privacy for LLM Apps: Stop Leaking Sensitive Data](https://agentscamp.com/guides/ai-safety/data-privacy-for-llm-apps)** — Where LLM apps leak PII and secrets — prompts, logs, traces, vector stores, providers — and the controls (redaction, ZDR, tenant isolation) that stop it.
+- **[Defending Against Prompt Injection: A Practical Guide for LLM Apps](https://agentscamp.com/guides/ai-safety/defending-prompt-injection)** — Prompt injection can't be solved at the model layer — so you defend in depth: trust boundaries, least privilege, human approval, guardrails, and red-teaming.
+- **[Securing AI Agents: The OWASP Agentic Top 10 in Practice](https://agentscamp.com/guides/ai-safety/owasp-agentic-top-10)** — Agents add risks LLM-app security misses — autonomy, tools, memory, multi-agent trust. The key OWASP agentic threats and how to mitigate each in practice.
+- **[Red-Teaming LLM Applications: From Attack Cases to Regression Tests](https://agentscamp.com/guides/ai-safety/red-teaming-llm-applications)** — Red-team an LLM application across prompts, RAG, tools, agents, and data boundaries — scope assets, generate attacks, score impact, fix, and retest in CI.
+- **[Software Supply Chain Security: Dependencies, Builds, and Releases](https://agentscamp.com/guides/ai-safety/software-supply-chain-security)** — Secure the software supply chain from dependency selection through release — lockfiles, provenance, least privilege, secret controls, SBOMs, and response.
+
+## Troubleshooting
+
+- **[Claude Code Troubleshooting: Fixes for the Most Common Problems](https://agentscamp.com/guides/troubleshooting/claude-code-troubleshooting)** — Fixes for the Claude Code problems people actually hit — install and auth failures, context-limit errors, MCP servers that won't connect, permission loops.
+- **[Claude Skills Not Working? Fixes for Every Failure Mode](https://agentscamp.com/guides/troubleshooting/claude-skills-not-working)** — Skill missing from the / menu, never auto-triggering, firing too often, or breaking mid-run — the symptom-by-symptom fix list for Claude skills.
+- **[Codex Troubleshooting: A Layer-by-Layer Recovery Guide](https://agentscamp.com/guides/troubleshooting/codex-troubleshooting)** — Troubleshoot OpenAI Codex when files, commands, configuration, worktrees, MCP, or app features misbehave — with a fast isolation and recovery sequence.
+- **[Why Your Agent Loops: Debugging AI Agents](https://agentscamp.com/guides/troubleshooting/debugging-ai-agents)** — The recurring agent failure modes — loops, premature victory, tool misuse, context poisoning, scope creep — diagnosed by their signatures, with fixes.
+- **[MCP Troubleshooting: Server Won't Connect & Other Fixes](https://agentscamp.com/guides/troubleshooting/mcp-troubleshooting)** — Fixes for the MCP problems people actually hit — servers failing to connect, missing tools, OAuth loops, timeouts, truncated output, and Windows quirks.
+- **[Why RAG Fails: A Debugging Checklist](https://agentscamp.com/guides/troubleshooting/rag-debugging-checklist)** — A diagnostic checklist for broken RAG — localize the failure to ingestion, retrieval, ranking, or generation, and apply the fix that matches, in order.
 
 ## Vision
 
@@ -129,32 +173,10 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 - **[Vision-Language Models Compared (2026)](https://agentscamp.com/guides/vision/vision-language-models-compared-2026)** — Which vision-language model to reach for, by job: Claude, GPT, Gemini, and open models like Qwen3-VL compared on OCR, charts, grounding, video, and cost.
 - **[Using Vision-Language Models for OCR, Documents, and Video Understanding](https://agentscamp.com/guides/vision/vlm-ocr-documents)** — How to use vision-language models for OCR, documents, and video: how they differ from traditional OCR, their failure modes, and getting reliable output.
 
-## Configuration
-
-- **[Claude Code Hooks: Automate Formatting, Tests, and Guardrails](https://agentscamp.com/guides/configuration/claude-code-hooks)** — How Claude Code hooks work — the major hook events, the settings.json configuration shape, exit codes and JSON output, plus three hooks worth copying.
-- **[Managing Claude Code Memory & Context: CLAUDE.md, /compact, and Auto-Memory](https://agentscamp.com/guides/configuration/claude-code-memory-context)** — How Claude Code remembers — every CLAUDE.md scope and load order, path-scoped rules, the auto-memory system, and the context commands that keep sessions sharp.
-- **[Claude Code Plugins: Install, Use, and Build Your Own](https://agentscamp.com/guides/configuration/claude-code-plugins)** — How Claude Code plugins work — what they can bundle, the /plugin and marketplace commands, the plugin.json manifest, and building and testing your own.
-- **[Claude Code Settings & Permissions: settings.json Explained](https://agentscamp.com/guides/configuration/claude-code-settings-permissions)** — Every Claude Code settings file and which one wins, the permission-rule syntax with its Bash matching gotchas, modes, and a safe starter settings.json.
-- **[CLAUDE.md Best Practices](https://agentscamp.com/guides/configuration/claude-md-best-practices)** — How to write a CLAUDE.md that actually helps — what to include, what to leave out, and how to keep it current.
-
-## Troubleshooting
-
-- **[Claude Code Troubleshooting: Fixes for the Most Common Problems](https://agentscamp.com/guides/troubleshooting/claude-code-troubleshooting)** — Fixes for the Claude Code problems people actually hit — install and auth failures, context-limit errors, MCP servers that won't connect, permission loops.
-- **[Claude Skills Not Working? Fixes for Every Failure Mode](https://agentscamp.com/guides/troubleshooting/claude-skills-not-working)** — Skill missing from the / menu, never auto-triggering, firing too often, or breaking mid-run — the symptom-by-symptom fix list for Claude skills.
-- **[Why Your Agent Loops: Debugging AI Agents](https://agentscamp.com/guides/troubleshooting/debugging-ai-agents)** — The recurring agent failure modes — loops, premature victory, tool misuse, context poisoning, scope creep — diagnosed by their signatures, with fixes.
-- **[MCP Troubleshooting: Server Won't Connect & Other Fixes](https://agentscamp.com/guides/troubleshooting/mcp-troubleshooting)** — Fixes for the MCP problems people actually hit — servers failing to connect, missing tools, OAuth loops, timeouts, truncated output, and Windows quirks.
-- **[Why RAG Fails: A Debugging Checklist](https://agentscamp.com/guides/troubleshooting/rag-debugging-checklist)** — A diagnostic checklist for broken RAG — localize the failure to ingestion, retrieval, ranking, or generation, and apply the fix that matches, in order.
-
-## AI Safety
-
-- **[Are Claude Skills Safe? A Security Review Checklist](https://agentscamp.com/guides/ai-safety/are-claude-skills-safe)** — Skills are an instruction supply chain: what can go wrong with third-party SKILL.md files, and the review checklist before installing or distributing one.
-- **[Data Privacy for LLM Apps: Stop Leaking Sensitive Data](https://agentscamp.com/guides/ai-safety/data-privacy-for-llm-apps)** — Where LLM apps leak PII and secrets — prompts, logs, traces, vector stores, providers — and the controls (redaction, ZDR, tenant isolation) that stop it.
-- **[Defending Against Prompt Injection: A Practical Guide for LLM Apps](https://agentscamp.com/guides/ai-safety/defending-prompt-injection)** — Prompt injection can't be solved at the model layer — so you defend in depth: trust boundaries, least privilege, human approval, guardrails, and red-teaming.
-- **[Securing AI Agents: The OWASP Agentic Top 10 in Practice](https://agentscamp.com/guides/ai-safety/owasp-agentic-top-10)** — Agents add risks LLM-app security misses — autonomy, tools, memory, multi-agent trust. The key OWASP agentic threats and how to mitigate each in practice.
-
 ## Database
 
 - **[Best Vector Database in 2026: pgvector vs Pinecone vs Qdrant vs Weaviate vs Milvus vs Chroma vs LanceDB](https://agentscamp.com/guides/database/best-vector-database-2026)** — A decision guide to vector databases — embedded, server, or managed; whether you already run Postgres; and which fits your scale, filtering, and RAG needs.
+- **[Postgres Connection Pooling: Sizing, Timeouts, and Serverless](https://agentscamp.com/guides/database/postgres-connection-pooling-guide)** — Size Postgres connection pools across application instances, configure lifecycle timeouts, diagnose saturation, and choose PgBouncer or a managed pooler.
 - **[Indexing Postgres at Scale: B-Tree vs GIN vs BRIN and the Hidden Cost of Over-Indexing](https://agentscamp.com/guides/database/postgres-indexing-at-scale)** — A practical guide to choosing Postgres index types — B-Tree, GIN, BRIN, partial, and covering — and why every index you add taxes every write.
 - **[Vector Search at Scale: ANN Indexes, Quantization & Sharding](https://agentscamp.com/guides/database/vector-search-at-scale)** — How to run vector search over millions to billions of vectors without blowing latency, memory, or cost — index families, quantization, filtering, and sharding.
 - **[Zero-Downtime Postgres Migrations: The Expand-Contract Playbook for 2026](https://agentscamp.com/guides/database/zero-downtime-postgres-migrations)** — How to change a live Postgres schema without downtime or broken deploys — the expand-contract pattern, safe column changes, batched backfills, and CONCURRENTLY.
@@ -164,7 +186,22 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 - **[Deploying LLMs to Production: A Reliability & Cost Checklist](https://agentscamp.com/guides/mlops/deploying-llms-to-production)** — Take an LLM feature from prototype to production: API vs self-host, provider fallback, retries, caching, observability, eval gates, and safe rollout.
 - **[Preparing a Fine-Tuning Dataset: Cleaning, Synthetic Data, and Eval Splits](https://agentscamp.com/guides/mlops/finetune-dataset-prep)** — The dataset is the model. How to build a fine-tuning dataset that works — format, curation, cleaning, synthetic augmentation, and a leak-free eval split.
 - **[Fine-Tune vs RAG vs Prompt vs Distill: The 2026 Decision Tree](https://agentscamp.com/guides/mlops/finetune-vs-rag-vs-prompt)** — When to reach for prompt engineering, RAG, fine-tuning, or distillation — what each actually changes, where each fails, and how to combine them.
+- **[LLM Observability in Production: Traces, Evals, Cost, and Feedback](https://agentscamp.com/guides/mlops/llm-observability-production)** — Instrument production LLM applications with end-to-end traces, online evals, cost and latency metrics, privacy controls, alerts, and a failure-feedback loop.
 - **[Self-Host vs API: When Does Running Your Own LLM Actually Pay Off?](https://agentscamp.com/guides/mlops/self-host-vs-api-llm)** — The real economics of self-hosting an LLM vs. calling a hosted API — GPU utilization, privacy, latency, and the hidden ops costs that decide the crossover.
+
+## Evaluation
+
+- **[Best LLM & RAG Evaluation Tools in 2026: DeepEval vs RAGAS vs LangSmith vs Phoenix vs promptfoo](https://agentscamp.com/guides/evaluation/best-llm-eval-tools-2026)** — A decision guide to the LLM eval landscape — code-first frameworks vs. eval-and-observability platforms, open-source vs. hosted, and which fits your stack.
+- **[LLM-as-Judge: Build Evaluators You Can Actually Trust](https://agentscamp.com/guides/evaluation/llm-as-judge-guide)** — Design and calibrate LLM-as-judge evaluators — rubrics, pointwise and pairwise scoring, bias controls, human agreement, reliability tests, and CI gates.
+- **[LLM Evaluation Metrics Explained: Which One to Use and When](https://agentscamp.com/guides/evaluation/llm-evaluation-metrics-explained)** — A practical map of LLM and RAG evaluation metrics — why BLEU/ROUGE fail open-ended text, how LLM-as-judge and RAG metrics work, and which to pick per task.
+- **[Write Evals for an LLM App: From Zero to a CI Gate](https://agentscamp.com/guides/evaluation/write-llm-evals)** — How to evaluate an LLM feature — build a dataset, choose metrics, set a baseline, score offline, add an LLM judge, and gate CI so quality changes are measured.
+
+## Testing
+
+- **[Contract Testing for Microservices: Consumer, Provider, and CI](https://agentscamp.com/guides/testing/contract-testing-microservices)** — Catch breaking service changes before deployment with consumer-driven contracts, provider verification, state fixtures, compatibility gates, and schema tests.
+- **[TDD with AI Agents: Red-Green as an Agent Loop](https://agentscamp.com/guides/testing/tdd-with-ai-agents)** — Test-driven development found its killer app: agents. How write-the-test-first turns AI coding into a verifiable loop, and the workflow that makes it stick.
+- **[How to Test AI-Generated Code](https://agentscamp.com/guides/testing/testing-ai-generated-code)** — AI writes the code; tests decide whether to trust it. The verification stack for agent-written changes — contracts, generated tests, and the review that's left.
+- **[Testing LLM Applications: How to Test Non-Deterministic Software](https://agentscamp.com/guides/testing/testing-llm-applications)** — How to test software that calls LLMs when outputs are non-deterministic — the testing pyramid, assertion strategies, golden datasets, and CI gating.
 
 ## Voice
 
@@ -173,20 +210,21 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 - **[How to Build a Voice Agent: The STT → LLM → TTS Pipeline](https://agentscamp.com/guides/voice/build-a-voice-agent)** — How to build a real-time voice agent: the STT → LLM → TTS pipeline, the latency budget that makes or breaks it, and how to wire each stage.
 - **[Realtime Voice Agents: Build on LiveKit, Buy Vapi, or Pipeline with Pipecat](https://agentscamp.com/guides/voice/realtime-voice-apis)** — The three ways to ship a realtime voice agent in 2026 — open infrastructure, managed platform, or OSS pipeline — and how speech-to-speech models fit in.
 
-## Evaluation
-
-- **[Best LLM & RAG Evaluation Tools in 2026: DeepEval vs RAGAS vs LangSmith vs Phoenix vs promptfoo](https://agentscamp.com/guides/evaluation/best-llm-eval-tools-2026)** — A decision guide to the LLM eval landscape — code-first frameworks vs. eval-and-observability platforms, open-source vs. hosted, and which fits your stack.
-- **[LLM Evaluation Metrics Explained: Which One to Use and When](https://agentscamp.com/guides/evaluation/llm-evaluation-metrics-explained)** — A practical map of LLM and RAG evaluation metrics — why BLEU/ROUGE fail open-ended text, how LLM-as-judge and RAG metrics work, and which to pick per task.
-- **[Write Evals for an LLM App: From Zero to a CI Gate](https://agentscamp.com/guides/evaluation/write-llm-evals)** — How to evaluate an LLM feature — build a dataset, choose metrics, set a baseline, score offline, add an LLM judge, and gate CI so quality changes are measured.
-
-## Testing
-
-- **[TDD with AI Agents: Red-Green as an Agent Loop](https://agentscamp.com/guides/testing/tdd-with-ai-agents)** — Test-driven development found its killer app: agents. How write-the-test-first turns AI coding into a verifiable loop, and the workflow that makes it stick.
-- **[How to Test AI-Generated Code](https://agentscamp.com/guides/testing/testing-ai-generated-code)** — AI writes the code; tests decide whether to trust it. The verification stack for agent-written changes — contracts, generated tests, and the review that's left.
-- **[Testing LLM Applications: How to Test Non-Deterministic Software](https://agentscamp.com/guides/testing/testing-llm-applications)** — How to test software that calls LLMs when outputs are non-deterministic — the testing pyramid, assertion strategies, golden datasets, and CI gating.
-
 ## Workflow
 
 - **[An AI Code Review Workflow That Actually Catches Bugs](https://agentscamp.com/guides/workflow/ai-code-review-workflow)** — Layer the review stack — self-review, AI reviewers, tests, and a human pass focused on what machines miss — into a workflow tuned for AI-written code.
+- **[Codex Automations: Schedule Reliable Background Work](https://agentscamp.com/guides/workflow/codex-automations)** — Schedule Codex tasks for recurring checks and follow-ups — choose chat or standalone runs, local projects or worktrees, skills, permissions, and stopping rules.
 - **[Human-in-the-Loop AI Workflows: Approval Gates That Keep Agents Safe and Trusted](https://agentscamp.com/guides/workflow/human-in-the-loop-ai-workflows)** — How to design human-in-the-loop into agent workflows — when to require approval, gate patterns, confidence escalation, review UX, and feedback loops.
 - **[Spec-Driven Development with AI Agents](https://agentscamp.com/guides/workflow/spec-driven-development)** — Write the spec, let the agent implement against it — the SDD workflow (spec → plan → tasks → implement), when it beats prompt-and-iterate, and the tooling.
+
+## API
+
+- **[Idempotency Keys: Design APIs That Are Safe to Retry](https://agentscamp.com/guides/api/idempotency-keys-api-design)** — Design idempotent API mutations with client keys, atomic claims, response replay, payload fingerprints, in-flight handling, TTLs, and downstream safety.
+
+## Observability
+
+- **[SLOs and Error Budgets: A Practical Reliability Guide](https://agentscamp.com/guides/observability/slo-error-budget-guide)** — Define user-centered SLIs and SLOs, calculate error budgets, create burn-rate alerts, set release policy, and keep reliability targets meaningful.
+
+## Performance
+
+- **[Web Performance Budgets: Turn Speed Into a Release Gate](https://agentscamp.com/guides/performance/web-performance-budgets)** — Define and enforce web performance budgets for Core Web Vitals, JavaScript, images, fonts, third parties, and critical journeys in CI and production.

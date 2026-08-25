@@ -4,7 +4,7 @@
 
 Browse the full directory on [AgentsCamp](https://agentscamp.com/glossary). Each entry links to its canonical page.
 
-**80 glossary** · [← Back to README](README.md)
+**81 glossary** · [← Back to README](README.md)
 
 ## Term
 
@@ -14,6 +14,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/glossary). Each
 - **[Agent Memory](https://agentscamp.com/glossary/agent-memory)** — Agent memory is how an AI agent retains information beyond its context window — working state during a task and persistent knowledge across sessions.
 - **[Agent Skills](https://agentscamp.com/glossary/agent-skills)** — Agent Skills are reusable procedures packaged as folders with a SKILL.md file — loaded by an AI agent on demand when a task matches, now an open standard.
 - **[Agentic AI](https://agentscamp.com/glossary/agentic-ai)** — Agentic AI is the class of AI systems that act toward goals — planning, calling tools, and iterating on results — rather than only generating content.
+- **[AGENTS.md](https://agentscamp.com/glossary/agents-md)** — AGENTS.md is a versioned instruction file that tells coding agents how to work in a repository — including commands, conventions, boundaries, and checks.
 - **[AI Agent](https://agentscamp.com/glossary/ai-agent)** — An AI agent is an LLM-driven system that pursues a goal in a loop — calling tools, observing results, iterating — instead of returning one answer.
 - **[AI Slop](https://agentscamp.com/glossary/ai-slop)** — AI slop is low-effort, mass-produced AI-generated content — fluent, generic, and unchecked — flooding feeds, search results, and codebases.
 - **[Attention Mechanism](https://agentscamp.com/glossary/attention-mechanism)** — Attention lets a model weigh how relevant every other token is to each token, building a context-aware representation as a weighted blend of their values.

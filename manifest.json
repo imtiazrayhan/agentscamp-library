@@ -3,12 +3,12 @@
   "source": "https://agentscamp.com",
   "counts": {
     "agents": 61,
-    "skills": 94,
-    "guides": 134,
+    "skills": 110,
+    "guides": 163,
     "tools": 139,
     "commands": 53,
-    "glossary": 80,
-    "total": 561
+    "glossary": 81,
+    "total": 607
   },
   "items": [
     {
@@ -1698,6 +1698,19 @@
       "url": "https://agentscamp.com/glossary/agentic-ai"
     },
     {
+      "id": "glossary/agents-md",
+      "type": "glossary",
+      "slug": "agents-md",
+      "category": "term",
+      "title": "AGENTS.md",
+      "description": "AGENTS.md is a versioned instruction file that tells coding agents how to work in a repository — including commands, conventions, boundaries, and checks.",
+      "topics": [
+        "workflow-prompting",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/glossary/agents-md"
+    },
+    {
       "id": "glossary/ai-agent",
       "type": "glossary",
       "slug": "ai-agent",
@@ -2773,6 +2786,149 @@
       "url": "https://agentscamp.com/guides/skills/best-claude-skills-2026"
     },
     {
+      "id": "guides/best-claude-skills-for-ai-apps",
+      "type": "guide",
+      "slug": "best-claude-skills-for-ai-apps",
+      "category": "skills",
+      "title": "10 Best Claude Skills for Building AI Applications",
+      "description": "Compare Claude skills for structured output, fallbacks, evals, hallucinations, routing, token cost, semantic caching, PII, guardrails, and tools.",
+      "topics": [
+        "llm-app-dev",
+        "llm-evals"
+      ],
+      "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-ai-apps"
+    },
+    {
+      "id": "guides/best-claude-skills-for-api-development",
+      "type": "guide",
+      "slug": "best-claude-skills-for-api-development",
+      "category": "skills",
+      "title": "10 Best Claude Skills for API Development",
+      "description": "Choose Claude skills for error contracts, idempotency, pagination, limits, webhooks, CORS, GraphQL, OpenAPI, tools, and MCP servers.",
+      "topics": [
+        "architecture",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-api-development"
+    },
+    {
+      "id": "guides/best-claude-skills-for-code-review",
+      "type": "guide",
+      "slug": "best-claude-skills-for-code-review",
+      "category": "skills",
+      "title": "9 Best Claude Skills for Code Review",
+      "description": "Choose Claude skills for security, correctness, maintainability, and focused pull request review without relying on one vague review prompt.",
+      "topics": [
+        "workflow-prompting",
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-code-review"
+    },
+    {
+      "id": "guides/best-claude-skills-for-database-work",
+      "type": "guide",
+      "slug": "best-claude-skills-for-database-work",
+      "category": "skills",
+      "title": "8 Best Claude Skills for Database Work",
+      "description": "Compare Claude skills for safe migrations, data backfills, indexes, query plans, pooling, deadlocks, vector search, and SQL tuning.",
+      "topics": [
+        "data-ml",
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-database-work"
+    },
+    {
+      "id": "guides/best-claude-skills-for-devops-sre",
+      "type": "guide",
+      "slug": "best-claude-skills-for-devops-sre",
+      "category": "skills",
+      "title": "10 Best Claude Skills for DevOps and SRE",
+      "description": "Use Claude skills for incidents, rollbacks, SLOs, alerts, dashboards, logs, traces, containers, CI, and safer releases.",
+      "topics": [
+        "devops-infra",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-devops-sre"
+    },
+    {
+      "id": "guides/best-claude-skills-for-documentation",
+      "type": "guide",
+      "slug": "best-claude-skills-for-documentation",
+      "category": "skills",
+      "title": "7 Best Claude Skills for Documentation",
+      "description": "Use Claude skills to verify code examples and create accurate READMEs, API docs, runbooks, onboarding guides, ADRs, and diagrams.",
+      "topics": [
+        "workflow-prompting",
+        "architecture"
+      ],
+      "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-documentation"
+    },
+    {
+      "id": "guides/best-claude-skills-for-frontend-development",
+      "type": "guide",
+      "slug": "best-claude-skills-for-frontend-development",
+      "category": "skills",
+      "title": "9 Best Claude Skills for Frontend Development",
+      "description": "Compare Claude skills for accessibility, Web Vitals, React renders, bundles, localization, browser security, test data, tests, and caching.",
+      "topics": [
+        "coding-languages",
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-frontend-development"
+    },
+    {
+      "id": "guides/best-claude-skills-for-performance",
+      "type": "guide",
+      "slug": "best-claude-skills-for-performance",
+      "category": "skills",
+      "title": "9 Best Claude Skills for Performance Engineering",
+      "description": "Compare Claude skills for caching, Web Vitals, bundles, React renders, load tests, cold starts, CPU profiles, memory leaks, and prompt caches.",
+      "topics": [
+        "devops-infra",
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-performance"
+    },
+    {
+      "id": "guides/best-claude-skills-for-release-management",
+      "type": "guide",
+      "slug": "best-claude-skills-for-release-management",
+      "category": "skills",
+      "title": "9 Best Claude Skills for Release Management",
+      "description": "Use Claude skills for readiness reviews, canaries, rollbacks, API deprecations, migrations, versioning, changelogs, and release notes.",
+      "topics": [
+        "devops-infra",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-release-management"
+    },
+    {
+      "id": "guides/best-claude-skills-for-security",
+      "type": "guide",
+      "slug": "best-claude-skills-for-security",
+      "category": "skills",
+      "title": "10 Best Claude Skills for Security Work",
+      "description": "Compare Claude skills for secrets, dependencies, permissions, auth, RBAC, threats, headers, PII, data retention, and LLM guardrails.",
+      "topics": [
+        "ai-safety-security",
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-security"
+    },
+    {
+      "id": "guides/best-claude-skills-for-testing",
+      "type": "guide",
+      "slug": "best-claude-skills-for-testing",
+      "category": "skills",
+      "title": "9 Best Claude Skills for Software Testing",
+      "description": "Compare Claude skills for regression, unit, integration, contract, property, mutation, prompt, and test-data workflows.",
+      "topics": [
+        "review-qa",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-testing"
+    },
+    {
       "id": "guides/best-llm-eval-tools-2026",
       "type": "guide",
       "slug": "best-llm-eval-tools-2026",
@@ -3221,6 +3377,98 @@
       "url": "https://agentscamp.com/guides/prompting/claude-vs-gpt-vs-gemini-coding"
     },
     {
+      "id": "guides/codex-agents-md",
+      "type": "guide",
+      "slug": "codex-agents-md",
+      "category": "configuration",
+      "title": "AGENTS.md for Codex: Project Instructions That Actually Work",
+      "description": "Write an effective AGENTS.md for OpenAI Codex — what belongs in it, how nested overrides work, and how to verify the instructions Codex loaded.",
+      "topics": [
+        "workflow-prompting",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/guides/configuration/codex-agents-md"
+    },
+    {
+      "id": "guides/codex-automations",
+      "type": "guide",
+      "slug": "codex-automations",
+      "category": "workflow",
+      "title": "Codex Automations: Schedule Reliable Background Work",
+      "description": "Schedule Codex tasks for recurring checks and follow-ups — choose chat or standalone runs, local projects or worktrees, skills, permissions, and stopping rules.",
+      "topics": [
+        "workflow-prompting",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/guides/workflow/codex-automations"
+    },
+    {
+      "id": "guides/codex-config-toml",
+      "type": "guide",
+      "slug": "codex-config-toml",
+      "category": "configuration",
+      "title": "Codex config.toml: Settings, Precedence, and Safe Defaults",
+      "description": "Configure OpenAI Codex with config.toml — user and project scopes, precedence, sandbox and approvals, MCP, subagents, profiles, and safe defaults.",
+      "topics": [
+        "workflow-prompting",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/guides/configuration/codex-config-toml"
+    },
+    {
+      "id": "guides/codex-mcp-setup",
+      "type": "guide",
+      "slug": "codex-mcp-setup",
+      "category": "mcp",
+      "title": "Codex MCP Setup: Connect Tools and Live Context",
+      "description": "Connect OpenAI Codex to MCP servers through the CLI, desktop app, IDE, or config.toml — with practical scoping, OAuth, and tool-approval guidance.",
+      "topics": [
+        "mcp",
+        "architecture",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/mcp/codex-mcp-setup"
+    },
+    {
+      "id": "guides/codex-skills-guide",
+      "type": "guide",
+      "slug": "codex-skills-guide",
+      "category": "skills",
+      "title": "Codex Skills: Build Reusable Workflows with SKILL.md",
+      "description": "Create, install, and test Codex skills with SKILL.md — including trigger descriptions, repo and user paths, progressive disclosure, and distribution.",
+      "topics": [
+        "workflow-prompting",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/guides/skills/codex-skills-guide"
+    },
+    {
+      "id": "guides/codex-subagents",
+      "type": "guide",
+      "slug": "codex-subagents",
+      "category": "advanced",
+      "title": "Codex Subagents: Parallel Work Without Losing Control",
+      "description": "Use Codex subagents for parallel exploration, review, tests, and implementation — including decomposition, custom agents, permissions, and merge discipline.",
+      "topics": [
+        "ai-agents-systems",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/advanced/codex-subagents"
+    },
+    {
+      "id": "guides/codex-troubleshooting",
+      "type": "guide",
+      "slug": "codex-troubleshooting",
+      "category": "troubleshooting",
+      "title": "Codex Troubleshooting: A Layer-by-Layer Recovery Guide",
+      "description": "Troubleshoot OpenAI Codex when files, commands, configuration, worktrees, MCP, or app features misbehave — with a fast isolation and recovery sequence.",
+      "topics": [
+        "workflow-prompting",
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/guides/troubleshooting/codex-troubleshooting"
+    },
+    {
       "id": "guides/context-engineering",
       "type": "guide",
       "slug": "context-engineering",
@@ -3231,6 +3479,19 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/guides/prompting/context-engineering"
+    },
+    {
+      "id": "guides/contract-testing-microservices",
+      "type": "guide",
+      "slug": "contract-testing-microservices",
+      "category": "testing",
+      "title": "Contract Testing for Microservices: Consumer, Provider, and CI",
+      "description": "Catch breaking service changes before deployment with consumer-driven contracts, provider verification, state fixtures, compatibility gates, and schema tests.",
+      "topics": [
+        "review-qa",
+        "architecture"
+      ],
+      "url": "https://agentscamp.com/guides/testing/contract-testing-microservices"
     },
     {
       "id": "guides/cursor-vs-claude-code-vs-copilot-vs-windsurf-2026",
@@ -3528,6 +3789,19 @@
       "url": "https://agentscamp.com/guides/concepts/hybrid-search-reranking"
     },
     {
+      "id": "guides/idempotency-keys-api-design",
+      "type": "guide",
+      "slug": "idempotency-keys-api-design",
+      "category": "api",
+      "title": "Idempotency Keys: Design APIs That Are Safe to Retry",
+      "description": "Design idempotent API mutations with client keys, atomic claims, response replay, payload fingerprints, in-flight handling, TTLs, and downstream safety.",
+      "topics": [
+        "architecture",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/guides/api/idempotency-keys-api-design"
+    },
+    {
       "id": "guides/installing-claude-code",
       "type": "guide",
       "slug": "installing-claude-code",
@@ -3602,6 +3876,19 @@
       "url": "https://agentscamp.com/guides/advanced/llm-api-pricing-2026"
     },
     {
+      "id": "guides/llm-as-judge-guide",
+      "type": "guide",
+      "slug": "llm-as-judge-guide",
+      "category": "evaluation",
+      "title": "LLM-as-Judge: Build Evaluators You Can Actually Trust",
+      "description": "Design and calibrate LLM-as-judge evaluators — rubrics, pointwise and pairwise scoring, bias controls, human agreement, reliability tests, and CI gates.",
+      "topics": [
+        "llm-evals",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/guides/evaluation/llm-as-judge-guide"
+    },
+    {
       "id": "guides/llm-context-windows-compared",
       "type": "guide",
       "slug": "llm-context-windows-compared",
@@ -3648,6 +3935,19 @@
         "devops-infra"
       ],
       "url": "https://agentscamp.com/guides/advanced/llm-gateways-compared"
+    },
+    {
+      "id": "guides/llm-observability-production",
+      "type": "guide",
+      "slug": "llm-observability-production",
+      "category": "mlops",
+      "title": "LLM Observability in Production: Traces, Evals, Cost, and Feedback",
+      "description": "Instrument production LLM applications with end-to-end traces, online evals, cost and latency metrics, privacy controls, alerts, and a failure-feedback loop.",
+      "topics": [
+        "llm-evals",
+        "mlops-ai-infra"
+      ],
+      "url": "https://agentscamp.com/guides/mlops/llm-observability-production"
     },
     {
       "id": "guides/mcp-ecosystem-statistics",
@@ -3775,6 +4075,19 @@
       "url": "https://agentscamp.com/guides/comparisons/openai-agents-sdk-vs-langgraph"
     },
     {
+      "id": "guides/openai-codex-guide",
+      "type": "guide",
+      "slug": "openai-codex-guide",
+      "category": "getting-started",
+      "title": "OpenAI Codex: A Practical Guide for Developers",
+      "description": "Learn how OpenAI Codex works across the terminal, IDE, desktop app, and cloud — then set up a safe, repeatable workflow for real repositories.",
+      "topics": [
+        "workflow-prompting",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/guides/getting-started/openai-codex-guide"
+    },
+    {
       "id": "guides/owasp-agentic-top-10",
       "type": "guide",
       "slug": "owasp-agentic-top-10",
@@ -3823,6 +4136,19 @@
       "url": "https://agentscamp.com/guides/comparisons/pgvector-vs-pinecone"
     },
     {
+      "id": "guides/postgres-connection-pooling-guide",
+      "type": "guide",
+      "slug": "postgres-connection-pooling-guide",
+      "category": "database",
+      "title": "Postgres Connection Pooling: Sizing, Timeouts, and Serverless",
+      "description": "Size Postgres connection pools across application instances, configure lifecycle timeouts, diagnose saturation, and choose PgBouncer or a managed pooler.",
+      "topics": [
+        "devops-infra",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/guides/database/postgres-connection-pooling-guide"
+    },
+    {
       "id": "guides/postgres-indexing-at-scale",
       "type": "guide",
       "slug": "postgres-indexing-at-scale",
@@ -3833,6 +4159,19 @@
         "data-ml"
       ],
       "url": "https://agentscamp.com/guides/database/postgres-indexing-at-scale"
+    },
+    {
+      "id": "guides/production-model-routing",
+      "type": "guide",
+      "slug": "production-model-routing",
+      "category": "concepts",
+      "title": "Production Model Routing: Cut Cost Without Hiding Regressions",
+      "description": "Design an LLM model router with capability gates, difficulty signals, cascades, fallbacks, per-route evals, shadow traffic, budgets, and safe rollout.",
+      "topics": [
+        "llm-app-dev",
+        "mlops-ai-infra"
+      ],
+      "url": "https://agentscamp.com/guides/concepts/production-model-routing"
     },
     {
       "id": "guides/production-tool-calling",
@@ -3920,6 +4259,19 @@
       "url": "https://agentscamp.com/guides/voice/realtime-voice-apis"
     },
     {
+      "id": "guides/red-teaming-llm-applications",
+      "type": "guide",
+      "slug": "red-teaming-llm-applications",
+      "category": "ai-safety",
+      "title": "Red-Teaming LLM Applications: From Attack Cases to Regression Tests",
+      "description": "Red-team an LLM application across prompts, RAG, tools, agents, and data boundaries — scope assets, generate attacks, score impact, fix, and retest in CI.",
+      "topics": [
+        "ai-safety-security",
+        "llm-evals"
+      ],
+      "url": "https://agentscamp.com/guides/ai-safety/red-teaming-llm-applications"
+    },
+    {
       "id": "guides/sandboxing-ai-generated-code",
       "type": "guide",
       "slug": "sandboxing-ai-generated-code",
@@ -3993,6 +4345,32 @@
         "mcp"
       ],
       "url": "https://agentscamp.com/guides/skills/skills-vs-mcp-servers"
+    },
+    {
+      "id": "guides/slo-error-budget-guide",
+      "type": "guide",
+      "slug": "slo-error-budget-guide",
+      "category": "observability",
+      "title": "SLOs and Error Budgets: A Practical Reliability Guide",
+      "description": "Define user-centered SLIs and SLOs, calculate error budgets, create burn-rate alerts, set release policy, and keep reliability targets meaningful.",
+      "topics": [
+        "devops-infra",
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/guides/observability/slo-error-budget-guide"
+    },
+    {
+      "id": "guides/software-supply-chain-security",
+      "type": "guide",
+      "slug": "software-supply-chain-security",
+      "category": "ai-safety",
+      "title": "Software Supply Chain Security: Dependencies, Builds, and Releases",
+      "description": "Secure the software supply chain from dependency selection through release — lockfiles, provenance, least privilege, secret controls, SBOMs, and response.",
+      "topics": [
+        "ai-safety-security",
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/guides/ai-safety/software-supply-chain-security"
     },
     {
       "id": "guides/spec-driven-development",
@@ -4170,6 +4548,19 @@
       "url": "https://agentscamp.com/guides/concepts/web-data-for-ai-agents"
     },
     {
+      "id": "guides/web-performance-budgets",
+      "type": "guide",
+      "slug": "web-performance-budgets",
+      "category": "performance",
+      "title": "Web Performance Budgets: Turn Speed Into a Release Gate",
+      "description": "Define and enforce web performance budgets for Core Web Vitals, JavaScript, images, fonts, third parties, and critical journeys in CI and production.",
+      "topics": [
+        "devops-infra",
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/guides/performance/web-performance-budgets"
+    },
+    {
       "id": "guides/what-are-claude-skills",
       "type": "guide",
       "slug": "what-are-claude-skills",
@@ -4243,6 +4634,21 @@
       "url": "https://agentscamp.com/guides/database/zero-downtime-postgres-migrations"
     },
     {
+      "id": "skills/accessibility-regression-auditor",
+      "type": "skill",
+      "slug": "accessibility-regression-auditor",
+      "category": "testing",
+      "title": "Accessibility Regression Auditor",
+      "description": "Audit a UI change for accessibility regressions by combining automated checks with keyboard, focus, semantic, name-role-value, contrast, zoom, and screen-reader-oriented inspection. Use when reviewing a component or pull request, adding a dialog or form, changing navigation, or investigating an accessibility failure that a linter alone cannot explain.",
+      "topics": [
+        "review-qa",
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/skills/testing/accessibility-regression-auditor",
+      "file": "skills/accessibility-regression-auditor/SKILL.md",
+      "install": "npx agentscamp add skills/accessibility-regression-auditor"
+    },
+    {
       "id": "skills/adr-writer",
       "type": "skill",
       "slug": "adr-writer",
@@ -4301,6 +4707,36 @@
       "install": "npx agentscamp add skills/alerting-rules-tuner"
     },
     {
+      "id": "skills/api-deprecation-planner",
+      "type": "skill",
+      "slug": "api-deprecation-planner",
+      "category": "api",
+      "title": "API Deprecation Planner",
+      "description": "Plan the retirement of an API endpoint, field, event, tool, or version without surprising active consumers. Use when replacing an interface, removing legacy behavior, publishing a sunset, migrating internal or external clients, or deciding whether observed traffic is safe to turn off.",
+      "topics": [
+        "architecture",
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/api/api-deprecation-planner",
+      "file": "skills/api-deprecation-planner/SKILL.md",
+      "install": "npx agentscamp add skills/api-deprecation-planner"
+    },
+    {
+      "id": "skills/api-error-contract-designer",
+      "type": "skill",
+      "slug": "api-error-contract-designer",
+      "category": "api",
+      "title": "API Error Contract Designer",
+      "description": "Design or normalize an API's error contract so clients get stable machine-readable codes, safe human messages, field-level validation details, correlation IDs, and consistent HTTP semantics. Use when adding endpoints, replacing ad hoc error strings, documenting SDK behavior, or fixing clients that branch on fragile message text.",
+      "topics": [
+        "architecture",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/skills/api/api-error-contract-designer",
+      "file": "skills/api-error-contract-designer/SKILL.md",
+      "install": "npx agentscamp add skills/api-error-contract-designer"
+    },
+    {
       "id": "skills/architecture-diagram-generator",
       "type": "skill",
       "slug": "architecture-diagram-generator",
@@ -4329,6 +4765,21 @@
       "install": "npx agentscamp add skills/auth-flow-reviewer"
     },
     {
+      "id": "skills/background-job-reliability-auditor",
+      "type": "skill",
+      "slug": "background-job-reliability-auditor",
+      "category": "observability",
+      "title": "Background Job Reliability Auditor",
+      "description": "Audit scheduled jobs, queue consumers, workers, and asynchronous workflows for delivery assumptions, idempotency, retries, poison messages, concurrency, timeouts, checkpoints, shutdown, and observability. Use when a job duplicates work, silently stops, falls behind, fails only at scale, or needs review before production.",
+      "topics": [
+        "devops-infra",
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/skills/observability/background-job-reliability-auditor",
+      "file": "skills/background-job-reliability-auditor/SKILL.md",
+      "install": "npx agentscamp add skills/background-job-reliability-auditor"
+    },
+    {
       "id": "skills/branch-rebaser",
       "type": "skill",
       "slug": "branch-rebaser",
@@ -4355,6 +4806,21 @@
       "url": "https://agentscamp.com/skills/performance/bundle-analyzer",
       "file": "skills/bundle-analyzer/SKILL.md",
       "install": "npx agentscamp add skills/bundle-analyzer"
+    },
+    {
+      "id": "skills/cache-policy-designer",
+      "type": "skill",
+      "slug": "cache-policy-designer",
+      "category": "performance",
+      "title": "Cache Policy Designer",
+      "description": "Design a cache policy from data ownership, freshness, privacy, invalidation, and failure requirements across browser, CDN, reverse-proxy, application, and data caches. Use when adding caching, debugging stale responses, reviewing Cache-Control behavior, reducing origin load, or deciding whether a value can be cached safely at all.",
+      "topics": [
+        "devops-infra",
+        "architecture"
+      ],
+      "url": "https://agentscamp.com/skills/performance/cache-policy-designer",
+      "file": "skills/cache-policy-designer/SKILL.md",
+      "install": "npx agentscamp add skills/cache-policy-designer"
     },
     {
       "id": "skills/canary-release-planner",
@@ -4425,6 +4891,21 @@
       "url": "https://agentscamp.com/skills/workflow/claude-settings-auditor",
       "file": "skills/claude-settings-auditor/SKILL.md",
       "install": "npx agentscamp add skills/claude-settings-auditor"
+    },
+    {
+      "id": "skills/code-example-verifier",
+      "type": "skill",
+      "slug": "code-example-verifier",
+      "category": "docs",
+      "title": "Code Example Verifier",
+      "description": "Verify documentation code examples against the current repository and toolchain, then fix snippets, imports, commands, and expected output without changing the documented intent. Use when docs examples may be stale, an SDK or API changed, users report copy-paste failures, or before publishing tutorials, READMEs, migration guides, and release documentation.",
+      "topics": [
+        "review-qa",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/docs/code-example-verifier",
+      "file": "skills/code-example-verifier/SKILL.md",
+      "install": "npx agentscamp add skills/code-example-verifier"
     },
     {
       "id": "skills/cold-start-optimizer",
@@ -4537,6 +5018,21 @@
       "url": "https://agentscamp.com/skills/observability/dashboard-designer",
       "file": "skills/dashboard-designer/SKILL.md",
       "install": "npx agentscamp add skills/dashboard-designer"
+    },
+    {
+      "id": "skills/data-retention-auditor",
+      "type": "skill",
+      "slug": "data-retention-auditor",
+      "category": "security",
+      "title": "Data Retention Auditor",
+      "description": "Audit where personal or sensitive data is collected, copied, retained, backed up, logged, exported, and deleted, then compare actual lifecycle behavior with stated policy. Use when adding a data field, preparing a privacy review, implementing account deletion, reducing stored data, or checking whether retention controls work across primary and secondary systems.",
+      "topics": [
+        "ai-safety-security",
+        "architecture"
+      ],
+      "url": "https://agentscamp.com/skills/security/data-retention-auditor",
+      "file": "skills/data-retention-auditor/SKILL.md",
+      "install": "npx agentscamp add skills/data-retention-auditor"
     },
     {
       "id": "skills/dead-code-finder",
@@ -4709,6 +5205,21 @@
       "install": "npx agentscamp add skills/finetune-dataset-builder"
     },
     {
+      "id": "skills/flaky-test-diagnoser",
+      "type": "skill",
+      "slug": "flaky-test-diagnoser",
+      "category": "testing",
+      "title": "Flaky Test Diagnoser",
+      "description": "Diagnose a test that passes and fails without relevant code changes by reproducing the instability, classifying its trigger, and isolating the shared state, timing, ordering, concurrency, randomness, or environment dependency behind it. Use when CI retries hide failures, a test fails only in the suite, or a failure cannot be reproduced reliably on one machine.",
+      "topics": [
+        "review-qa",
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/testing/flaky-test-diagnoser",
+      "file": "skills/flaky-test-diagnoser/SKILL.md",
+      "install": "npx agentscamp add skills/flaky-test-diagnoser"
+    },
+    {
       "id": "skills/flamegraph-analyzer",
       "type": "skill",
       "slug": "flamegraph-analyzer",
@@ -4835,6 +5346,21 @@
       "install": "npx agentscamp add skills/idempotency-designer"
     },
     {
+      "id": "skills/incident-postmortem-writer",
+      "type": "skill",
+      "slug": "incident-postmortem-writer",
+      "category": "observability",
+      "title": "Incident Postmortem Writer",
+      "description": "Turn incident notes, alerts, chat logs, deploy history, and traces into a blameless, evidence-backed postmortem with impact, timeline, contributing conditions, detection and response gaps, and owned corrective actions. Use after a production incident, failed deployment, security event, or near miss when the team needs a durable learning document rather than a root-cause guess.",
+      "topics": [
+        "devops-infra",
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/skills/observability/incident-postmortem-writer",
+      "file": "skills/incident-postmortem-writer/SKILL.md",
+      "install": "npx agentscamp add skills/incident-postmortem-writer"
+    },
+    {
       "id": "skills/integration-test-designer",
       "type": "skill",
       "slug": "integration-test-designer",
@@ -4847,6 +5373,21 @@
       "url": "https://agentscamp.com/skills/testing/integration-test-designer",
       "file": "skills/integration-test-designer/SKILL.md",
       "install": "npx agentscamp add skills/integration-test-designer"
+    },
+    {
+      "id": "skills/least-privilege-auditor",
+      "type": "skill",
+      "slug": "least-privilege-auditor",
+      "category": "security",
+      "title": "Least Privilege Auditor",
+      "description": "Audit application, CI, cloud, database, and agent permissions against observed usage, then produce a safe reduction plan with verification and rollback. Use when credentials have broad scopes, service roles grew organically, CI tokens can write too much, an agent or MCP server has excessive tools, or before a security review or compliance audit.",
+      "topics": [
+        "ai-safety-security",
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/security/least-privilege-auditor",
+      "file": "skills/least-privilege-auditor/SKILL.md",
+      "install": "npx agentscamp add skills/least-privilege-auditor"
     },
     {
       "id": "skills/license-compliance-checker",
@@ -4933,6 +5474,21 @@
       "install": "npx agentscamp add skills/load-test-designer"
     },
     {
+      "id": "skills/localization-readiness-auditor",
+      "type": "skill",
+      "slug": "localization-readiness-auditor",
+      "category": "workflow",
+      "title": "Localization Readiness Auditor",
+      "description": "Audit an application or feature for localization readiness across extracted messages, interpolation, pluralization, date and number formatting, layout expansion, right-to-left behavior, sorting, search, assets, metadata, and test coverage. Use before adding a locale, reviewing hard-coded UI text, or investigating a feature that breaks outside English.",
+      "topics": [
+        "coding-languages",
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/skills/workflow/localization-readiness-auditor",
+      "file": "skills/localization-readiness-auditor/SKILL.md",
+      "install": "npx agentscamp add skills/localization-readiness-auditor"
+    },
+    {
       "id": "skills/mcp-server-scaffolder",
       "type": "skill",
       "slug": "mcp-server-scaffolder",
@@ -5002,6 +5558,21 @@
       "url": "https://agentscamp.com/skills/data/model-router-designer",
       "file": "skills/model-router-designer/SKILL.md",
       "install": "npx agentscamp add skills/model-router-designer"
+    },
+    {
+      "id": "skills/monorepo-boundary-auditor",
+      "type": "skill",
+      "slug": "monorepo-boundary-auditor",
+      "category": "workflow",
+      "title": "Monorepo Boundary Auditor",
+      "description": "Audit a monorepo's package boundaries, dependency direction, public entry points, ownership, build graph, and affected-test rules, then report cycles and cross-layer imports with a staged repair plan. Use when packages are tightly coupled, builds invalidate too much, teams import internals, dependency cycles appear, or a monorepo migration needs enforceable architecture boundaries.",
+      "topics": [
+        "architecture",
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/workflow/monorepo-boundary-auditor",
+      "file": "skills/monorepo-boundary-auditor/SKILL.md",
+      "install": "npx agentscamp add skills/monorepo-boundary-auditor"
     },
     {
       "id": "skills/multimodal-document-extractor",
@@ -5288,6 +5859,20 @@
       "install": "npx agentscamp add skills/readme-generator"
     },
     {
+      "id": "skills/regression-test-writer",
+      "type": "skill",
+      "slug": "regression-test-writer",
+      "category": "testing",
+      "title": "Regression Test Writer",
+      "description": "Turn a reported bug into the smallest test that fails for the real reason before the fix and passes afterward. Use when reproducing a defect, reviewing a bug fix with no guard test, converting an incident into permanent coverage, or preventing a previously fixed edge case from returning.",
+      "topics": [
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/skills/testing/regression-test-writer",
+      "file": "skills/regression-test-writer/SKILL.md",
+      "install": "npx agentscamp add skills/regression-test-writer"
+    },
+    {
       "id": "skills/release-notes-writer",
       "type": "skill",
       "slug": "release-notes-writer",
@@ -5302,6 +5887,36 @@
       "install": "npx agentscamp add skills/release-notes-writer"
     },
     {
+      "id": "skills/release-readiness-reviewer",
+      "type": "skill",
+      "slug": "release-readiness-reviewer",
+      "category": "release",
+      "title": "Release Readiness Reviewer",
+      "description": "Review whether a specific release is ready to ship by checking scope, tests, compatibility, migrations, configuration, observability, rollout, rollback, support, security, and ownership against explicit evidence. Use before a production deployment, major version, risky feature launch, migration, or go/no-go meeting.",
+      "topics": [
+        "devops-infra",
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/skills/release/release-readiness-reviewer",
+      "file": "skills/release-readiness-reviewer/SKILL.md",
+      "install": "npx agentscamp add skills/release-readiness-reviewer"
+    },
+    {
+      "id": "skills/rollback-plan-writer",
+      "type": "skill",
+      "slug": "rollback-plan-writer",
+      "category": "release",
+      "title": "Rollback Plan Writer",
+      "description": "Write a tested rollback and forward-recovery plan for a release, including triggers, commands, compatibility constraints, data handling, verification, ownership, and stop conditions. Use before high-risk deploys, schema or configuration changes, dependency upgrades, model or provider migrations, feature launches, and any release where 'just redeploy the old version' is incomplete or unsafe.",
+      "topics": [
+        "devops-infra",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/release/rollback-plan-writer",
+      "file": "skills/rollback-plan-writer/SKILL.md",
+      "install": "npx agentscamp add skills/rollback-plan-writer"
+    },
+    {
       "id": "skills/runbook-writer",
       "type": "skill",
       "slug": "runbook-writer",
@@ -5314,6 +5929,21 @@
       "url": "https://agentscamp.com/skills/docs/runbook-writer",
       "file": "skills/runbook-writer/SKILL.md",
       "install": "npx agentscamp add skills/runbook-writer"
+    },
+    {
+      "id": "skills/safe-data-backfill-planner",
+      "type": "skill",
+      "slug": "safe-data-backfill-planner",
+      "category": "database",
+      "title": "Safe Data Backfill Planner",
+      "description": "Plan and implement a resumable production data backfill with bounded batches, checkpoints, rate limits, correctness verification, observability, and a pause or rollback path. Use when populating a new column, repairing historical rows, re-keying records, migrating derived data, or updating millions of records without overwhelming the database or replicas.",
+      "topics": [
+        "data-ml",
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/skills/database/safe-data-backfill-planner",
+      "file": "skills/safe-data-backfill-planner/SKILL.md",
+      "install": "npx agentscamp add skills/safe-data-backfill-planner"
     },
     {
       "id": "skills/secret-scanner",
@@ -5871,7 +6501,8 @@
       "title": "Codex CLI",
       "description": "OpenAI's open-source terminal coding agent with sandboxed execution and two-layer approval controls.",
       "topics": [
-        "coding-languages"
+        "workflow-prompting",
+        "ai-agents-systems"
       ],
       "url": "https://agentscamp.com/tools/codex-cli"
     },
