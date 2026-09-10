@@ -40,7 +40,7 @@ Replace `agents/<slug>` with any id from the catalogs below (e.g. `skills/<slug>
 
 ## About
 
-[AgentsCamp](https://agentscamp.com) is a curated hub for everything AI — agents, skills, guides, tools, and commands for building with AI coding agents. Browse, search, and read the full guides on the site — this repo mirrors the installable library for git-native distribution.
+[AgentsCamp](https://agentscamp.com) is guides, an AI tool directory, and a plain-language glossary for developers, founders, marketers, designers, and analysts, plus installable Claude Code skills. Browse, search, and read the full guides on the site — this repo mirrors the installable library for git-native distribution.
 
 Part of a small network of maker tools:
 - [OptimizeCamp](https://optimizecamp.com) — Audit & optimize content for AI search

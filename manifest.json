@@ -3244,7 +3244,7 @@
       "slug": "best-ai-app-builders-2026",
       "category": "comparisons",
       "title": "Best AI App Builders in 2026: v0 vs Lovable vs Bolt vs Replit",
-      "description": "The prompt-to-app builders compared — v0 for production UI, Lovable for full apps, Bolt for in-browser velocity, Replit for build-and-host in one place.",
+      "description": "Seven AI app builders compared for 2026 — v0, Lovable, Bolt, Replit Agent, Base44, Emergent, and Rork — with a verdict, a pricing model, and a best-for each.",
       "topics": [
         "coding-languages"
       ],
@@ -3256,7 +3256,7 @@
       "slug": "best-ai-code-review-tools-2026",
       "category": "comparisons",
       "title": "Best AI Code Review Tools in 2026",
-      "description": "The AI code reviewers worth running in 2026 — CodeRabbit, Greptile, and Qodo compared, plus open-source PR-Agent and when Copilot's review is enough.",
+      "description": "The AI code reviewers worth running in 2026 — CodeRabbit, Greptile, Qodo, Cursor Bugbot, and GitHub Copilot code review compared, with a verdict for each.",
       "topics": [
         "review-qa"
       ],
@@ -3525,7 +3525,7 @@
       "slug": "best-local-llm-tools-2026",
       "category": "comparisons",
       "title": "Best Tools for Running LLMs Locally in 2026",
-      "description": "The local LLM stack, ranked by job: Ollama for serving tools, LM Studio and Jan for desktop exploration, llama.cpp for control, vLLM when it's real serving.",
+      "description": "The local LLM stack ranked by job — Ollama, LM Studio, Jan, llama.cpp, vLLM, and LiteLLM — with a verdict each and the line where local inference stops paying.",
       "topics": [
         "mlops-ai-infra"
       ],
@@ -3550,7 +3550,7 @@
       "slug": "best-rag-frameworks-2026",
       "category": "comparisons",
       "title": "Best RAG Frameworks in 2026",
-      "description": "A roundup of the top RAG frameworks in 2026 — LlamaIndex, LangChain, Haystack, and DSPy — and which one fits your retrieval stack.",
+      "description": "The RAG frameworks worth building on in 2026 — LlamaIndex, LangChain, LangGraph, DSPy, Dify and Mastra — plus the retrieval layer that decides answer quality.",
       "topics": [
         "rag-retrieval"
       ],
@@ -3627,7 +3627,7 @@
       "slug": "browser-agents-compared-2026",
       "category": "comparisons",
       "title": "Browser Agents in 2026: Browser Use vs Stagehand vs Skyvern vs Playwright MCP",
-      "description": "Four ways to give AI a browser — Browser Use, Stagehand, Skyvern, and Playwright MCP compared honestly on control, cost, and reliability for 2026.",
+      "description": "Seven ways to give AI a browser — Browser Use, Stagehand, Skyvern, the MCP servers, Claude in Chrome, Browserbase and Firecrawl — compared with a verdict each.",
       "topics": [
         "ai-agents-systems"
       ],
