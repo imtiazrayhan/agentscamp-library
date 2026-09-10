@@ -4,7 +4,7 @@
 
 Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agentscamp) CLI (`-g` installs to `~/.claude/` instead of the current project), or open the linked file and copy it into your `.claude/agents/` directory. Each entry links to its full page on [AgentsCamp](https://agentscamp.com).
 
-**61 agents** · [← Back to README](README.md)
+**65 agents** · [← Back to README](README.md)
 
 ## Data AI
 
@@ -148,3 +148,23 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
   [↗ Page](https://agentscamp.com/agents/meta-orchestration/eval-driven-developer) · `npx agentscamp add agents/eval-driven-developer`
 - **[Workflow Orchestrator](agents/workflow-orchestrator.md)** — Use this agent to break large tasks into coordinated multi-step plans and delegate to other agents. Examples — planning a multi-file refactor, orchestrating a migration, decomposing an epic.
   [↗ Page](https://agentscamp.com/agents/meta-orchestration/workflow-orchestrator) · `npx agentscamp add agents/workflow-orchestrator`
+
+## Analytics
+
+- **[Analysis Reviewer](agents/analysis-reviewer.md)** — Use this agent to review a finished analysis for methodological errors before it ships — checking grain and double counting, join fan-out, rows silently dropped by filters and inner joins, sampling and truncation, null handling, time zone and date boundaries, numbers in the prose that disagree with the code's output, charts that mislead, and causal language resting on correlational evidence. Examples — 'review this notebook before I send the deck', 'the query and the summary disagree somewhere, find it', 'does this analysis actually support the conclusion it draws?'.
+  [↗ Page](https://agentscamp.com/agents/analytics/analysis-reviewer) · `npx agentscamp add agents/analysis-reviewer`
+
+## Design
+
+- **[Design Systems Librarian](agents/design-systems-librarian.md)** — Use this agent to keep a design system's tokens, components, and documentation consistent with each other — finding hardcoded colors, spacing, and radii that should be tokens, components with no docs and docs describing variants that no longer exist, naming drift between token names, component names, and design-tool variables, and stale documentation — then reporting the drift with severity and a prioritized fix list. Examples — 'audit our design system for hardcoded values', 'which components are undocumented or documented wrong?', 'our token names and the Figma variables have diverged, show me where'.
+  [↗ Page](https://agentscamp.com/agents/design/design-systems-librarian) · `npx agentscamp add agents/design-systems-librarian`
+
+## Marketing
+
+- **[Content Editor](agents/content-editor.md)** — Use this agent to edit marketing and editorial drafts (blog posts, landing pages, emails, social copy, newsletters) for clarity and brand voice while marking every unsourced claim, statistic, and superlative with a [CITATION NEEDED] or [VERIFY] tag and a one-line reason, never inventing a source, and returning the edited draft with a change log. Examples — 'edit this post before it goes to the client', 'tighten this launch email and tell me which numbers I need to back up', 'check this page copy against brand-voice.md and mark anything we cannot prove'.
+  [↗ Page](https://agentscamp.com/agents/marketing/content-editor) · `npx agentscamp add agents/content-editor`
+
+## Product
+
+- **[Technical Cofounder](agents/technical-cofounder.md)** — Use this agent when a non-technical founder needs an app built by an AI app builder or coding agent reviewed for the problems that hurt founders: missing login and permission checks, secrets committed to the code, customer data visible to the wrong users, surprise cloud and API bills, vendor lock-in, no backups, and no tests. It explains each finding in plain language with a severity and the question to ask an engineer. Examples — 'look over what Lovable built before I launch', 'is this Supabase app safe for real customer data', 'what will bite me if I ship this Claude Code project'.
+  [↗ Page](https://agentscamp.com/agents/product/technical-cofounder) · `npx agentscamp add agents/technical-cofounder`

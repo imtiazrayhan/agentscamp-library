@@ -4,7 +4,7 @@
 
 Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agentscamp) CLI (`-g` installs to `~/.claude/` instead of the current project), or open the linked file and copy it into your `.claude/commands/` directory. Each entry links to its full page on [AgentsCamp](https://agentscamp.com).
 
-**53 commands** · [← Back to README](README.md)
+**61 commands** · [← Back to README](README.md)
 
 ## Scaffold
 
@@ -144,3 +144,31 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
   [↗ Page](https://agentscamp.com/commands/docs/explain-code) · `npx agentscamp add commands/explain-code`
 - **[Update README](commands/update-readme.md)** — Update the README to reflect the current scripts, structure, and features of the repo.
   [↗ Page](https://agentscamp.com/commands/docs/update-readme) · `npx agentscamp add commands/update-readme`
+
+## Analytics
+
+- **[Define Metric](commands/define-metric.md)** — Write or refine a metric definition — name, plain-language meaning, grain, filters, source tables and columns, edge cases, and owner — into analysis/metrics/<slug>.md, after searching the repo for a definition that already exists.
+  [↗ Page](https://agentscamp.com/commands/analytics/define-metric) · `npx agentscamp add commands/define-metric`
+- **[First Look](commands/first-look.md)** — Read the first rows and the true row count of a CSV or spreadsheet, profile it against a fixed checklist, and write the result to analysis/profiles/<name>.md so the dataset's condition is on record before anyone queries it.
+  [↗ Page](https://agentscamp.com/commands/analytics/first-look) · `npx agentscamp add commands/first-look`
+
+## Design
+
+- **[Critique Screen](commands/critique-screen.md)** — Read a UI screenshot from a path or URL, run the fixed design critique checklist over it, and write the report to design/critiques/ without touching the design or the code.
+  [↗ Page](https://agentscamp.com/commands/design/critique-screen) · `npx agentscamp add commands/critique-screen`
+- **[Design Tokens](commands/design-tokens.md)** — Extract design tokens from a stylesheet, a Tailwind or theme config, or a screenshot, then create or update design/tokens.json and report every added, changed, and removed token.
+  [↗ Page](https://agentscamp.com/commands/design/design-tokens) · `npx agentscamp add commands/design-tokens`
+
+## Marketing
+
+- **[Brand Check](commands/brand-check.md)** — Score a draft file against the project's brand voice guide (brand-voice.md or a brand-voice skill) and list every violation with a rewrite, without editing it.
+  [↗ Page](https://agentscamp.com/commands/marketing/brand-check) · `npx agentscamp add commands/brand-check`
+- **[Repurpose](commands/repurpose.md)** — Run content-repurposer on a file or pasted text and write the X thread, LinkedIn post, newsletter section, and video script to content/repurposed/.
+  [↗ Page](https://agentscamp.com/commands/marketing/repurpose) · `npx agentscamp add commands/repurpose`
+
+## Product
+
+- **[PRD](commands/prd.md)** — Turn an idea, pasted notes, or a notes file into a structured PRD and write it to docs/prd.md, or print it when there is no project.
+  [↗ Page](https://agentscamp.com/commands/product/prd) · `npx agentscamp add commands/prd`
+- **[Scope MVP](commands/scope-mvp.md)** — Cut a PRD or feature list to a version one: a keep / cut / later table with reasons plus the smallest build that tests the riskiest assumption, written to docs/mvp-scope.md.
+  [↗ Page](https://agentscamp.com/commands/product/scope-mvp) · `npx agentscamp add commands/scope-mvp`

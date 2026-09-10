@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "source": "https://agentscamp.com",
   "counts": {
-    "guides": 163,
-    "tools": 139,
-    "glossary": 81,
-    "agents": 61,
-    "skills": 110,
-    "commands": 53,
-    "total": 607
+    "guides": 209,
+    "tools": 180,
+    "glossary": 103,
+    "agents": 65,
+    "skills": 130,
+    "commands": 61,
+    "total": 748
   },
   "items": [
     {
@@ -67,6 +67,21 @@
       "url": "https://agentscamp.com/agents/data-ai/agent-tool-integration-engineer",
       "file": "agents/agent-tool-integration-engineer.md",
       "install": "npx agentscamp add agents/agent-tool-integration-engineer"
+    },
+    {
+      "id": "agents/analysis-reviewer",
+      "type": "agent",
+      "slug": "analysis-reviewer",
+      "category": "analytics",
+      "title": "Analysis Reviewer",
+      "description": "Use this agent to review a finished analysis for methodological errors before it ships — checking grain and double counting, join fan-out, rows silently dropped by filters and inner joins, sampling and truncation, null handling, time zone and date boundaries, numbers in the prose that disagree with the code's output, charts that mislead, and causal language resting on correlational evidence. Examples — 'review this notebook before I send the deck', 'the query and the summary disagree somewhere, find it', 'does this analysis actually support the conclusion it draws?'.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/agents/analytics/analysis-reviewer",
+      "file": "agents/analysis-reviewer.md",
+      "install": "npx agentscamp add agents/analysis-reviewer"
     },
     {
       "id": "agents/api-architect",
@@ -168,6 +183,21 @@
       "install": "npx agentscamp add agents/code-reviewer"
     },
     {
+      "id": "agents/content-editor",
+      "type": "agent",
+      "slug": "content-editor",
+      "category": "marketing",
+      "title": "Content Editor",
+      "description": "Use this agent to edit marketing and editorial drafts (blog posts, landing pages, emails, social copy, newsletters) for clarity and brand voice while marking every unsourced claim, statistic, and superlative with a [CITATION NEEDED] or [VERIFY] tag and a one-line reason, never inventing a source, and returning the edited draft with a change log. Examples — 'edit this post before it goes to the client', 'tighten this launch email and tell me which numbers I need to back up', 'check this page copy against brand-voice.md and mark anything we cannot prove'.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/agents/marketing/content-editor",
+      "file": "agents/content-editor.md",
+      "install": "npx agentscamp add agents/content-editor"
+    },
+    {
       "id": "agents/context-engineer",
       "type": "agent",
       "slug": "context-engineer",
@@ -265,6 +295,22 @@
       "url": "https://agentscamp.com/agents/developer-tools/dependency-manager",
       "file": "agents/dependency-manager.md",
       "install": "npx agentscamp add agents/dependency-manager"
+    },
+    {
+      "id": "agents/design-systems-librarian",
+      "type": "agent",
+      "slug": "design-systems-librarian",
+      "category": "design",
+      "title": "Design Systems Librarian",
+      "description": "Use this agent to keep a design system's tokens, components, and documentation consistent with each other — finding hardcoded colors, spacing, and radii that should be tokens, components with no docs and docs describing variants that no longer exist, naming drift between token names, component names, and design-tool variables, and stale documentation — then reporting the drift with severity and a prioritized fix list. Examples — 'audit our design system for hardcoded values', 'which components are undocumented or documented wrong?', 'our token names and the Figma variables have diverged, show me where'.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai",
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/agents/design/design-systems-librarian",
+      "file": "agents/design-systems-librarian.md",
+      "install": "npx agentscamp add agents/design-systems-librarian"
     },
     {
       "id": "agents/devops-engineer",
@@ -789,6 +835,21 @@
       "install": "npx agentscamp add agents/system-architect"
     },
     {
+      "id": "agents/technical-cofounder",
+      "type": "agent",
+      "slug": "technical-cofounder",
+      "category": "product",
+      "title": "Technical Cofounder",
+      "description": "Use this agent when a non-technical founder needs an app built by an AI app builder or coding agent reviewed for the problems that hurt founders: missing login and permission checks, secrets committed to the code, customer data visible to the wrong users, surprise cloud and API bills, vendor lock-in, no backups, and no tests. It explains each finding in plain language with a severity and the question to ask an engineer. Examples — 'look over what Lovable built before I launch', 'is this Supabase app safe for real customer data', 'what will bite me if I ship this Claude Code project'.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/agents/product/technical-cofounder",
+      "file": "agents/technical-cofounder.md",
+      "install": "npx agentscamp add agents/technical-cofounder"
+    },
+    {
       "id": "agents/terraform-specialist",
       "type": "agent",
       "slug": "terraform-specialist",
@@ -974,6 +1035,21 @@
       "install": "npx agentscamp add commands/benchmark-rerankers"
     },
     {
+      "id": "commands/brand-check",
+      "type": "command",
+      "slug": "brand-check",
+      "category": "marketing",
+      "title": "Brand Check",
+      "description": "Score a draft file against the project's brand voice guide (brand-voice.md or a brand-voice skill) and list every violation with a rewrite, without editing it.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/marketing/brand-check",
+      "file": "commands/brand-check.md",
+      "install": "npx agentscamp add commands/brand-check"
+    },
+    {
       "id": "commands/breakdown-task",
       "type": "command",
       "slug": "breakdown-task",
@@ -1073,6 +1149,21 @@
       "install": "npx agentscamp add commands/create-subagent"
     },
     {
+      "id": "commands/critique-screen",
+      "type": "command",
+      "slug": "critique-screen",
+      "category": "design",
+      "title": "Critique Screen",
+      "description": "Read a UI screenshot from a path or URL, run the fixed design critique checklist over it, and write the report to design/critiques/ without touching the design or the code.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/commands/design/critique-screen",
+      "file": "commands/critique-screen.md",
+      "install": "npx agentscamp add commands/critique-screen"
+    },
+    {
       "id": "commands/db-migrate",
       "type": "command",
       "slug": "db-migrate",
@@ -1085,6 +1176,37 @@
       "url": "https://agentscamp.com/commands/db/db-migrate",
       "file": "commands/db-migrate.md",
       "install": "npx agentscamp add commands/db-migrate"
+    },
+    {
+      "id": "commands/define-metric",
+      "type": "command",
+      "slug": "define-metric",
+      "category": "analytics",
+      "title": "Define Metric",
+      "description": "Write or refine a metric definition — name, plain-language meaning, grain, filters, source tables and columns, edge cases, and owner — into analysis/metrics/<slug>.md, after searching the repo for a definition that already exists.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/commands/analytics/define-metric",
+      "file": "commands/define-metric.md",
+      "install": "npx agentscamp add commands/define-metric"
+    },
+    {
+      "id": "commands/design-tokens",
+      "type": "command",
+      "slug": "design-tokens",
+      "category": "design",
+      "title": "Design Tokens",
+      "description": "Extract design tokens from a stylesheet, a Tailwind or theme config, or a screenshot, then create or update design/tokens.json and report every added, changed, and removed token.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai",
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/commands/design/design-tokens",
+      "file": "commands/design-tokens.md",
+      "install": "npx agentscamp add commands/design-tokens"
     },
     {
       "id": "commands/estimate-effort",
@@ -1170,6 +1292,21 @@
       "url": "https://agentscamp.com/commands/perf/find-n-plus-one",
       "file": "commands/find-n-plus-one.md",
       "install": "npx agentscamp add commands/find-n-plus-one"
+    },
+    {
+      "id": "commands/first-look",
+      "type": "command",
+      "slug": "first-look",
+      "category": "analytics",
+      "title": "First Look",
+      "description": "Read the first rows and the true row count of a CSV or spreadsheet, profile it against a fixed checklist, and write the result to analysis/profiles/<name>.md so the dataset's condition is on record before anyone queries it.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/commands/analytics/first-look",
+      "file": "commands/first-look.md",
+      "install": "npx agentscamp add commands/first-look"
     },
     {
       "id": "commands/fix-failing-test",
@@ -1285,6 +1422,21 @@
       "install": "npx agentscamp add commands/plan-feature"
     },
     {
+      "id": "commands/prd",
+      "type": "command",
+      "slug": "prd",
+      "category": "product",
+      "title": "PRD",
+      "description": "Turn an idea, pasted notes, or a notes file into a structured PRD and write it to docs/prd.md, or print it when there is no project.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/product/prd",
+      "file": "commands/prd.md",
+      "install": "npx agentscamp add commands/prd"
+    },
+    {
       "id": "commands/profile-postgres-queries",
       "type": "command",
       "slug": "profile-postgres-queries",
@@ -1339,6 +1491,21 @@
       "url": "https://agentscamp.com/commands/refactor/rename-symbol",
       "file": "commands/rename-symbol.md",
       "install": "npx agentscamp add commands/rename-symbol"
+    },
+    {
+      "id": "commands/repurpose",
+      "type": "command",
+      "slug": "repurpose",
+      "category": "marketing",
+      "title": "Repurpose",
+      "description": "Run content-repurposer on a file or pasted text and write the X thread, LinkedIn post, newsletter section, and video script to content/repurposed/.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/marketing/repurpose",
+      "file": "commands/repurpose.md",
+      "install": "npx agentscamp add commands/repurpose"
     },
     {
       "id": "commands/resolve-conflict",
@@ -1481,6 +1648,21 @@
       "url": "https://agentscamp.com/commands/scaffold/scaffold-vllm-config",
       "file": "commands/scaffold-vllm-config.md",
       "install": "npx agentscamp add commands/scaffold-vllm-config"
+    },
+    {
+      "id": "commands/scope-mvp",
+      "type": "command",
+      "slug": "scope-mvp",
+      "category": "product",
+      "title": "Scope MVP",
+      "description": "Cut a PRD or feature list to a version one: a keep / cut / later table with reasons plus the smallest build that tests the riskiest assumption, written to docs/mvp-scope.md.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/product/scope-mvp",
+      "file": "commands/scope-mvp.md",
+      "install": "npx agentscamp add commands/scope-mvp"
     },
     {
       "id": "commands/security-scan",
@@ -1723,6 +1905,56 @@
       "url": "https://agentscamp.com/glossary/ai-agent"
     },
     {
+      "id": "glossary/ai-app-builder",
+      "type": "glossary",
+      "slug": "ai-app-builder",
+      "category": "term",
+      "title": "AI App Builder",
+      "description": "An AI app builder is a tool that generates a working application from a natural-language description, usually with hosting and a backend included.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/glossary/ai-app-builder"
+    },
+    {
+      "id": "glossary/ai-connectors",
+      "type": "glossary",
+      "slug": "ai-connectors",
+      "category": "term",
+      "title": "AI Connectors",
+      "description": "AI connectors are the integrations that let an assistant like Claude read and act in tools such as Google Drive, Slack, and Notion; in Claude, MCP servers.",
+      "topics": [
+        "ai-at-work",
+        "mcp"
+      ],
+      "url": "https://agentscamp.com/glossary/ai-connectors"
+    },
+    {
+      "id": "glossary/ai-data-analyst",
+      "type": "glossary",
+      "slug": "ai-data-analyst",
+      "category": "term",
+      "title": "AI Data Analyst",
+      "description": "An AI data analyst is a tool that takes a data question, writes and runs the code or SQL to answer it, and returns a chart or summary you still have to check.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/glossary/ai-data-analyst"
+    },
+    {
+      "id": "glossary/ai-overviews",
+      "type": "glossary",
+      "slug": "ai-overviews",
+      "category": "term",
+      "title": "AI Overviews",
+      "description": "AI Overviews are Google's AI-generated summaries at the top of Search results, with source links; AI Mode is the fuller conversational version.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/glossary/ai-overviews"
+    },
+    {
       "id": "glossary/ai-slop",
       "type": "glossary",
       "slug": "ai-slop",
@@ -1733,6 +1965,31 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/glossary/ai-slop"
+    },
+    {
+      "id": "glossary/ai-wrapper",
+      "type": "glossary",
+      "slug": "ai-wrapper",
+      "category": "term",
+      "title": "AI Wrapper",
+      "description": "An AI wrapper is a product whose core function is a prompt and interface around a third-party model API, such as Claude or GPT, rather than its own model.",
+      "topics": [
+        "ai-at-work",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/glossary/ai-wrapper"
+    },
+    {
+      "id": "glossary/answer-engine-optimization",
+      "type": "glossary",
+      "slug": "answer-engine-optimization",
+      "category": "term",
+      "title": "Answer Engine Optimization (AEO)",
+      "description": "Answer engine optimization (AEO) is structuring content so search engines and AI assistants can lift a direct answer from it for AI Overviews and chatbots.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/glossary/answer-engine-optimization"
     },
     {
       "id": "glossary/attention-mechanism",
@@ -1759,6 +2016,19 @@
       "url": "https://agentscamp.com/glossary/batch-inference"
     },
     {
+      "id": "glossary/brand-voice",
+      "type": "glossary",
+      "slug": "brand-voice",
+      "category": "term",
+      "title": "Brand Voice (in AI prompting)",
+      "description": "Brand voice, in AI prompting, is the documented tone, vocabulary, and style rules a model is given so every draft sounds like one company, not the model.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/glossary/brand-voice"
+    },
+    {
       "id": "glossary/chain-of-thought",
       "type": "glossary",
       "slug": "chain-of-thought",
@@ -1781,6 +2051,43 @@
         "rag-retrieval"
       ],
       "url": "https://agentscamp.com/glossary/chunking"
+    },
+    {
+      "id": "glossary/claude-cowork",
+      "type": "glossary",
+      "slug": "claude-cowork",
+      "category": "term",
+      "title": "Claude Cowork",
+      "description": "Claude Cowork is the agentic mode of Anthropic's Claude app that completes multi-step knowledge-work tasks in your files, connectors, and browser.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/glossary/claude-cowork"
+    },
+    {
+      "id": "glossary/claude-plugins",
+      "type": "glossary",
+      "slug": "claude-plugins",
+      "category": "term",
+      "title": "Claude Plugins",
+      "description": "Claude Plugins are installable bundles of skills, slash commands, sub-agents, and MCP connectors that set up Claude Code or Claude Cowork for a role or team.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/glossary/claude-plugins"
+    },
+    {
+      "id": "glossary/code-execution",
+      "type": "glossary",
+      "slug": "code-execution",
+      "category": "term",
+      "title": "Code Execution (Code Interpreter)",
+      "description": "Code execution lets an AI assistant write and run real code in a sandbox, so numbers, files, and charts come from a computation rather than an estimate.",
+      "topics": [
+        "ai-at-work",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/glossary/code-execution"
     },
     {
       "id": "glossary/computer-use",
@@ -1831,6 +2138,19 @@
       "url": "https://agentscamp.com/glossary/context-window"
     },
     {
+      "id": "glossary/conversational-analytics",
+      "type": "glossary",
+      "slug": "conversational-analytics",
+      "category": "term",
+      "title": "Conversational Analytics",
+      "description": "Conversational analytics is asking questions of governed business data in plain language and getting a chart or number back, without opening a dashboard.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/glossary/conversational-analytics"
+    },
+    {
       "id": "glossary/cosine-similarity",
       "type": "glossary",
       "slug": "cosine-similarity",
@@ -1841,6 +2161,45 @@
         "rag-retrieval"
       ],
       "url": "https://agentscamp.com/glossary/cosine-similarity"
+    },
+    {
+      "id": "glossary/design-to-code",
+      "type": "glossary",
+      "slug": "design-to-code",
+      "category": "term",
+      "title": "Design-to-Code",
+      "description": "Design-to-code is turning a design — a Figma file, a screenshot, or a generated mockup — into working front-end code, increasingly by an AI agent.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/glossary/design-to-code"
+    },
+    {
+      "id": "glossary/design-tokens",
+      "type": "glossary",
+      "slug": "design-tokens",
+      "category": "term",
+      "title": "Design Tokens",
+      "description": "Design tokens are named values for a design system's decisions — color, spacing, type, radius — stored once and referenced everywhere instead of hardcoded.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/glossary/design-tokens"
+    },
+    {
+      "id": "glossary/diffusion-model",
+      "type": "glossary",
+      "slug": "diffusion-model",
+      "category": "term",
+      "title": "Diffusion Model",
+      "description": "A diffusion model generates an image by starting from random noise and removing it step by step, guided by a prompt, until a coherent picture remains.",
+      "topics": [
+        "multimodal-ai",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/glossary/diffusion-model"
     },
     {
       "id": "glossary/distillation",
@@ -1973,6 +2332,32 @@
         "ai-agents-systems"
       ],
       "url": "https://agentscamp.com/glossary/function-calling"
+    },
+    {
+      "id": "glossary/generative-engine-optimization",
+      "type": "glossary",
+      "slug": "generative-engine-optimization",
+      "category": "term",
+      "title": "Generative Engine Optimization (GEO)",
+      "description": "Generative engine optimization (GEO) is making content more likely to be cited or summarized in AI answers from ChatGPT, Gemini, or Google AI Overviews.",
+      "topics": [
+        "ai-at-work",
+        "rag-retrieval"
+      ],
+      "url": "https://agentscamp.com/glossary/generative-engine-optimization"
+    },
+    {
+      "id": "glossary/generative-ui",
+      "type": "glossary",
+      "slug": "generative-ui",
+      "category": "term",
+      "title": "Generative UI",
+      "description": "Generative UI is an interface produced by a model from a prompt — a whole screen, flow, or prototype generated rather than assembled by hand.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/glossary/generative-ui"
     },
     {
       "id": "glossary/grounding",
@@ -2119,6 +2504,19 @@
       "url": "https://agentscamp.com/glossary/llmops"
     },
     {
+      "id": "glossary/llms-txt",
+      "type": "glossary",
+      "slug": "llms-txt",
+      "category": "term",
+      "title": "llms.txt",
+      "description": "llms.txt is a proposed Markdown file at a site's root that gives AI models a curated summary and link list, so they can find the right pages at inference time.",
+      "topics": [
+        "ai-at-work",
+        "rag-retrieval"
+      ],
+      "url": "https://agentscamp.com/glossary/llms-txt"
+    },
+    {
       "id": "glossary/lora",
       "type": "glossary",
       "slug": "lora",
@@ -2189,6 +2587,18 @@
         "llm-evals"
       ],
       "url": "https://agentscamp.com/glossary/needle-in-a-haystack"
+    },
+    {
+      "id": "glossary/no-code-ai",
+      "type": "glossary",
+      "slug": "no-code-ai",
+      "category": "term",
+      "title": "No-Code AI",
+      "description": "No-code AI is building software or automations that use AI models through visual tools and prompts, without writing or maintaining code.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/glossary/no-code-ai"
     },
     {
       "id": "glossary/open-weights",
@@ -2359,6 +2769,19 @@
       "url": "https://agentscamp.com/glossary/semantic-caching"
     },
     {
+      "id": "glossary/semantic-layer",
+      "type": "glossary",
+      "slug": "semantic-layer",
+      "category": "term",
+      "title": "Semantic Layer",
+      "description": "A semantic layer defines business metrics, dimensions, and joins once, so every query and every AI agent computes the same number the same way.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/glossary/semantic-layer"
+    },
+    {
       "id": "glossary/semantic-search",
       "type": "glossary",
       "slug": "semantic-search",
@@ -2465,6 +2888,32 @@
         "data-ml"
       ],
       "url": "https://agentscamp.com/glossary/test-time-compute"
+    },
+    {
+      "id": "glossary/text-to-image",
+      "type": "glossary",
+      "slug": "text-to-image",
+      "category": "term",
+      "title": "Text-to-Image",
+      "description": "Text-to-image is generating a picture from a written prompt, using a model trained to turn a description into pixels — or, in some tools, vectors.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/glossary/text-to-image"
+    },
+    {
+      "id": "glossary/text-to-sql",
+      "type": "glossary",
+      "slug": "text-to-sql",
+      "category": "term",
+      "title": "Text-to-SQL",
+      "description": "Text-to-SQL is turning a plain-language question into a SQL query a database can run, using a model grounded in your schema, documentation, and past queries.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/glossary/text-to-sql"
     },
     {
       "id": "glossary/token-streaming",
@@ -2587,6 +3036,18 @@
       "url": "https://agentscamp.com/glossary/vision-language-model"
     },
     {
+      "id": "glossary/workflow-automation",
+      "type": "glossary",
+      "slug": "workflow-automation",
+      "category": "term",
+      "title": "AI Workflow Automation",
+      "description": "AI workflow automation is connecting apps so tasks run on triggers, with an AI model handling the judgment steps a fixed rule cannot express.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/glossary/workflow-automation"
+    },
+    {
       "id": "glossary/zero-shot-prompting",
       "type": "glossary",
       "slug": "zero-shot-prompting",
@@ -2700,6 +3161,19 @@
       "url": "https://agentscamp.com/guides/concepts/ai-coding-statistics-2026"
     },
     {
+      "id": "guides/ai-content-and-search-2026",
+      "type": "guide",
+      "slug": "ai-content-and-search-2026",
+      "category": "marketing",
+      "title": "Does AI-Written Content Rank in 2026? What Google Actually Says",
+      "description": "What Google's own documentation says about AI-generated content in 2026: what it rewards, what scaled content abuse is, how AI features cite, and a checklist.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/marketing/ai-content-and-search-2026"
+    },
+    {
       "id": "guides/ai-engineer-roadmap-2026",
       "type": "guide",
       "slug": "ai-engineer-roadmap-2026",
@@ -2738,6 +3212,33 @@
       "url": "https://agentscamp.com/guides/ai-safety/are-claude-skills-safe"
     },
     {
+      "id": "guides/automate-startup-ops-with-ai-agents",
+      "type": "guide",
+      "slug": "automate-startup-ops-with-ai-agents",
+      "category": "founders",
+      "title": "Automating Startup Ops Without Engineers: Cowork, n8n, Zapier Agents, Lindy",
+      "description": "Four ways to automate startup ops without an engineer: Claude Cowork, n8n, Zapier Agents, and Lindy compared, with a worked example each and the approval step.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/founders/automate-startup-ops-with-ai-agents"
+    },
+    {
+      "id": "guides/base44-vs-lovable",
+      "type": "guide",
+      "slug": "base44-vs-lovable",
+      "category": "comparisons",
+      "title": "Base44 vs Lovable: Which AI App Builder for Non-Technical Founders?",
+      "description": "Base44 vs Lovable for non-technical founders: Base44's all-in-one managed backend and hosting versus Lovable's Supabase stack with GitHub sync. Verdict first.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting",
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/base44-vs-lovable"
+    },
+    {
       "id": "guides/best-ai-app-builders-2026",
       "type": "guide",
       "slug": "best-ai-app-builders-2026",
@@ -2760,6 +3261,84 @@
         "review-qa"
       ],
       "url": "https://agentscamp.com/guides/comparisons/best-ai-code-review-tools-2026"
+    },
+    {
+      "id": "guides/best-ai-image-generators-2026",
+      "type": "guide",
+      "slug": "best-ai-image-generators-2026",
+      "category": "comparisons",
+      "title": "The Best AI Image Generators in 2026 (for Design Work)",
+      "description": "AI image generators compared for design work in 2026: text rendering, vector output, style control, commercial licensing, API access, and pricing model.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-ai-image-generators-2026"
+    },
+    {
+      "id": "guides/best-ai-tools-for-data-analysts-2026",
+      "type": "guide",
+      "slug": "best-ai-tools-for-data-analysts-2026",
+      "category": "comparisons",
+      "title": "The Best AI Tools for Data Analysts in 2026",
+      "description": "The AI tools data analysts actually use in 2026: assistants that run code, spreadsheet add-ins, notebooks, text-to-SQL, and agents in the terminal.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-ai-tools-for-data-analysts-2026"
+    },
+    {
+      "id": "guides/best-ai-tools-for-designers-2026",
+      "type": "guide",
+      "slug": "best-ai-tools-for-designers-2026",
+      "category": "comparisons",
+      "title": "The Best AI Tools for Designers in 2026",
+      "description": "The AI tools designers actually use in 2026: prototyping, websites, image generation, decks, design-to-code, and design systems, with a verdict per category.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-ai-tools-for-designers-2026"
+    },
+    {
+      "id": "guides/best-ai-tools-for-founders-2026",
+      "type": "guide",
+      "slug": "best-ai-tools-for-founders-2026",
+      "category": "comparisons",
+      "title": "The Best AI Tools for Founders in 2026",
+      "description": "The AI tools founders run a company on in 2026: assistants, app builders, agents and automation, decks and docs, and building, with a verdict per category.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-ai-tools-for-founders-2026"
+    },
+    {
+      "id": "guides/best-ai-tools-for-marketers-2026",
+      "type": "guide",
+      "slug": "best-ai-tools-for-marketers-2026",
+      "category": "comparisons",
+      "title": "The Best AI Tools for Marketers in 2026",
+      "description": "The AI tools marketers run a content program on in 2026: assistants, writing, SEO, research, decks, video, and automation, with a verdict per category.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-ai-tools-for-marketers-2026"
+    },
+    {
+      "id": "guides/best-ai-writing-tools-2026",
+      "type": "guide",
+      "slug": "best-ai-writing-tools-2026",
+      "category": "comparisons",
+      "title": "The Best AI Writing Tools in 2026",
+      "description": "Six AI writing tools compared by job: long-form, ad copy, email, and writing inside Docs or Word. Jasper, Copy.ai, Claude, ChatGPT, Gemini, and Copilot.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-ai-writing-tools-2026"
     },
     {
       "id": "guides/best-claude-code-agents-skills",
@@ -2991,6 +3570,19 @@
       "url": "https://agentscamp.com/guides/voice/best-stt-apis-2026"
     },
     {
+      "id": "guides/best-text-to-sql-tools-2026",
+      "type": "guide",
+      "slug": "best-text-to-sql-tools-2026",
+      "category": "comparisons",
+      "title": "The Best Text-to-SQL Tools in 2026",
+      "description": "Text-to-SQL tools compared on how they ground the model in your schema, what accuracy really means, read-only safety, deployment, licensing, and pricing model.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-text-to-sql-tools-2026"
+    },
+    {
       "id": "guides/best-tts-apis-2026",
       "type": "guide",
       "slug": "best-tts-apis-2026",
@@ -3017,6 +3609,19 @@
       "url": "https://agentscamp.com/guides/database/best-vector-database-2026"
     },
     {
+      "id": "guides/brand-voice-with-claude-skills",
+      "type": "guide",
+      "slug": "brand-voice-with-claude-skills",
+      "category": "marketing",
+      "title": "Build a Brand-Voice Skill for Claude (and Upload It Anywhere)",
+      "description": "Turn 5-10 samples of your copy into a SKILL.md brand-voice skill, then upload it to claude.ai, install it in Claude Code, use it in Cowork, and test it.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/marketing/brand-voice-with-claude-skills"
+    },
+    {
       "id": "guides/browser-agents-compared-2026",
       "type": "guide",
       "slug": "browser-agents-compared-2026",
@@ -3041,6 +3646,20 @@
         "llm-app-dev"
       ],
       "url": "https://agentscamp.com/guides/voice/build-a-voice-agent"
+    },
+    {
+      "id": "guides/build-an-mvp-with-claude-code",
+      "type": "guide",
+      "slug": "build-an-mvp-with-claude-code",
+      "category": "founders",
+      "title": "Build an MVP with Claude Code: Idea to Deployed App in a Weekend",
+      "description": "A non-developer's weekend plan for an MVP with Claude Code: one-page spec, a boring stack, tests as you go, Supabase for auth and data, Vercel to deploy.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting",
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/guides/founders/build-an-mvp-with-claude-code"
     },
     {
       "id": "guides/building-an-mcp-server",
@@ -3078,6 +3697,33 @@
         "llm-app-dev"
       ],
       "url": "https://agentscamp.com/guides/concepts/calling-any-model-gateways"
+    },
+    {
+      "id": "guides/chatgpt-vs-claude-for-data-analysis",
+      "type": "guide",
+      "slug": "chatgpt-vs-claude-for-data-analysis",
+      "category": "comparisons",
+      "title": "ChatGPT vs Claude for Data Analysis",
+      "description": "ChatGPT vs Claude for data analysis, compared on sandbox behavior, file limits, Excel add-ins, chart output, citations, warehouse access, and verification.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/chatgpt-vs-claude-for-data-analysis"
+    },
+    {
+      "id": "guides/check-an-ai-data-analysis",
+      "type": "guide",
+      "slug": "check-an-ai-data-analysis",
+      "category": "analytics",
+      "title": "How to Check an AI Data Analysis Before You Trust It",
+      "description": "Eight ways an AI-generated analysis goes wrong, the specific check that catches each one, and a copyable checklist to run before a number ships.",
+      "topics": [
+        "ai-at-work",
+        "data-ml",
+        "llm-evals"
+      ],
+      "url": "https://agentscamp.com/guides/analytics/check-an-ai-data-analysis"
     },
     {
       "id": "guides/choosing-embeddings-2026",
@@ -3127,6 +3773,61 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/guides/advanced/claude-code-ci-github-actions"
+    },
+    {
+      "id": "guides/claude-code-for-data-analysts",
+      "type": "guide",
+      "slug": "claude-code-for-data-analysts",
+      "category": "analytics",
+      "title": "Claude Code for Data Analysts: Notebooks, SQL, and CSV Work Without a Data Engineer",
+      "description": "Run analysis work in Claude Code: an analysis repo with CLAUDE.md, a CSV profiling pass, a pandas loop, a read-only warehouse query, and permission rules.",
+      "topics": [
+        "ai-at-work",
+        "data-ml",
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/guides/analytics/claude-code-for-data-analysts"
+    },
+    {
+      "id": "guides/claude-code-for-designers",
+      "type": "guide",
+      "slug": "claude-code-for-designers",
+      "category": "design",
+      "title": "Claude Code for Designers: Prototype in Code Without Becoming an Engineer",
+      "description": "Why a designer opens a terminal agent, how to set it up safely, connecting Figma, a CLAUDE.md for a design-system repo, and three workflows with prompts.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai",
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/guides/design/claude-code-for-designers"
+    },
+    {
+      "id": "guides/claude-code-for-marketers",
+      "type": "guide",
+      "slug": "claude-code-for-marketers",
+      "category": "marketing",
+      "title": "Claude Code for Marketers: The Complete 2026 Guide",
+      "description": "Why a marketer would open a terminal agent, when claude.ai or Cowork is the better tool, a CLAUDE.md for a content repo, five workflows, and what goes wrong.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/marketing/claude-code-for-marketers"
+    },
+    {
+      "id": "guides/claude-code-for-non-developers",
+      "type": "guide",
+      "slug": "claude-code-for-non-developers",
+      "category": "founders",
+      "title": "Claude Code for Non-Developers and Founders: The Complete 2026 Guide",
+      "description": "What Claude Code actually is in plain language, why non-developers use it, how permissions and CLAUDE.md work, and the first three tasks a founder should try.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting",
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/guides/founders/claude-code-for-non-developers"
     },
     {
       "id": "guides/claude-code-hooks",
@@ -3277,6 +3978,71 @@
       "url": "https://agentscamp.com/guides/comparisons/claude-code-vs-opencode"
     },
     {
+      "id": "guides/claude-cowork-guide",
+      "type": "guide",
+      "slug": "claude-cowork-guide",
+      "category": "getting-started",
+      "title": "What Is Claude Cowork? The Complete Guide for Non-Developers",
+      "description": "Claude Cowork explained for non-developers: what the desktop agent does with your files and apps, how it differs from chat and Claude Code, plans, and safety.",
+      "topics": [
+        "ai-at-work",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/guides/getting-started/claude-cowork-guide"
+    },
+    {
+      "id": "guides/claude-data-plugin-guide",
+      "type": "guide",
+      "slug": "claude-data-plugin-guide",
+      "category": "analytics",
+      "title": "Anthropic's Data Plugin for Claude: Every Skill Explained",
+      "description": "Every skill in Anthropic's open-source data plugin for Claude Cowork and Claude Code, the warehouse connectors it expects, the install commands, and its gaps.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/guides/analytics/claude-data-plugin-guide"
+    },
+    {
+      "id": "guides/claude-design-guide",
+      "type": "guide",
+      "slug": "claude-design-guide",
+      "category": "design",
+      "title": "Claude Design: The Complete Guide (2026)",
+      "description": "What Claude Design makes, how it ingests your design system, the three editing modes, every export and handoff, and where it stops. Written for designers.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/guides/design/claude-design-guide"
+    },
+    {
+      "id": "guides/claude-design-plugin-guide",
+      "type": "guide",
+      "slug": "claude-design-plugin-guide",
+      "category": "design",
+      "title": "Anthropic's Design Plugin for Claude: Every Skill Explained",
+      "description": "Every skill in Anthropic's open-source design plugin for Claude Cowork and Claude Code, the connectors it expects, the install commands, and what it leaves out.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/guides/design/claude-design-plugin-guide"
+    },
+    {
+      "id": "guides/claude-design-vs-figma-make",
+      "type": "guide",
+      "slug": "claude-design-vs-figma-make",
+      "category": "comparisons",
+      "title": "Claude Design vs Figma Make: Which Prompt-to-Prototype Tool?",
+      "description": "Claude Design vs Figma Make compared on what each makes, plan and seat requirements, design-system input, refinement, export, and handoff to code.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/claude-design-vs-figma-make"
+    },
+    {
       "id": "guides/claude-document-skills",
       "type": "guide",
       "slug": "claude-document-skills",
@@ -3288,6 +4054,85 @@
         "llm-app-dev"
       ],
       "url": "https://agentscamp.com/guides/skills/claude-document-skills"
+    },
+    {
+      "id": "guides/claude-for-data-analysis",
+      "type": "guide",
+      "slug": "claude-for-data-analysis",
+      "category": "analytics",
+      "title": "Claude for Data Analysis: The Complete 2026 Guide",
+      "description": "The four surfaces where Claude touches data, what the code execution sandbox really is, how an AI analysis fails silently, and the checks that catch it.",
+      "topics": [
+        "ai-at-work",
+        "data-ml",
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/guides/analytics/claude-for-data-analysis"
+    },
+    {
+      "id": "guides/claude-for-excel-guide",
+      "type": "guide",
+      "slug": "claude-for-excel-guide",
+      "category": "analytics",
+      "title": "Claude for Excel: What It Does, Where It Fails, How to Use It",
+      "description": "Install it from AppSource, learn which Excel builds are supported, use cell-level citations, and apply the review discipline before a workbook leaves your desk.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/guides/analytics/claude-for-excel-guide"
+    },
+    {
+      "id": "guides/claude-for-founders",
+      "type": "guide",
+      "slug": "claude-for-founders",
+      "category": "founders",
+      "title": "Claude for Founders: Which Claude Product for Which Job",
+      "description": "A surface map for founders: when to use claude.ai, Claude Design, Cowork, Claude Code, Claude for Excel, and Claude in Chrome, with a job-to-product table.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/founders/claude-for-founders"
+    },
+    {
+      "id": "guides/claude-for-marketing-teams",
+      "type": "guide",
+      "slug": "claude-for-marketing-teams",
+      "category": "marketing",
+      "title": "Claude for Marketing Teams: claude.ai, Cowork, Claude Design, and Connectors",
+      "description": "A surface map for marketing teams: which Claude product to open for brand context, asset folders, recurring reports, decks, CMS chores, and connectors.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/marketing/claude-for-marketing-teams"
+    },
+    {
+      "id": "guides/claude-knowledge-work-plugins",
+      "type": "guide",
+      "slug": "claude-knowledge-work-plugins",
+      "category": "getting-started",
+      "title": "Anthropic's Knowledge-Work Plugins: Every Role Plugin, Explained",
+      "description": "Every Anthropic knowledge-work plugin for Claude Cowork and Claude Code cataloged: what each role plugin bundles, the install commands, and how to fork one.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/getting-started/claude-knowledge-work-plugins"
+    },
+    {
+      "id": "guides/claude-marketing-plugin-guide",
+      "type": "guide",
+      "slug": "claude-marketing-plugin-guide",
+      "category": "marketing",
+      "title": "Anthropic's Marketing Plugin for Claude: Every Skill and Command Explained",
+      "description": "Every skill in Anthropic's open-source marketing plugin for Claude Cowork and Claude Code, its connectors, the install commands, and how to fork it.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/marketing/claude-marketing-plugin-guide"
     },
     {
       "id": "guides/claude-md-best-practices",
@@ -3302,6 +4147,19 @@
       "url": "https://agentscamp.com/guides/configuration/claude-md-best-practices"
     },
     {
+      "id": "guides/claude-plans-compared-2026",
+      "type": "guide",
+      "slug": "claude-plans-compared-2026",
+      "category": "getting-started",
+      "title": "Claude Free vs Pro vs Max vs Team (2026): Which Plan Unlocks What",
+      "description": "Every Claude plan compared as of September 2026: prices, usage tiers, and which plan unlocks Claude Code, Cowork, Design, Excel, Chrome, projects, and models.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/getting-started/claude-plans-compared-2026"
+    },
+    {
       "id": "guides/claude-skills-examples",
       "type": "guide",
       "slug": "claude-skills-examples",
@@ -3312,6 +4170,58 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/guides/skills/claude-skills-examples"
+    },
+    {
+      "id": "guides/claude-skills-for-data-analysts",
+      "type": "guide",
+      "slug": "claude-skills-for-data-analysts",
+      "category": "analytics",
+      "title": "Claude Skills for Data Analysts: 5 to Upload Today",
+      "description": "Five portable skills that make Claude behave like a careful analyst: first look, chart choice, memo writing, SQL explanation, and formula auditing.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/guides/analytics/claude-skills-for-data-analysts"
+    },
+    {
+      "id": "guides/claude-skills-for-designers",
+      "type": "guide",
+      "slug": "claude-skills-for-designers",
+      "category": "design",
+      "title": "Claude Skills for Designers: 5 to Upload Today",
+      "description": "Five Claude skills for designers: brief, critique, token extraction, component spec, and UX copy review. What each returns, a prompt for each, and upload steps.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/guides/design/claude-skills-for-designers"
+    },
+    {
+      "id": "guides/claude-skills-for-founders",
+      "type": "guide",
+      "slug": "claude-skills-for-founders",
+      "category": "founders",
+      "title": "Claude Skills for Founders: 5 to Upload Today",
+      "description": "Five Claude skills built for founders (PRD, MVP scope, interview synthesis, competitor teardown, investor update), how to upload them, and a prompt for each.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/founders/claude-skills-for-founders"
+    },
+    {
+      "id": "guides/claude-skills-for-marketers",
+      "type": "guide",
+      "slug": "claude-skills-for-marketers",
+      "category": "marketing",
+      "title": "Claude Skills for Marketers: 6 to Upload Today",
+      "description": "Six Claude skills for marketers (brand voice, SEO brief, repurposing, landing page, email sequence, documents), how to upload them, and a prompt for each.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/marketing/claude-skills-for-marketers"
     },
     {
       "id": "guides/claude-skills-not-working",
@@ -3362,6 +4272,19 @@
         "ai-agents-systems"
       ],
       "url": "https://agentscamp.com/guides/comparisons/claude-skills-vs-custom-gpts"
+    },
+    {
+      "id": "guides/claude-vs-chatgpt-for-writing",
+      "type": "guide",
+      "slug": "claude-vs-chatgpt-for-writing",
+      "category": "comparisons",
+      "title": "Claude vs ChatGPT for Writing and Marketing Copy",
+      "description": "Claude vs ChatGPT for writing, compared on voice control, document creation, research grounding, collaboration, brand-voice enforcement, and agentic work.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/claude-vs-chatgpt-for-writing"
     },
     {
       "id": "guides/claude-vs-gpt-vs-gemini-coding",
@@ -3639,6 +4562,20 @@
         "rag-retrieval"
       ],
       "url": "https://agentscamp.com/guides/comparisons/exa-vs-tavily"
+    },
+    {
+      "id": "guides/figma-to-code-with-claude",
+      "type": "guide",
+      "slug": "figma-to-code-with-claude",
+      "category": "design",
+      "title": "Figma to Code with Claude Code and the Figma MCP Server",
+      "description": "Connect Figma's MCP server to Claude Code and turn a selected frame into a component that uses your real design tokens and your existing components.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai",
+        "mcp"
+      ],
+      "url": "https://agentscamp.com/guides/design/figma-to-code-with-claude"
     },
     {
       "id": "guides/finetune-dataset-prep",
@@ -3948,6 +4885,48 @@
         "mlops-ai-infra"
       ],
       "url": "https://agentscamp.com/guides/mlops/llm-observability-production"
+    },
+    {
+      "id": "guides/lovable-to-claude-code-handoff",
+      "type": "guide",
+      "slug": "lovable-to-claude-code-handoff",
+      "category": "founders",
+      "title": "When Your Lovable or Bolt App Outgrows the Builder",
+      "description": "Signs your Lovable or Bolt app has outgrown its builder, how GitHub sync gives you a repository, and what to audit first with Claude Code: auth, secrets, RLS.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting",
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/guides/founders/lovable-to-claude-code-handoff"
+    },
+    {
+      "id": "guides/lovable-vs-claude-code",
+      "type": "guide",
+      "slug": "lovable-vs-claude-code",
+      "category": "comparisons",
+      "title": "Lovable vs Claude Code: Builder or Agent?",
+      "description": "Lovable vs Claude Code for founders: the chat app builder that gives you a working product versus the coding agent that changes a real codebase. Verdict first.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting",
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/lovable-vs-claude-code"
+    },
+    {
+      "id": "guides/maintain-a-design-system-with-claude-code",
+      "type": "guide",
+      "slug": "maintain-a-design-system-with-claude-code",
+      "category": "design",
+      "title": "Maintaining a Design System with Claude Code",
+      "description": "Tokens, components, docs, and the Figma file drift apart within weeks. A repo layout, CLAUDE.md rules, and three Claude Code jobs that catch it every week.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai",
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/guides/design/maintain-a-design-system-with-claude-code"
     },
     {
       "id": "guides/mcp-ecosystem-statistics",
@@ -4310,6 +5289,20 @@
       "url": "https://agentscamp.com/guides/mlops/self-host-vs-api-llm"
     },
     {
+      "id": "guides/seo-content-workflow-with-claude-code",
+      "type": "guide",
+      "slug": "seo-content-workflow-with-claude-code",
+      "category": "marketing",
+      "title": "An SEO Content Workflow in Claude Code: Brief, Draft, On-Page Check",
+      "description": "A repeatable SEO content workflow in Claude Code: a content repo with CLAUDE.md, SERP research over Exa and Firecrawl MCP, a brief, a draft, and on-page checks.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting",
+        "rag-retrieval"
+      ],
+      "url": "https://agentscamp.com/guides/marketing/seo-content-workflow-with-claude-code"
+    },
+    {
       "id": "guides/skill-md-reference",
       "type": "guide",
       "slug": "skill-md-reference",
@@ -4397,6 +5390,19 @@
       "url": "https://agentscamp.com/guides/concepts/structured-output-2026"
     },
     {
+      "id": "guides/surfer-vs-clearscope",
+      "type": "guide",
+      "slug": "surfer-vs-clearscope",
+      "category": "comparisons",
+      "title": "Surfer vs Clearscope: Which SEO Content Tool in 2026?",
+      "description": "Surfer vs Clearscope compared on the content editor, briefs, audits, AI writing, AI-visibility tracking, integrations, and pricing model, with a verdict first.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/surfer-vs-clearscope"
+    },
+    {
       "id": "guides/tdd-with-ai-agents",
       "type": "guide",
       "slug": "tdd-with-ai-agents",
@@ -4446,6 +5452,20 @@
         "review-qa"
       ],
       "url": "https://agentscamp.com/guides/testing/testing-llm-applications"
+    },
+    {
+      "id": "guides/text-to-sql-with-claude",
+      "type": "guide",
+      "slug": "text-to-sql-with-claude",
+      "category": "analytics",
+      "title": "Text-to-SQL with Claude: A Safe Read-Only Postgres Setup",
+      "description": "Set up text-to-SQL with Claude on Postgres safely: a read-only role, an MCP server in read-only mode, schema and metric context, and a two-way check.",
+      "topics": [
+        "ai-at-work",
+        "data-ml",
+        "mcp"
+      ],
+      "url": "https://agentscamp.com/guides/analytics/text-to-sql-with-claude"
     },
     {
       "id": "guides/v0-vs-lovable",
@@ -4586,6 +5606,58 @@
       "url": "https://agentscamp.com/guides/getting-started/what-is-claude-code"
     },
     {
+      "id": "guides/which-claude-plan-for-data-analysts",
+      "type": "guide",
+      "slug": "which-claude-plan-for-data-analysts",
+      "category": "analytics",
+      "title": "Which Claude Plan (and Model) Should a Data Analyst Pay For?",
+      "description": "A decision guide by situation: occasional CSV work, daily Excel modeling, Claude Code against a warehouse, or a team sharing a Project. No prices.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/guides/analytics/which-claude-plan-for-data-analysts"
+    },
+    {
+      "id": "guides/which-claude-plan-for-designers",
+      "type": "guide",
+      "slug": "which-claude-plan-for-designers",
+      "category": "design",
+      "title": "Which Claude Plan Should a Designer Pay For?",
+      "description": "A decision guide by situation: solo prototyping, a team sharing one design system, heavy Design and Cowork use, or an agency. Plan names, no prices.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/guides/design/which-claude-plan-for-designers"
+    },
+    {
+      "id": "guides/which-claude-plan-for-founders",
+      "type": "guide",
+      "slug": "which-claude-plan-for-founders",
+      "category": "founders",
+      "title": "Which Claude Plan (and Model) Should a Founder Pay For?",
+      "description": "A decision guide by situation: solo pre-product, an MVP build with Claude Code, ops with Cowork, or a small team. Plan names and model choice, no prices.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/founders/which-claude-plan-for-founders"
+    },
+    {
+      "id": "guides/which-claude-plan-for-marketers",
+      "type": "guide",
+      "slug": "which-claude-plan-for-marketers",
+      "category": "marketing",
+      "title": "Which Claude Plan Should a Marketer Pay For?",
+      "description": "A decision guide by situation: solo content marketer, a small team sharing brand context, heavy Cowork and Claude Design use, or an agency. No prices.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/marketing/which-claude-plan-for-marketers"
+    },
+    {
       "id": "guides/write-llm-evals",
       "type": "guide",
       "slug": "write-llm-evals",
@@ -4707,6 +5779,21 @@
       "install": "npx agentscamp add skills/alerting-rules-tuner"
     },
     {
+      "id": "skills/analysis-memo-writer",
+      "type": "skill",
+      "slug": "analysis-memo-writer",
+      "category": "analytics",
+      "title": "Analysis Memo Writer",
+      "description": "Turn findings and figures you supply into a stakeholder writeup with a fixed spine: headline finding, what the number is and what it is not, method in three lines, a mandatory caveats and limitations section, what would change the conclusion, and one recommended next step. Never invents a figure and never upgrades a correlation into a cause. Use when the analysis is done and has to survive being read by someone who was not in the query.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/skills/analytics/analysis-memo-writer",
+      "file": "skills/analysis-memo-writer/SKILL.md",
+      "install": "npx agentscamp add skills/analysis-memo-writer"
+    },
+    {
       "id": "skills/api-deprecation-planner",
       "type": "skill",
       "slug": "api-deprecation-planner",
@@ -4794,6 +5881,21 @@
       "install": "npx agentscamp add skills/branch-rebaser"
     },
     {
+      "id": "skills/brand-voice-profiler",
+      "type": "skill",
+      "slug": "brand-voice-profiler",
+      "category": "marketing",
+      "title": "Brand Voice Profiler",
+      "description": "Derive a reusable brand voice guide from five to ten writing samples you paste in: tone axes scored with quoted evidence, use and avoid vocabulary, sentence rhythm, formatting habits, dos and don'ts, three before/after rewrites, and a rules block ready to paste into a SKILL.md, with every rule traced to a sample and disagreements between samples flagged instead of averaged. Use when your team writes in a recognizable voice that nobody has written down, or the guide you have was never derived from what you actually publish.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/marketing/brand-voice-profiler",
+      "file": "skills/brand-voice-profiler/SKILL.md",
+      "install": "npx agentscamp add skills/brand-voice-profiler"
+    },
+    {
       "id": "skills/bundle-analyzer",
       "type": "skill",
       "slug": "bundle-analyzer",
@@ -4849,6 +5951,21 @@
       "url": "https://agentscamp.com/skills/release/changelog-from-prs",
       "file": "skills/changelog-from-prs/SKILL.md",
       "install": "npx agentscamp add skills/changelog-from-prs"
+    },
+    {
+      "id": "skills/chart-chooser",
+      "type": "skill",
+      "slug": "chart-chooser",
+      "category": "analytics",
+      "title": "Chart Chooser",
+      "description": "Pick the chart for a stated question and data shape and defend the choice: the recommendation, the reasoning, the alternatives rejected and why each fails this question, encoding rules for axis baseline, sorting, color, and labels, and generated code in the plotting library you name. Use when you know what you want the chart to say and need the one form that says it, not a gallery.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/skills/analytics/chart-chooser",
+      "file": "skills/chart-chooser/SKILL.md",
+      "install": "npx agentscamp add skills/chart-chooser"
     },
     {
       "id": "skills/chunking-strategy-optimizer",
@@ -4936,6 +6053,37 @@
       "install": "npx agentscamp add skills/commit-splitter"
     },
     {
+      "id": "skills/competitor-teardown",
+      "type": "skill",
+      "slug": "competitor-teardown",
+      "category": "product",
+      "title": "Competitor Teardown",
+      "description": "Build a structured teardown of one competitor from the pages, screenshots, and pricing text you paste in: positioning, target customer, pricing model, a feature table with evidence, and the wedge opportunities where you could win, with every unknown flagged as something to research rather than guessed. Use when sizing up a competitor before a PRD, a pitch, or a pricing decision and you want an analysis grounded only in what they publish.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/product/competitor-teardown",
+      "file": "skills/competitor-teardown/SKILL.md",
+      "install": "npx agentscamp add skills/competitor-teardown"
+    },
+    {
+      "id": "skills/component-spec-writer",
+      "type": "skill",
+      "slug": "component-spec-writer",
+      "category": "design",
+      "title": "Component Spec Writer",
+      "description": "Turn a component screenshot or written description into a developer handoff spec covering anatomy, variants, states, a props table with types and defaults, behavior, responsive rules, edge cases, accessibility notes for an auditor to verify, and open questions, keeping what the artifact shows separate from what was inferred and turning every gap into a question instead of a plausible default. Use when a component is going to engineering and the design file is the only documentation that exists.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai",
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/skills/design/component-spec-writer",
+      "file": "skills/component-spec-writer/SKILL.md",
+      "install": "npx agentscamp add skills/component-spec-writer"
+    },
+    {
       "id": "skills/connection-pool-tuner",
       "type": "skill",
       "slug": "connection-pool-tuner",
@@ -4948,6 +6096,21 @@
       "url": "https://agentscamp.com/skills/database/connection-pool-tuner",
       "file": "skills/connection-pool-tuner/SKILL.md",
       "install": "npx agentscamp add skills/connection-pool-tuner"
+    },
+    {
+      "id": "skills/content-repurposer",
+      "type": "skill",
+      "slug": "content-repurposer",
+      "category": "marketing",
+      "title": "Content Repurposer",
+      "description": "Turn one long-form piece you paste in (an article, transcript, webinar summary, or case study) into four channel-ready derivatives, an X thread, a LinkedIn post, a newsletter section, and a short-video script, each inside its channel's length and format limits, with every claim and number carried over exactly as written and any statistic the original does not source flagged instead of repeated as fact. Use when a finished piece has to go out on several channels and the derivatives must say only what the original says.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/marketing/content-repurposer",
+      "file": "skills/content-repurposer/SKILL.md",
+      "install": "npx agentscamp add skills/content-repurposer"
     },
     {
       "id": "skills/contract-test-designer",
@@ -5035,6 +6198,21 @@
       "install": "npx agentscamp add skills/data-retention-auditor"
     },
     {
+      "id": "skills/dataset-first-look",
+      "type": "skill",
+      "slug": "dataset-first-look",
+      "category": "analytics",
+      "title": "Dataset First Look",
+      "description": "Turn a pasted CSV header with sample rows, a pasted table, or an attached data file into a fixed plain-language profile: shape, column inventory with inferred types, null and blank patterns, cardinality, suspicious columns, duplicate-key risk, outliers worth a look, and the questions to settle before analyzing. Use when a dataset just landed and you need to know what you are holding before you write a query.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/skills/analytics/dataset-first-look",
+      "file": "skills/dataset-first-look/SKILL.md",
+      "install": "npx agentscamp add skills/dataset-first-look"
+    },
+    {
       "id": "skills/dead-code-finder",
       "type": "skill",
       "slug": "dead-code-finder",
@@ -5091,6 +6269,52 @@
       "install": "npx agentscamp add skills/dependency-upgrade-planner"
     },
     {
+      "id": "skills/design-brief-writer",
+      "type": "skill",
+      "slug": "design-brief-writer",
+      "category": "design",
+      "title": "Design Brief Writer",
+      "description": "Turn a messy design request you paste in (a Slack thread, an email chain, meeting notes, a ticket) into a one-page design brief: goal, audience, constraints, success criteria, scope and non-goals, references needed, open questions, and timeline placeholders, with every item the source did not state marked as an inference and no constraint or deadline invented. Use when a request has arrived in fragments and the brief has to exist before design work starts.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/skills/design/design-brief-writer",
+      "file": "skills/design-brief-writer/SKILL.md",
+      "install": "npx agentscamp add skills/design-brief-writer"
+    },
+    {
+      "id": "skills/design-critique-checklist",
+      "type": "skill",
+      "slug": "design-critique-checklist",
+      "category": "design",
+      "title": "Design Critique Checklist",
+      "description": "Critique an attached screenshot or a described screen against a fixed seven-part checklist (visual hierarchy, spacing and alignment, typography, color and contrast as observed, empty, loading, and error states, consistency, and copy) and return findings in one set report format, each with a location, a severity, and a suggested fix, deferring every WCAG measurement to an accessibility audit. Use when you want a repeatable design review of a screen that reads the same from one round to the next.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/skills/design/design-critique-checklist",
+      "file": "skills/design-critique-checklist/SKILL.md",
+      "install": "npx agentscamp add skills/design-critique-checklist"
+    },
+    {
+      "id": "skills/design-token-extractor",
+      "type": "skill",
+      "slug": "design-token-extractor",
+      "category": "design",
+      "title": "Design Token Extractor",
+      "description": "Read a screenshot, a pasted stylesheet, or a written component description and produce a design token set as W3C DTCG-style JSON, with colors, a type scale, spacing, radii, and shadows grouped and named, followed by a notes list saying which values were read exactly, snapped to a scale, or estimated by eye. Use when a design exists only as pixels or ad-hoc CSS and you need a named token set to start from.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai",
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/skills/design/design-token-extractor",
+      "file": "skills/design-token-extractor/SKILL.md",
+      "install": "npx agentscamp add skills/design-token-extractor"
+    },
+    {
       "id": "skills/devcontainer-designer",
       "type": "skill",
       "slug": "devcontainer-designer",
@@ -5131,6 +6355,21 @@
       "url": "https://agentscamp.com/skills/workflow/dockerfile-optimizer",
       "file": "skills/dockerfile-optimizer/SKILL.md",
       "install": "npx agentscamp add skills/dockerfile-optimizer"
+    },
+    {
+      "id": "skills/email-sequence-drafter",
+      "type": "skill",
+      "slug": "email-sequence-drafter",
+      "category": "marketing",
+      "title": "Email Sequence Drafter",
+      "description": "Draft a four-to-six email sequence from a goal, an audience, and the product notes you paste in: a send-timing table, one job per email, three subject-line variants per email with character counts, a formatted and a plain-text version of each message, every product claim traced to your notes, and a compliance footer placeholder on every email. Use when a welcome, onboarding, launch, or nurture sequence has to be written from what the product actually does rather than from what a template assumes.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/marketing/email-sequence-drafter",
+      "file": "skills/email-sequence-drafter/SKILL.md",
+      "install": "npx agentscamp add skills/email-sequence-drafter"
     },
     {
       "id": "skills/embedding-index-tuner",
@@ -5375,6 +6614,36 @@
       "install": "npx agentscamp add skills/integration-test-designer"
     },
     {
+      "id": "skills/investor-update-writer",
+      "type": "skill",
+      "slug": "investor-update-writer",
+      "category": "product",
+      "title": "Investor Update Writer",
+      "description": "Draft a monthly investor update from the metrics and notes you paste: a three-line TL;DR, a metrics table with month-over-month deltas computed only from the numbers you supplied, wins, misses stated with their numbers, explicit asks, and a runway note. Never fills in a figure you did not give. Use when the update is due, the raw numbers are in a spreadsheet export or a scratch doc, and you want a draft that is honest about the misses.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/product/investor-update-writer",
+      "file": "skills/investor-update-writer/SKILL.md",
+      "install": "npx agentscamp add skills/investor-update-writer"
+    },
+    {
+      "id": "skills/landing-page-copywriter",
+      "type": "skill",
+      "slug": "landing-page-copywriter",
+      "category": "marketing",
+      "title": "Landing Page Copywriter",
+      "description": "Draft landing-page copy from an offer, an audience, and the proof points you actually have, as a complete section set (hero, problem, solution, how it works, proof, pricing framing, FAQ, and three CTA variants) in PAS or AIDA, with a [PROOF NEEDED] marker wherever a testimonial, number, or logo would normally sit but was not supplied. Use when a page needs first-draft copy and you would rather see the gaps than have them filled with invented social proof.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/marketing/landing-page-copywriter",
+      "file": "skills/landing-page-copywriter/SKILL.md",
+      "install": "npx agentscamp add skills/landing-page-copywriter"
+    },
+    {
       "id": "skills/least-privilege-auditor",
       "type": "skill",
       "slug": "least-privilege-auditor",
@@ -5604,6 +6873,21 @@
       "install": "npx agentscamp add skills/mutation-test-runner"
     },
     {
+      "id": "skills/mvp-scope-cutter",
+      "type": "skill",
+      "slug": "mvp-scope-cutter",
+      "category": "product",
+      "title": "Mvp Scope Cutter",
+      "description": "Cut a feature list or PRD down to a ruthless version one: a keep / cut / later table with a one-line reason per row, plus the single smallest thing you could build to test the riskiest assumption. Use when first-release scope keeps growing, when an AI app builder session has produced more features than you can validate, or before you commit money or engineering time to a build.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/product/mvp-scope-cutter",
+      "file": "skills/mvp-scope-cutter/SKILL.md",
+      "install": "npx agentscamp add skills/mvp-scope-cutter"
+    },
+    {
       "id": "skills/onboarding-guide-writer",
       "type": "skill",
       "slug": "onboarding-guide-writer",
@@ -5686,6 +6970,21 @@
       "url": "https://agentscamp.com/skills/git/pr-description",
       "file": "skills/pr-description/SKILL.md",
       "install": "npx agentscamp add skills/pr-description"
+    },
+    {
+      "id": "skills/prd-writer",
+      "type": "skill",
+      "slug": "prd-writer",
+      "category": "product",
+      "title": "Prd Writer",
+      "description": "Turn a founder's raw idea, voice-memo transcript, or scattered bullet points into a product requirements document with a fixed section order: problem, users, jobs-to-be-done, scope, non-goals, success metrics, open questions, and risks. Use when an idea needs to be written down in a form a cofounder, contractor, or AI coding agent can build from, and it is not yet a document.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/product/prd-writer",
+      "file": "skills/prd-writer/SKILL.md",
+      "install": "npx agentscamp add skills/prd-writer"
     },
     {
       "id": "skills/prompt-cache-optimizer",
@@ -6002,6 +7301,21 @@
       "install": "npx agentscamp add skills/semver-advisor"
     },
     {
+      "id": "skills/seo-content-brief-writer",
+      "type": "skill",
+      "slug": "seo-content-brief-writer",
+      "category": "marketing",
+      "title": "Seo Content Brief Writer",
+      "description": "Write an SEO content brief from a target keyword plus the SERP notes and competitor outlines you paste in: search intent with evidence, an angle the ranking pages under-serve, an H2/H3 outline, the entities and questions to cover, internal-link placeholders, a length-checked meta title and description, and a word-count target explained by the SERP rather than a rule of thumb. Use when a writer or a coding agent needs a brief before drafting an article and you do not want search volumes, difficulty scores, or rankings invented.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/marketing/seo-content-brief-writer",
+      "file": "skills/seo-content-brief-writer/SKILL.md",
+      "install": "npx agentscamp add skills/seo-content-brief-writer"
+    },
+    {
       "id": "skills/skill-auditor",
       "type": "skill",
       "slug": "skill-auditor",
@@ -6028,6 +7342,36 @@
       "url": "https://agentscamp.com/skills/observability/slo-definer",
       "file": "skills/slo-definer/SKILL.md",
       "install": "npx agentscamp add skills/slo-definer"
+    },
+    {
+      "id": "skills/spreadsheet-formula-auditor",
+      "type": "skill",
+      "slug": "spreadsheet-formula-auditor",
+      "category": "analytics",
+      "title": "Spreadsheet Formula Auditor",
+      "description": "Audit pasted spreadsheet formulas or a described model for the errors that survive review: hardcoded values buried inside formulas, ranges that drift or truncate, one cell in a row that does not match its neighbors, circular references, sign errors, IFERROR masking a real failure, and volatile functions, returned as a fix list ordered by how much money the error moves. Use before a model that carries a real decision leaves your hands.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/skills/analytics/spreadsheet-formula-auditor",
+      "file": "skills/spreadsheet-formula-auditor/SKILL.md",
+      "install": "npx agentscamp add skills/spreadsheet-formula-auditor"
+    },
+    {
+      "id": "skills/sql-explainer",
+      "type": "skill",
+      "slug": "sql-explainer",
+      "category": "analytics",
+      "title": "SQL Explainer",
+      "description": "Walk through a pasted SQL query in execution order in plain language: what each step does, the grain of the result, where a join can fan rows out, which filters silently drop rows, and a ranked list of what could be wrong. Comprehension only, not performance tuning. Use when you inherited a query, are reviewing one before trusting its numbers, or have to explain it to someone who does not read SQL.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/skills/analytics/sql-explainer",
+      "file": "skills/sql-explainer/SKILL.md",
+      "install": "npx agentscamp add skills/sql-explainer"
     },
     {
       "id": "skills/sql-optimizer",
@@ -6140,6 +7484,36 @@
       "url": "https://agentscamp.com/skills/refactor/type-coverage-improver",
       "file": "skills/type-coverage-improver/SKILL.md",
       "install": "npx agentscamp add skills/type-coverage-improver"
+    },
+    {
+      "id": "skills/user-interview-synthesizer",
+      "type": "skill",
+      "slug": "user-interview-synthesizer",
+      "category": "product",
+      "title": "User Interview Synthesizer",
+      "description": "Synthesize one or many customer interview transcripts or call notes into themes with participant counts, verbatim representative quotes, jobs-to-be-done statements, contradictions between what people said and did, and the questions to ask next. Never invents, merges, or rewords a quote. Use after a batch of discovery calls when the notes are piling up and you need to know what people actually said before deciding what to build.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/product/user-interview-synthesizer",
+      "file": "skills/user-interview-synthesizer/SKILL.md",
+      "install": "npx agentscamp add skills/user-interview-synthesizer"
+    },
+    {
+      "id": "skills/ux-copy-reviewer",
+      "type": "skill",
+      "slug": "ux-copy-reviewer",
+      "category": "design",
+      "title": "UX Copy Reviewer",
+      "description": "Review a set of interface strings you paste in (buttons, labels, empty states, errors, confirmations, tooltips) as one set rather than one at a time, checking clarity, term consistency across screens, error and empty-state quality, whether each action label matches what happens, and length against any limits you supply, and returning a verdict and a rewrite per string without inventing a product fact the strings do not contain. Use when microcopy has accumulated across a product and nobody has read it end to end.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/skills/design/ux-copy-reviewer",
+      "file": "skills/ux-copy-reviewer/SKILL.md",
+      "install": "npx agentscamp add skills/ux-copy-reviewer"
     },
     {
       "id": "skills/version-bumper",
@@ -6321,6 +7695,19 @@
       "url": "https://agentscamp.com/tools/baml"
     },
     {
+      "id": "tools/base44",
+      "type": "tool",
+      "slug": "base44",
+      "category": "app-builder",
+      "title": "Base44",
+      "description": "A Wix-owned AI app builder that turns a plain-English prompt into a working web app with database, auth, and hosting built in.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/base44"
+    },
+    {
       "id": "tools/baseten",
       "type": "tool",
       "slug": "baseten",
@@ -6337,7 +7724,7 @@
       "id": "tools/bolt",
       "type": "tool",
       "slug": "bolt",
-      "category": "platform",
+      "category": "app-builder",
       "title": "Bolt",
       "description": "StackBlitz's in-browser AI agent that builds, runs, and deploys full-stack web apps in a WebContainer.",
       "topics": [
@@ -6384,6 +7771,32 @@
       "url": "https://agentscamp.com/tools/browserbase"
     },
     {
+      "id": "tools/bubble",
+      "type": "tool",
+      "slug": "bubble",
+      "category": "app-builder",
+      "title": "Bubble",
+      "description": "A full no-code platform for web and native mobile apps with its own database, visual workflow logic, and AI generation from a prompt.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/bubble"
+    },
+    {
+      "id": "tools/canva",
+      "type": "tool",
+      "slug": "canva",
+      "category": "design",
+      "title": "Canva",
+      "description": "A design platform whose Magic Studio and Canva AI features generate designs, copy, and edits on top of your brand kit, across web, desktop, and mobile.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/tools/canva"
+    },
+    {
       "id": "tools/cartesia",
       "type": "tool",
       "slug": "cartesia",
@@ -6395,6 +7808,19 @@
         "multimodal-ai"
       ],
       "url": "https://agentscamp.com/tools/cartesia"
+    },
+    {
+      "id": "tools/chatgpt",
+      "type": "tool",
+      "slug": "chatgpt",
+      "category": "assistant",
+      "title": "Chatgpt",
+      "description": "OpenAI's general-purpose AI assistant for chat, research, and finished documents, with Projects, memory, plugins, and a Work mode for multi-step tasks.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/chatgpt"
     },
     {
       "id": "tools/chonkie",
@@ -6434,6 +7860,19 @@
       "url": "https://agentscamp.com/tools/chrome-devtools-mcp"
     },
     {
+      "id": "tools/claude",
+      "type": "tool",
+      "slug": "claude",
+      "category": "assistant",
+      "title": "Claude",
+      "description": "Anthropic's AI assistant app for web, desktop, and mobile, with Projects, connectors, Artifacts, skills, memory, and code execution.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/claude"
+    },
+    {
       "id": "tools/claude-agent-sdk",
       "type": "tool",
       "slug": "claude-agent-sdk",
@@ -6456,6 +7895,71 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/tools/claude-code"
+    },
+    {
+      "id": "tools/claude-cowork",
+      "type": "tool",
+      "slug": "claude-cowork",
+      "category": "assistant",
+      "title": "Claude Cowork",
+      "description": "Anthropic's agent for knowledge work that completes multi-step tasks in your folders, connectors, and browser, on desktop, web, and mobile.",
+      "topics": [
+        "ai-at-work",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/claude-cowork"
+    },
+    {
+      "id": "tools/claude-design",
+      "type": "tool",
+      "slug": "claude-design",
+      "category": "design",
+      "title": "Claude Design",
+      "description": "An Anthropic Labs tool for making prototypes, decks, and one-pagers with Claude, using your design system, with PPTX, PDF, HTML, and Canva export.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/tools/claude-design"
+    },
+    {
+      "id": "tools/claude-for-chrome",
+      "type": "tool",
+      "slug": "claude-for-chrome",
+      "category": "extension",
+      "title": "Claude For Chrome",
+      "description": "Anthropic's Chrome extension that lets Claude read pages, click, fill forms, and run tasks in your signed-in browser, with site permissions and action checks.",
+      "topics": [
+        "ai-at-work",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/claude-for-chrome"
+    },
+    {
+      "id": "tools/claude-for-excel",
+      "type": "tool",
+      "slug": "claude-for-excel",
+      "category": "extension",
+      "title": "Claude For Excel",
+      "description": "Anthropic's Excel add-in that explains, edits, debugs, and builds spreadsheet models in place, with cell-level citations, on paid Claude plans.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/tools/claude-for-excel"
+    },
+    {
+      "id": "tools/clearscope",
+      "type": "tool",
+      "slug": "clearscope",
+      "category": "marketing",
+      "title": "Clearscope",
+      "description": "A content optimization platform that grades drafts against top-ranking pages, discovers queries, tracks AI-answer mentions, and monitors published pages.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/clearscope"
     },
     {
       "id": "tools/cline",
@@ -6555,6 +8059,19 @@
       "url": "https://agentscamp.com/tools/continue"
     },
     {
+      "id": "tools/copy-ai",
+      "type": "tool",
+      "slug": "copy-ai",
+      "category": "marketing",
+      "title": "Copy AI",
+      "description": "A go-to-market AI platform that codifies sales and marketing processes as Workflows, Agents, and Tables on top of a Brand Voice and Infobase.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/copy-ai"
+    },
+    {
       "id": "tools/crewai",
       "type": "tool",
       "slug": "crewai",
@@ -6577,6 +8094,20 @@
         "coding-languages"
       ],
       "url": "https://agentscamp.com/tools/cursor"
+    },
+    {
+      "id": "tools/databricks-genie",
+      "type": "tool",
+      "slug": "databricks-genie",
+      "category": "analytics",
+      "title": "Databricks Genie",
+      "description": "Databricks' conversational analytics layer: Genie Agents answer natural-language questions over Unity Catalog data using curated instructions and SQL.",
+      "topics": [
+        "ai-at-work",
+        "data-ml",
+        "mlops-ai-infra"
+      ],
+      "url": "https://agentscamp.com/tools/databricks-genie"
     },
     {
       "id": "tools/daytona",
@@ -6614,6 +8145,33 @@
         "multimodal-ai"
       ],
       "url": "https://agentscamp.com/tools/deepgram"
+    },
+    {
+      "id": "tools/deepnote",
+      "type": "tool",
+      "slug": "deepnote",
+      "category": "analytics",
+      "title": "Deepnote",
+      "description": "A collaborative data notebook whose AI agent edits and runs your blocks, with data apps, a semantic layer, and integrations across warehouses and BI tools.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/tools/deepnote"
+    },
+    {
+      "id": "tools/descript",
+      "type": "tool",
+      "slug": "descript",
+      "category": "marketing",
+      "title": "Descript",
+      "description": "A video and podcast editor where you edit by editing the transcript, with Underlord, an AI co-editor, Studio Sound, AI voices, dubbing, and clip creation.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/tools/descript"
     },
     {
       "id": "tools/devin",
@@ -6692,6 +8250,19 @@
       "url": "https://agentscamp.com/tools/elevenlabs"
     },
     {
+      "id": "tools/emergent",
+      "type": "tool",
+      "slug": "emergent",
+      "category": "app-builder",
+      "title": "Emergent",
+      "description": "An agentic AI app builder that plans, codes, tests, and deploys full-stack web apps and Expo mobile apps from a chat prompt.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/emergent"
+    },
+    {
       "id": "tools/exa",
       "type": "tool",
       "slug": "exa",
@@ -6741,6 +8312,19 @@
         "architecture"
       ],
       "url": "https://agentscamp.com/tools/fastmcp"
+    },
+    {
+      "id": "tools/figma-make",
+      "type": "tool",
+      "slug": "figma-make",
+      "category": "design",
+      "title": "Figma Make",
+      "description": "Figma's prompt-to-app tool: describe an idea or paste a design and get a working, code-backed prototype you can keep editing inside Figma.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/tools/figma-make"
     },
     {
       "id": "tools/figma-mcp",
@@ -6793,6 +8377,45 @@
       "url": "https://agentscamp.com/tools/flowise"
     },
     {
+      "id": "tools/framer-ai",
+      "type": "tool",
+      "slug": "framer-ai",
+      "category": "design",
+      "title": "Framer AI",
+      "description": "A website design tool with AI agents that generate editable pages, wireframes, CMS content, and code components, then publish to hosting Framer runs.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/tools/framer-ai"
+    },
+    {
+      "id": "tools/gamma",
+      "type": "tool",
+      "slug": "gamma",
+      "category": "marketing",
+      "title": "Gamma",
+      "description": "An AI design partner that turns a prompt or a document into presentations, docs, websites, and social posts, with an Agent for edits and a credits-based plan.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/gamma"
+    },
+    {
+      "id": "tools/gemini",
+      "type": "tool",
+      "slug": "gemini",
+      "category": "assistant",
+      "title": "Gemini",
+      "description": "Google's Gemini app, a general-purpose AI assistant with Deep Research, Gems, Canvas, and direct integration into Gmail, Docs, Sheets, and Workspace.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/gemini"
+    },
+    {
       "id": "tools/gemini-cli",
       "type": "tool",
       "slug": "gemini-cli",
@@ -6827,6 +8450,19 @@
         "mcp"
       ],
       "url": "https://agentscamp.com/tools/github-mcp-server"
+    },
+    {
+      "id": "tools/glide",
+      "type": "tool",
+      "slug": "glide",
+      "category": "app-builder",
+      "title": "Glide",
+      "description": "A no-code platform that turns spreadsheets and databases into mobile and desktop business apps, with an AI Agent that starts the build for you.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/glide"
     },
     {
       "id": "tools/google-adk",
@@ -6892,6 +8528,45 @@
       "url": "https://agentscamp.com/tools/helicone"
     },
     {
+      "id": "tools/hex",
+      "type": "tool",
+      "slug": "hex",
+      "category": "analytics",
+      "title": "Hex",
+      "description": "A collaborative notebook and data-app platform whose AI agents write SQL and Python, answer questions in Threads, and run on curated workspace context.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/tools/hex"
+    },
+    {
+      "id": "tools/hubspot-breeze",
+      "type": "tool",
+      "slug": "hubspot-breeze",
+      "category": "marketing",
+      "title": "Hubspot Breeze",
+      "description": "HubSpot's built-in AI: Breeze Assistant in every plan, pre-built Breeze agents for content, prospecting, and support, and a plain-language Agent Builder.",
+      "topics": [
+        "ai-at-work",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/hubspot-breeze"
+    },
+    {
+      "id": "tools/ideogram",
+      "type": "tool",
+      "slug": "ideogram",
+      "category": "design",
+      "title": "Ideogram",
+      "description": "An image generator built around reliable text rendering, with prompt tooling, background control, on-brand custom models, an API, and an MCP server.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/tools/ideogram"
+    },
+    {
       "id": "tools/instructor",
       "type": "tool",
       "slug": "instructor",
@@ -6916,6 +8591,19 @@
       "url": "https://agentscamp.com/tools/jan"
     },
     {
+      "id": "tools/jasper",
+      "type": "tool",
+      "slug": "jasper",
+      "category": "marketing",
+      "title": "Jasper",
+      "description": "An enterprise marketing AI workspace with 100+ purpose-built agents, Jasper IQ brand context, Canvas, and an MCP server for other AI tools.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/jasper"
+    },
+    {
       "id": "tools/jina-reader",
       "type": "tool",
       "slug": "jina-reader",
@@ -6926,6 +8614,19 @@
         "ai-agents-systems"
       ],
       "url": "https://agentscamp.com/tools/jina-reader"
+    },
+    {
+      "id": "tools/julius",
+      "type": "tool",
+      "slug": "julius",
+      "category": "analytics",
+      "title": "Julius",
+      "description": "A chat-first AI data analyst: upload a spreadsheet or connect a warehouse, ask in plain English, and get charts, code, and shareable exports back.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/tools/julius"
     },
     {
       "id": "tools/kilo-code",
@@ -7011,6 +8712,19 @@
         "ai-agents-systems"
       ],
       "url": "https://agentscamp.com/tools/letta"
+    },
+    {
+      "id": "tools/lindy",
+      "type": "tool",
+      "slug": "lindy",
+      "category": "automation",
+      "title": "Lindy",
+      "description": "An AI teammate that lives in Slack, joins your meetings, and runs scheduled routines and reusable skills across 1,000+ tools with approvals.",
+      "topics": [
+        "ai-at-work",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/lindy"
     },
     {
       "id": "tools/linear-mcp",
@@ -7115,7 +8829,7 @@
       "id": "tools/lovable",
       "type": "tool",
       "slug": "lovable",
-      "category": "platform",
+      "category": "app-builder",
       "title": "Lovable",
       "description": "An AI app builder that turns natural-language prompts into shippable full-stack web apps.",
       "topics": [
@@ -7176,6 +8890,32 @@
       "url": "https://agentscamp.com/tools/mem0"
     },
     {
+      "id": "tools/microsoft-copilot",
+      "type": "tool",
+      "slug": "microsoft-copilot",
+      "category": "assistant",
+      "title": "Microsoft Copilot",
+      "description": "Microsoft's work assistant inside Word, Excel, PowerPoint, Outlook, and Teams, grounded in your company's Microsoft 365 data, with Researcher and Analyst.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/microsoft-copilot"
+    },
+    {
+      "id": "tools/midjourney",
+      "type": "tool",
+      "slug": "midjourney",
+      "category": "design",
+      "title": "Midjourney",
+      "description": "An image and video generator with a web app and a Discord bot, known for strong aesthetic defaults, style references, an inpainting editor, and paid-only plans.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/tools/midjourney"
+    },
+    {
       "id": "tools/milvus",
       "type": "tool",
       "slug": "milvus",
@@ -7224,6 +8964,19 @@
         "ai-safety-security"
       ],
       "url": "https://agentscamp.com/tools/nemo-guardrails"
+    },
+    {
+      "id": "tools/notebooklm",
+      "type": "tool",
+      "slug": "notebooklm",
+      "category": "assistant",
+      "title": "Notebooklm",
+      "description": "Google's source-grounded research notebook, renamed from NotebookLM in July 2026, that answers only from your uploaded sources and turns them into media.",
+      "topics": [
+        "ai-at-work",
+        "rag-retrieval"
+      ],
+      "url": "https://agentscamp.com/tools/notebooklm"
     },
     {
       "id": "tools/notion-mcp",
@@ -7296,6 +9049,46 @@
         "llm-app-dev"
       ],
       "url": "https://agentscamp.com/tools/openrouter"
+    },
+    {
+      "id": "tools/opus-clip",
+      "type": "tool",
+      "slug": "opus-clip",
+      "category": "marketing",
+      "title": "Opus Clip",
+      "description": "An AI clipping tool that turns long videos into scored, captioned short clips for Shorts, TikTok, and Reels, with a scheduler, brand templates, and an API.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/tools/opus-clip"
+    },
+    {
+      "id": "tools/pandasai",
+      "type": "tool",
+      "slug": "pandasai",
+      "category": "analytics",
+      "title": "Pandasai",
+      "description": "A Python library that adds a chat method to your dataframes: it generates and runs pandas code to answer questions, with an optional Docker sandbox.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/tools/pandasai"
+    },
+    {
+      "id": "tools/perplexity",
+      "type": "tool",
+      "slug": "perplexity",
+      "category": "assistant",
+      "title": "Perplexity",
+      "description": "An AI answer engine that cites its sources on every response, with a Research mode for long reports, Projects for shared context, and the Comet browser.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/perplexity"
     },
     {
       "id": "tools/pgroll",
@@ -7463,6 +9256,19 @@
       "url": "https://agentscamp.com/tools/ragas"
     },
     {
+      "id": "tools/recraft",
+      "type": "tool",
+      "slug": "recraft",
+      "category": "design",
+      "title": "Recraft",
+      "description": "An AI image platform built for designers, with editable vector output, reusable custom styles, mockups, and an API for image and vector generation.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/tools/recraft"
+    },
+    {
       "id": "tools/reducto",
       "type": "tool",
       "slug": "reducto",
@@ -7474,6 +9280,19 @@
         "data-ml"
       ],
       "url": "https://agentscamp.com/tools/reducto"
+    },
+    {
+      "id": "tools/relume",
+      "type": "tool",
+      "slug": "relume",
+      "category": "design",
+      "title": "Relume",
+      "description": "An AI site builder that turns a brief into a sitemap, wireframes, and a designed marketing site, then exports to Figma, Webflow, or React.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/tools/relume"
     },
     {
       "id": "tools/replicate",
@@ -7492,7 +9311,7 @@
       "id": "tools/replit-agent",
       "type": "tool",
       "slug": "replit-agent",
-      "category": "platform",
+      "category": "app-builder",
       "title": "Replit Agent",
       "description": "Replit's AI agent that builds, runs, and deploys full-stack apps from a prompt inside the Replit cloud IDE.",
       "topics": [
@@ -7511,6 +9330,19 @@
         "coding-languages"
       ],
       "url": "https://agentscamp.com/tools/roo-code"
+    },
+    {
+      "id": "tools/rork",
+      "type": "tool",
+      "slug": "rork",
+      "category": "app-builder",
+      "title": "Rork",
+      "description": "An AI mobile app builder that turns a chat prompt into native iPhone (Swift), Android (Kotlin), and web apps you can publish to the App Store.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/rork"
     },
     {
       "id": "tools/sentry-mcp",
@@ -7586,6 +9418,19 @@
       "url": "https://agentscamp.com/tools/smithery"
     },
     {
+      "id": "tools/softr",
+      "type": "tool",
+      "slug": "softr",
+      "category": "app-builder",
+      "title": "Softr",
+      "description": "A no-code builder for client portals and internal tools on top of Airtable, Google Sheets, or its own database, now with AI app generation.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/softr"
+    },
+    {
       "id": "tools/spec-kit",
       "type": "tool",
       "slug": "spec-kit",
@@ -7610,6 +9455,19 @@
       "url": "https://agentscamp.com/tools/stagehand"
     },
     {
+      "id": "tools/stitch",
+      "type": "tool",
+      "slug": "stitch",
+      "category": "design",
+      "title": "Stitch",
+      "description": "Google's AI design canvas that turns prompts, voice, images, or an existing codebase into high-fidelity mobile and web UI, with frontend code and a Figma paste.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/tools/stitch"
+    },
+    {
       "id": "tools/stripe-mcp",
       "type": "tool",
       "slug": "stripe-mcp",
@@ -7632,6 +9490,19 @@
         "mcp"
       ],
       "url": "https://agentscamp.com/tools/supabase-mcp"
+    },
+    {
+      "id": "tools/surfer",
+      "type": "tool",
+      "slug": "surfer",
+      "category": "marketing",
+      "title": "Surfer",
+      "description": "An SEO and AI-visibility platform whose Content Editor scores drafts against live SERP guidelines, with AI writing, audits, and AI-search tracking.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/surfer"
     },
     {
       "id": "tools/swe-agent",
@@ -7681,6 +9552,19 @@
         "ai-agents-systems"
       ],
       "url": "https://agentscamp.com/tools/tavily"
+    },
+    {
+      "id": "tools/thoughtspot-spotter",
+      "type": "tool",
+      "slug": "thoughtspot-spotter",
+      "category": "analytics",
+      "title": "Thoughtspot Spotter",
+      "description": "ThoughtSpot's agentic analyst: it resolves questions into search tokens against a governed semantic model rather than raw SQL, then acts on the answer.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/tools/thoughtspot-spotter"
     },
     {
       "id": "tools/together-ai",
@@ -7750,13 +9634,26 @@
       "id": "tools/v0",
       "type": "tool",
       "slug": "v0",
-      "category": "platform",
+      "category": "app-builder",
       "title": "V0",
       "description": "Vercel's generative UI builder that turns prompts into production-ready React, Next.js, and shadcn/ui apps.",
       "topics": [
         "coding-languages"
       ],
       "url": "https://agentscamp.com/tools/v0"
+    },
+    {
+      "id": "tools/vanna",
+      "type": "tool",
+      "slug": "vanna",
+      "category": "analytics",
+      "title": "Vanna",
+      "description": "An MIT-licensed Python framework for text-to-SQL: a user-aware agent that learns from successful queries and streams tables, charts, and summaries back.",
+      "topics": [
+        "ai-at-work",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/tools/vanna"
     },
     {
       "id": "tools/vapi",
@@ -7894,6 +9791,19 @@
         "coding-languages"
       ],
       "url": "https://agentscamp.com/tools/windsurf"
+    },
+    {
+      "id": "tools/zapier-agents",
+      "type": "tool",
+      "slug": "zapier-agents",
+      "category": "automation",
+      "title": "Zapier Agents",
+      "description": "Zapier's no-code AI agents that take plain-English instructions and act across 9,000+ apps on a schedule, on app events, or on demand.",
+      "topics": [
+        "ai-at-work",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/zapier-agents"
     },
     {
       "id": "tools/zed",
