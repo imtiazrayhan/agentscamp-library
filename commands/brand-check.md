@@ -4,7 +4,7 @@ argument-hint: "[draft file path]"
 allowed-tools: "Read, Glob"
 ---
 
-Check a draft against the voice your team actually writes in, before it goes out. This command looks for the guide the [brand-voice-profiler](/skills/marketing/brand-voice-profiler) skill produces, scores the draft against each of that guide's dimensions, and lists what to change and how. It reads only, so it is safe to run on anything from a tweet file to a landing page. Anthropic's marketing plugin has a `/brand-review` command that reviews against a guide configured there; this one works from a guide that lives as a plain file or skill in your project.
+Check a draft against the voice your team actually writes in, before it goes out. This command looks for the guide the [brand-voice-profiler](/skills/marketing/brand-voice-profiler) skill produces, scores the draft against each of that guide's dimensions, and lists what to change and how. It reads only, so it is safe to run on anything from a tweet file to a landing page. Anthropic's marketing plugin has a `brand-review` skill, invoked as `/marketing:brand-review`, that reviews against a guide configured there; this one works from a guide that lives as a plain file or skill in your project.
 
 ## Scope
 
