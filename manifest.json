@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "source": "https://agentscamp.com",
   "counts": {
-    "agents": 61,
-    "skills": 110,
     "guides": 163,
     "tools": 139,
-    "commands": 53,
     "glossary": 81,
+    "agents": 61,
+    "skills": 110,
+    "commands": 53,
     "total": 607
   },
   "items": [

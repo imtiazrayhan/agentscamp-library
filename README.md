@@ -20,23 +20,23 @@ Replace `agents/<slug>` with any id from the catalogs below (e.g. `skills/<slug>
 
 | Type | Count | About |
 | --- | --- | --- |
-| [Agents](agents.md) | 61 | Specialized subagents for focused work |
-| [Skills](skills.md) | 110 | Reusable capabilities Claude loads on demand |
 | [Guides](guides.md) | 163 | Tutorials and deep-dives |
 | [Tools](tools.md) | 139 | The AI tooling directory |
-| [Commands](commands.md) | 53 | Slash commands for Claude Code |
 | [Glossary](glossary.md) | 81 | AI terms, defined precisely |
+| [Agents](agents.md) | 61 | Specialized subagents for focused work |
+| [Skills](skills.md) | 110 | Reusable capabilities Claude loads on demand |
+| [Commands](commands.md) | 53 | Slash commands for Claude Code |
 
 **607 items**, all linking back to their canonical pages on [AgentsCamp](https://agentscamp.com).
 
 ## Catalogs
 
-- **[Agents](agents.md)** — Specialized subagents for focused work
-- **[Skills](skills.md)** — Reusable capabilities Claude loads on demand
 - **[Guides](guides.md)** — Tutorials and deep-dives
 - **[Tools](tools.md)** — The AI tooling directory
-- **[Commands](commands.md)** — Slash commands for Claude Code
 - **[Glossary](glossary.md)** — AI terms, defined precisely
+- **[Agents](agents.md)** — Specialized subagents for focused work
+- **[Skills](skills.md)** — Reusable capabilities Claude loads on demand
+- **[Commands](commands.md)** — Slash commands for Claude Code
 
 ## About
 
