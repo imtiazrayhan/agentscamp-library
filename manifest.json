@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "source": "https://agentscamp.com",
   "counts": {
-    "guides": 217,
-    "tools": 190,
+    "guides": 233,
+    "tools": 204,
     "glossary": 108,
     "agents": 66,
     "skills": 134,
     "commands": 63,
-    "total": 778
+    "total": 808
   },
   "items": [
     {
@@ -3474,6 +3474,19 @@
       "url": "https://agentscamp.com/guides/getting-started/best-claude-code-agents-skills"
     },
     {
+      "id": "guides/best-claude-code-alternatives-2026",
+      "type": "guide",
+      "slug": "best-claude-code-alternatives-2026",
+      "category": "comparisons",
+      "title": "The Best Claude Code Alternatives in 2026 (Free, Open-Source, and Paid)",
+      "description": "The best Claude Code alternatives in 2026, sorted by why you're leaving: cost, open source, local models, an IDE, cloud agents, or OpenAI and Google.",
+      "topics": [
+        "coding-languages",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-claude-code-alternatives-2026"
+    },
+    {
       "id": "guides/best-claude-skills-2026",
       "type": "guide",
       "slug": "best-claude-skills-2026",
@@ -3538,6 +3551,19 @@
       "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-database-work"
     },
     {
+      "id": "guides/best-claude-skills-for-debugging",
+      "type": "guide",
+      "slug": "best-claude-skills-for-debugging",
+      "category": "skills",
+      "title": "10 Best Claude Skills for Debugging",
+      "description": "Compare Claude skills and commands for stack traces, failing and flaky tests, regressions, slow queries, memory leaks, CPU hotspots, deadlocks, and agents.",
+      "topics": [
+        "review-qa",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-debugging"
+    },
+    {
       "id": "guides/best-claude-skills-for-devops-sre",
       "type": "guide",
       "slug": "best-claude-skills-for-devops-sre",
@@ -3577,6 +3603,19 @@
       "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-frontend-development"
     },
     {
+      "id": "guides/best-claude-skills-for-git",
+      "type": "guide",
+      "slug": "best-claude-skills-for-git",
+      "category": "skills",
+      "title": "9 Best Claude Skills for Git",
+      "description": "Compare Claude skills and commands for commit messages, undoing mistakes, PR descriptions, rebases, conflicts, commit splitting, blame, and changelogs.",
+      "topics": [
+        "workflow-prompting",
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-git"
+    },
+    {
       "id": "guides/best-claude-skills-for-performance",
       "type": "guide",
       "slug": "best-claude-skills-for-performance",
@@ -3588,6 +3627,32 @@
         "coding-languages"
       ],
       "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-performance"
+    },
+    {
+      "id": "guides/best-claude-skills-for-rag",
+      "type": "guide",
+      "slug": "best-claude-skills-for-rag",
+      "category": "skills",
+      "title": "10 Best Claude Skills for RAG",
+      "description": "Compare Claude skills and commands for RAG scaffolding, chunking, grounding checks, embeddings, reranking, pgvector, index tuning, and GraphRAG.",
+      "topics": [
+        "rag-retrieval",
+        "llm-evals"
+      ],
+      "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-rag"
+    },
+    {
+      "id": "guides/best-claude-skills-for-refactoring",
+      "type": "guide",
+      "slug": "best-claude-skills-for-refactoring",
+      "category": "skills",
+      "title": "10 Best Claude Skills for Refactoring",
+      "description": "Compare Claude skills and commands for clean-code passes, renames, module splits, dead code, upgrades, import cycles, flags, strict types, and migrations.",
+      "topics": [
+        "coding-languages",
+        "architecture"
+      ],
+      "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-refactoring"
     },
     {
       "id": "guides/best-claude-skills-for-release-management",
@@ -3629,6 +3694,33 @@
       "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-testing"
     },
     {
+      "id": "guides/best-document-parsers-for-rag-2026",
+      "type": "guide",
+      "slug": "best-document-parsers-for-rag-2026",
+      "category": "comparisons",
+      "title": "The Best Document Parsers for RAG in 2026: LlamaParse vs Docling vs Unstructured vs Reducto",
+      "description": "LlamaParse, Docling, Unstructured, Reducto, Marker and Mistral OCR compared on deployment, license, OCR, tables and output, with a verdict for each.",
+      "topics": [
+        "rag-retrieval",
+        "data-ml",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-document-parsers-for-rag-2026"
+    },
+    {
+      "id": "guides/best-github-copilot-alternatives-2026",
+      "type": "guide",
+      "slug": "best-github-copilot-alternatives-2026",
+      "category": "comparisons",
+      "title": "The Best GitHub Copilot Alternatives in 2026 (Free and Paid)",
+      "description": "The best GitHub Copilot alternatives in 2026: AI-native editors, open-source VS Code and JetBrains agents, self-hosted assistants and terminal agents.",
+      "topics": [
+        "coding-languages",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-github-copilot-alternatives-2026"
+    },
+    {
       "id": "guides/best-llm-eval-tools-2026",
       "type": "guide",
       "slug": "best-llm-eval-tools-2026",
@@ -3639,6 +3731,33 @@
         "llm-evals"
       ],
       "url": "https://agentscamp.com/guides/evaluation/best-llm-eval-tools-2026"
+    },
+    {
+      "id": "guides/best-llm-inference-providers-2026",
+      "type": "guide",
+      "slug": "best-llm-inference-providers-2026",
+      "category": "comparisons",
+      "title": "The Best LLM Inference Providers in 2026: Groq vs Together vs Fireworks vs Baseten and More",
+      "description": "Groq, Cerebras, Together AI, Fireworks AI, Baseten, Modal, fal and Replicate compared by workload, with 2026 ownership changes and OpenAI compatibility.",
+      "topics": [
+        "mlops-ai-infra",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-llm-inference-providers-2026"
+    },
+    {
+      "id": "guides/best-llm-observability-tools-2026",
+      "type": "guide",
+      "slug": "best-llm-observability-tools-2026",
+      "category": "comparisons",
+      "title": "The Best LLM Observability Tools in 2026: Langfuse vs LangSmith vs Braintrust vs Phoenix",
+      "description": "Langfuse, LangSmith, Braintrust, Arize Phoenix, Helicone and AgentOps compared on tracing, cost tracking, agent debugging, OpenTelemetry and self-hosting.",
+      "topics": [
+        "mlops-ai-infra",
+        "llm-evals",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-llm-observability-tools-2026"
     },
     {
       "id": "guides/best-local-llm-tools-2026",
@@ -3728,6 +3847,19 @@
         "rag-retrieval"
       ],
       "url": "https://agentscamp.com/guides/database/best-vector-database-2026"
+    },
+    {
+      "id": "guides/best-web-search-apis-for-ai-agents-2026",
+      "type": "guide",
+      "slug": "best-web-search-apis-for-ai-agents-2026",
+      "category": "comparisons",
+      "title": "Best Web Search APIs for AI Agents in 2026: Tavily vs Exa vs Brave vs Parallel",
+      "description": "Tavily, Exa, the Brave Search API, Parallel, Jina Reader and Firecrawl compared on search, extraction, answers, index ownership, and official MCP servers.",
+      "topics": [
+        "ai-agents-systems",
+        "rag-retrieval"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-web-search-apis-for-ai-agents-2026"
     },
     {
       "id": "guides/brand-voice-with-claude-skills",
@@ -4035,6 +4167,18 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/guides/skills/claude-code-skills-best-practices"
+    },
+    {
+      "id": "guides/claude-code-slash-commands",
+      "type": "guide",
+      "slug": "claude-code-slash-commands",
+      "category": "configuration",
+      "title": "Claude Code Slash Commands: The Built-in List and How to Write Your Own",
+      "description": "Claude Code's built-in slash commands grouped by job, and how to write your own as skills: file format, frontmatter, arguments, and plugin namespacing.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/configuration/claude-code-slash-commands"
     },
     {
       "id": "guides/claude-code-tips",
@@ -4486,6 +4630,19 @@
       "url": "https://agentscamp.com/guides/comparisons/clay-vs-apollo"
     },
     {
+      "id": "guides/cline-vs-kilo-code-vs-roo-code",
+      "type": "guide",
+      "slug": "cline-vs-kilo-code-vs-roo-code",
+      "category": "comparisons",
+      "title": "Cline vs Kilo Code vs Roo Code (2026): Which to Use After Roo's Shutdown",
+      "description": "Roo Code shut down in May 2026. Cline vs Kilo Code compared on license, agents, checkpoints, BYOK and pricing model, plus how Roo users migrate.",
+      "topics": [
+        "coding-languages",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/cline-vs-kilo-code-vs-roo-code"
+    },
+    {
       "id": "guides/codex-agents-md",
       "type": "guide",
       "slug": "codex-agents-md",
@@ -4537,6 +4694,19 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/guides/mcp/codex-mcp-setup"
+    },
+    {
+      "id": "guides/codex-sandbox-and-approvals",
+      "type": "guide",
+      "slug": "codex-sandbox-and-approvals",
+      "category": "configuration",
+      "title": "Codex CLI Sandbox and Approvals in 2026: Auto-Approve, Full Access, Web Search",
+      "description": "Set Codex CLI's approval policy and sandbox mode: auto-approve without --full-auto, safe full access, network access, web search, profiles, and fixes.",
+      "topics": [
+        "workflow-prompting",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/guides/configuration/codex-sandbox-and-approvals"
     },
     {
       "id": "guides/codex-skills-guide",
@@ -4937,6 +5107,18 @@
       "url": "https://agentscamp.com/guides/getting-started/installing-claude-code"
     },
     {
+      "id": "guides/jina-reader-api",
+      "type": "guide",
+      "slug": "jina-reader-api",
+      "category": "advanced",
+      "title": "Jina Reader API: r.jina.ai and s.jina.ai Headers, Examples, and Limits",
+      "description": "How to use the Jina Reader API: r.jina.ai and s.jina.ai quickstart, every documented request header, curl recipes, rate limits, MCP setup, and self-hosting.",
+      "topics": [
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/guides/advanced/jina-reader-api"
+    },
+    {
       "id": "guides/langchain-vs-llamaindex",
       "type": "guide",
       "slug": "langchain-vs-llamaindex",
@@ -5113,6 +5295,19 @@
         "coding-languages"
       ],
       "url": "https://agentscamp.com/guides/design/maintain-a-design-system-with-claude-code"
+    },
+    {
+      "id": "guides/mastra-vs-langchain",
+      "type": "guide",
+      "slug": "mastra-vs-langchain",
+      "category": "comparisons",
+      "title": "Mastra vs LangChain (2026): TypeScript Agent Frameworks Compared",
+      "description": "Mastra vs LangChain.js and LangGraph.js in 2026: license, workflows, memory, evals, observability and deployment compared, plus where the Vercel AI SDK fits.",
+      "topics": [
+        "ai-agents-systems",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/mastra-vs-langchain"
     },
     {
       "id": "guides/mcp-ecosystem-statistics",
@@ -5665,6 +5860,18 @@
         "mcp"
       ],
       "url": "https://agentscamp.com/guides/analytics/text-to-sql-with-claude"
+    },
+    {
+      "id": "guides/update-claude-code",
+      "type": "guide",
+      "slug": "update-claude-code",
+      "category": "getting-started",
+      "title": "How to Update Claude Code (and Fix Update Errors)",
+      "description": "Update Claude Code for every install method: claude update vs npm install -g, auto-update channels, pinning a version, and fixes for common update errors.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/getting-started/update-claude-code"
     },
     {
       "id": "guides/v0-vs-lovable",
@@ -7886,7 +8093,7 @@
       "slug": "amp",
       "category": "agent",
       "title": "Amp",
-      "description": "Sourcegraph's agentic coding tool — a CLI and editor extensions tuned for frontier-model coding.",
+      "description": "Agentic coding tool, independent of Sourcegraph since December 2025: a CLI plus apps for the web, Mac, iPhone, and iPad, tuned for frontier-model coding.",
       "topics": [
         "workflow-prompting"
       ],
@@ -7923,7 +8130,7 @@
       "slug": "arize-phoenix",
       "category": "observability",
       "title": "Arize Phoenix",
-      "description": "An open-source LLM observability and evaluation tool built on OpenTelemetry, runnable anywhere.",
+      "description": "A source-available (Elastic License 2.0) LLM observability and evaluation tool built on OpenTelemetry, runnable anywhere.",
       "topics": [
         "llm-evals"
       ],
@@ -7961,7 +8168,7 @@
       "slug": "augment-code",
       "category": "extension",
       "title": "Augment Code",
-      "description": "AI coding assistant built for large, real-world codebases — a Context Engine that indexes the whole repo, with agents, chat, and completions in IDEs and a CLI.",
+      "description": "AI coding assistant built for large, real-world codebases — a Context Engine that indexes the whole repo, with agents and chat in IDEs and a CLI.",
       "topics": [
         "coding-languages",
         "ai-agents-systems"
@@ -8044,6 +8251,18 @@
       "url": "https://agentscamp.com/tools/braintrust"
     },
     {
+      "id": "tools/brave-search-api",
+      "type": "tool",
+      "slug": "brave-search-api",
+      "category": "platform",
+      "title": "Brave Search API",
+      "description": "Brave's web search API on its own independent index: ranked results, LLM Context grounding chunks, and cited answers from an OpenAI-compatible endpoint.",
+      "topics": [
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/brave-search-api"
+    },
+    {
       "id": "tools/browser-use",
       "type": "tool",
       "slug": "browser-use",
@@ -8106,6 +8325,19 @@
         "multimodal-ai"
       ],
       "url": "https://agentscamp.com/tools/cartesia"
+    },
+    {
+      "id": "tools/cerebras",
+      "type": "tool",
+      "slug": "cerebras",
+      "category": "platform",
+      "title": "Cerebras",
+      "description": "Cerebras Inference serves open-weight LLMs on wafer-scale chips for very fast output, through an OpenAI-compatible API with a free trial credit.",
+      "topics": [
+        "mlops-ai-infra",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/tools/cerebras"
     },
     {
       "id": "tools/chatgpt",
@@ -8193,6 +8425,18 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/tools/claude-code"
+    },
+    {
+      "id": "tools/claude-context",
+      "type": "tool",
+      "slug": "claude-context",
+      "category": "mcp",
+      "title": "Claude Context",
+      "description": "Zilliz's MIT-licensed MCP server that indexes your codebase into Milvus or Zilliz Cloud and gives your agent hybrid semantic code search.",
+      "topics": [
+        "mcp"
+      ],
+      "url": "https://agentscamp.com/tools/claude-context"
     },
     {
       "id": "tools/claude-cowork",
@@ -8408,6 +8652,18 @@
       "url": "https://agentscamp.com/tools/crewai"
     },
     {
+      "id": "tools/crush",
+      "type": "tool",
+      "slug": "crush",
+      "category": "cli",
+      "title": "Crush",
+      "description": "Charm's terminal coding agent: nearly any model, including local ones, switched mid-session, with LSP context, MCP and Agent Skills. Source-available (FSL).",
+      "topics": [
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/tools/crush"
+    },
+    {
       "id": "tools/cursor",
       "type": "tool",
       "slug": "cursor",
@@ -8484,6 +8740,18 @@
       "url": "https://agentscamp.com/tools/deepnote"
     },
     {
+      "id": "tools/deepwiki-mcp",
+      "type": "tool",
+      "slug": "deepwiki-mcp",
+      "category": "mcp",
+      "title": "DeepWiki MCP",
+      "description": "Cognition's free, no-auth remote MCP server for DeepWiki: generated wikis and grounded Q&A for any public GitHub repository, from inside your agent.",
+      "topics": [
+        "mcp"
+      ],
+      "url": "https://agentscamp.com/tools/deepwiki-mcp"
+    },
+    {
       "id": "tools/descript",
       "type": "tool",
       "slug": "descript",
@@ -8496,6 +8764,18 @@
         "multimodal-ai"
       ],
       "url": "https://agentscamp.com/tools/descript"
+    },
+    {
+      "id": "tools/desktop-commander",
+      "type": "tool",
+      "slug": "desktop-commander",
+      "category": "mcp",
+      "title": "Desktop Commander",
+      "description": "MIT-licensed MCP server that gives Claude Desktop and other MCP clients terminal control, file system search, and diff-based file editing.",
+      "topics": [
+        "mcp"
+      ],
+      "url": "https://agentscamp.com/tools/desktop-commander"
     },
     {
       "id": "tools/devin",
@@ -8592,7 +8872,7 @@
       "slug": "exa",
       "category": "platform",
       "title": "Exa",
-      "description": "The search engine built for AIs — semantic web search, page contents, Websets, and research APIs, plus the ecosystem's most-used search MCP server.",
+      "description": "The search engine built for AIs — semantic web search, page contents, Websets, and research APIs, plus a hosted MCP server.",
       "topics": [
         "mcp"
       ],
@@ -8693,7 +8973,7 @@
       "slug": "fireworks-ai",
       "category": "platform",
       "title": "Fireworks AI",
-      "description": "Fast production inference for open models — serverless and dedicated GPU deployments, fine-tuning, and an OpenAI-compatible API on the FireAttention engine.",
+      "description": "Fast production inference for open models — serverless and dedicated GPU deployments, fine-tuning, and an OpenAI-compatible API on a proprietary serving stack.",
       "topics": [
         "mlops-ai-infra",
         "llm-app-dev"
@@ -8789,6 +9069,18 @@
       "url": "https://agentscamp.com/tools/github-mcp-server"
     },
     {
+      "id": "tools/gitmcp",
+      "type": "tool",
+      "slug": "gitmcp",
+      "category": "mcp",
+      "title": "GitMCP",
+      "description": "Free, open-source remote MCP server that turns any public GitHub repo or Pages site into docs and code-search tools for your agent. No signup or key.",
+      "topics": [
+        "mcp"
+      ],
+      "url": "https://agentscamp.com/tools/gitmcp"
+    },
+    {
       "id": "tools/glide",
       "type": "tool",
       "slug": "glide",
@@ -8833,7 +9125,7 @@
       "slug": "goose",
       "category": "agent",
       "title": "Goose",
-      "description": "Block's open-source, on-machine AI agent that is MCP-native and model-agnostic, with a CLI and desktop app.",
+      "description": "Open-source, on-machine AI agent, originally from Block and now an Agentic AI Foundation project — MCP-native and model-agnostic, with a CLI and desktop app.",
       "topics": [
         "workflow-prompting",
         "coding-languages"
@@ -8966,6 +9258,19 @@
       "url": "https://agentscamp.com/tools/jina-reader"
     },
     {
+      "id": "tools/jules",
+      "type": "tool",
+      "slug": "jules",
+      "category": "agent",
+      "title": "Jules",
+      "description": "Google's asynchronous coding agent: it clones your GitHub repo into a cloud VM, proposes a plan built with Gemini, and opens a pull request once you approve.",
+      "topics": [
+        "coding-languages",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/jules"
+    },
+    {
       "id": "tools/julius",
       "type": "tool",
       "slug": "julius",
@@ -8984,11 +9289,23 @@
       "slug": "kilo-code",
       "category": "extension",
       "title": "Kilo Code",
-      "description": "Open-source AI coding agent extension for VS Code and JetBrains, built as a superset of Roo Code and Cline, with bring-your-own-key and zero model markup.",
+      "description": "Open-source AI coding agent for VS Code and JetBrains, begun as a Roo Code fork and rebuilt on OpenCode, with bring-your-own-key and zero model markup.",
       "topics": [
         "ai-agents-systems"
       ],
       "url": "https://agentscamp.com/tools/kilo-code"
+    },
+    {
+      "id": "tools/kiro",
+      "type": "tool",
+      "slug": "kiro",
+      "category": "ide",
+      "title": "Kiro",
+      "description": "AWS's agentic IDE and CLI that turns a prompt into a spec of requirements, design and tasks, then checks the code against it with property-based tests.",
+      "topics": [
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/tools/kiro"
     },
     {
       "id": "tools/lancedb",
@@ -9279,6 +9596,19 @@
       "url": "https://agentscamp.com/tools/milvus"
     },
     {
+      "id": "tools/mistral-ocr",
+      "type": "tool",
+      "slug": "mistral-ocr",
+      "category": "platform",
+      "title": "Mistral OCR",
+      "description": "Mistral AI's hosted OCR and document-understanding API: PDFs, Office files and images in, per-page Markdown and structured JSON out, billed per page.",
+      "topics": [
+        "rag-retrieval",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/tools/mistral-ocr"
+    },
+    {
       "id": "tools/modal",
       "type": "tool",
       "slug": "modal",
@@ -9454,6 +9784,18 @@
       "url": "https://agentscamp.com/tools/pandasai"
     },
     {
+      "id": "tools/parallel",
+      "type": "tool",
+      "slug": "parallel",
+      "category": "platform",
+      "title": "Parallel Web Systems",
+      "description": "Parallel Web Systems' web APIs for AI agents on its own index: objective-based Search, Extract to markdown, async Task research, and a free keyless MCP.",
+      "topics": [
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/parallel"
+    },
+    {
       "id": "tools/perplexity",
       "type": "tool",
       "slug": "perplexity",
@@ -9605,6 +9947,18 @@
       "url": "https://agentscamp.com/tools/qodo"
     },
     {
+      "id": "tools/qwen-code",
+      "type": "tool",
+      "slug": "qwen-code",
+      "category": "cli",
+      "title": "Qwen Code",
+      "description": "Alibaba Qwen's Apache-2.0 coding agent for the terminal, editor and desktop: OpenAI, Anthropic, Gemini and Qwen APIs, any provider, or local models.",
+      "topics": [
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/tools/qwen-code"
+    },
+    {
       "id": "tools/qwen3-vl",
       "type": "tool",
       "slug": "qwen3-vl",
@@ -9658,6 +10012,18 @@
       "url": "https://agentscamp.com/tools/reducto"
     },
     {
+      "id": "tools/ref-tools",
+      "type": "tool",
+      "slug": "ref-tools",
+      "category": "mcp",
+      "title": "Ref Context",
+      "description": "Ref's documentation-search MCP server: search-then-read tools over public docs, your private GitHub repos, and PDFs. Hosted, and an API key is required.",
+      "topics": [
+        "mcp"
+      ],
+      "url": "https://agentscamp.com/tools/ref-tools"
+    },
+    {
       "id": "tools/relume",
       "type": "tool",
       "slug": "relume",
@@ -9694,6 +10060,18 @@
         "coding-languages"
       ],
       "url": "https://agentscamp.com/tools/replit-agent"
+    },
+    {
+      "id": "tools/repomix",
+      "type": "tool",
+      "slug": "repomix",
+      "category": "mcp",
+      "title": "Repomix",
+      "description": "MIT tool that packs a local codebase or GitHub repo into one AI-friendly file, as a CLI or an MCP server your agent can grep and read in slices.",
+      "topics": [
+        "mcp"
+      ],
+      "url": "https://agentscamp.com/tools/repomix"
     },
     {
       "id": "tools/roo-code",
@@ -10012,7 +10390,7 @@
       "slug": "unstructured",
       "category": "platform",
       "title": "Unstructured",
-      "description": "Open-source library plus hosted Platform/API that turns messy documents — PDF, HTML, docx, images, email — into clean, chunked JSON for LLMs and RAG.",
+      "description": "Open-source library plus hosted Unstructured Pipelines and API that turn messy documents — PDF, HTML, docx, images, email — into clean, chunked JSON for RAG.",
       "topics": [
         "rag-retrieval",
         "data-ml"
