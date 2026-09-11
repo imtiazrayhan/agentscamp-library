@@ -4,7 +4,7 @@
 
 Browse the full directory on [AgentsCamp](https://agentscamp.com/glossary). Each entry links to its canonical page.
 
-**103 glossary** · [← Back to README](README.md)
+**108 glossary** · [← Back to README](README.md)
 
 ## Term
 
@@ -20,6 +20,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/glossary). Each
 - **[AI Connectors](https://agentscamp.com/glossary/ai-connectors)** — AI connectors are the integrations that let an assistant like Claude read and act in tools such as Google Drive, Slack, and Notion; in Claude, MCP servers.
 - **[AI Data Analyst](https://agentscamp.com/glossary/ai-data-analyst)** — An AI data analyst is a tool that takes a data question, writes and runs the code or SQL to answer it, and returns a chart or summary you still have to check.
 - **[AI Overviews](https://agentscamp.com/glossary/ai-overviews)** — AI Overviews are Google's AI-generated summaries at the top of Search results, with source links; AI Mode is the fuller conversational version.
+- **[AI SDR](https://agentscamp.com/glossary/ai-sdr)** — An AI SDR is software that runs sales development work such as prospecting, outreach, and follow-up, with autonomy that varies enormously between vendors.
 - **[AI Slop](https://agentscamp.com/glossary/ai-slop)** — AI slop is low-effort, mass-produced AI-generated content — fluent, generic, and unchecked — flooding feeds, search results, and codebases.
 - **[AI Wrapper](https://agentscamp.com/glossary/ai-wrapper)** — An AI wrapper is a product whose core function is a prompt and interface around a third-party model API, such as Claude or GPT, rather than its own model.
 - **[Answer Engine Optimization (AEO)](https://agentscamp.com/glossary/answer-engine-optimization)** — Answer engine optimization (AEO) is structuring content so search engines and AI assistants can lift a direct answer from it for AI Overviews and chatbots.
@@ -35,6 +36,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/glossary). Each
 - **[Constitutional AI](https://agentscamp.com/glossary/constitutional-ai)** — Constitutional AI trains models against written principles — the model critiques and revises its own outputs by them, reducing reliance on human labels.
 - **[Context Engineering](https://agentscamp.com/glossary/context-engineering)** — Context engineering is the discipline of curating exactly what enters an LLM's context window so it has the right information and nothing else.
 - **[Context Window](https://agentscamp.com/glossary/context-window)** — The context window is the maximum text — measured in tokens — an LLM can consider at once: prompt, conversation, documents, and its own output combined.
+- **[Conversation Intelligence](https://agentscamp.com/glossary/conversation-intelligence)** — Conversation intelligence is recording sales calls and meetings, transcribing them, and turning transcripts into searchable notes, actions, and CRM records.
 - **[Conversational Analytics](https://agentscamp.com/glossary/conversational-analytics)** — Conversational analytics is asking questions of governed business data in plain language and getting a chart or number back, without opening a dashboard.
 - **[Cosine Similarity](https://agentscamp.com/glossary/cosine-similarity)** — Cosine similarity measures how alike two embeddings are by the angle between them — the standard relevance score behind semantic search and RAG retrieval.
 - **[Design-to-Code](https://agentscamp.com/glossary/design-to-code)** — Design-to-code is turning a design — a Figma file, a screenshot, or a generated mockup — into working front-end code, increasingly by an AI agent.
@@ -62,6 +64,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/glossary). Each
 - **[Jailbreak](https://agentscamp.com/glossary/jailbreak)** — A jailbreak is a prompt crafted to bypass a model's safety training and policies — making it produce output it was trained to refuse.
 - **[Knowledge Cutoff](https://agentscamp.com/glossary/knowledge-cutoff)** — A knowledge cutoff is the date a model's training data ends, so it has no built-in knowledge of any event, release, or fact that came after it.
 - **[KV Cache](https://agentscamp.com/glossary/kv-cache)** — The KV cache stores each token's attention keys and values so an LLM doesn't recompute the whole context per new token — the memory that makes generation fast.
+- **[Lead Enrichment](https://agentscamp.com/glossary/lead-enrichment)** — Lead enrichment is filling the missing fields on a lead or account record, such as title, headcount, or tech stack, from data sources outside your own system.
 - **[LLM-as-Judge](https://agentscamp.com/glossary/llm-as-judge)** — LLM-as-judge uses a language model to score AI outputs against a rubric — evaluating quality at scale where exact-match metrics fail and humans don't scale.
 - **[Token (LLM)](https://agentscamp.com/glossary/llm-token)** — A token is the unit LLMs read and write — a word fragment of roughly 3–4 characters in English. Models are priced, limited, and measured in tokens, not words.
 - **[LLMOps](https://agentscamp.com/glossary/llmops)** — LLMOps is the practices and tooling for running LLM apps in production: prompt versioning, evals, tracing, cost and latency monitoring, and guardrails.
@@ -85,7 +88,9 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/glossary). Each
 - **[Reasoning Model](https://agentscamp.com/glossary/reasoning-model)** — A reasoning model is an LLM trained to think before answering — generating internal reasoning tokens it can spend adaptively on hard problems.
 - **[Red-Teaming (AI)](https://agentscamp.com/glossary/red-teaming)** — AI red-teaming is adversarial testing — attacking your model or agent with jailbreaks, injections, and misuse scenarios to find failures before users do.
 - **[Reranking](https://agentscamp.com/glossary/reranking)** — Reranking is a second-pass scoring step: a cross-encoder model re-orders the top results from fast retrieval so the truly relevant few rise to the top.
+- **[Revenue Intelligence](https://agentscamp.com/glossary/revenue-intelligence)** — Revenue intelligence is deriving deal risk, forecast accuracy, and coaching signals from captured customer conversations rather than from CRM fields.
 - **[RLHF (Reinforcement Learning from Human Feedback)](https://agentscamp.com/glossary/rlhf)** — RLHF trains a model against human preferences: people rank outputs, a reward model learns the ranking, and the LLM is optimized to produce preferred responses.
+- **[Sales Engagement Platform](https://agentscamp.com/glossary/sales-engagement-platform)** — A sales engagement platform is the system reps work out of: it sequences emails, calls, and tasks across channels and logs every touch back into the CRM.
 - **[Semantic Caching](https://agentscamp.com/glossary/semantic-caching)** — Semantic caching reuses LLM responses keyed by meaning rather than exact text, matching queries by embedding similarity to cut cost and latency.
 - **[Semantic Layer](https://agentscamp.com/glossary/semantic-layer)** — A semantic layer defines business metrics, dimensions, and joins once, so every query and every AI agent computes the same number the same way.
 - **[Semantic Search](https://agentscamp.com/glossary/semantic-search)** — Semantic search retrieves results by meaning rather than keyword overlap — embedding queries and documents in one vector space and matching by similarity.

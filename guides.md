@@ -4,7 +4,7 @@
 
 Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each entry links to its canonical page.
 
-**209 guides** · [← Back to README](README.md)
+**217 guides** · [← Back to README](README.md)
 
 ## Comparisons
 
@@ -13,6 +13,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 - **[Best AI App Builders in 2026: v0 vs Lovable vs Bolt vs Replit](https://agentscamp.com/guides/comparisons/best-ai-app-builders-2026)** — Seven AI app builders compared for 2026 — v0, Lovable, Bolt, Replit Agent, Base44, Emergent, and Rork — with a verdict, a pricing model, and a best-for each.
 - **[Best AI Code Review Tools in 2026](https://agentscamp.com/guides/comparisons/best-ai-code-review-tools-2026)** — The AI code reviewers worth running in 2026 — CodeRabbit, Greptile, Qodo, Cursor Bugbot, and GitHub Copilot code review compared, with a verdict for each.
 - **[The Best AI Image Generators in 2026 (for Design Work)](https://agentscamp.com/guides/comparisons/best-ai-image-generators-2026)** — AI image generators compared for design work in 2026: text rendering, vector output, style control, commercial licensing, API access, and pricing model.
+- **[The Best AI Sales Tools in 2026](https://agentscamp.com/guides/comparisons/best-ai-sales-tools-2026)** — Ten AI sales tools re-verified in September 2026: what each one does, whether Claude can connect to it, and how the AI is metered apart from the seat.
 - **[The Best AI Tools for Data Analysts in 2026](https://agentscamp.com/guides/comparisons/best-ai-tools-for-data-analysts-2026)** — The AI tools data analysts actually use in 2026: assistants that run code, spreadsheet add-ins, notebooks, text-to-SQL, and agents in the terminal.
 - **[The Best AI Tools for Designers in 2026](https://agentscamp.com/guides/comparisons/best-ai-tools-for-designers-2026)** — The AI tools designers actually use in 2026: prototyping, websites, image generation, decks, design-to-code, and design systems, with a verdict per category.
 - **[The Best AI Tools for Founders in 2026](https://agentscamp.com/guides/comparisons/best-ai-tools-for-founders-2026)** — The AI tools founders run a company on in 2026: assistants, app builders, agents and automation, decks and docs, and building, with a verdict per category.
@@ -30,6 +31,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 - **[Claude Design vs Figma Make: Which Prompt-to-Prototype Tool?](https://agentscamp.com/guides/comparisons/claude-design-vs-figma-make)** — Claude Design vs Figma Make compared on what each makes, plan and seat requirements, design-system input, refinement, export, and handoff to code.
 - **[Claude Skills vs Custom GPTs: Different Answers to Reuse](https://agentscamp.com/guides/comparisons/claude-skills-vs-custom-gpts)** — Claude Skills are portable procedures; Custom GPTs are packaged chatbots inside ChatGPT. How they differ on portability, API access, sharing, and where each wins.
 - **[Claude vs ChatGPT for Writing and Marketing Copy](https://agentscamp.com/guides/comparisons/claude-vs-chatgpt-for-writing)** — Claude vs ChatGPT for writing, compared on voice control, document creation, research grounding, collaboration, brand-voice enforcement, and agentic work.
+- **[Clay vs Apollo: Which GTM Data Tool in 2026?](https://agentscamp.com/guides/comparisons/clay-vs-apollo)** — Clay vs Apollo compared on what each actually is, the two-meter versus one-seat pricing shape, the MCP surface Claude can drive, and the fine print on credits.
 - **[Cursor vs Windsurf (Devin Desktop) in 2026](https://agentscamp.com/guides/comparisons/cursor-vs-windsurf)** — Cursor vs Windsurf — now Devin Desktop — compared: agent-first editing, Composer vs Devin Local, the Cognition rebrand, and which AI editor fits you.
 - **[DeepEval vs RAGAS: LLM Evaluation Frameworks Compared (2026)](https://agentscamp.com/guides/comparisons/deepeval-vs-ragas)** — DeepEval vs RAGAS — pytest-style general LLM testing vs RAG-specialized metrics. Which open-source eval framework fits your pipeline, or whether you need both.
 - **[Exa vs Tavily: Web Search APIs for AI Agents (2026)](https://agentscamp.com/guides/comparisons/exa-vs-tavily)** — Exa vs Tavily compared — neural semantic discovery vs agent-optimized RAG answers, pricing, MCP support, and which web search API fits your stack.
@@ -212,6 +214,15 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 - **[Securing AI Agents: The OWASP Agentic Top 10 in Practice](https://agentscamp.com/guides/ai-safety/owasp-agentic-top-10)** — Agents add risks LLM-app security misses — autonomy, tools, memory, multi-agent trust. The key OWASP agentic threats and how to mitigate each in practice.
 - **[Red-Teaming LLM Applications: From Attack Cases to Regression Tests](https://agentscamp.com/guides/ai-safety/red-teaming-llm-applications)** — Red-team an LLM application across prompts, RAG, tools, agents, and data boundaries — scope assets, generate attacks, score impact, fix, and retest in CI.
 - **[Software Supply Chain Security: Dependencies, Builds, and Releases](https://agentscamp.com/guides/ai-safety/software-supply-chain-security)** — Secure the software supply chain from dependency selection through release — lockfiles, provenance, least privilege, secret controls, SBOMs, and response.
+
+## Sales
+
+- **[Claude Code for Revenue Ops: Connectors, CRM Audits, and the Fine Print](https://agentscamp.com/guides/sales/claude-code-for-revenue-ops)** — Running Anthropic's sales plugin in Claude Code: wiring MCP connectors, auditing a CRM export, and the vendor terms that decide what you may connect.
+- **[Claude for Sales Teams: The Surface Map](https://agentscamp.com/guides/sales/claude-for-sales-teams)** — Which Claude surface a sales team should actually open: Anthropic's free sales plugin, claude.ai Projects, Cowork, Claude Code, and MCP connectors.
+- **[Inside Anthropic's Sales Plugin for Claude: All Nine Skills](https://agentscamp.com/guides/sales/claude-sales-plugin-guide)** — A per-skill breakdown of Anthropic's sales plugin for Claude: what each of the nine skills produces, how you trigger it, and where it falls down.
+- **[Claude Skills for Sales: The Set Worth Installing](https://agentscamp.com/guides/sales/claude-skills-for-sales)** — The Claude skills a sales team should install: Anthropic's nine official ones, plus four of ours that verify and audit what the official set writes.
+- **[How to Research a Prospect with Claude (and Verify It Before You Send)](https://agentscamp.com/guides/sales/research-prospects-with-claude)** — A step-by-step prospect research workflow in Claude: run account-research standalone, add an enrichment connector, draft the email, then verify every claim.
+- **[Which Claude Plan Should a Sales Team Pay For?](https://agentscamp.com/guides/sales/which-claude-plan-for-sales-teams)** — Which Claude surface a sales team needs — Cowork for the plugin, Projects for account context, connectors, Claude Code for ops — and where the numbers live.
 
 ## Troubleshooting
 

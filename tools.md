@@ -4,7 +4,7 @@
 
 Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each entry links to its canonical page.
 
-**180 tools** · [← Back to README](README.md)
+**190 tools** · [← Back to README](README.md)
 
 ## Platform
 
@@ -124,6 +124,19 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each en
 - **[Rork](https://agentscamp.com/tools/rork)** — An AI mobile app builder that turns a chat prompt into native iPhone (Swift), Android (Kotlin), and web apps you can publish to the App Store.
 - **[Softr](https://agentscamp.com/tools/softr)** — A no-code builder for client portals and internal tools on top of Airtable, Google Sheets, or its own database, now with AI app generation.
 - **[V0](https://agentscamp.com/tools/v0)** — Vercel's generative UI builder that turns prompts into production-ready React, Next.js, and shadcn/ui apps.
+
+## Sales
+
+- **[Apollo](https://agentscamp.com/tools/apollo)** — Apollo pairs a 240M+ contact database with outbound sequencing in one seat, and its MCP server is the most agentic thing about it.
+- **[Attio](https://agentscamp.com/tools/attio)** — Attio is a developer-extensible CRM with a user-defined data model, agents that research and act on records, and a live MCP endpoint for Claude.
+- **[Clay](https://agentscamp.com/tools/clay)** — Clay is a GTM data workbench where every table column runs an enrichment step, with Claygent research agents and a Claude connector listing seven tools.
+- **[Close](https://agentscamp.com/tools/close)** — Close is an all-in-one CRM for high-velocity inside sales that bundles calling, SMS and email into the record, plus Chloe, an autonomous voice agent.
+- **[Fireflies](https://agentscamp.com/tools/fireflies)** — Fireflies joins Zoom, Meet and Teams calls, transcribes them, and turns transcripts into searchable notes, action items and CRM records for sales teams.
+- **[Gong](https://agentscamp.com/tools/gong)** — Gong records and analyses every customer conversation across an org, deriving deal risk, forecast and coaching signals, and publishes three read-only MCP tools.
+- **[Nooks](https://agentscamp.com/tools/nooks)** — Nooks is an AI sales workspace for outbound teams: a parallel dialer with answer detection, AI sequencing, account research, signals and call coaching.
+- **[Outreach](https://agentscamp.com/tools/outreach)** — Outreach is a sales-execution platform that owns the outbound rep's whole workflow, repackaged around agents including Outreach Omni and Agent Studio.
+- **[Unify](https://agentscamp.com/tools/unify)** — Unify turns real-time intent signals into automated, AI-personalised prospecting plays, with a chat agent, 50+ native skills and flat per-seat pricing.
+- **[Zoominfo](https://agentscamp.com/tools/zoominfo)** — ZoomInfo is a B2B contact and company database with intent signals, now positioned as the grounding data your agent calls through API, MCP or CLI.
 
 ## CLI
 

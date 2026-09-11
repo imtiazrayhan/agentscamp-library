@@ -4,7 +4,7 @@
 
 Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agentscamp) CLI (`-g` installs to `~/.claude/` instead of the current project), or open the linked file and copy it into your `.claude/commands/` directory. Each entry links to its full page on [AgentsCamp](https://agentscamp.com).
 
-**61 commands** · [← Back to README](README.md)
+**63 commands** · [← Back to README](README.md)
 
 ## Scaffold
 
@@ -172,3 +172,10 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
   [↗ Page](https://agentscamp.com/commands/product/prd) · `npx agentscamp add commands/prd`
 - **[Scope MVP](commands/scope-mvp.md)** — Cut a PRD or feature list to a version one: a keep / cut / later table with reasons plus the smallest build that tests the riskiest assumption, written to docs/mvp-scope.md.
   [↗ Page](https://agentscamp.com/commands/product/scope-mvp) · `npx agentscamp add commands/scope-mvp`
+
+## Sales
+
+- **[Audit CRM](commands/audit-crm.md)** — Audit a CRM CSV export for duplicates, past close dates, stale deals, missing required fields, single-threaded deals, owner gaps and format drift, and write a ranked fix list with the record IDs.
+  [↗ Page](https://agentscamp.com/commands/sales/audit-crm) · `npx agentscamp add commands/audit-crm`
+- **[Check Outreach](commands/check-outreach.md)** — Fact-check a drafted outreach email, or a folder of them, against the research files it was written from and write an annotated report with a claims table, without editing the draft.
+  [↗ Page](https://agentscamp.com/commands/sales/check-outreach) · `npx agentscamp add commands/check-outreach`

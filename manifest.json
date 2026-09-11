@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "source": "https://agentscamp.com",
   "counts": {
-    "guides": 209,
-    "tools": 180,
-    "glossary": 103,
-    "agents": 65,
-    "skills": 130,
-    "commands": 61,
-    "total": 748
+    "guides": 217,
+    "tools": 190,
+    "glossary": 108,
+    "agents": 66,
+    "skills": 134,
+    "commands": 63,
+    "total": 778
   },
   "items": [
     {
@@ -764,6 +764,21 @@
       "install": "npx agentscamp add agents/rust-pro"
     },
     {
+      "id": "agents/sales-engineer",
+      "type": "agent",
+      "slug": "sales-engineer",
+      "category": "sales",
+      "title": "Sales Engineer",
+      "description": "Use this agent to review the technical asks a prospect has put in front of a deal — security questionnaires, integration and API requirements, SSO and provisioning, SLA and uptime demands, data residency and retention terms, custom feature requests — and separate what the product does today from what needs engineering, with evidence for each verdict from the product's own docs and code. It writes the answer language a rep can safely send, and flags the commitments nobody should make without Engineering, Security, Legal, or Finance signing off. Examples — 'they want SSO, SCIM and EU data residency, what can we say yes to', 'review this integration requirements doc before Thursday's technical call', 'they are asking for a 99.99% SLA and two-hour breach notification, tell me what we cannot commit to'.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/agents/sales/sales-engineer",
+      "file": "agents/sales-engineer.md",
+      "install": "npx agentscamp add agents/sales-engineer"
+    },
+    {
       "id": "agents/security-auditor",
       "type": "agent",
       "slug": "security-auditor",
@@ -1021,6 +1036,21 @@
       "install": "npx agentscamp add commands/audit-accessibility"
     },
     {
+      "id": "commands/audit-crm",
+      "type": "command",
+      "slug": "audit-crm",
+      "category": "sales",
+      "title": "Audit CRM",
+      "description": "Audit a CRM CSV export for duplicates, past close dates, stale deals, missing required fields, single-threaded deals, owner gaps and format drift, and write a ranked fix list with the record IDs.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/sales/audit-crm",
+      "file": "commands/audit-crm.md",
+      "install": "npx agentscamp add commands/audit-crm"
+    },
+    {
       "id": "commands/benchmark-rerankers",
       "type": "command",
       "slug": "benchmark-rerankers",
@@ -1062,6 +1092,21 @@
       "url": "https://agentscamp.com/commands/plan/breakdown-task",
       "file": "commands/breakdown-task.md",
       "install": "npx agentscamp add commands/breakdown-task"
+    },
+    {
+      "id": "commands/check-outreach",
+      "type": "command",
+      "slug": "check-outreach",
+      "category": "sales",
+      "title": "Check Outreach",
+      "description": "Fact-check a drafted outreach email, or a folder of them, against the research files it was written from and write an annotated report with a claims table, without editing the draft.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/sales/check-outreach",
+      "file": "commands/check-outreach.md",
+      "install": "npx agentscamp add commands/check-outreach"
     },
     {
       "id": "commands/clean-branches",
@@ -1955,6 +2000,19 @@
       "url": "https://agentscamp.com/glossary/ai-overviews"
     },
     {
+      "id": "glossary/ai-sdr",
+      "type": "glossary",
+      "slug": "ai-sdr",
+      "category": "term",
+      "title": "AI SDR",
+      "description": "An AI SDR is software that runs sales development work such as prospecting, outreach, and follow-up, with autonomy that varies enormously between vendors.",
+      "topics": [
+        "ai-at-work",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/glossary/ai-sdr"
+    },
+    {
       "id": "glossary/ai-slop",
       "type": "glossary",
       "slug": "ai-slop",
@@ -2136,6 +2194,18 @@
         "llm-app-dev"
       ],
       "url": "https://agentscamp.com/glossary/context-window"
+    },
+    {
+      "id": "glossary/conversation-intelligence",
+      "type": "glossary",
+      "slug": "conversation-intelligence",
+      "category": "term",
+      "title": "Conversation Intelligence",
+      "description": "Conversation intelligence is recording sales calls and meetings, transcribing them, and turning transcripts into searchable notes, actions, and CRM records.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/glossary/conversation-intelligence"
     },
     {
       "id": "glossary/conversational-analytics",
@@ -2468,6 +2538,19 @@
       "url": "https://agentscamp.com/glossary/kv-cache"
     },
     {
+      "id": "glossary/lead-enrichment",
+      "type": "glossary",
+      "slug": "lead-enrichment",
+      "category": "term",
+      "title": "Lead Enrichment",
+      "description": "Lead enrichment is filling the missing fields on a lead or account record, such as title, headcount, or tech stack, from data sources outside your own system.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/glossary/lead-enrichment"
+    },
+    {
       "id": "glossary/llm-as-judge",
       "type": "glossary",
       "slug": "llm-as-judge",
@@ -2745,6 +2828,18 @@
       "url": "https://agentscamp.com/glossary/reranking"
     },
     {
+      "id": "glossary/revenue-intelligence",
+      "type": "glossary",
+      "slug": "revenue-intelligence",
+      "category": "term",
+      "title": "Revenue Intelligence",
+      "description": "Revenue intelligence is deriving deal risk, forecast accuracy, and coaching signals from captured customer conversations rather than from CRM fields.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/glossary/revenue-intelligence"
+    },
+    {
       "id": "glossary/rlhf",
       "type": "glossary",
       "slug": "rlhf",
@@ -2755,6 +2850,19 @@
         "mlops-ai-infra"
       ],
       "url": "https://agentscamp.com/glossary/rlhf"
+    },
+    {
+      "id": "glossary/sales-engagement-platform",
+      "type": "glossary",
+      "slug": "sales-engagement-platform",
+      "category": "term",
+      "title": "Sales Engagement Platform",
+      "description": "A sales engagement platform is the system reps work out of: it sequences emails, calls, and tasks across channels and logs every touch back into the CRM.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/glossary/sales-engagement-platform"
     },
     {
       "id": "glossary/semantic-caching",
@@ -3274,6 +3382,19 @@
         "multimodal-ai"
       ],
       "url": "https://agentscamp.com/guides/comparisons/best-ai-image-generators-2026"
+    },
+    {
+      "id": "guides/best-ai-sales-tools-2026",
+      "type": "guide",
+      "slug": "best-ai-sales-tools-2026",
+      "category": "comparisons",
+      "title": "The Best AI Sales Tools in 2026",
+      "description": "Ten AI sales tools re-verified in September 2026: what each one does, whether Claude can connect to it, and how the AI is metered apart from the seat.",
+      "topics": [
+        "ai-at-work",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-ai-sales-tools-2026"
     },
     {
       "id": "guides/best-ai-tools-for-data-analysts-2026",
@@ -3830,6 +3951,19 @@
       "url": "https://agentscamp.com/guides/founders/claude-code-for-non-developers"
     },
     {
+      "id": "guides/claude-code-for-revenue-ops",
+      "type": "guide",
+      "slug": "claude-code-for-revenue-ops",
+      "category": "sales",
+      "title": "Claude Code for Revenue Ops: Connectors, CRM Audits, and the Fine Print",
+      "description": "Running Anthropic's sales plugin in Claude Code: wiring MCP connectors, auditing a CRM export, and the vendor terms that decide what you may connect.",
+      "topics": [
+        "ai-at-work",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/guides/sales/claude-code-for-revenue-ops"
+    },
+    {
       "id": "guides/claude-code-hooks",
       "type": "guide",
       "slug": "claude-code-hooks",
@@ -4109,6 +4243,19 @@
       "url": "https://agentscamp.com/guides/marketing/claude-for-marketing-teams"
     },
     {
+      "id": "guides/claude-for-sales-teams",
+      "type": "guide",
+      "slug": "claude-for-sales-teams",
+      "category": "sales",
+      "title": "Claude for Sales Teams: The Surface Map",
+      "description": "Which Claude surface a sales team should actually open: Anthropic's free sales plugin, claude.ai Projects, Cowork, Claude Code, and MCP connectors.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/sales/claude-for-sales-teams"
+    },
+    {
       "id": "guides/claude-knowledge-work-plugins",
       "type": "guide",
       "slug": "claude-knowledge-work-plugins",
@@ -4158,6 +4305,19 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/guides/getting-started/claude-plans-compared-2026"
+    },
+    {
+      "id": "guides/claude-sales-plugin-guide",
+      "type": "guide",
+      "slug": "claude-sales-plugin-guide",
+      "category": "sales",
+      "title": "Inside Anthropic's Sales Plugin for Claude: All Nine Skills",
+      "description": "A per-skill breakdown of Anthropic's sales plugin for Claude: what each of the nine skills produces, how you trigger it, and where it falls down.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/sales/claude-sales-plugin-guide"
     },
     {
       "id": "guides/claude-skills-examples",
@@ -4222,6 +4382,19 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/guides/marketing/claude-skills-for-marketers"
+    },
+    {
+      "id": "guides/claude-skills-for-sales",
+      "type": "guide",
+      "slug": "claude-skills-for-sales",
+      "category": "sales",
+      "title": "Claude Skills for Sales: The Set Worth Installing",
+      "description": "The Claude skills a sales team should install: Anthropic's nine official ones, plus four of ours that verify and audit what the official set writes.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/sales/claude-skills-for-sales"
     },
     {
       "id": "guides/claude-skills-not-working",
@@ -4298,6 +4471,19 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/guides/prompting/claude-vs-gpt-vs-gemini-coding"
+    },
+    {
+      "id": "guides/clay-vs-apollo",
+      "type": "guide",
+      "slug": "clay-vs-apollo",
+      "category": "comparisons",
+      "title": "Clay vs Apollo: Which GTM Data Tool in 2026?",
+      "description": "Clay vs Apollo compared on what each actually is, the two-meter versus one-seat pricing shape, the MCP surface Claude can drive, and the fine print on credits.",
+      "topics": [
+        "ai-at-work",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/clay-vs-apollo"
     },
     {
       "id": "guides/codex-agents-md",
@@ -5251,6 +5437,19 @@
       "url": "https://agentscamp.com/guides/ai-safety/red-teaming-llm-applications"
     },
     {
+      "id": "guides/research-prospects-with-claude",
+      "type": "guide",
+      "slug": "research-prospects-with-claude",
+      "category": "sales",
+      "title": "How to Research a Prospect with Claude (and Verify It Before You Send)",
+      "description": "A step-by-step prospect research workflow in Claude: run account-research standalone, add an enrichment connector, draft the email, then verify every claim.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/sales/research-prospects-with-claude"
+    },
+    {
       "id": "guides/sandboxing-ai-generated-code",
       "type": "guide",
       "slug": "sandboxing-ai-generated-code",
@@ -5658,6 +5857,19 @@
       "url": "https://agentscamp.com/guides/marketing/which-claude-plan-for-marketers"
     },
     {
+      "id": "guides/which-claude-plan-for-sales-teams",
+      "type": "guide",
+      "slug": "which-claude-plan-for-sales-teams",
+      "category": "sales",
+      "title": "Which Claude Plan Should a Sales Team Pay For?",
+      "description": "Which Claude surface a sales team needs — Cowork for the plugin, Projects for account context, connectors, Claude Code for ops — and where the numbers live.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/sales/which-claude-plan-for-sales-teams"
+    },
+    {
       "id": "guides/write-llm-evals",
       "type": "guide",
       "slug": "write-llm-evals",
@@ -6025,6 +6237,21 @@
       "install": "npx agentscamp add skills/code-example-verifier"
     },
     {
+      "id": "skills/cold-email-deliverability-auditor",
+      "type": "skill",
+      "slug": "cold-email-deliverability-auditor",
+      "category": "sales",
+      "title": "Cold Email Deliverability Auditor",
+      "description": "Audit a cold email program's sending setup and message body against the things that decide whether mail reaches an inbox: SPF, DKIM and DMARC records with their alignment and policy, the DNS lookup limit, a separate sending domain versus the primary corporate one, domain age and warmup state, list hygiene with bounce and complaint exposure, spam-trigger language, link and image ratio, unsubscribe presence, and the volume ramp per mailbox. Findings come back by severity with the concrete fix and the order to apply them. Use when a sending domain is new, replies have collapsed, or nobody has checked the DNS records, the list, and the copy in the same sitting.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/sales/cold-email-deliverability-auditor",
+      "file": "skills/cold-email-deliverability-auditor/SKILL.md",
+      "install": "npx agentscamp add skills/cold-email-deliverability-auditor"
+    },
+    {
       "id": "skills/cold-start-optimizer",
       "type": "skill",
       "slug": "cold-start-optimizer",
@@ -6167,6 +6394,21 @@
       "url": "https://agentscamp.com/skills/testing/coverage-gap-finder",
       "file": "skills/coverage-gap-finder/SKILL.md",
       "install": "npx agentscamp add skills/coverage-gap-finder"
+    },
+    {
+      "id": "skills/crm-export-auditor",
+      "type": "skill",
+      "slug": "crm-export-auditor",
+      "category": "sales",
+      "title": "Crm Export Auditor",
+      "description": "Audit a CRM CSV export for the data faults that make every report built on it wrong: exact and near-duplicate accounts and contacts, close dates already in the past on open deals, deals with no activity in the last N days, blank required fields by stage, single-threaded deals carrying one contact, records with no owner or a departed one, stage and amount combinations that contradict each other, and currency, date and country formats that drift between rows. Returns a fix list ordered by how much each fault distorts a reported number, with the record IDs to correct and which fixes are safe to apply in bulk. Use when a pipeline number is disputed, when a migration or a dedupe is being planned, or when nobody has checked the export the forecast is built on.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/sales/crm-export-auditor",
+      "file": "skills/crm-export-auditor/SKILL.md",
+      "install": "npx agentscamp add skills/crm-export-auditor"
     },
     {
       "id": "skills/dashboard-designer",
@@ -6916,6 +7158,21 @@
       "install": "npx agentscamp add skills/openapi-doc-writer"
     },
     {
+      "id": "skills/outreach-claim-checker",
+      "type": "skill",
+      "slug": "outreach-claim-checker",
+      "category": "sales",
+      "title": "Outreach Claim Checker",
+      "description": "Check every factual and personalization claim in a drafted outreach email, or a batch of them, against the research the draft was written from: funding rounds, job titles and recent moves, tech stack, headcount, product launches and press, and named mutual connections. Each claim is marked sourced with the line that supports it, unsourced, contradicted, or stale, then unsupported specifics are cut or narrowed to what the research actually says, and every email leaves with a send, fix, or hold verdict. A source is never invented and never inferred. Use when outreach was personalized from AI or analyst research and nobody has verified the details before it reaches a prospect.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/sales/outreach-claim-checker",
+      "file": "skills/outreach-claim-checker/SKILL.md",
+      "install": "npx agentscamp add skills/outreach-claim-checker"
+    },
+    {
       "id": "skills/pagination-designer",
       "type": "skill",
       "slug": "pagination-designer",
@@ -7271,6 +7528,21 @@
       "url": "https://agentscamp.com/skills/security/security-headers-hardener",
       "file": "skills/security-headers-hardener/SKILL.md",
       "install": "npx agentscamp add skills/security-headers-hardener"
+    },
+    {
+      "id": "skills/security-questionnaire-responder",
+      "type": "skill",
+      "slug": "security-questionnaire-responder",
+      "category": "sales",
+      "title": "Security Questionnaire Responder",
+      "description": "Draft answers to a prospect's security questionnaire — a SIG, a CAIQ, a VSA, or a custom spreadsheet — strictly from the documents the company supplies: the SOC 2 report, the DPA, the subprocessor list, a penetration test summary, architecture and access-control notes. Every answer is tagged sourced with the document and section it came from, needs-review, or not-applicable with the reason, and a control that appears in no document is left unanswered rather than asserted. Anything touching contractual terms, breach-notification windows, data residency, roadmap dates, or an exception is routed to Legal or Security by name. Use when a deal is blocked on a questionnaire and every answer has to survive an auditor reading it back.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/sales/security-questionnaire-responder",
+      "file": "skills/security-questionnaire-responder/SKILL.md",
+      "install": "npx agentscamp add skills/security-questionnaire-responder"
     },
     {
       "id": "skills/semantic-cache-designer",
@@ -7633,6 +7905,19 @@
       "url": "https://agentscamp.com/tools/antigravity"
     },
     {
+      "id": "tools/apollo",
+      "type": "tool",
+      "slug": "apollo",
+      "category": "sales",
+      "title": "Apollo",
+      "description": "Apollo pairs a 240M+ contact database with outbound sequencing in one seat, and its MCP server is the most agentic thing about it.",
+      "topics": [
+        "ai-at-work",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/apollo"
+    },
+    {
       "id": "tools/arize-phoenix",
       "type": "tool",
       "slug": "arize-phoenix",
@@ -7656,6 +7941,19 @@
         "multimodal-ai"
       ],
       "url": "https://agentscamp.com/tools/assemblyai"
+    },
+    {
+      "id": "tools/attio",
+      "type": "tool",
+      "slug": "attio",
+      "category": "sales",
+      "title": "Attio",
+      "description": "Attio is a developer-extensible CRM with a user-defined data model, agents that research and act on records, and a live MCP endpoint for Claude.",
+      "topics": [
+        "ai-at-work",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/attio"
     },
     {
       "id": "tools/augment-code",
@@ -7949,6 +8247,19 @@
       "url": "https://agentscamp.com/tools/claude-for-excel"
     },
     {
+      "id": "tools/clay",
+      "type": "tool",
+      "slug": "clay",
+      "category": "sales",
+      "title": "Clay",
+      "description": "Clay is a GTM data workbench where every table column runs an enrichment step, with Claygent research agents and a Claude connector listing seven tools.",
+      "topics": [
+        "ai-at-work",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/clay"
+    },
+    {
       "id": "tools/clearscope",
       "type": "tool",
       "slug": "clearscope",
@@ -7972,6 +8283,19 @@
         "coding-languages"
       ],
       "url": "https://agentscamp.com/tools/cline"
+    },
+    {
+      "id": "tools/close",
+      "type": "tool",
+      "slug": "close",
+      "category": "sales",
+      "title": "Close",
+      "description": "Close is an all-in-one CRM for high-velocity inside sales that bundles calling, SMS and email into the record, plus Chloe, an autonomous voice agent.",
+      "topics": [
+        "ai-at-work",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/close"
     },
     {
       "id": "tools/cloudflare-mcp",
@@ -8351,6 +8675,19 @@
       "url": "https://agentscamp.com/tools/firecrawl"
     },
     {
+      "id": "tools/fireflies",
+      "type": "tool",
+      "slug": "fireflies",
+      "category": "sales",
+      "title": "Fireflies",
+      "description": "Fireflies joins Zoom, Meet and Teams calls, transcribes them, and turns transcripts into searchable notes, action items and CRM records for sales teams.",
+      "topics": [
+        "ai-at-work",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/fireflies"
+    },
+    {
       "id": "tools/fireworks-ai",
       "type": "tool",
       "slug": "fireworks-ai",
@@ -8463,6 +8800,19 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/tools/glide"
+    },
+    {
+      "id": "tools/gong",
+      "type": "tool",
+      "slug": "gong",
+      "category": "sales",
+      "title": "Gong",
+      "description": "Gong records and analyses every customer conversation across an org, deriving deal risk, forecast and coaching signals, and publishes three read-only MCP tools.",
+      "topics": [
+        "ai-at-work",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/gong"
     },
     {
       "id": "tools/google-adk",
@@ -8966,6 +9316,19 @@
       "url": "https://agentscamp.com/tools/nemo-guardrails"
     },
     {
+      "id": "tools/nooks",
+      "type": "tool",
+      "slug": "nooks",
+      "category": "sales",
+      "title": "Nooks",
+      "description": "Nooks is an AI sales workspace for outbound teams: a parallel dialer with answer detection, AI sequencing, account research, signals and call coaching.",
+      "topics": [
+        "ai-at-work",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/nooks"
+    },
+    {
       "id": "tools/notebooklm",
       "type": "tool",
       "slug": "notebooklm",
@@ -9063,6 +9426,19 @@
         "multimodal-ai"
       ],
       "url": "https://agentscamp.com/tools/opus-clip"
+    },
+    {
+      "id": "tools/outreach",
+      "type": "tool",
+      "slug": "outreach",
+      "category": "sales",
+      "title": "Outreach",
+      "description": "Outreach is a sales-execution platform that owns the outbound rep's whole workflow, repackaged around agents including Outreach Omni and Agent Studio.",
+      "topics": [
+        "ai-at-work",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/outreach"
     },
     {
       "id": "tools/pandasai",
@@ -9606,6 +9982,19 @@
       "url": "https://agentscamp.com/tools/turbopuffer"
     },
     {
+      "id": "tools/unify",
+      "type": "tool",
+      "slug": "unify",
+      "category": "sales",
+      "title": "Unify",
+      "description": "Unify turns real-time intent signals into automated, AI-personalised prospecting plays, with a chat agent, 50+ native skills and flat per-seat pricing.",
+      "topics": [
+        "ai-at-work",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/unify"
+    },
+    {
       "id": "tools/unsloth",
       "type": "tool",
       "slug": "unsloth",
@@ -9828,6 +10217,19 @@
         "ai-agents-systems"
       ],
       "url": "https://agentscamp.com/tools/zep"
+    },
+    {
+      "id": "tools/zoominfo",
+      "type": "tool",
+      "slug": "zoominfo",
+      "category": "sales",
+      "title": "Zoominfo",
+      "description": "ZoomInfo is a B2B contact and company database with intent signals, now positioned as the grounding data your agent calls through API, MCP or CLI.",
+      "topics": [
+        "ai-at-work",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/zoominfo"
     }
   ]
 }

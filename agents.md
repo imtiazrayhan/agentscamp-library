@@ -4,7 +4,7 @@
 
 Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agentscamp) CLI (`-g` installs to `~/.claude/` instead of the current project), or open the linked file and copy it into your `.claude/agents/` directory. Each entry links to its full page on [AgentsCamp](https://agentscamp.com).
 
-**65 agents** · [← Back to README](README.md)
+**66 agents** · [← Back to README](README.md)
 
 ## Data AI
 
@@ -168,3 +168,8 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
 
 - **[Technical Cofounder](agents/technical-cofounder.md)** — Use this agent when a non-technical founder needs an app built by an AI app builder or coding agent reviewed for the problems that hurt founders: missing login and permission checks, secrets committed to the code, customer data visible to the wrong users, surprise cloud and API bills, vendor lock-in, no backups, and no tests. It explains each finding in plain language with a severity and the question to ask an engineer. Examples — 'look over what Lovable built before I launch', 'is this Supabase app safe for real customer data', 'what will bite me if I ship this Claude Code project'.
   [↗ Page](https://agentscamp.com/agents/product/technical-cofounder) · `npx agentscamp add agents/technical-cofounder`
+
+## Sales
+
+- **[Sales Engineer](agents/sales-engineer.md)** — Use this agent to review the technical asks a prospect has put in front of a deal — security questionnaires, integration and API requirements, SSO and provisioning, SLA and uptime demands, data residency and retention terms, custom feature requests — and separate what the product does today from what needs engineering, with evidence for each verdict from the product's own docs and code. It writes the answer language a rep can safely send, and flags the commitments nobody should make without Engineering, Security, Legal, or Finance signing off. Examples — 'they want SSO, SCIM and EU data residency, what can we say yes to', 'review this integration requirements doc before Thursday's technical call', 'they are asking for a 99.99% SLA and two-hour breach notification, tell me what we cannot commit to'.
+  [↗ Page](https://agentscamp.com/agents/sales/sales-engineer) · `npx agentscamp add agents/sales-engineer`
