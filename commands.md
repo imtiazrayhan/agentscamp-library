@@ -4,7 +4,44 @@
 
 Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agentscamp) CLI (`-g` installs to `~/.claude/` instead of the current project), or open the linked file and copy it into your `.claude/commands/` directory. Each entry links to its full page on [AgentsCamp](https://agentscamp.com).
 
-**63 commands** · [← Back to README](README.md)
+**85 commands** · [← Back to README](README.md)
+
+## Review
+
+- **[Benchmark Rerankers](commands/benchmark-rerankers.md)** — Measure whether adding a reranker actually improves retrieval, by scoring reranked vs. un-reranked results on a labeled query set.
+  [↗ Page](https://agentscamp.com/commands/review/benchmark-rerankers) · `npx agentscamp add commands/benchmark-rerankers`
+- **[Check Annotation Batch](commands/check-annotation-batch.md)** — Check annotation-batch.json for approved labels, distinct response reviewers, exact text evidence and unresolved disagreements while preserving the input.
+  [↗ Page](https://agentscamp.com/commands/review/check-annotation-batch) · `npx agentscamp add commands/check-annotation-batch`
+- **[Check Audio Review Sheet](commands/check-audio-review-sheet.md)** — Check audio-review-sheet.json for bounded review intervals, explicit original/processed observations and listener confirmation before accepted cleanup decisions, printing findings only.
+  [↗ Page](https://agentscamp.com/commands/review/check-audio-review-sheet) · `npx agentscamp add commands/check-audio-review-sheet`
+- **[Check Caption Timing](commands/check-caption-timing.md)** — Check captions.srt in the current directory for supported SRT syntax, sequential cue numbers, increasing timestamps and overlapping cues, printing results without changing captions.
+  [↗ Page](https://agentscamp.com/commands/review/check-caption-timing) · `npx agentscamp add commands/check-caption-timing`
+- **[Check Entity Match Ledger](commands/check-entity-match-ledger.md)** — Check entity-match-ledger.json for source-linked evidence values, duplicate pairs, reviewer presence and contradictory match groups without merging records.
+  [↗ Page](https://agentscamp.com/commands/review/check-entity-match-ledger) · `npx agentscamp add commands/check-entity-match-ledger`
+- **[Check Evidence Table](commands/check-evidence-table.md)** — Check a study evidence CSV against a source registry with code: validate required columns and cells, row IDs, source references, duplicate study/outcome/time-point keys, and allowed status values, then report structural errors without judging research claims.
+  [↗ Page](https://agentscamp.com/commands/review/check-evidence-table) · `npx agentscamp add commands/check-evidence-table`
+- **[Check Exit Ticket Map](commands/check-exit-ticket-map.md)** — Check a local exit-ticket-map.json for objective/question IDs, objective coverage, supported answer evidence and unresolved review status, without editing it.
+  [↗ Page](https://agentscamp.com/commands/review/check-exit-ticket-map) · `npx agentscamp add commands/check-exit-ticket-map`
+- **[Check OCR Correction Ledger](commands/check-ocr-correction-ledger.md)** — Check ocr-correction-ledger.json for page/span references, exact original text slices, overlapping proposed edits and reviewer evidence on verified corrections, without applying changes.
+  [↗ Page](https://agentscamp.com/commands/review/check-ocr-correction-ledger) · `npx agentscamp add commands/check-ocr-correction-ledger`
+- **[Check Storyboard Coverage](commands/check-storyboard-coverage.md)** — Check storyboard-coverage.json for unique beat/shot IDs, cited beat excerpts, positive shot durations and uncovered script beats, without changing the script or storyboard.
+  [↗ Page](https://agentscamp.com/commands/review/check-storyboard-coverage) · `npx agentscamp add commands/check-storyboard-coverage`
+- **[Check Study Card Map](commands/check-study-card-map.md)** — Check a local study-card-map.json for valid card/source IDs, exact evidence quotes, duplicate questions and unresolved-card status, without editing it.
+  [↗ Page](https://agentscamp.com/commands/review/check-study-card-map) · `npx agentscamp add commands/check-study-card-map`
+- **[Check Survey Paths](commands/check-survey-paths.md)** — Check survey-paths.json for complete single-choice routes, cycles, reachable nodes and expected test paths without editing the file or contacting a form service.
+  [↗ Page](https://agentscamp.com/commands/review/check-survey-paths) · `npx agentscamp add commands/check-survey-paths`
+- **[Find Bug](commands/find-bug.md)** — Investigate a reported symptom, form hypotheses, and locate the root cause.
+  [↗ Page](https://agentscamp.com/commands/review/find-bug) · `npx agentscamp add commands/find-bug`
+- **[MCP Audit](commands/mcp-audit.md)** — Audit every MCP config file in the repository and home directory for unpinned packages, inline secrets, wide filesystem roots, unprotected remote servers, and poisoned tool descriptions. Read-only.
+  [↗ Page](https://agentscamp.com/commands/review/mcp-audit) · `npx agentscamp add commands/mcp-audit`
+- **[Red Team LLM](commands/red-team-llm.md)** — Red-team an LLM app or agent for prompt injection, jailbreaks, and data leakage — probe the real attack surface (input, RAG, tools, system prompt) with adversarial inputs and report what got through and how to fix it.
+  [↗ Page](https://agentscamp.com/commands/review/red-team-llm) · `npx agentscamp add commands/red-team-llm`
+- **[Review PR](commands/review-pr.md)** — Review a pull request for correctness, security, and style, and summarize findings.
+  [↗ Page](https://agentscamp.com/commands/review/review-pr) · `npx agentscamp add commands/review-pr`
+- **[Review Tests](commands/review-tests.md)** — Review the quality of a test suite, not just whether it passes — find weak assertions, missing edge cases, and tests coupled to implementation.
+  [↗ Page](https://agentscamp.com/commands/review/review-tests) · `npx agentscamp add commands/review-tests`
+- **[Security Scan](commands/security-scan.md)** — Scan the current diff or given paths for security vulnerabilities.
+  [↗ Page](https://agentscamp.com/commands/review/security-scan) · `npx agentscamp add commands/security-scan`
 
 ## Scaffold
 
@@ -25,6 +62,23 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
 - **[Scaffold a vLLM Serving Config](commands/scaffold-vllm-config.md)** — Scaffold a vLLM serving config for a model on a target GPU — pick precision/quantization and parallelism to fit, set batching and context length, and expose an OpenAI-compatible server.
   [↗ Page](https://agentscamp.com/commands/scaffold/scaffold-vllm-config) · `npx agentscamp add commands/scaffold-vllm-config`
 
+## Docs
+
+- **[Add Docstrings](commands/add-docstrings.md)** — Add or improve docstrings for the public API of a file or symbol.
+  [↗ Page](https://agentscamp.com/commands/docs/add-docstrings) · `npx agentscamp add commands/add-docstrings`
+- **[Check Obligation Dates](commands/check-obligation-dates.md)** — Check a human-reviewed obligation CSV against an explicit as-of date with Python: validate calendar dates and status fields, list overdue or due-today open rows, missing owners/dates, and recorded late/future completions. Never infer legal deadlines, breach, or contract status from clauses.
+  [↗ Page](https://agentscamp.com/commands/docs/check-obligation-dates) · `npx agentscamp add commands/check-obligation-dates`
+- **[Check Procedure Graph](commands/check-procedure-graph.md)** — Check explicitly recorded SOP step dependencies with Python: validate IDs and prerequisite references, compute deterministic execution layers for acyclic graphs, and report steps blocked by a cycle without executing the procedure.
+  [↗ Page](https://agentscamp.com/commands/docs/check-procedure-graph) · `npx agentscamp add commands/check-procedure-graph`
+- **[Explain Code](commands/explain-code.md)** — Explain what the given code does, in clear prose with a short summary.
+  [↗ Page](https://agentscamp.com/commands/docs/explain-code) · `npx agentscamp add commands/explain-code`
+- **[llms.txt](commands/llms-txt.md)** — Generate or refresh llms.txt from the project's routes, sitemap, or docs navigation, write it to the static directory, and verify that every link resolves.
+  [↗ Page](https://agentscamp.com/commands/docs/llms-txt) · `npx agentscamp add commands/llms-txt`
+- **[Snapshot Handoff](commands/snapshot-handoff.md)** — Create a deterministic inventory of an approved handoff directory: record relative file paths, byte lengths, and SHA-256 hashes with code, list skipped symlinks and unreadable files, and write a snapshot without interpreting project status or changing source files.
+  [↗ Page](https://agentscamp.com/commands/docs/snapshot-handoff) · `npx agentscamp add commands/snapshot-handoff`
+- **[Update README](commands/update-readme.md)** — Update the README to reflect the current scripts, structure, and features of the repo.
+  [↗ Page](https://agentscamp.com/commands/docs/update-readme) · `npx agentscamp add commands/update-readme`
+
 ## Git
 
 - **[Clean Branches](commands/clean-branches.md)** — Safely prune merged and stale Git branches: drop dead remote-tracking refs, list merged candidates for review, then delete with the safe -d variant.
@@ -42,25 +96,12 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
 - **[Sync Branch](commands/sync-branch.md)** — Fetch and rebase the current branch onto its base, resolving conflicts and verifying the build.
   [↗ Page](https://agentscamp.com/commands/git/sync-branch) · `npx agentscamp add commands/sync-branch`
 
-## Review
-
-- **[Benchmark Rerankers](commands/benchmark-rerankers.md)** — Measure whether adding a reranker actually improves retrieval, by scoring reranked vs. un-reranked results on a labeled query set.
-  [↗ Page](https://agentscamp.com/commands/review/benchmark-rerankers) · `npx agentscamp add commands/benchmark-rerankers`
-- **[Find Bug](commands/find-bug.md)** — Investigate a reported symptom, form hypotheses, and locate the root cause.
-  [↗ Page](https://agentscamp.com/commands/review/find-bug) · `npx agentscamp add commands/find-bug`
-- **[Red Team LLM](commands/red-team-llm.md)** — Red-team an LLM app or agent for prompt injection, jailbreaks, and data leakage — probe the real attack surface (input, RAG, tools, system prompt) with adversarial inputs and report what got through and how to fix it.
-  [↗ Page](https://agentscamp.com/commands/review/red-team-llm) · `npx agentscamp add commands/red-team-llm`
-- **[Review PR](commands/review-pr.md)** — Review a pull request for correctness, security, and style, and summarize findings.
-  [↗ Page](https://agentscamp.com/commands/review/review-pr) · `npx agentscamp add commands/review-pr`
-- **[Review Tests](commands/review-tests.md)** — Review the quality of a test suite, not just whether it passes — find weak assertions, missing edge cases, and tests coupled to implementation.
-  [↗ Page](https://agentscamp.com/commands/review/review-tests) · `npx agentscamp add commands/review-tests`
-- **[Security Scan](commands/security-scan.md)** — Scan the current diff or given paths for security vulnerabilities.
-  [↗ Page](https://agentscamp.com/commands/review/security-scan) · `npx agentscamp add commands/security-scan`
-
 ## Workflow
 
 - **[Add MCP Server](commands/add-mcp-server.md)** — Add an MCP server to the current project the safe way — pick the transport and scope, wire secrets through env vars, vet provenance, and verify the connection before trusting it.
   [↗ Page](https://agentscamp.com/commands/workflow/add-mcp-server) · `npx agentscamp add commands/add-mcp-server`
+- **[Convert Rules](commands/convert-rules.md)** — Convert one agent instruction file to another format (for example .cursorrules to CLAUDE.md, or CLAUDE.md to AGENTS.md), preserving wording and path scoping, and list the rules that did not map.
+  [↗ Page](https://agentscamp.com/commands/workflow/convert-rules) · `npx agentscamp add commands/convert-rules`
 - **[Create Skill](commands/create-skill.md)** — Scaffold a new Claude Code skill into .claude/skills/<name>/SKILL.md — a model-invoked capability with a trigger-rich description, scoped tools, and a lean body that pushes detail into resource files.
   [↗ Page](https://agentscamp.com/commands/workflow/create-skill) · `npx agentscamp add commands/create-skill`
 - **[Create Slash Command](commands/create-slash-command.md)** — Scaffold a new Claude Code slash command into .claude/commands/ — a valid Markdown file with frontmatter, a least-privilege allowed-tools allowlist, and a $ARGUMENTS-driven body of numbered steps ending in a Report.
@@ -74,6 +115,8 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
 
 ## Testing
 
+- **[Check Support Cases](commands/check-support-cases.md)** — Validate a local JSONL support-answer testset with Python: unique case IDs, exact fields, answer/clarify/escalate expectations, required answer-card references and sources, and explicit escalation reasons; report counts without running a support bot.
+  [↗ Page](https://agentscamp.com/commands/testing/check-support-cases) · `npx agentscamp add commands/check-support-cases`
 - **[Fix Failing Test](commands/fix-failing-test.md)** — Diagnose and fix a failing test by finding the real root cause.
   [↗ Page](https://agentscamp.com/commands/testing/fix-failing-test) · `npx agentscamp add commands/fix-failing-test`
 - **[Hunt Flaky Tests](commands/flaky-test-hunt.md)** — Reproduce a flaky test, find the real source of nondeterminism, and fix the cause.
@@ -84,6 +127,17 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
   [↗ Page](https://agentscamp.com/commands/testing/run-evals) · `npx agentscamp add commands/run-evals`
 - **[Write Tests](commands/write-tests.md)** — Generate tests covering the happy path and edge cases for the given target.
   [↗ Page](https://agentscamp.com/commands/testing/write-tests) · `npx agentscamp add commands/write-tests`
+
+## Marketing
+
+- **[Brand Check](commands/brand-check.md)** — Score a draft file against the project's brand voice guide (brand-voice.md or a brand-voice skill) and list every violation with a rewrite, without editing it.
+  [↗ Page](https://agentscamp.com/commands/marketing/brand-check) · `npx agentscamp add commands/brand-check`
+- **[Check Translation Tokens](commands/check-translation-tokens.md)** — Compare recognized named placeholders in a source-target translation CSV with Python, preserving token multiplicity and flagging blank targets. Supports exact {name}, {{name}}, and %(name)s/%(name)d forms; does not validate full ICU, HTML, positional placeholders, or translation meaning.
+  [↗ Page](https://agentscamp.com/commands/marketing/check-translation-tokens) · `npx agentscamp add commands/check-translation-tokens`
+- **[Repurpose](commands/repurpose.md)** — Run content-repurposer on a file or pasted text and write the X thread, LinkedIn post, newsletter section, and video script to content/repurposed/.
+  [↗ Page](https://agentscamp.com/commands/marketing/repurpose) · `npx agentscamp add commands/repurpose`
+- **[SEO Check](commands/seo-check.md)** — Run a single-page SEO and AEO check on a file or URL (title and meta lengths, one H1, heading order, answer-first lead, FAQ, structured data, canonical, internal links, alt text) and return a pass-or-fix table.
+  [↗ Page](https://agentscamp.com/commands/marketing/seo-check) · `npx agentscamp add commands/seo-check`
 
 ## Perf
 
@@ -118,6 +172,15 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
 - **[Rename Symbol](commands/rename-symbol.md)** — Safely rename a symbol project-wide, distinguishing the real symbol from coincidental substring matches.
   [↗ Page](https://agentscamp.com/commands/refactor/rename-symbol) · `npx agentscamp add commands/rename-symbol`
 
+## Analytics
+
+- **[Count Feedback](commands/count-feedback.md)** — Count a single-label feedback CSV with code: validate record IDs, collapse exact duplicate rows, reject conflicting rows for one ID, and report records, distinct known respondents, missing identities, and label totals without inventing prevalence.
+  [↗ Page](https://agentscamp.com/commands/analytics/count-feedback) · `npx agentscamp add commands/count-feedback`
+- **[Define Metric](commands/define-metric.md)** — Write or refine a metric definition — name, plain-language meaning, grain, filters, source tables and columns, edge cases, and owner — into analysis/metrics/<slug>.md, after searching the repo for a definition that already exists.
+  [↗ Page](https://agentscamp.com/commands/analytics/define-metric) · `npx agentscamp add commands/define-metric`
+- **[First Look](commands/first-look.md)** — Read the first rows and the true row count of a CSV or spreadsheet, profile it against a fixed checklist, and write the result to analysis/profiles/<name>.md so the dataset's condition is on record before anyone queries it.
+  [↗ Page](https://agentscamp.com/commands/analytics/first-look) · `npx agentscamp add commands/first-look`
+
 ## Analyze
 
 - **[Audit Accessibility](commands/audit-accessibility.md)** — Audit a component or page for accessibility against WCAG — semantics, names, keyboard, ARIA, contrast, forms, motion.
@@ -136,38 +199,10 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
 - **[Seed Data](commands/seed-data.md)** — Generate realistic, referentially-consistent seed data and a re-runnable seed script from your actual schema — types and constraints respected, plausible values, FK-dependency insert order, idempotent, never aimed at production.
   [↗ Page](https://agentscamp.com/commands/db/seed-data) · `npx agentscamp add commands/seed-data`
 
-## Docs
-
-- **[Add Docstrings](commands/add-docstrings.md)** — Add or improve docstrings for the public API of a file or symbol.
-  [↗ Page](https://agentscamp.com/commands/docs/add-docstrings) · `npx agentscamp add commands/add-docstrings`
-- **[Explain Code](commands/explain-code.md)** — Explain what the given code does, in clear prose with a short summary.
-  [↗ Page](https://agentscamp.com/commands/docs/explain-code) · `npx agentscamp add commands/explain-code`
-- **[Update README](commands/update-readme.md)** — Update the README to reflect the current scripts, structure, and features of the repo.
-  [↗ Page](https://agentscamp.com/commands/docs/update-readme) · `npx agentscamp add commands/update-readme`
-
-## Analytics
-
-- **[Define Metric](commands/define-metric.md)** — Write or refine a metric definition — name, plain-language meaning, grain, filters, source tables and columns, edge cases, and owner — into analysis/metrics/<slug>.md, after searching the repo for a definition that already exists.
-  [↗ Page](https://agentscamp.com/commands/analytics/define-metric) · `npx agentscamp add commands/define-metric`
-- **[First Look](commands/first-look.md)** — Read the first rows and the true row count of a CSV or spreadsheet, profile it against a fixed checklist, and write the result to analysis/profiles/<name>.md so the dataset's condition is on record before anyone queries it.
-  [↗ Page](https://agentscamp.com/commands/analytics/first-look) · `npx agentscamp add commands/first-look`
-
-## Design
-
-- **[Critique Screen](commands/critique-screen.md)** — Read a UI screenshot from a path or URL, run the fixed design critique checklist over it, and write the report to design/critiques/ without touching the design or the code.
-  [↗ Page](https://agentscamp.com/commands/design/critique-screen) · `npx agentscamp add commands/critique-screen`
-- **[Design Tokens](commands/design-tokens.md)** — Extract design tokens from a stylesheet, a Tailwind or theme config, or a screenshot, then create or update design/tokens.json and report every added, changed, and removed token.
-  [↗ Page](https://agentscamp.com/commands/design/design-tokens) · `npx agentscamp add commands/design-tokens`
-
-## Marketing
-
-- **[Brand Check](commands/brand-check.md)** — Score a draft file against the project's brand voice guide (brand-voice.md or a brand-voice skill) and list every violation with a rewrite, without editing it.
-  [↗ Page](https://agentscamp.com/commands/marketing/brand-check) · `npx agentscamp add commands/brand-check`
-- **[Repurpose](commands/repurpose.md)** — Run content-repurposer on a file or pasted text and write the X thread, LinkedIn post, newsletter section, and video script to content/repurposed/.
-  [↗ Page](https://agentscamp.com/commands/marketing/repurpose) · `npx agentscamp add commands/repurpose`
-
 ## Product
 
+- **[Check Scorecard](commands/check-scorecard.md)** — Validate a draft job-interview scorecard JSON with Python: unique criteria, exactly three nonblank behavioral anchor slots, task-source and question references, and positive human-supplied decimal weights totaling exactly one. Never read or calculate candidate scores.
+  [↗ Page](https://agentscamp.com/commands/product/check-scorecard) · `npx agentscamp add commands/check-scorecard`
 - **[PRD](commands/prd.md)** — Turn an idea, pasted notes, or a notes file into a structured PRD and write it to docs/prd.md, or print it when there is no project.
   [↗ Page](https://agentscamp.com/commands/product/prd) · `npx agentscamp add commands/prd`
 - **[Scope MVP](commands/scope-mvp.md)** — Cut a PRD or feature list to a version one: a keep / cut / later table with reasons plus the smallest build that tests the riskiest assumption, written to docs/mvp-scope.md.
@@ -179,3 +214,12 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
   [↗ Page](https://agentscamp.com/commands/sales/audit-crm) · `npx agentscamp add commands/audit-crm`
 - **[Check Outreach](commands/check-outreach.md)** — Fact-check a drafted outreach email, or a folder of them, against the research files it was written from and write an annotated report with a claims table, without editing the draft.
   [↗ Page](https://agentscamp.com/commands/sales/check-outreach) · `npx agentscamp add commands/check-outreach`
+- **[Check RFP Coverage](commands/check-rfp-coverage.md)** — Check human-reviewed RFP requirement and response-matrix CSVs with Python: validate unique IDs and explicit flags, count supplied statuses including absent rows, and list mandatory attention items or ready rows missing required references. Does not prove claim accuracy or submit a bid.
+  [↗ Page](https://agentscamp.com/commands/sales/check-rfp-coverage) · `npx agentscamp add commands/check-rfp-coverage`
+
+## Design
+
+- **[Critique Screen](commands/critique-screen.md)** — Read a UI screenshot from a path or URL, run the fixed design critique checklist over it, and write the report to design/critiques/ without touching the design or the code.
+  [↗ Page](https://agentscamp.com/commands/design/critique-screen) · `npx agentscamp add commands/critique-screen`
+- **[Design Tokens](commands/design-tokens.md)** — Extract design tokens from a stylesheet, a Tailwind or theme config, or a screenshot, then create or update design/tokens.json and report every added, changed, and removed token.
+  [↗ Page](https://agentscamp.com/commands/design/design-tokens) · `npx agentscamp add commands/design-tokens`

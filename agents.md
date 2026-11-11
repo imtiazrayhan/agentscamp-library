@@ -4,7 +4,7 @@
 
 Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agentscamp) CLI (`-g` installs to `~/.claude/` instead of the current project), or open the linked file and copy it into your `.claude/agents/` directory. Each entry links to its full page on [AgentsCamp](https://agentscamp.com).
 
-**66 agents** · [← Back to README](README.md)
+**87 agents** · [← Back to README](README.md)
 
 ## Data AI
 
@@ -76,6 +76,8 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
   [↗ Page](https://agentscamp.com/agents/quality-security/code-reviewer) · `npx agentscamp add agents/code-reviewer`
 - **[Debugger](agents/debugger.md)** — Use this agent to diagnose failing tests, runtime errors, or unexpected behavior by forming and testing hypotheses. Examples — a stack trace to root-cause, a flaky test, a "works locally but not in CI" bug.
   [↗ Page](https://agentscamp.com/agents/quality-security/debugger) · `npx agentscamp add agents/debugger`
+- **[MCP Security Reviewer](agents/mcp-security-reviewer.md)** — Use this agent to review an MCP server's source code and tool definitions, not just its config, for prompt-injection and tool-poisoning risk: instructions to the model hidden in tool or parameter descriptions, tool results that pass untrusted content (web pages, emails, database rows) to the model unlabeled, file, shell, and network scope wider than the tools need, HTTP transports with no authentication or origin checks, secrets handling, and rug-pull risk where descriptions or the tool list can change after approval. Read-only; it reports each finding with a severity and a fix and ends with a connect or do-not-connect verdict. Examples: "review this MCP server before we add it to the team config", "is this community server safe to connect", "check our own server's tool descriptions for injection surface".
+  [↗ Page](https://agentscamp.com/agents/quality-security/mcp-security-reviewer) · `npx agentscamp add agents/mcp-security-reviewer`
 - **[Performance Engineer](agents/performance-engineer.md)** — Use this agent to profile and optimize performance — latency, throughput, memory, bundle size. Examples — a slow endpoint, an N+1 query, a heavy render, a large JS bundle.
   [↗ Page](https://agentscamp.com/agents/quality-security/performance-engineer) · `npx agentscamp add agents/performance-engineer`
 - **[Prompt Injection Auditor](agents/prompt-injection-auditor.md)** — Use this agent to audit an LLM app or agent for prompt-injection exposure — mapping where untrusted content enters the model's context (user, RAG, tools, web), assessing the blast radius if an injection succeeds, probing with adversarial inputs, and recommending architectural mitigations. Examples — "audit our RAG agent for indirect prompt injection", "what's the blast radius if our agent gets injected — which tools and credentials are exposed?", "review our LLM app's trust boundaries and tell us what to fix".
@@ -86,6 +88,42 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
   [↗ Page](https://agentscamp.com/agents/quality-security/security-auditor) · `npx agentscamp add agents/security-auditor`
 - **[Test Engineer](agents/test-engineer.md)** — Use this agent to write and improve automated tests — unit, integration, and edge cases. Examples — adding coverage to an untested module, writing regression tests for a bug, designing a test plan.
   [↗ Page](https://agentscamp.com/agents/quality-security/test-engineer) · `npx agentscamp add agents/test-engineer`
+
+## Product
+
+- **[Contract Obligation Reviewer](agents/contract-obligation-reviewer.md)** — Compare a prepared vendor-contract obligation register with supplied agreement and amendment text: flag missing qualifying language, unsupported dates or parties, unresolved cross-references, and unproven supersession. Return a source-linked review packet for qualified counsel; do not give legal conclusions or approve terms.
+  [↗ Page](https://agentscamp.com/agents/product/contract-obligation-reviewer) · `npx agentscamp add agents/contract-obligation-reviewer`
+- **[Interview Scorecard Reviewer](agents/interview-scorecard-reviewer.md)** — Review a draft interview scorecard against supplied job tasks: flag criteria lacking job evidence, vague behavioral anchors, inconsistent question coverage, and unsupported weights before interviews. Review the rubric only; never score, rank, infer traits about, or select candidates.
+  [↗ Page](https://agentscamp.com/agents/product/interview-scorecard-reviewer) · `npx agentscamp add agents/interview-scorecard-reviewer`
+- **[Procedure Exception Reviewer](agents/procedure-exception-reviewer.md)** — Review a drafted workplace SOP against captured walkthroughs and supplied exception cases: identify absent branches, unmet prerequisites, unclear stop conditions, and unsupported recovery steps without executing or editing the procedure.
+  [↗ Page](https://agentscamp.com/agents/product/procedure-exception-reviewer) · `npx agentscamp add agents/procedure-exception-reviewer`
+- **[Product Manager](agents/product-manager.md)** — Use this agent to turn raw product inputs (interview notes, support tickets, feedback exports, usage metrics, sales objections) into a decision-ready artifact: a PRD, a prioritized roadmap, or a scope cut for the next release. It separates evidence from opinion, asks for the decision inputs that are missing before it prioritizes, never invents a metric or a baseline, and hands specific steps to the product skills (prd-writer, mvp-scope-cutter, user-interview-synthesizer, feedback-codebook-designer, competitor-teardown, job-scorecard-builder). Examples: "turn these twelve interviews and our ticket export into a Q1 roadmap", "write the PRD for the approvals feature from this thread", "we have six weeks, what do we cut".
+  [↗ Page](https://agentscamp.com/agents/product/product-manager) · `npx agentscamp add agents/product-manager`
+- **[Project Handoff Auditor](agents/project-handoff-auditor.md)** — Use this agent to review a prepared human-to-human project handoff against its local source files: find missing deliverables, unsupported completion claims, unclear ownership, stale or conflicting decisions, and questions the receiving teammate cannot resolve from the packet. Report evidence and fixes without editing the packet.
+  [↗ Page](https://agentscamp.com/agents/product/project-handoff-auditor) · `npx agentscamp add agents/project-handoff-auditor`
+- **[Support Answer Auditor](agents/support-answer-auditor.md)** — Review prepared customer-support answer cards against supplied policy versions and applicability rules: flag unsupported promises, omitted eligibility conditions, contradictory answers, and missing escalation boundaries before the library is approved.
+  [↗ Page](https://agentscamp.com/agents/product/support-answer-auditor) · `npx agentscamp add agents/support-answer-auditor`
+- **[Survey Design Reviewer](agents/survey-design-reviewer.md)** — Use this agent to review a draft customer survey before collection: check leading wording, double-barreled questions, missing response options, inconsistent scales, unsupported recall periods, and whether each question can answer the stated research objective. Return an annotated review and proposed rewrites without changing the survey.
+  [↗ Page](https://agentscamp.com/agents/product/survey-design-reviewer) · `npx agentscamp add agents/survey-design-reviewer`
+- **[Technical Cofounder](agents/technical-cofounder.md)** — Use this agent when a non-technical founder needs an app built by an AI app builder or coding agent reviewed for the problems that hurt founders: missing login and permission checks, secrets committed to the code, customer data visible to the wrong users, surprise cloud and API bills, vendor lock-in, no backups, and no tests. It explains each finding in plain language with a severity and the question to ask an engineer. Examples — 'look over what Lovable built before I launch', 'is this Supabase app safe for real customer data', 'what will bite me if I ship this Claude Code project'.
+  [↗ Page](https://agentscamp.com/agents/product/technical-cofounder) · `npx agentscamp add agents/technical-cofounder`
+
+## Analytics
+
+- **[Analysis Reviewer](agents/analysis-reviewer.md)** — Use this agent to review a finished analysis for methodological errors before it ships — checking grain and double counting, join fan-out, rows silently dropped by filters and inner joins, sampling and truncation, null handling, time zone and date boundaries, numbers in the prose that disagree with the code's output, charts that mislead, and causal language resting on correlational evidence. Examples — 'review this notebook before I send the deck', 'the query and the summary disagree somewhere, find it', 'does this analysis actually support the conclusion it draws?'.
+  [↗ Page](https://agentscamp.com/agents/analytics/analysis-reviewer) · `npx agentscamp add agents/analysis-reviewer`
+- **[Annotation Evidence Reviewer](agents/annotation-evidence-reviewer.md)** — Review a supervised text-label adjudication packet for traceable excerpts, preserved independent responses and rule-supported resolutions; flag missing evidence without choosing final labels.
+  [↗ Page](https://agentscamp.com/agents/analytics/annotation-evidence-reviewer) · `npx agentscamp add agents/annotation-evidence-reviewer`
+- **[Entity Match Reviewer](agents/entity-match-reviewer.md)** — Review an entity-match candidate ledger against supplied records and owner criteria; flag unsupported match decisions, conflicting fields and transitive contradictions without merging or identifying people.
+  [↗ Page](https://agentscamp.com/agents/analytics/entity-match-reviewer) · `npx agentscamp add agents/entity-match-reviewer`
+- **[Exit Ticket Reviewer](agents/exit-ticket-reviewer.md)** — Review a draft exit ticket against educator-supplied objectives and taught material. Flag untaught facts, unclear prompts, mismatched answer keys and gaps in objective coverage; return revisions for educator judgment without grading learners or diagnosing ability.
+  [↗ Page](https://agentscamp.com/agents/analytics/exit-ticket-reviewer) · `npx agentscamp add agents/exit-ticket-reviewer`
+- **[Literature Screening Reviewer](agents/literature-screening-reviewer.md)** — Use this agent to audit a literature screening log against a supplied protocol and local abstracts or paper extracts: trace each eligibility judgment to criteria and source text, flag unsupported exclusions, identify unresolved eligibility, and record protocol drift. Review the log without searching the web or changing inclusion decisions.
+  [↗ Page](https://agentscamp.com/agents/analytics/literature-screening-reviewer) · `npx agentscamp add agents/literature-screening-reviewer`
+- **[OCR Fidelity Reviewer](agents/ocr-fidelity-reviewer.md)** — Review supplied OCR text and readable source-page images for transcription fidelity. Flag changed characters, reading-order errors and unsupported proposed corrections with page/region evidence; do not interpret document meaning, guess unreadable text, certify authenticity or overwrite the source.
+  [↗ Page](https://agentscamp.com/agents/analytics/ocr-fidelity-reviewer) · `npx agentscamp add agents/ocr-fidelity-reviewer`
+- **[Study Card Reviewer](agents/study-card-reviewer.md)** — Review a draft flashcard set against supplied notes and stated learning targets. Identify unsupported answers, compound questions, duplicate targets and source conflicts in a card-by-card report; do not draft a new set, schedule practice or infer learner ability.
+  [↗ Page](https://agentscamp.com/agents/analytics/study-card-reviewer) · `npx agentscamp add agents/study-card-reviewer`
 
 ## Core Development
 
@@ -136,6 +174,19 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
 - **[Refactoring Specialist](agents/refactoring-specialist.md)** — Use this agent to safely restructure code without changing behavior — extracting, renaming, decoupling. Examples — breaking up a god object, removing duplication, improving testability.
   [↗ Page](https://agentscamp.com/agents/developer-tools/refactoring-specialist) · `npx agentscamp add agents/refactoring-specialist`
 
+## Marketing
+
+- **[Caption Reviewer](agents/caption-reviewer.md)** — Review supplied caption text, timing and human listening notes against a named media version. Flag uncertain words, speaker/sound omissions and timing conflicts in an issue ledger; never claim to hear inaccessible audio, rewrite the source media or certify accessibility compliance.
+  [↗ Page](https://agentscamp.com/agents/marketing/caption-reviewer) · `npx agentscamp add agents/caption-reviewer`
+- **[Content Editor](agents/content-editor.md)** — Use this agent to edit marketing and editorial drafts (blog posts, landing pages, emails, social copy, newsletters) for clarity and brand voice while marking every unsourced claim, statistic, and superlative with a [CITATION NEEDED] or [VERIFY] tag and a one-line reason, never inventing a source, and returning the edited draft with a change log. Examples — 'edit this post before it goes to the client', 'tighten this launch email and tell me which numbers I need to back up', 'check this page copy against brand-voice.md and mark anything we cannot prove'.
+  [↗ Page](https://agentscamp.com/agents/marketing/content-editor) · `npx agentscamp add agents/content-editor`
+- **[Localization Copy Reviewer](agents/localization-copy-reviewer.md)** — Review paired source and translated marketing or help-document text for a specified locale against supplied terminology and style rules: flag lost meaning, negation, conditions, numbers, protected terms and ambiguous segments, with evidence-linked proposals for a human language reviewer.
+  [↗ Page](https://agentscamp.com/agents/marketing/localization-copy-reviewer) · `npx agentscamp add agents/localization-copy-reviewer`
+- **[SEO Specialist](agents/seo-specialist.md)** — Use this agent to review a site or a set of pages for search and answer-engine performance and get one prioritized plan: it checks technical hygiene with the seo-technical-auditor skill, the match between each page's title, H1, and lead and the query it targets, title and meta wording, internal linking, answer-first structure with the geo-content-auditor skill, and structured data with the schema-markup-generator skill, then ranks the fixes by effect and effort. Read-only; it never edits a page or invents a search volume. Examples: "review our docs site for SEO and tell me what to fix first", "why does this guide rank but never get cited by AI Overviews", "audit the ten pages in this folder and give me a plan".
+  [↗ Page](https://agentscamp.com/agents/marketing/seo-specialist) · `npx agentscamp add agents/seo-specialist`
+- **[Speech Cleanup Reviewer](agents/speech-cleanup-reviewer.md)** — Review original-versus-processed speech listening notes and a timed cleanup sheet for a supplied recording. Flag lost words, altered pronunciation, missing useful sound and unsupported keep decisions; do not claim to listen through a text-only tool, process audio or select a final master without a listener.
+  [↗ Page](https://agentscamp.com/agents/marketing/speech-cleanup-reviewer) · `npx agentscamp add agents/speech-cleanup-reviewer`
+
 ## Meta Orchestration
 
 - **[Agent Architect](agents/agent-architect.md)** — Use this agent to design a new Claude Code subagent or review an existing one — scoping, description, toolset, model, and output contract. Examples — "design an agent that triages flaky tests", "review my code-reviewer agent for scope creep", "why won't Claude auto-delegate to my agent?".
@@ -149,27 +200,18 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
 - **[Workflow Orchestrator](agents/workflow-orchestrator.md)** — Use this agent to break large tasks into coordinated multi-step plans and delegate to other agents. Examples — planning a multi-file refactor, orchestrating a migration, decomposing an epic.
   [↗ Page](https://agentscamp.com/agents/meta-orchestration/workflow-orchestrator) · `npx agentscamp add agents/workflow-orchestrator`
 
-## Analytics
-
-- **[Analysis Reviewer](agents/analysis-reviewer.md)** — Use this agent to review a finished analysis for methodological errors before it ships — checking grain and double counting, join fan-out, rows silently dropped by filters and inner joins, sampling and truncation, null handling, time zone and date boundaries, numbers in the prose that disagree with the code's output, charts that mislead, and causal language resting on correlational evidence. Examples — 'review this notebook before I send the deck', 'the query and the summary disagree somewhere, find it', 'does this analysis actually support the conclusion it draws?'.
-  [↗ Page](https://agentscamp.com/agents/analytics/analysis-reviewer) · `npx agentscamp add agents/analysis-reviewer`
-
 ## Design
 
 - **[Design Systems Librarian](agents/design-systems-librarian.md)** — Use this agent to keep a design system's tokens, components, and documentation consistent with each other — finding hardcoded colors, spacing, and radii that should be tokens, components with no docs and docs describing variants that no longer exist, naming drift between token names, component names, and design-tool variables, and stale documentation — then reporting the drift with severity and a prioritized fix list. Examples — 'audit our design system for hardcoded values', 'which components are undocumented or documented wrong?', 'our token names and the Figma variables have diverged, show me where'.
   [↗ Page](https://agentscamp.com/agents/design/design-systems-librarian) · `npx agentscamp add agents/design-systems-librarian`
-
-## Marketing
-
-- **[Content Editor](agents/content-editor.md)** — Use this agent to edit marketing and editorial drafts (blog posts, landing pages, emails, social copy, newsletters) for clarity and brand voice while marking every unsourced claim, statistic, and superlative with a [CITATION NEEDED] or [VERIFY] tag and a one-line reason, never inventing a source, and returning the edited draft with a change log. Examples — 'edit this post before it goes to the client', 'tighten this launch email and tell me which numbers I need to back up', 'check this page copy against brand-voice.md and mark anything we cannot prove'.
-  [↗ Page](https://agentscamp.com/agents/marketing/content-editor) · `npx agentscamp add agents/content-editor`
-
-## Product
-
-- **[Technical Cofounder](agents/technical-cofounder.md)** — Use this agent when a non-technical founder needs an app built by an AI app builder or coding agent reviewed for the problems that hurt founders: missing login and permission checks, secrets committed to the code, customer data visible to the wrong users, surprise cloud and API bills, vendor lock-in, no backups, and no tests. It explains each finding in plain language with a severity and the question to ask an engineer. Examples — 'look over what Lovable built before I launch', 'is this Supabase app safe for real customer data', 'what will bite me if I ship this Claude Code project'.
-  [↗ Page](https://agentscamp.com/agents/product/technical-cofounder) · `npx agentscamp add agents/technical-cofounder`
+- **[Image Description Reviewer](agents/image-description-reviewer.md)** — Review still-image text alternatives against page purpose, verified visual evidence and source data; flag missing meaning, invented detail and chart-description conflicts without claiming conformance.
+  [↗ Page](https://agentscamp.com/agents/design/image-description-reviewer) · `npx agentscamp add agents/image-description-reviewer`
+- **[Storyboard Continuity Reviewer](agents/storyboard-continuity-reviewer.md)** — Review storyboard frames or shot descriptions against an approved script and supplied continuity constraints. Flag omitted beats, changed actions, prop/character drift and timing assumptions in a shot-level report; do not rewrite the approved script, generate images or grant production approval.
+  [↗ Page](https://agentscamp.com/agents/design/storyboard-continuity-reviewer) · `npx agentscamp add agents/storyboard-continuity-reviewer`
 
 ## Sales
 
+- **[RFP Completeness Reviewer](agents/rfp-completeness-reviewer.md)** — Review a prepared RFP submission against supplied requirements, addenda and attachment rules: find unanswered subparts, omitted documents, unproven exceptions, contradictory IDs and submission-rule gaps. Return an evidence-linked completeness review without drafting sales claims or submitting a bid.
+  [↗ Page](https://agentscamp.com/agents/sales/rfp-completeness-reviewer) · `npx agentscamp add agents/rfp-completeness-reviewer`
 - **[Sales Engineer](agents/sales-engineer.md)** — Use this agent to review the technical asks a prospect has put in front of a deal — security questionnaires, integration and API requirements, SSO and provisioning, SLA and uptime demands, data residency and retention terms, custom feature requests — and separate what the product does today from what needs engineering, with evidence for each verdict from the product's own docs and code. It writes the answer language a rep can safely send, and flags the commitments nobody should make without Engineering, Security, Legal, or Finance signing off. Examples — 'they want SSO, SCIM and EU data residency, what can we say yes to', 'review this integration requirements doc before Thursday's technical call', 'they are asking for a 99.99% SLA and two-hour breach notification, tell me what we cannot commit to'.
   [↗ Page](https://agentscamp.com/agents/sales/sales-engineer) · `npx agentscamp add agents/sales-engineer`

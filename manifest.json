@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "source": "https://agentscamp.com",
   "counts": {
-    "guides": 233,
-    "tools": 204,
-    "glossary": 108,
-    "agents": 66,
-    "skills": 134,
-    "commands": 63,
-    "total": 808
+    "guides": 282,
+    "tools": 246,
+    "glossary": 144,
+    "agents": 87,
+    "skills": 163,
+    "commands": 85,
+    "total": 1007
   },
   "items": [
     {
@@ -84,6 +84,21 @@
       "install": "npx agentscamp add agents/analysis-reviewer"
     },
     {
+      "id": "agents/annotation-evidence-reviewer",
+      "type": "agent",
+      "slug": "annotation-evidence-reviewer",
+      "category": "analytics",
+      "title": "Annotation Evidence Reviewer",
+      "description": "Review a supervised text-label adjudication packet for traceable excerpts, preserved independent responses and rule-supported resolutions; flag missing evidence without choosing final labels.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/agents/analytics/annotation-evidence-reviewer",
+      "file": "agents/annotation-evidence-reviewer.md",
+      "install": "npx agentscamp add agents/annotation-evidence-reviewer"
+    },
+    {
       "id": "agents/api-architect",
       "type": "agent",
       "slug": "api-architect",
@@ -124,6 +139,21 @@
       "url": "https://agentscamp.com/agents/data-ai/browser-agent-engineer",
       "file": "agents/browser-agent-engineer.md",
       "install": "npx agentscamp add agents/browser-agent-engineer"
+    },
+    {
+      "id": "agents/caption-reviewer",
+      "type": "agent",
+      "slug": "caption-reviewer",
+      "category": "marketing",
+      "title": "Caption Reviewer",
+      "description": "Review supplied caption text, timing and human listening notes against a named media version. Flag uncertain words, speaker/sound omissions and timing conflicts in an issue ledger; never claim to hear inaccessible audio, rewrite the source media or certify accessibility compliance.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/agents/marketing/caption-reviewer",
+      "file": "agents/caption-reviewer.md",
+      "install": "npx agentscamp add agents/caption-reviewer"
     },
     {
       "id": "agents/ci-cd-engineer",
@@ -211,6 +241,21 @@
       "url": "https://agentscamp.com/agents/meta-orchestration/context-engineer",
       "file": "agents/context-engineer.md",
       "install": "npx agentscamp add agents/context-engineer"
+    },
+    {
+      "id": "agents/contract-obligation-reviewer",
+      "type": "agent",
+      "slug": "contract-obligation-reviewer",
+      "category": "product",
+      "title": "Contract Obligation Reviewer",
+      "description": "Compare a prepared vendor-contract obligation register with supplied agreement and amendment text: flag missing qualifying language, unsupported dates or parties, unresolved cross-references, and unproven supersession. Return a source-linked review packet for qualified counsel; do not give legal conclusions or approve terms.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/agents/product/contract-obligation-reviewer",
+      "file": "agents/contract-obligation-reviewer.md",
+      "install": "npx agentscamp add agents/contract-obligation-reviewer"
     },
     {
       "id": "agents/csharp-pro",
@@ -341,6 +386,21 @@
       "install": "npx agentscamp add agents/documentation-engineer"
     },
     {
+      "id": "agents/entity-match-reviewer",
+      "type": "agent",
+      "slug": "entity-match-reviewer",
+      "category": "analytics",
+      "title": "Entity Match Reviewer",
+      "description": "Review an entity-match candidate ledger against supplied records and owner criteria; flag unsupported match decisions, conflicting fields and transitive contradictions without merging or identifying people.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/agents/analytics/entity-match-reviewer",
+      "file": "agents/entity-match-reviewer.md",
+      "install": "npx agentscamp add agents/entity-match-reviewer"
+    },
+    {
       "id": "agents/eval-driven-developer",
       "type": "agent",
       "slug": "eval-driven-developer",
@@ -354,6 +414,21 @@
       "url": "https://agentscamp.com/agents/meta-orchestration/eval-driven-developer",
       "file": "agents/eval-driven-developer.md",
       "install": "npx agentscamp add agents/eval-driven-developer"
+    },
+    {
+      "id": "agents/exit-ticket-reviewer",
+      "type": "agent",
+      "slug": "exit-ticket-reviewer",
+      "category": "analytics",
+      "title": "Exit Ticket Reviewer",
+      "description": "Review a draft exit ticket against educator-supplied objectives and taught material. Flag untaught facts, unclear prompts, mismatched answer keys and gaps in objective coverage; return revisions for educator judgment without grading learners or diagnosing ability.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/agents/analytics/exit-ticket-reviewer",
+      "file": "agents/exit-ticket-reviewer.md",
+      "install": "npx agentscamp add agents/exit-ticket-reviewer"
     },
     {
       "id": "agents/finetuning-engineer",
@@ -426,6 +501,21 @@
       "install": "npx agentscamp add agents/graphql-architect"
     },
     {
+      "id": "agents/image-description-reviewer",
+      "type": "agent",
+      "slug": "image-description-reviewer",
+      "category": "design",
+      "title": "Image Description Reviewer",
+      "description": "Review still-image text alternatives against page purpose, verified visual evidence and source data; flag missing meaning, invented detail and chart-description conflicts without claiming conformance.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/agents/design/image-description-reviewer",
+      "file": "agents/image-description-reviewer.md",
+      "install": "npx agentscamp add agents/image-description-reviewer"
+    },
+    {
       "id": "agents/incident-responder",
       "type": "agent",
       "slug": "incident-responder",
@@ -438,6 +528,21 @@
       "url": "https://agentscamp.com/agents/infrastructure-devops/incident-responder",
       "file": "agents/incident-responder.md",
       "install": "npx agentscamp add agents/incident-responder"
+    },
+    {
+      "id": "agents/interview-scorecard-reviewer",
+      "type": "agent",
+      "slug": "interview-scorecard-reviewer",
+      "category": "product",
+      "title": "Interview Scorecard Reviewer",
+      "description": "Review a draft interview scorecard against supplied job tasks: flag criteria lacking job evidence, vague behavioral anchors, inconsistent question coverage, and unsupported weights before interviews. Review the rubric only; never score, rank, infer traits about, or select candidates.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/agents/product/interview-scorecard-reviewer",
+      "file": "agents/interview-scorecard-reviewer.md",
+      "install": "npx agentscamp add agents/interview-scorecard-reviewer"
     },
     {
       "id": "agents/java-pro",
@@ -480,6 +585,21 @@
       "url": "https://agentscamp.com/agents/infrastructure-devops/kubernetes-specialist",
       "file": "agents/kubernetes-specialist.md",
       "install": "npx agentscamp add agents/kubernetes-specialist"
+    },
+    {
+      "id": "agents/literature-screening-reviewer",
+      "type": "agent",
+      "slug": "literature-screening-reviewer",
+      "category": "analytics",
+      "title": "Literature Screening Reviewer",
+      "description": "Use this agent to audit a literature screening log against a supplied protocol and local abstracts or paper extracts: trace each eligibility judgment to criteria and source text, flag unsupported exclusions, identify unresolved eligibility, and record protocol drift. Review the log without searching the web or changing inclusion decisions.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/agents/analytics/literature-screening-reviewer",
+      "file": "agents/literature-screening-reviewer.md",
+      "install": "npx agentscamp add agents/literature-screening-reviewer"
     },
     {
       "id": "agents/llm-cost-optimizer",
@@ -552,6 +672,36 @@
       "install": "npx agentscamp add agents/llm-observability-engineer"
     },
     {
+      "id": "agents/localization-copy-reviewer",
+      "type": "agent",
+      "slug": "localization-copy-reviewer",
+      "category": "marketing",
+      "title": "Localization Copy Reviewer",
+      "description": "Review paired source and translated marketing or help-document text for a specified locale against supplied terminology and style rules: flag lost meaning, negation, conditions, numbers, protected terms and ambiguous segments, with evidence-linked proposals for a human language reviewer.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/agents/marketing/localization-copy-reviewer",
+      "file": "agents/localization-copy-reviewer.md",
+      "install": "npx agentscamp add agents/localization-copy-reviewer"
+    },
+    {
+      "id": "agents/mcp-security-reviewer",
+      "type": "agent",
+      "slug": "mcp-security-reviewer",
+      "category": "quality-security",
+      "title": "MCP Security Reviewer",
+      "description": "Use this agent to review an MCP server's source code and tool definitions, not just its config, for prompt-injection and tool-poisoning risk: instructions to the model hidden in tool or parameter descriptions, tool results that pass untrusted content (web pages, emails, database rows) to the model unlabeled, file, shell, and network scope wider than the tools need, HTTP transports with no authentication or origin checks, secrets handling, and rug-pull risk where descriptions or the tool list can change after approval. Read-only; it reports each finding with a severity and a fix and ends with a connect or do-not-connect verdict. Examples: \"review this MCP server before we add it to the team config\", \"is this community server safe to connect\", \"check our own server's tool descriptions for injection surface\".",
+      "topics": [
+        "mcp",
+        "ai-safety-security"
+      ],
+      "url": "https://agentscamp.com/agents/quality-security/mcp-security-reviewer",
+      "file": "agents/mcp-security-reviewer.md",
+      "install": "npx agentscamp add agents/mcp-security-reviewer"
+    },
+    {
       "id": "agents/mcp-server-engineer",
       "type": "agent",
       "slug": "mcp-server-engineer",
@@ -595,6 +745,21 @@
       "install": "npx agentscamp add agents/mobile-developer"
     },
     {
+      "id": "agents/ocr-fidelity-reviewer",
+      "type": "agent",
+      "slug": "ocr-fidelity-reviewer",
+      "category": "analytics",
+      "title": "OCR Fidelity Reviewer",
+      "description": "Review supplied OCR text and readable source-page images for transcription fidelity. Flag changed characters, reading-order errors and unsupported proposed corrections with page/region evidence; do not interpret document meaning, guess unreadable text, certify authenticity or overwrite the source.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/agents/analytics/ocr-fidelity-reviewer",
+      "file": "agents/ocr-fidelity-reviewer.md",
+      "install": "npx agentscamp add agents/ocr-fidelity-reviewer"
+    },
+    {
       "id": "agents/performance-engineer",
       "type": "agent",
       "slug": "performance-engineer",
@@ -635,6 +800,51 @@
       "url": "https://agentscamp.com/agents/data-ai/postgres-migration-engineer",
       "file": "agents/postgres-migration-engineer.md",
       "install": "npx agentscamp add agents/postgres-migration-engineer"
+    },
+    {
+      "id": "agents/procedure-exception-reviewer",
+      "type": "agent",
+      "slug": "procedure-exception-reviewer",
+      "category": "product",
+      "title": "Procedure Exception Reviewer",
+      "description": "Review a drafted workplace SOP against captured walkthroughs and supplied exception cases: identify absent branches, unmet prerequisites, unclear stop conditions, and unsupported recovery steps without executing or editing the procedure.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/agents/product/procedure-exception-reviewer",
+      "file": "agents/procedure-exception-reviewer.md",
+      "install": "npx agentscamp add agents/procedure-exception-reviewer"
+    },
+    {
+      "id": "agents/product-manager",
+      "type": "agent",
+      "slug": "product-manager",
+      "category": "product",
+      "title": "Product Manager",
+      "description": "Use this agent to turn raw product inputs (interview notes, support tickets, feedback exports, usage metrics, sales objections) into a decision-ready artifact: a PRD, a prioritized roadmap, or a scope cut for the next release. It separates evidence from opinion, asks for the decision inputs that are missing before it prioritizes, never invents a metric or a baseline, and hands specific steps to the product skills (prd-writer, mvp-scope-cutter, user-interview-synthesizer, feedback-codebook-designer, competitor-teardown, job-scorecard-builder). Examples: \"turn these twelve interviews and our ticket export into a Q1 roadmap\", \"write the PRD for the approvals feature from this thread\", \"we have six weeks, what do we cut\".",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/agents/product/product-manager",
+      "file": "agents/product-manager.md",
+      "install": "npx agentscamp add agents/product-manager"
+    },
+    {
+      "id": "agents/project-handoff-auditor",
+      "type": "agent",
+      "slug": "project-handoff-auditor",
+      "category": "product",
+      "title": "Project Handoff Auditor",
+      "description": "Use this agent to review a prepared human-to-human project handoff against its local source files: find missing deliverables, unsupported completion claims, unclear ownership, stale or conflicting decisions, and questions the receiving teammate cannot resolve from the packet. Report evidence and fixes without editing the packet.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/agents/product/project-handoff-auditor",
+      "file": "agents/project-handoff-auditor.md",
+      "install": "npx agentscamp add agents/project-handoff-auditor"
     },
     {
       "id": "agents/prompt-engineer",
@@ -750,6 +960,21 @@
       "install": "npx agentscamp add agents/retrieval-engineer"
     },
     {
+      "id": "agents/rfp-completeness-reviewer",
+      "type": "agent",
+      "slug": "rfp-completeness-reviewer",
+      "category": "sales",
+      "title": "RFP Completeness Reviewer",
+      "description": "Review a prepared RFP submission against supplied requirements, addenda and attachment rules: find unanswered subparts, omitted documents, unproven exceptions, contradictory IDs and submission-rule gaps. Return an evidence-linked completeness review without drafting sales claims or submitting a bid.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/agents/sales/rfp-completeness-reviewer",
+      "file": "agents/rfp-completeness-reviewer.md",
+      "install": "npx agentscamp add agents/rfp-completeness-reviewer"
+    },
+    {
       "id": "agents/rust-pro",
       "type": "agent",
       "slug": "rust-pro",
@@ -793,6 +1018,36 @@
       "install": "npx agentscamp add agents/security-auditor"
     },
     {
+      "id": "agents/seo-specialist",
+      "type": "agent",
+      "slug": "seo-specialist",
+      "category": "marketing",
+      "title": "SEO Specialist",
+      "description": "Use this agent to review a site or a set of pages for search and answer-engine performance and get one prioritized plan: it checks technical hygiene with the seo-technical-auditor skill, the match between each page's title, H1, and lead and the query it targets, title and meta wording, internal linking, answer-first structure with the geo-content-auditor skill, and structured data with the schema-markup-generator skill, then ranks the fixes by effect and effort. Read-only; it never edits a page or invents a search volume. Examples: \"review our docs site for SEO and tell me what to fix first\", \"why does this guide rank but never get cited by AI Overviews\", \"audit the ten pages in this folder and give me a plan\".",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/agents/marketing/seo-specialist",
+      "file": "agents/seo-specialist.md",
+      "install": "npx agentscamp add agents/seo-specialist"
+    },
+    {
+      "id": "agents/speech-cleanup-reviewer",
+      "type": "agent",
+      "slug": "speech-cleanup-reviewer",
+      "category": "marketing",
+      "title": "Speech Cleanup Reviewer",
+      "description": "Review original-versus-processed speech listening notes and a timed cleanup sheet for a supplied recording. Flag lost words, altered pronunciation, missing useful sound and unsupported keep decisions; do not claim to listen through a text-only tool, process audio or select a final master without a listener.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/agents/marketing/speech-cleanup-reviewer",
+      "file": "agents/speech-cleanup-reviewer.md",
+      "install": "npx agentscamp add agents/speech-cleanup-reviewer"
+    },
+    {
       "id": "agents/sql-pro",
       "type": "agent",
       "slug": "sql-pro",
@@ -820,6 +1075,66 @@
       "url": "https://agentscamp.com/agents/infrastructure-devops/sre-engineer",
       "file": "agents/sre-engineer.md",
       "install": "npx agentscamp add agents/sre-engineer"
+    },
+    {
+      "id": "agents/storyboard-continuity-reviewer",
+      "type": "agent",
+      "slug": "storyboard-continuity-reviewer",
+      "category": "design",
+      "title": "Storyboard Continuity Reviewer",
+      "description": "Review storyboard frames or shot descriptions against an approved script and supplied continuity constraints. Flag omitted beats, changed actions, prop/character drift and timing assumptions in a shot-level report; do not rewrite the approved script, generate images or grant production approval.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/agents/design/storyboard-continuity-reviewer",
+      "file": "agents/storyboard-continuity-reviewer.md",
+      "install": "npx agentscamp add agents/storyboard-continuity-reviewer"
+    },
+    {
+      "id": "agents/study-card-reviewer",
+      "type": "agent",
+      "slug": "study-card-reviewer",
+      "category": "analytics",
+      "title": "Study Card Reviewer",
+      "description": "Review a draft flashcard set against supplied notes and stated learning targets. Identify unsupported answers, compound questions, duplicate targets and source conflicts in a card-by-card report; do not draft a new set, schedule practice or infer learner ability.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/agents/analytics/study-card-reviewer",
+      "file": "agents/study-card-reviewer.md",
+      "install": "npx agentscamp add agents/study-card-reviewer"
+    },
+    {
+      "id": "agents/support-answer-auditor",
+      "type": "agent",
+      "slug": "support-answer-auditor",
+      "category": "product",
+      "title": "Support Answer Auditor",
+      "description": "Review prepared customer-support answer cards against supplied policy versions and applicability rules: flag unsupported promises, omitted eligibility conditions, contradictory answers, and missing escalation boundaries before the library is approved.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/agents/product/support-answer-auditor",
+      "file": "agents/support-answer-auditor.md",
+      "install": "npx agentscamp add agents/support-answer-auditor"
+    },
+    {
+      "id": "agents/survey-design-reviewer",
+      "type": "agent",
+      "slug": "survey-design-reviewer",
+      "category": "product",
+      "title": "Survey Design Reviewer",
+      "description": "Use this agent to review a draft customer survey before collection: check leading wording, double-barreled questions, missing response options, inconsistent scales, unsupported recall periods, and whether each question can answer the stated research objective. Return an annotated review and proposed rewrites without changing the survey.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/agents/product/survey-design-reviewer",
+      "file": "agents/survey-design-reviewer.md",
+      "install": "npx agentscamp add agents/survey-design-reviewer"
     },
     {
       "id": "agents/swift-pro",
@@ -1094,6 +1409,126 @@
       "install": "npx agentscamp add commands/breakdown-task"
     },
     {
+      "id": "commands/check-annotation-batch",
+      "type": "command",
+      "slug": "check-annotation-batch",
+      "category": "review",
+      "title": "Check Annotation Batch",
+      "description": "Check annotation-batch.json for approved labels, distinct response reviewers, exact text evidence and unresolved disagreements while preserving the input.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/review/check-annotation-batch",
+      "file": "commands/check-annotation-batch.md",
+      "install": "npx agentscamp add commands/check-annotation-batch"
+    },
+    {
+      "id": "commands/check-audio-review-sheet",
+      "type": "command",
+      "slug": "check-audio-review-sheet",
+      "category": "review",
+      "title": "Check Audio Review Sheet",
+      "description": "Check audio-review-sheet.json for bounded review intervals, explicit original/processed observations and listener confirmation before accepted cleanup decisions, printing findings only.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/commands/review/check-audio-review-sheet",
+      "file": "commands/check-audio-review-sheet.md",
+      "install": "npx agentscamp add commands/check-audio-review-sheet"
+    },
+    {
+      "id": "commands/check-caption-timing",
+      "type": "command",
+      "slug": "check-caption-timing",
+      "category": "review",
+      "title": "Check Caption Timing",
+      "description": "Check captions.srt in the current directory for supported SRT syntax, sequential cue numbers, increasing timestamps and overlapping cues, printing results without changing captions.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/commands/review/check-caption-timing",
+      "file": "commands/check-caption-timing.md",
+      "install": "npx agentscamp add commands/check-caption-timing"
+    },
+    {
+      "id": "commands/check-entity-match-ledger",
+      "type": "command",
+      "slug": "check-entity-match-ledger",
+      "category": "review",
+      "title": "Check Entity Match Ledger",
+      "description": "Check entity-match-ledger.json for source-linked evidence values, duplicate pairs, reviewer presence and contradictory match groups without merging records.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/review/check-entity-match-ledger",
+      "file": "commands/check-entity-match-ledger.md",
+      "install": "npx agentscamp add commands/check-entity-match-ledger"
+    },
+    {
+      "id": "commands/check-evidence-table",
+      "type": "command",
+      "slug": "check-evidence-table",
+      "category": "review",
+      "title": "Check Evidence Table",
+      "description": "Check a study evidence CSV against a source registry with code: validate required columns and cells, row IDs, source references, duplicate study/outcome/time-point keys, and allowed status values, then report structural errors without judging research claims.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/review/check-evidence-table",
+      "file": "commands/check-evidence-table.md",
+      "install": "npx agentscamp add commands/check-evidence-table"
+    },
+    {
+      "id": "commands/check-exit-ticket-map",
+      "type": "command",
+      "slug": "check-exit-ticket-map",
+      "category": "review",
+      "title": "Check Exit Ticket Map",
+      "description": "Check a local exit-ticket-map.json for objective/question IDs, objective coverage, supported answer evidence and unresolved review status, without editing it.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/review/check-exit-ticket-map",
+      "file": "commands/check-exit-ticket-map.md",
+      "install": "npx agentscamp add commands/check-exit-ticket-map"
+    },
+    {
+      "id": "commands/check-obligation-dates",
+      "type": "command",
+      "slug": "check-obligation-dates",
+      "category": "docs",
+      "title": "Check Obligation Dates",
+      "description": "Check a human-reviewed obligation CSV against an explicit as-of date with Python: validate calendar dates and status fields, list overdue or due-today open rows, missing owners/dates, and recorded late/future completions. Never infer legal deadlines, breach, or contract status from clauses.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/docs/check-obligation-dates",
+      "file": "commands/check-obligation-dates.md",
+      "install": "npx agentscamp add commands/check-obligation-dates"
+    },
+    {
+      "id": "commands/check-ocr-correction-ledger",
+      "type": "command",
+      "slug": "check-ocr-correction-ledger",
+      "category": "review",
+      "title": "Check OCR Correction Ledger",
+      "description": "Check ocr-correction-ledger.json for page/span references, exact original text slices, overlapping proposed edits and reviewer evidence on verified corrections, without applying changes.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/commands/review/check-ocr-correction-ledger",
+      "file": "commands/check-ocr-correction-ledger.md",
+      "install": "npx agentscamp add commands/check-ocr-correction-ledger"
+    },
+    {
       "id": "commands/check-outreach",
       "type": "command",
       "slug": "check-outreach",
@@ -1107,6 +1542,126 @@
       "url": "https://agentscamp.com/commands/sales/check-outreach",
       "file": "commands/check-outreach.md",
       "install": "npx agentscamp add commands/check-outreach"
+    },
+    {
+      "id": "commands/check-procedure-graph",
+      "type": "command",
+      "slug": "check-procedure-graph",
+      "category": "docs",
+      "title": "Check Procedure Graph",
+      "description": "Check explicitly recorded SOP step dependencies with Python: validate IDs and prerequisite references, compute deterministic execution layers for acyclic graphs, and report steps blocked by a cycle without executing the procedure.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/docs/check-procedure-graph",
+      "file": "commands/check-procedure-graph.md",
+      "install": "npx agentscamp add commands/check-procedure-graph"
+    },
+    {
+      "id": "commands/check-rfp-coverage",
+      "type": "command",
+      "slug": "check-rfp-coverage",
+      "category": "sales",
+      "title": "Check RFP Coverage",
+      "description": "Check human-reviewed RFP requirement and response-matrix CSVs with Python: validate unique IDs and explicit flags, count supplied statuses including absent rows, and list mandatory attention items or ready rows missing required references. Does not prove claim accuracy or submit a bid.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/sales/check-rfp-coverage",
+      "file": "commands/check-rfp-coverage.md",
+      "install": "npx agentscamp add commands/check-rfp-coverage"
+    },
+    {
+      "id": "commands/check-scorecard",
+      "type": "command",
+      "slug": "check-scorecard",
+      "category": "product",
+      "title": "Check Scorecard",
+      "description": "Validate a draft job-interview scorecard JSON with Python: unique criteria, exactly three nonblank behavioral anchor slots, task-source and question references, and positive human-supplied decimal weights totaling exactly one. Never read or calculate candidate scores.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/product/check-scorecard",
+      "file": "commands/check-scorecard.md",
+      "install": "npx agentscamp add commands/check-scorecard"
+    },
+    {
+      "id": "commands/check-storyboard-coverage",
+      "type": "command",
+      "slug": "check-storyboard-coverage",
+      "category": "review",
+      "title": "Check Storyboard Coverage",
+      "description": "Check storyboard-coverage.json for unique beat/shot IDs, cited beat excerpts, positive shot durations and uncovered script beats, without changing the script or storyboard.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/commands/review/check-storyboard-coverage",
+      "file": "commands/check-storyboard-coverage.md",
+      "install": "npx agentscamp add commands/check-storyboard-coverage"
+    },
+    {
+      "id": "commands/check-study-card-map",
+      "type": "command",
+      "slug": "check-study-card-map",
+      "category": "review",
+      "title": "Check Study Card Map",
+      "description": "Check a local study-card-map.json for valid card/source IDs, exact evidence quotes, duplicate questions and unresolved-card status, without editing it.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/review/check-study-card-map",
+      "file": "commands/check-study-card-map.md",
+      "install": "npx agentscamp add commands/check-study-card-map"
+    },
+    {
+      "id": "commands/check-support-cases",
+      "type": "command",
+      "slug": "check-support-cases",
+      "category": "testing",
+      "title": "Check Support Cases",
+      "description": "Validate a local JSONL support-answer testset with Python: unique case IDs, exact fields, answer/clarify/escalate expectations, required answer-card references and sources, and explicit escalation reasons; report counts without running a support bot.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/testing/check-support-cases",
+      "file": "commands/check-support-cases.md",
+      "install": "npx agentscamp add commands/check-support-cases"
+    },
+    {
+      "id": "commands/check-survey-paths",
+      "type": "command",
+      "slug": "check-survey-paths",
+      "category": "review",
+      "title": "Check Survey Paths",
+      "description": "Check survey-paths.json for complete single-choice routes, cycles, reachable nodes and expected test paths without editing the file or contacting a form service.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/review/check-survey-paths",
+      "file": "commands/check-survey-paths.md",
+      "install": "npx agentscamp add commands/check-survey-paths"
+    },
+    {
+      "id": "commands/check-translation-tokens",
+      "type": "command",
+      "slug": "check-translation-tokens",
+      "category": "marketing",
+      "title": "Check Translation Tokens",
+      "description": "Compare recognized named placeholders in a source-target translation CSV with Python, preserving token multiplicity and flagging blank targets. Supports exact {name}, {{name}}, and %(name)s/%(name)d forms; does not validate full ICU, HTML, positional placeholders, or translation meaning.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/marketing/check-translation-tokens",
+      "file": "commands/check-translation-tokens.md",
+      "install": "npx agentscamp add commands/check-translation-tokens"
     },
     {
       "id": "commands/clean-branches",
@@ -1135,6 +1690,35 @@
       "url": "https://agentscamp.com/commands/git/commit",
       "file": "commands/commit.md",
       "install": "npx agentscamp add commands/commit"
+    },
+    {
+      "id": "commands/convert-rules",
+      "type": "command",
+      "slug": "convert-rules",
+      "category": "workflow",
+      "title": "Convert Rules",
+      "description": "Convert one agent instruction file to another format (for example .cursorrules to CLAUDE.md, or CLAUDE.md to AGENTS.md), preserving wording and path scoping, and list the rules that did not map.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/workflow/convert-rules",
+      "file": "commands/convert-rules.md",
+      "install": "npx agentscamp add commands/convert-rules"
+    },
+    {
+      "id": "commands/count-feedback",
+      "type": "command",
+      "slug": "count-feedback",
+      "category": "analytics",
+      "title": "Count Feedback",
+      "description": "Count a single-label feedback CSV with code: validate record IDs, collapse exact duplicate rows, reject conflicting rows for one ID, and report records, distinct known respondents, missing identities, and label totals without inventing prevalence.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/analytics/count-feedback",
+      "file": "commands/count-feedback.md",
+      "install": "npx agentscamp add commands/count-feedback"
     },
     {
       "id": "commands/create-pr",
@@ -1422,6 +2006,36 @@
       "url": "https://agentscamp.com/commands/git/git-undo",
       "file": "commands/git-undo.md",
       "install": "npx agentscamp add commands/git-undo"
+    },
+    {
+      "id": "commands/llms-txt",
+      "type": "command",
+      "slug": "llms-txt",
+      "category": "docs",
+      "title": "llms.txt",
+      "description": "Generate or refresh llms.txt from the project's routes, sitemap, or docs navigation, write it to the static directory, and verify that every link resolves.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/docs/llms-txt",
+      "file": "commands/llms-txt.md",
+      "install": "npx agentscamp add commands/llms-txt"
+    },
+    {
+      "id": "commands/mcp-audit",
+      "type": "command",
+      "slug": "mcp-audit",
+      "category": "review",
+      "title": "MCP Audit",
+      "description": "Audit every MCP config file in the repository and home directory for unpinned packages, inline secrets, wide filesystem roots, unprotected remote servers, and poisoned tool descriptions. Read-only.",
+      "topics": [
+        "mcp",
+        "ai-safety-security"
+      ],
+      "url": "https://agentscamp.com/commands/review/mcp-audit",
+      "file": "commands/mcp-audit.md",
+      "install": "npx agentscamp add commands/mcp-audit"
     },
     {
       "id": "commands/new-component",
@@ -1738,6 +2352,21 @@
       "install": "npx agentscamp add commands/seed-data"
     },
     {
+      "id": "commands/seo-check",
+      "type": "command",
+      "slug": "seo-check",
+      "category": "marketing",
+      "title": "SEO Check",
+      "description": "Run a single-page SEO and AEO check on a file or URL (title and meta lengths, one H1, heading order, answer-first lead, FAQ, structured data, canonical, internal links, alt text) and return a pass-or-fix table.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/marketing/seo-check",
+      "file": "commands/seo-check.md",
+      "install": "npx agentscamp add commands/seo-check"
+    },
+    {
       "id": "commands/set-perf-budget",
       "type": "command",
       "slug": "set-perf-budget",
@@ -1778,6 +2407,21 @@
       "url": "https://agentscamp.com/commands/workflow/setup-precommit-hooks",
       "file": "commands/setup-precommit-hooks.md",
       "install": "npx agentscamp add commands/setup-precommit-hooks"
+    },
+    {
+      "id": "commands/snapshot-handoff",
+      "type": "command",
+      "slug": "snapshot-handoff",
+      "category": "docs",
+      "title": "Snapshot Handoff",
+      "description": "Create a deterministic inventory of an approved handoff directory: record relative file paths, byte lengths, and SHA-256 hashes with code, list skipped symlinks and unreadable files, and write a snapshot without interpreting project status or changing source files.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/commands/docs/snapshot-handoff",
+      "file": "commands/snapshot-handoff.md",
+      "install": "npx agentscamp add commands/snapshot-handoff"
     },
     {
       "id": "commands/sync-branch",
@@ -1925,6 +2569,19 @@
       "url": "https://agentscamp.com/glossary/agentic-ai"
     },
     {
+      "id": "glossary/agentic-browser",
+      "type": "glossary",
+      "slug": "agentic-browser",
+      "category": "term",
+      "title": "Agentic Browser",
+      "description": "An agentic browser is a web browser or extension with a built-in AI assistant that can read the pages you have open and act in them: click, type and fill forms.",
+      "topics": [
+        "ai-at-work",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/glossary/agentic-browser"
+    },
+    {
       "id": "glossary/agents-md",
       "type": "glossary",
       "slug": "agents-md",
@@ -2025,6 +2682,18 @@
       "url": "https://agentscamp.com/glossary/ai-slop"
     },
     {
+      "id": "glossary/ai-visibility",
+      "type": "glossary",
+      "slug": "ai-visibility",
+      "category": "term",
+      "title": "AI Visibility",
+      "description": "AI visibility is how often and how prominently a brand is mentioned, cited or linked in answers from AI engines such as ChatGPT, AI Overviews and Perplexity.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/glossary/ai-visibility"
+    },
+    {
       "id": "glossary/ai-wrapper",
       "type": "glossary",
       "slug": "ai-wrapper",
@@ -2036,6 +2705,32 @@
         "llm-app-dev"
       ],
       "url": "https://agentscamp.com/glossary/ai-wrapper"
+    },
+    {
+      "id": "glossary/alternative-text",
+      "type": "glossary",
+      "slug": "alternative-text",
+      "category": "term",
+      "title": "Alternative Text",
+      "description": "Choose useful wording for an image placement by keeping inspected observations, page purpose and human approval together.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/glossary/alternative-text"
+    },
+    {
+      "id": "glossary/animatic",
+      "type": "glossary",
+      "slug": "animatic",
+      "category": "term",
+      "title": "Animatic",
+      "description": "An animatic is a timed preview of storyboard frames, often with audio, used to review pacing before production; AI-generated frames remain drafts.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/glossary/animatic"
     },
     {
       "id": "glossary/answer-engine-optimization",
@@ -2050,6 +2745,18 @@
       "url": "https://agentscamp.com/glossary/answer-engine-optimization"
     },
     {
+      "id": "glossary/arc-agi",
+      "type": "glossary",
+      "slug": "arc-agi",
+      "category": "term",
+      "title": "ARC-AGI",
+      "description": "ARC-AGI is the ARC Prize Foundation's fluid-intelligence benchmark: grid puzzles (ARC-AGI-1 and 2) and, since March 2026, interactive environments (ARC-AGI-3).",
+      "topics": [
+        "llm-evals"
+      ],
+      "url": "https://agentscamp.com/glossary/arc-agi"
+    },
+    {
       "id": "glossary/attention-mechanism",
       "type": "glossary",
       "slug": "attention-mechanism",
@@ -2062,6 +2769,19 @@
       "url": "https://agentscamp.com/glossary/attention-mechanism"
     },
     {
+      "id": "glossary/automatic-captioning",
+      "type": "glossary",
+      "slug": "automatic-captioning",
+      "category": "term",
+      "title": "Automatic captioning",
+      "description": "Automatic captioning uses speech recognition to produce timed text for media; human review checks meaning, speaker cues and meaningful sounds.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/glossary/automatic-captioning"
+    },
+    {
       "id": "glossary/batch-inference",
       "type": "glossary",
       "slug": "batch-inference",
@@ -2072,6 +2792,19 @@
         "llm-app-dev"
       ],
       "url": "https://agentscamp.com/glossary/batch-inference"
+    },
+    {
+      "id": "glossary/blocking-record-matching",
+      "type": "glossary",
+      "slug": "blocking-record-matching",
+      "category": "term",
+      "title": "Blocking in Record Matching",
+      "description": "Understand how a candidate-selection rule can miss known pairs and why missing fields need coverage checks before identity review.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/glossary/blocking-record-matching"
     },
     {
       "id": "glossary/brand-voice",
@@ -2123,6 +2856,18 @@
       "url": "https://agentscamp.com/glossary/claude-cowork"
     },
     {
+      "id": "glossary/claude-md",
+      "type": "glossary",
+      "slug": "claude-md",
+      "category": "term",
+      "title": "CLAUDE.md",
+      "description": "CLAUDE.md is Claude Code's Markdown instruction file, loaded at the start of every session to give Claude persistent project, user or organization guidance.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/glossary/claude-md"
+    },
+    {
       "id": "glossary/claude-plugins",
       "type": "glossary",
       "slug": "claude-plugins",
@@ -2146,6 +2891,31 @@
         "llm-app-dev"
       ],
       "url": "https://agentscamp.com/glossary/code-execution"
+    },
+    {
+      "id": "glossary/coding-agent",
+      "type": "glossary",
+      "slug": "coding-agent",
+      "category": "term",
+      "title": "Coding Agent",
+      "description": "An AI coding agent is a tool that takes a software task and works through it on its own: reading the codebase, editing files, running commands and tests.",
+      "topics": [
+        "ai-agents-systems",
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/glossary/coding-agent"
+    },
+    {
+      "id": "glossary/compliance-matrix",
+      "type": "glossary",
+      "slug": "compliance-matrix",
+      "category": "term",
+      "title": "Compliance Matrix",
+      "description": "An RFP compliance matrix maps each buyer requirement to its source, response location, evidence, owner, and reviewed status throughout a proposal.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/glossary/compliance-matrix"
     },
     {
       "id": "glossary/computer-use",
@@ -2184,6 +2954,19 @@
       "url": "https://agentscamp.com/glossary/context-engineering"
     },
     {
+      "id": "glossary/context-rot",
+      "type": "glossary",
+      "slug": "context-rot",
+      "category": "term",
+      "title": "Context Rot",
+      "description": "Context rot is the decline in an LLM's ability to recall and use information accurately as the number of tokens in its context window grows.",
+      "topics": [
+        "workflow-prompting",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/glossary/context-rot"
+    },
+    {
       "id": "glossary/context-window",
       "type": "glossary",
       "slug": "context-window",
@@ -2194,6 +2977,18 @@
         "llm-app-dev"
       ],
       "url": "https://agentscamp.com/glossary/context-window"
+    },
+    {
+      "id": "glossary/contract-abstraction",
+      "type": "glossary",
+      "slug": "contract-abstraction",
+      "category": "term",
+      "title": "Contract Abstraction",
+      "description": "Contract abstraction extracts selected parties, dates, obligations, and terms from an agreement into a structured summary that retains source references.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/glossary/contract-abstraction"
     },
     {
       "id": "glossary/conversation-intelligence",
@@ -2233,6 +3028,30 @@
       "url": "https://agentscamp.com/glossary/cosine-similarity"
     },
     {
+      "id": "glossary/cursor-rules",
+      "type": "glossary",
+      "slug": "cursor-rules",
+      "category": "term",
+      "title": "Cursor Rules",
+      "description": "Cursor rules are persistent instructions for Cursor's AI agent: project rules as .cursor/rules/*.mdc files with frontmatter, plus User Rules and Team Rules.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/glossary/cursor-rules"
+    },
+    {
+      "id": "glossary/data-lineage",
+      "type": "glossary",
+      "slug": "data-lineage",
+      "category": "term",
+      "title": "Data Lineage",
+      "description": "Data lineage records where data comes from, how it changes, and where it is used, helping teams trace an AI output back through its inputs.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/glossary/data-lineage"
+    },
+    {
       "id": "glossary/design-to-code",
       "type": "glossary",
       "slug": "design-to-code",
@@ -2270,6 +3089,19 @@
         "data-ml"
       ],
       "url": "https://agentscamp.com/glossary/diffusion-model"
+    },
+    {
+      "id": "glossary/digital-asset-management",
+      "type": "glossary",
+      "slug": "digital-asset-management",
+      "category": "term",
+      "title": "Digital Asset Management",
+      "description": "A catalog-review concept for separating files, descriptive metadata and supplied approval records before reuse.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/glossary/digital-asset-management"
     },
     {
       "id": "glossary/distillation",
@@ -2320,6 +3152,19 @@
       "url": "https://agentscamp.com/glossary/embedding-dimension"
     },
     {
+      "id": "glossary/entity-resolution",
+      "type": "glossary",
+      "slug": "entity-resolution",
+      "category": "term",
+      "title": "Entity Resolution",
+      "description": "Understand the identity question behind similar records, including false merges, missed matches and the source owner’s unresolved decisions.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/glossary/entity-resolution"
+    },
+    {
       "id": "glossary/eval-dataset",
       "type": "glossary",
       "slug": "eval-dataset",
@@ -2330,6 +3175,18 @@
         "llm-evals"
       ],
       "url": "https://agentscamp.com/glossary/eval-dataset"
+    },
+    {
+      "id": "glossary/evidence-synthesis",
+      "type": "glossary",
+      "slug": "evidence-synthesis",
+      "category": "term",
+      "title": "Evidence Synthesis",
+      "description": "Evidence synthesis brings findings from multiple studies together to answer a research question while retaining differences, limitations, and uncertainty.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/glossary/evidence-synthesis"
     },
     {
       "id": "glossary/extended-thinking",
@@ -2380,6 +3237,19 @@
       "url": "https://agentscamp.com/glossary/flash-attention"
     },
     {
+      "id": "glossary/formative-assessment",
+      "type": "glossary",
+      "slug": "formative-assessment",
+      "category": "term",
+      "title": "Formative assessment",
+      "description": "Formative assessment gathers feedback during learning so teachers and learners can adjust next steps; an AI draft still needs educator review.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/glossary/formative-assessment"
+    },
+    {
       "id": "glossary/frontier-model",
       "type": "glossary",
       "slug": "frontier-model",
@@ -2428,6 +3298,18 @@
         "multimodal-ai"
       ],
       "url": "https://agentscamp.com/glossary/generative-ui"
+    },
+    {
+      "id": "glossary/gguf",
+      "type": "glossary",
+      "slug": "gguf",
+      "category": "term",
+      "title": "GGUF",
+      "description": "GGUF is the single-file binary model format used by llama.cpp and other GGML-based runtimes, storing quantized tensors plus typed metadata in one file.",
+      "topics": [
+        "mlops-ai-infra"
+      ],
+      "url": "https://agentscamp.com/glossary/gguf"
     },
     {
       "id": "glossary/grounding",
@@ -2600,6 +3482,18 @@
       "url": "https://agentscamp.com/glossary/llms-txt"
     },
     {
+      "id": "glossary/lmarena",
+      "type": "glossary",
+      "slug": "lmarena",
+      "category": "term",
+      "title": "LMArena (now Arena)",
+      "description": "LMArena, now Arena and originally Chatbot Arena, is a crowdsourced leaderboard that ranks models from anonymous pairwise votes using Bradley-Terry scores.",
+      "topics": [
+        "llm-evals"
+      ],
+      "url": "https://agentscamp.com/glossary/lmarena"
+    },
+    {
       "id": "glossary/lora",
       "type": "glossary",
       "slug": "lora",
@@ -2610,6 +3504,18 @@
         "mlops-ai-infra"
       ],
       "url": "https://agentscamp.com/glossary/lora"
+    },
+    {
+      "id": "glossary/machine-translation-post-editing",
+      "type": "glossary",
+      "slug": "machine-translation-post-editing",
+      "category": "term",
+      "title": "Machine Translation Post-editing",
+      "description": "Machine translation post-editing is human revision of machine-translated text against the source, context, terminology, and agreed quality requirements.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/glossary/machine-translation-post-editing"
     },
     {
       "id": "glossary/mixture-of-experts",
@@ -2696,6 +3602,31 @@
       "url": "https://agentscamp.com/glossary/open-weights"
     },
     {
+      "id": "glossary/optical-character-recognition",
+      "type": "glossary",
+      "slug": "optical-character-recognition",
+      "category": "term",
+      "title": "Optical character recognition (OCR)",
+      "description": "Optical character recognition converts text pictured in a scan or image into machine-readable characters; recognition output still needs source checks.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/glossary/optical-character-recognition"
+    },
+    {
+      "id": "glossary/pass-at-k",
+      "type": "glossary",
+      "slug": "pass-at-k",
+      "category": "term",
+      "title": "pass@k",
+      "description": "pass@k is the probability that at least one of k generated samples passes a task's tests; pass@1 is the single-attempt rate and pass^k needs all k to pass.",
+      "topics": [
+        "llm-evals"
+      ],
+      "url": "https://agentscamp.com/glossary/pass-at-k"
+    },
+    {
       "id": "glossary/perplexity",
       "type": "glossary",
       "slug": "perplexity",
@@ -2706,6 +3637,31 @@
         "llm-evals"
       ],
       "url": "https://agentscamp.com/glossary/perplexity"
+    },
+    {
+      "id": "glossary/physically-based-rendering",
+      "type": "glossary",
+      "slug": "physically-based-rendering",
+      "category": "term",
+      "title": "Physically Based Rendering",
+      "description": "Review an AI material handoff without confusing supplied map files with verified appearance in the target scene.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/glossary/physically-based-rendering"
+    },
+    {
+      "id": "glossary/process-capture",
+      "type": "glossary",
+      "slug": "process-capture",
+      "category": "term",
+      "title": "Process Capture",
+      "description": "Process capture records how a task is actually performed, preserving observed actions and context as input to a reviewed procedure or training guide.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/glossary/process-capture"
     },
     {
       "id": "glossary/prompt-caching",
@@ -2802,6 +3758,19 @@
         "llm-app-dev"
       ],
       "url": "https://agentscamp.com/glossary/reasoning-model"
+    },
+    {
+      "id": "glossary/record-linkage",
+      "type": "glossary",
+      "slug": "record-linkage",
+      "category": "term",
+      "title": "Record Linkage",
+      "description": "Understand the reviewable crosswalk needed before joining sources with unrelated keys, ambiguous candidates and explicit cardinality policies.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/glossary/record-linkage"
     },
     {
       "id": "glossary/red-teaming",
@@ -2902,6 +3871,19 @@
       "url": "https://agentscamp.com/glossary/semantic-search"
     },
     {
+      "id": "glossary/skip-logic",
+      "type": "glossary",
+      "slug": "skip-logic",
+      "category": "term",
+      "title": "Skip Logic",
+      "description": "Skip logic routes a respondent to different survey questions or endings based on answers or other stated conditions.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/glossary/skip-logic"
+    },
+    {
       "id": "glossary/small-language-model",
       "type": "glossary",
       "slug": "small-language-model",
@@ -2914,6 +3896,19 @@
       "url": "https://agentscamp.com/glossary/small-language-model"
     },
     {
+      "id": "glossary/spaced-repetition",
+      "type": "glossary",
+      "slug": "spaced-repetition",
+      "category": "term",
+      "title": "Spaced repetition",
+      "description": "Spaced repetition schedules reviews over time using recall feedback; AI can draft the cards, while the learner still checks their answers.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/glossary/spaced-repetition"
+    },
+    {
       "id": "glossary/speculative-decoding",
       "type": "glossary",
       "slug": "speculative-decoding",
@@ -2924,6 +3919,31 @@
         "mlops-ai-infra"
       ],
       "url": "https://agentscamp.com/glossary/speculative-decoding"
+    },
+    {
+      "id": "glossary/speech-enhancement",
+      "type": "glossary",
+      "slug": "speech-enhancement",
+      "category": "term",
+      "title": "Speech enhancement",
+      "description": "Speech enhancement reduces unwanted noise or artifacts in recorded speech; AI-processed audio still needs comparison with the original for intelligibility.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/glossary/speech-enhancement"
+    },
+    {
+      "id": "glossary/structured-interview",
+      "type": "glossary",
+      "slug": "structured-interview",
+      "category": "term",
+      "title": "Structured Interview",
+      "description": "A structured interview uses predetermined job-related questions and shared evaluation standards so interviewers collect comparable evidence from candidates.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/glossary/structured-interview"
     },
     {
       "id": "glossary/structured-output",
@@ -2948,6 +3968,18 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/glossary/subagent"
+    },
+    {
+      "id": "glossary/swe-bench",
+      "type": "glossary",
+      "slug": "swe-bench",
+      "category": "term",
+      "title": "SWE-bench",
+      "description": "SWE-bench is a benchmark that scores language models on resolving real GitHub issues; SWE-bench Verified is its human-validated 500-task subset.",
+      "topics": [
+        "llm-evals"
+      ],
+      "url": "https://agentscamp.com/glossary/swe-bench"
     },
     {
       "id": "glossary/synthetic-data",
@@ -2984,6 +4016,18 @@
         "llm-app-dev"
       ],
       "url": "https://agentscamp.com/glossary/temperature"
+    },
+    {
+      "id": "glossary/terminal-bench",
+      "type": "glossary",
+      "slug": "terminal-bench",
+      "category": "term",
+      "title": "Terminal-Bench",
+      "description": "Terminal-Bench is a benchmark of hard, containerized terminal tasks that scores AI agents by resolution rate; version 4.0 (August 2026) has 66 tasks.",
+      "topics": [
+        "llm-evals"
+      ],
+      "url": "https://agentscamp.com/glossary/terminal-bench"
     },
     {
       "id": "glossary/test-time-compute",
@@ -3024,6 +4068,30 @@
       "url": "https://agentscamp.com/glossary/text-to-sql"
     },
     {
+      "id": "glossary/thematic-analysis",
+      "type": "glossary",
+      "slug": "thematic-analysis",
+      "category": "term",
+      "title": "Thematic Analysis",
+      "description": "Thematic analysis interprets patterns of meaning in qualitative data, such as interview transcripts, open survey answers, and customer feedback.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/glossary/thematic-analysis"
+    },
+    {
+      "id": "glossary/ticket-deflection",
+      "type": "glossary",
+      "slug": "ticket-deflection",
+      "category": "term",
+      "title": "Ticket Deflection",
+      "description": "Ticket deflection means helping a customer find an answer through self-service before they submit a support ticket or need a human support queue.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/glossary/ticket-deflection"
+    },
+    {
       "id": "glossary/token-streaming",
       "type": "glossary",
       "slug": "token-streaming",
@@ -3046,6 +4114,19 @@
         "data-ml"
       ],
       "url": "https://agentscamp.com/glossary/tokenization"
+    },
+    {
+      "id": "glossary/tool-poisoning",
+      "type": "glossary",
+      "slug": "tool-poisoning",
+      "category": "term",
+      "title": "Tool Poisoning (MCP)",
+      "description": "Tool poisoning is an MCP attack in which malicious instructions hidden in a tool's description steer the model without the user seeing them.",
+      "topics": [
+        "ai-safety-security",
+        "mcp"
+      ],
+      "url": "https://agentscamp.com/glossary/tool-poisoning"
     },
     {
       "id": "glossary/top-k",
@@ -3106,6 +4187,19 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/glossary/tree-of-thoughts"
+    },
+    {
+      "id": "glossary/uv-mapping",
+      "type": "glossary",
+      "slug": "uv-mapping",
+      "category": "term",
+      "title": "UV Mapping",
+      "description": "Understand why a 3D handoff keeps mesh, surface-layout and texture versions together before approving their actual target appearance.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/glossary/uv-mapping"
     },
     {
       "id": "glossary/vector-database",
@@ -3181,6 +4275,19 @@
       "url": "https://agentscamp.com/guides/vision/add-image-understanding-to-your-app"
     },
     {
+      "id": "guides/adjudicate-ai-assisted-text-labels",
+      "type": "guide",
+      "slug": "adjudicate-ai-assisted-text-labels",
+      "category": "data",
+      "title": "Adjudicate AI-Assisted Text Labels with an Evidence Ledger",
+      "description": "Resolve disputed text labels by preserving each response, source excerpt and task-rule version rather than accepting the model or majority automatically.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/data/adjudicate-ai-assisted-text-labels"
+    },
+    {
       "id": "guides/agent-frameworks-2026",
       "type": "guide",
       "slug": "agent-frameworks-2026",
@@ -3229,6 +4336,58 @@
         "ai-agents-systems"
       ],
       "url": "https://agentscamp.com/guides/concepts/agentic-rag"
+    },
+    {
+      "id": "guides/agents-md-vs-claude-md-vs-cursor-rules",
+      "type": "guide",
+      "slug": "agents-md-vs-claude-md-vs-cursor-rules",
+      "category": "configuration",
+      "title": "AGENTS.md vs CLAUDE.md vs Cursor Rules: Which Instruction File Do You Need?",
+      "description": "AGENTS.md, CLAUDE.md, Cursor .mdc rules, GEMINI.md, Copilot instructions, Codex, Devin Desktop and Cline compared: who reads what, nesting, and migration.",
+      "topics": [
+        "workflow-prompting",
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/guides/configuration/agents-md-vs-claude-md-vs-cursor-rules"
+    },
+    {
+      "id": "guides/ai-alt-text-context-review",
+      "type": "guide",
+      "slug": "ai-alt-text-context-review",
+      "category": "design",
+      "title": "Review AI Alt Text in the Context of Its Page",
+      "description": "Draft image text alternatives from actual image evidence and page purpose, then review informative, decorative and functional uses before publishing.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/design/ai-alt-text-context-review"
+    },
+    {
+      "id": "guides/ai-asset-search-acceptance-test",
+      "type": "guide",
+      "slug": "ai-asset-search-acceptance-test",
+      "category": "marketing",
+      "title": "Test AI Asset Search with Known Asset Examples",
+      "description": "Evaluate asset discovery with a small set of known examples, expected exclusions and reviewed results before relying on natural-language catalog search.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/marketing/ai-asset-search-acceptance-test"
+    },
+    {
+      "id": "guides/ai-chart-long-descriptions",
+      "type": "guide",
+      "slug": "ai-chart-long-descriptions",
+      "category": "design",
+      "title": "Draft AI Chart Long Descriptions from Verified Data",
+      "description": "Review a chart-description draft against the frozen source table, actual visual observations and its implemented page placement.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/design/ai-chart-long-descriptions"
     },
     {
       "id": "guides/ai-code-review-workflow",
@@ -3282,6 +4441,70 @@
       "url": "https://agentscamp.com/guides/marketing/ai-content-and-search-2026"
     },
     {
+      "id": "guides/ai-customer-support-answer-library",
+      "type": "guide",
+      "slug": "ai-customer-support-answer-library",
+      "category": "workflow",
+      "title": "Build an AI Customer Support Answer Library You Can Check",
+      "description": "Build an AI support answer library with source-backed answer cards, eligibility limits, escalation rules, and checked customer-question test cases.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/workflow/ai-customer-support-answer-library"
+    },
+    {
+      "id": "guides/ai-digital-asset-metadata",
+      "type": "guide",
+      "slug": "ai-digital-asset-metadata",
+      "category": "marketing",
+      "title": "Review AI Digital Asset Metadata with a Controlled Vocabulary",
+      "description": "Review AI-suggested asset tags against a supplied vocabulary, original asset versions and human visual observations before changing a catalog.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/marketing/ai-digital-asset-metadata"
+    },
+    {
+      "id": "guides/ai-document-research-with-citations",
+      "type": "guide",
+      "slug": "ai-document-research-with-citations",
+      "category": "workflow",
+      "title": "How to Research Documents with AI and Verify Citations",
+      "description": "Turn a set of documents into a defensible AI research brief with a source register, conflict table, citation checks, and clear unanswered questions.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/guides/workflow/ai-document-research-with-citations"
+    },
+    {
+      "id": "guides/ai-duplicate-record-review",
+      "type": "guide",
+      "slug": "ai-duplicate-record-review",
+      "category": "analytics",
+      "title": "Review AI Duplicate-Record Candidates Before Merging",
+      "description": "Separate duplicate-record candidate generation from human match decisions, retaining source keys and field evidence before any merge.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/analytics/ai-duplicate-record-review"
+    },
+    {
+      "id": "guides/ai-email-thread-summary-reply",
+      "type": "guide",
+      "slug": "ai-email-thread-summary-reply",
+      "category": "workflow",
+      "title": "How to Summarize an Email Thread with AI and Draft a Reply",
+      "description": "Use AI to reconstruct a long email thread, distinguish current decisions from old requests, identify open questions, and draft a reply for review.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/workflow/ai-email-thread-summary-reply"
+    },
+    {
       "id": "guides/ai-engineer-roadmap-2026",
       "type": "guide",
       "slug": "ai-engineer-roadmap-2026",
@@ -3295,6 +4518,199 @@
       "url": "https://agentscamp.com/guides/getting-started/ai-engineer-roadmap-2026"
     },
     {
+      "id": "guides/ai-exit-tickets-from-lesson-objectives",
+      "type": "guide",
+      "slug": "ai-exit-tickets-from-lesson-objectives",
+      "category": "workflow",
+      "title": "Draft AI Exit Tickets from Lesson Objectives",
+      "description": "Draft short AI-assisted exit tickets from taught material, map each prompt to a learning objective, and review the answer key before classroom use.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/workflow/ai-exit-tickets-from-lesson-objectives"
+    },
+    {
+      "id": "guides/ai-explanatory-diagram-from-text",
+      "type": "guide",
+      "slug": "ai-explanatory-diagram-from-text",
+      "category": "design",
+      "title": "Create an AI Explanatory Diagram from Approved Text",
+      "description": "Choose a diagram that preserves the relationships in approved text, then inspect labels, arrows and the exported visual before reuse.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/design/ai-explanatory-diagram-from-text"
+    },
+    {
+      "id": "guides/ai-interview-scorecard",
+      "type": "guide",
+      "slug": "ai-interview-scorecard",
+      "category": "founders",
+      "title": "Build an Interview Scorecard with AI from Job Evidence",
+      "description": "Build an interview scorecard with AI using approved job tasks, observable competencies, shared questions, rating anchors, and human rubric review.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/founders/ai-interview-scorecard"
+    },
+    {
+      "id": "guides/ai-literature-review-workflow",
+      "type": "guide",
+      "slug": "ai-literature-review-workflow",
+      "category": "workflow",
+      "title": "AI Literature Review Workflow: Screen, Extract, and Verify",
+      "description": "Use AI for a literature review with explicit eligibility criteria, study-level evidence tables, source locations, and checks for missing or conflicting data.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/workflow/ai-literature-review-workflow"
+    },
+    {
+      "id": "guides/ai-localization-review-workflow",
+      "type": "guide",
+      "slug": "ai-localization-review-workflow",
+      "category": "marketing",
+      "title": "Review AI Localization with a Glossary and Source-Target Checks",
+      "description": "Review AI-translated copy with a source-target register, approved terminology, protected placeholders, contextual checks, and qualified language review.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/marketing/ai-localization-review-workflow"
+    },
+    {
+      "id": "guides/ai-meeting-notes-action-items",
+      "type": "guide",
+      "slug": "ai-meeting-notes-action-items",
+      "category": "workflow",
+      "title": "AI Meeting Notes: Turn Transcripts into Decisions and Action Items",
+      "description": "Use AI to turn a meeting transcript into clear minutes, with evidence for decisions, confirmed owners, unresolved questions, and a reviewable action list.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/guides/workflow/ai-meeting-notes-action-items"
+    },
+    {
+      "id": "guides/ai-presentation-from-report",
+      "type": "guide",
+      "slug": "ai-presentation-from-report",
+      "category": "workflow",
+      "title": "Create an AI Presentation from a Report: A Reviewable Workflow",
+      "description": "Turn a business report into an AI-assisted presentation with a claim-to-slide map, source checks, speaker notes, and a finished-deck review.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/guides/workflow/ai-presentation-from-report"
+    },
+    {
+      "id": "guides/ai-project-handoff",
+      "type": "guide",
+      "slug": "ai-project-handoff",
+      "category": "workflow",
+      "title": "Create an AI Project Handoff Another Teammate Can Use",
+      "description": "Create a project handoff with AI that preserves source files, current decisions, open questions, owners, and an acceptance check for the next teammate.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/workflow/ai-project-handoff"
+    },
+    {
+      "id": "guides/ai-rfp-compliance-matrix",
+      "type": "guide",
+      "slug": "ai-rfp-compliance-matrix",
+      "category": "sales",
+      "title": "Build an RFP Compliance Matrix with AI and Evidence",
+      "description": "Build an RFP compliance matrix with AI that maps every requirement to source text, approved evidence, response locations, owners, and unresolved gaps.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/sales/ai-rfp-compliance-matrix"
+    },
+    {
+      "id": "guides/ai-standard-operating-procedures",
+      "type": "guide",
+      "slug": "ai-standard-operating-procedures",
+      "category": "workflow",
+      "title": "Create Standard Operating Procedures with AI from a Real Workflow",
+      "description": "Create an SOP with AI from captured steps, explicit prerequisites, exception paths, and a teammate walkthrough that checks the procedure.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/workflow/ai-standard-operating-procedures"
+    },
+    {
+      "id": "guides/ai-storyboard-from-script",
+      "type": "guide",
+      "slug": "ai-storyboard-from-script",
+      "category": "design",
+      "title": "Plan an AI Storyboard from an Approved Script",
+      "description": "Map an approved script into AI-assisted storyboard shots with beat IDs, visual constraints, continuity checks and a human review before production.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/guides/design/ai-storyboard-from-script"
+    },
+    {
+      "id": "guides/ai-study-cards-from-notes",
+      "type": "guide",
+      "slug": "ai-study-cards-from-notes",
+      "category": "workflow",
+      "title": "Build AI Study Cards from Your Notes",
+      "description": "Turn approved notes into checked AI study cards with one learning target, source quotes, unresolved questions and a learner review before practice.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/workflow/ai-study-cards-from-notes"
+    },
+    {
+      "id": "guides/ai-survey-branching-plan",
+      "type": "guide",
+      "slug": "ai-survey-branching-plan",
+      "category": "workflow",
+      "title": "Plan AI Survey Branching Before Building the Form",
+      "description": "Turn approved survey questions and routing rules into an explicit branch table, with stable IDs and unresolved paths before an AI form builder runs.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/workflow/ai-survey-branching-plan"
+    },
+    {
+      "id": "guides/ai-text-dataset-prelabeling",
+      "type": "guide",
+      "slug": "ai-text-dataset-prelabeling",
+      "category": "data",
+      "title": "Prelabel a Text Dataset with AI Without Replacing Review",
+      "description": "Prepare a small supervised text-labeling batch with separate model suggestions and human responses, using stable record IDs and an approved task specification.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/data/ai-text-dataset-prelabeling"
+    },
+    {
+      "id": "guides/ai-vendor-contract-review-packet",
+      "type": "guide",
+      "slug": "ai-vendor-contract-review-packet",
+      "category": "workflow",
+      "title": "Prepare a Vendor Contract Review Packet with AI",
+      "description": "Prepare a vendor contract review packet with AI that preserves clause evidence, conditions, obligation dates, missing documents, and reviewer questions.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/workflow/ai-vendor-contract-review-packet"
+    },
+    {
       "id": "guides/aider-vs-claude-code",
       "type": "guide",
       "slug": "aider-vs-claude-code",
@@ -3305,6 +4721,19 @@
         "ai-agents-systems"
       ],
       "url": "https://agentscamp.com/guides/comparisons/aider-vs-claude-code"
+    },
+    {
+      "id": "guides/analyze-customer-feedback-with-ai",
+      "type": "guide",
+      "slug": "analyze-customer-feedback-with-ai",
+      "category": "workflow",
+      "title": "Analyze Customer Feedback with AI: Themes You Can Check",
+      "description": "Analyze customer feedback with AI using a source register, a reviewed codebook, distinct customer counts, and examples that preserve context.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/workflow/analyze-customer-feedback-with-ai"
     },
     {
       "id": "guides/are-claude-skills-safe",
@@ -3359,6 +4788,19 @@
       "url": "https://agentscamp.com/guides/comparisons/best-ai-app-builders-2026"
     },
     {
+      "id": "guides/best-ai-browsers-2026",
+      "type": "guide",
+      "slug": "best-ai-browsers-2026",
+      "category": "comparisons",
+      "title": "Best AI Browsers in 2026",
+      "description": "Perplexity Comet, Dia, Claude in Chrome, Gemini in Chrome, Copilot in Edge, Opera Neon and Brave Leo compared on agent mode, memory, platforms and security.",
+      "topics": [
+        "ai-at-work",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-ai-browsers-2026"
+    },
+    {
       "id": "guides/best-ai-code-review-tools-2026",
       "type": "guide",
       "slug": "best-ai-code-review-tools-2026",
@@ -3382,6 +4824,18 @@
         "multimodal-ai"
       ],
       "url": "https://agentscamp.com/guides/comparisons/best-ai-image-generators-2026"
+    },
+    {
+      "id": "guides/best-ai-meeting-note-takers-2026",
+      "type": "guide",
+      "slug": "best-ai-meeting-note-takers-2026",
+      "category": "comparisons",
+      "title": "Best AI Meeting Note Takers in 2026",
+      "description": "Granola, Otter.ai, Fathom, Fireflies and tl;dv compared with the notetakers built into Zoom, Meet and Teams, by capture method, platforms and extras.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-ai-meeting-note-takers-2026"
     },
     {
       "id": "guides/best-ai-sales-tools-2026",
@@ -3447,6 +4901,31 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/guides/comparisons/best-ai-tools-for-marketers-2026"
+    },
+    {
+      "id": "guides/best-ai-video-generators-2026",
+      "type": "guide",
+      "slug": "best-ai-video-generators-2026",
+      "category": "comparisons",
+      "title": "Best AI Video Generators in 2026",
+      "description": "Runway, Kling, Google Veo, Luma, MiniMax H3, Pika, Wan, and Seedance compared on clip length, resolution, audio, API, and ownership, plus Sora's shutdown.",
+      "topics": [
+        "multimodal-ai",
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-ai-video-generators-2026"
+    },
+    {
+      "id": "guides/best-ai-visibility-tools-2026",
+      "type": "guide",
+      "slug": "best-ai-visibility-tools-2026",
+      "category": "comparisons",
+      "title": "Best AI Visibility Tools in 2026 (GEO and AEO Tracking)",
+      "description": "Profound, Peec AI, Otterly, Semrush, Ahrefs, Surfer, Clearscope, Scrunch, and AthenaHQ compared on engines, prompt volume, citations, bot analytics, and API.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-ai-visibility-tools-2026"
     },
     {
       "id": "guides/best-ai-writing-tools-2026",
@@ -3616,6 +5095,19 @@
       "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-git"
     },
     {
+      "id": "guides/best-claude-skills-for-llm-evals",
+      "type": "guide",
+      "slug": "best-claude-skills-for-llm-evals",
+      "category": "skills",
+      "title": "8 Best Claude Skills for LLM Evals",
+      "description": "Compare Claude skills and commands for eval suites, prompt regression harnesses, LLM-as-judge rubrics, groundedness checks, agent trajectories, and CI gates.",
+      "topics": [
+        "llm-evals",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-llm-evals"
+    },
+    {
       "id": "guides/best-claude-skills-for-performance",
       "type": "guide",
       "slug": "best-claude-skills-for-performance",
@@ -3627,6 +5119,32 @@
         "coding-languages"
       ],
       "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-performance"
+    },
+    {
+      "id": "guides/best-claude-skills-for-product-managers",
+      "type": "guide",
+      "slug": "best-claude-skills-for-product-managers",
+      "category": "skills",
+      "title": "9 Best Claude Skills for Product Managers",
+      "description": "Compare Claude skills for PRDs, MVP scope cuts, competitor teardowns, interview synthesis, feedback codebooks, survey tests, scorecards, and investor updates.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-product-managers"
+    },
+    {
+      "id": "guides/best-claude-skills-for-prompt-engineering",
+      "type": "guide",
+      "slug": "best-claude-skills-for-prompt-engineering",
+      "category": "skills",
+      "title": "9 Best Claude Skills for Prompt Engineering",
+      "description": "Compare Claude skills for prompt rewrites, regression harnesses, output schemas, tool definitions, prompt caching, PII redaction, and CLAUDE.md memory.",
+      "topics": [
+        "workflow-prompting",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-prompt-engineering"
     },
     {
       "id": "guides/best-claude-skills-for-rag",
@@ -3679,6 +5197,19 @@
         "review-qa"
       ],
       "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-security"
+    },
+    {
+      "id": "guides/best-claude-skills-for-seo",
+      "type": "guide",
+      "slug": "best-claude-skills-for-seo",
+      "category": "skills",
+      "title": "9 Best Claude Skills for SEO (and AI Search)",
+      "description": "Compare Claude skills, commands, and agents for technical SEO audits, structured data, answer-engine readiness, llms.txt, content briefs, landing pages, Core Web Vitals, and brand voice.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-seo"
     },
     {
       "id": "guides/best-claude-skills-for-testing",
@@ -3785,6 +5316,18 @@
       "url": "https://agentscamp.com/guides/mcp/best-mcp-servers-2026"
     },
     {
+      "id": "guides/best-open-source-llms-2026",
+      "type": "guide",
+      "slug": "best-open-source-llms-2026",
+      "category": "comparisons",
+      "title": "Best Open-Source LLMs in 2026: The Open-Weight Families Compared",
+      "description": "The open-weight LLM families current in October 2026, from DeepSeek and Qwen to Gemma 4 and Muse, with sizes, context, the exact licence and where to run them.",
+      "topics": [
+        "mlops-ai-infra"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-open-source-llms-2026"
+    },
+    {
       "id": "guides/best-rag-frameworks-2026",
       "type": "guide",
       "slug": "best-rag-frameworks-2026",
@@ -3847,6 +5390,19 @@
         "rag-retrieval"
       ],
       "url": "https://agentscamp.com/guides/database/best-vector-database-2026"
+    },
+    {
+      "id": "guides/best-voice-agent-platforms-2026",
+      "type": "guide",
+      "slug": "best-voice-agent-platforms-2026",
+      "category": "comparisons",
+      "title": "Best Voice Agent Platforms in 2026: Vapi vs Retell AI vs Bland AI vs LiveKit",
+      "description": "Vapi, Retell AI, Bland AI, LiveKit Agents, Pipecat, ElevenLabs Agents and OpenAI Realtime compared on build-vs-buy, telephony, custom LLMs and open source.",
+      "topics": [
+        "multimodal-ai",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-voice-agent-platforms-2026"
     },
     {
       "id": "guides/best-web-search-apis-for-ai-agents-2026",
@@ -3950,6 +5506,19 @@
         "llm-app-dev"
       ],
       "url": "https://agentscamp.com/guides/concepts/calling-any-model-gateways"
+    },
+    {
+      "id": "guides/chatgpt-projects-vs-claude-projects",
+      "type": "guide",
+      "slug": "chatgpt-projects-vs-claude-projects",
+      "category": "comparisons",
+      "title": "ChatGPT Projects vs Claude Projects for Teams",
+      "description": "Compare shared AI project context in ChatGPT and Claude, then build a team brief with clear instructions, source ownership, and a review process.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/chatgpt-projects-vs-claude-projects"
     },
     {
       "id": "guides/chatgpt-vs-claude-for-data-analysis",
@@ -4205,6 +5774,18 @@
       "url": "https://agentscamp.com/guides/troubleshooting/claude-code-troubleshooting"
     },
     {
+      "id": "guides/claude-code-usage-limits",
+      "type": "guide",
+      "slug": "claude-code-usage-limits",
+      "category": "getting-started",
+      "title": "Claude Code Usage Limits Explained: Five-Hour Windows, Weekly Caps, and How to Stretch Them",
+      "description": "How Claude Code usage limits work: the five-hour session limit, weekly caps, what counts toward usage, /usage, usage credits, and eight ways to use less.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/getting-started/claude-code-usage-limits"
+    },
+    {
       "id": "guides/claude-code-vs-codex-cli",
       "type": "guide",
       "slug": "claude-code-vs-codex-cli",
@@ -4254,6 +5835,19 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/guides/comparisons/claude-code-vs-opencode"
+    },
+    {
+      "id": "guides/claude-code-vscode-extension",
+      "type": "guide",
+      "slug": "claude-code-vscode-extension",
+      "category": "getting-started",
+      "title": "Claude Code in VS Code: The Extension, Setup, and What It Adds",
+      "description": "Install the Claude Code VS Code extension, see what it adds over the terminal CLI (inline diffs, plan review, @-mentions, checkpoints), requirements, and fixes.",
+      "topics": [
+        "workflow-prompting",
+        "coding-languages"
+      ],
+      "url": "https://agentscamp.com/guides/getting-started/claude-code-vscode-extension"
     },
     {
       "id": "guides/claude-cowork-guide",
@@ -5156,6 +6750,19 @@
       "url": "https://agentscamp.com/guides/comparisons/langgraph-vs-crewai"
     },
     {
+      "id": "guides/link-records-across-datasets",
+      "type": "guide",
+      "slug": "link-records-across-datasets",
+      "category": "analytics",
+      "title": "Link Records Across Datasets with AI-Assisted Review",
+      "description": "Build a cross-source entity crosswalk that preserves both record keys, unresolved candidates and cardinality decisions without silently joining or merging data.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/analytics/link-records-across-datasets"
+    },
+    {
       "id": "guides/litellm-vs-openrouter",
       "type": "guide",
       "slug": "litellm-vs-openrouter",
@@ -5192,6 +6799,18 @@
         "llm-app-dev"
       ],
       "url": "https://agentscamp.com/guides/evaluation/llm-as-judge-guide"
+    },
+    {
+      "id": "guides/llm-benchmarks-explained-2026",
+      "type": "guide",
+      "slug": "llm-benchmarks-explained-2026",
+      "category": "evaluation",
+      "title": "LLM Benchmarks Explained (2026): SWE-bench, Terminal-Bench, Arena, ARC-AGI and the Rest",
+      "description": "What each major LLM benchmark measures, how many tasks it has, how it is scored, who maintains it, what the maintainers flag, and how to read pass@k and saturation.",
+      "topics": [
+        "llm-evals"
+      ],
+      "url": "https://agentscamp.com/guides/evaluation/llm-benchmarks-explained-2026"
     },
     {
       "id": "guides/llm-context-windows-compared",
@@ -5358,6 +6977,18 @@
         "ai-agents-systems"
       ],
       "url": "https://agentscamp.com/guides/comparisons/mem0-vs-zep-vs-letta"
+    },
+    {
+      "id": "guides/microsoft-365-copilot-vs-chatgpt-for-work",
+      "type": "guide",
+      "slug": "microsoft-365-copilot-vs-chatgpt-for-work",
+      "category": "comparisons",
+      "title": "Microsoft 365 Copilot vs ChatGPT for Work",
+      "description": "Compare Microsoft 365 Copilot and ChatGPT for workplace tasks by source access, app context, deliverables, and a practical team pilot.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/microsoft-365-copilot-vs-chatgpt-for-work"
     },
     {
       "id": "guides/multi-agent-orchestration",
@@ -5645,6 +7276,71 @@
       "url": "https://agentscamp.com/guides/sales/research-prospects-with-claude"
     },
     {
+      "id": "guides/review-ai-captions-before-publishing",
+      "type": "guide",
+      "slug": "review-ai-captions-before-publishing",
+      "category": "voice",
+      "title": "Review AI Captions Before Publishing",
+      "description": "Review AI-generated captions against recorded speech, speaker changes and meaningful sounds, then check a separate timing file before publication.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/guides/voice/review-ai-captions-before-publishing"
+    },
+    {
+      "id": "guides/review-ai-generated-3d-meshes",
+      "type": "guide",
+      "slug": "review-ai-generated-3d-meshes",
+      "category": "design",
+      "title": "Review AI-Generated 3D Meshes Before Asset Handoff",
+      "description": "Evaluate an AI-generated mesh against a named target app and supplied asset requirements, using real inspection reports and human view checks.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/design/review-ai-generated-3d-meshes"
+    },
+    {
+      "id": "guides/review-ai-pbr-texture-imports",
+      "type": "guide",
+      "slug": "review-ai-pbr-texture-imports",
+      "category": "design",
+      "title": "Review AI PBR Texture Imports Against the Target Material",
+      "description": "Check an AI texture set in its actual target material setup, preserving map roles, UV information and viewer evidence before approving the asset.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/design/review-ai-pbr-texture-imports"
+    },
+    {
+      "id": "guides/review-ai-speech-cleanup",
+      "type": "guide",
+      "slug": "review-ai-speech-cleanup",
+      "category": "voice",
+      "title": "Review AI Speech Cleanup Against the Original",
+      "description": "Compare an AI-cleaned voice recording with the original using timed listening notes, intelligibility checks and a clear keep, retry or rerecord decision.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/guides/voice/review-ai-speech-cleanup"
+    },
+    {
+      "id": "guides/review-ocr-text-against-scans",
+      "type": "guide",
+      "slug": "review-ocr-text-against-scans",
+      "category": "vision",
+      "title": "Review OCR Text Against the Original Scan",
+      "description": "Review OCR text beside source scans, preserve exact wording and document uncertain characters in a correction ledger before producing a corrected copy.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/guides/vision/review-ocr-text-against-scans"
+    },
+    {
       "id": "guides/sandboxing-ai-generated-code",
       "type": "guide",
       "slug": "sandboxing-ai-generated-code",
@@ -5760,6 +7456,19 @@
       "url": "https://agentscamp.com/guides/ai-safety/software-supply-chain-security"
     },
     {
+      "id": "guides/source-grounded-ai-mind-map",
+      "type": "guide",
+      "slug": "source-grounded-ai-mind-map",
+      "category": "workflow",
+      "title": "Build a Source-Grounded AI Mind Map",
+      "description": "Turn a bounded document set into a reviewed concept hierarchy with evidence for each branch and visible unresolved relationships.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/workflow/source-grounded-ai-mind-map"
+    },
+    {
       "id": "guides/spec-driven-development",
       "type": "guide",
       "slug": "spec-driven-development",
@@ -5808,6 +7517,19 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/guides/testing/tdd-with-ai-agents"
+    },
+    {
+      "id": "guides/test-ai-survey-logic",
+      "type": "guide",
+      "slug": "test-ai-survey-logic",
+      "category": "workflow",
+      "title": "Test AI Survey Logic with Known Response Paths",
+      "description": "Create complete response-path cases for an AI-built survey, check a local route model, then preview the actual form before collection.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/workflow/test-ai-survey-logic"
     },
     {
       "id": "guides/testing-ai-generated-code",
@@ -6125,6 +7847,21 @@
       "url": "https://agentscamp.com/guides/database/zero-downtime-postgres-migrations"
     },
     {
+      "id": "skills/3d-asset-handoff-sheet",
+      "type": "skill",
+      "slug": "3d-asset-handoff-sheet",
+      "category": "design",
+      "title": "3D Asset Handoff Sheet",
+      "description": "Build a 3D asset handoff sheet from supplied export metadata, target-app technical reports and human viewer notes, preserving mesh/UV/material versions and untested checks.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/design/3d-asset-handoff-sheet",
+      "file": "skills/3d-asset-handoff-sheet/SKILL.md",
+      "install": "npx agentscamp add skills/3d-asset-handoff-sheet"
+    },
+    {
       "id": "skills/accessibility-regression-auditor",
       "type": "skill",
       "slug": "accessibility-regression-auditor",
@@ -6213,6 +7950,36 @@
       "install": "npx agentscamp add skills/analysis-memo-writer"
     },
     {
+      "id": "skills/annotation-disagreement-ledger",
+      "type": "skill",
+      "slug": "annotation-disagreement-ledger",
+      "category": "data",
+      "title": "Annotation Disagreement Ledger",
+      "description": "Build an adjudication ledger from conflicting supervised text-label responses, preserving original reviewer labels, exact excerpts, task-rule versions and unresolved owner decisions.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/data/annotation-disagreement-ledger",
+      "file": "skills/annotation-disagreement-ledger/SKILL.md",
+      "install": "npx agentscamp add skills/annotation-disagreement-ledger"
+    },
+    {
+      "id": "skills/annotation-task-spec-builder",
+      "type": "skill",
+      "slug": "annotation-task-spec-builder",
+      "category": "data",
+      "title": "Annotation Task Spec Builder",
+      "description": "Specify the record and annotation-interface contract for an owner-defined supervised text-labeling task: approved label IDs, input text, model suggestions, human response fields and abstain handling.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/data/annotation-task-spec-builder",
+      "file": "skills/annotation-task-spec-builder/SKILL.md",
+      "install": "npx agentscamp add skills/annotation-task-spec-builder"
+    },
+    {
       "id": "skills/api-deprecation-planner",
       "type": "skill",
       "slug": "api-deprecation-planner",
@@ -6255,6 +8022,21 @@
       "url": "https://agentscamp.com/skills/docs/architecture-diagram-generator",
       "file": "skills/architecture-diagram-generator/SKILL.md",
       "install": "npx agentscamp add skills/architecture-diagram-generator"
+    },
+    {
+      "id": "skills/asset-metadata-review-ledger",
+      "type": "skill",
+      "slug": "asset-metadata-review-ledger",
+      "category": "marketing",
+      "title": "Asset Metadata Review Ledger",
+      "description": "Map AI-suggested media catalog tags to a supplied controlled vocabulary and asset-version evidence, returning accept/reject/unresolved rows without inferring identities or usage rights.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/marketing/asset-metadata-review-ledger",
+      "file": "skills/asset-metadata-review-ledger/SKILL.md",
+      "install": "npx agentscamp add skills/asset-metadata-review-ledger"
     },
     {
       "id": "skills/auth-flow-reviewer",
@@ -6356,6 +8138,21 @@
       "url": "https://agentscamp.com/skills/release/canary-release-planner",
       "file": "skills/canary-release-planner/SKILL.md",
       "install": "npx agentscamp add skills/canary-release-planner"
+    },
+    {
+      "id": "skills/caption-correction-ledger",
+      "type": "skill",
+      "slug": "caption-correction-ledger",
+      "category": "marketing",
+      "title": "Caption Correction Ledger",
+      "description": "Build a caption correction ledger from supplied caption text and verified listening notes, preserving cue IDs, original wording, proposed wording, timing, evidence and unresolved decisions. Use after automatic transcription and before a human approves edits; do not translate, clip or publish media.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/skills/marketing/caption-correction-ledger",
+      "file": "skills/caption-correction-ledger/SKILL.md",
+      "install": "npx agentscamp add skills/caption-correction-ledger"
     },
     {
       "id": "skills/changelog-from-prs",
@@ -6547,6 +8344,21 @@
       "install": "npx agentscamp add skills/content-repurposer"
     },
     {
+      "id": "skills/contract-obligation-register",
+      "type": "skill",
+      "slug": "contract-obligation-register",
+      "category": "docs",
+      "title": "Contract Obligation Register",
+      "description": "Extract a draft vendor-contract obligation register from supplied agreement text with parties, duties, triggers, timing wording, conditions, exceptions, cross-references and exact section evidence. Use to prepare a qualified reviewer’s packet; do not interpret enforceability, choose controlling terms, or invent deadlines.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/docs/contract-obligation-register",
+      "file": "skills/contract-obligation-register/SKILL.md",
+      "install": "npx agentscamp add skills/contract-obligation-register"
+    },
+    {
       "id": "skills/contract-test-designer",
       "type": "skill",
       "slug": "contract-test-designer",
@@ -6688,6 +8500,21 @@
       "url": "https://agentscamp.com/skills/database/deadlock-diagnoser",
       "file": "skills/deadlock-diagnoser/SKILL.md",
       "install": "npx agentscamp add skills/deadlock-diagnoser"
+    },
+    {
+      "id": "skills/decision-log-reconciler",
+      "type": "skill",
+      "slug": "decision-log-reconciler",
+      "category": "docs",
+      "title": "Decision Log Reconciler",
+      "description": "Reconcile an existing business-project decision log with supplied dated notes and change records: connect decisions to evidence, preserve explicit supersession links, separate accepted choices from proposals, and list contradictions awaiting an owner. Use when project records disagree about what was decided; do not write an architectural ADR or create meeting minutes.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/docs/decision-log-reconciler",
+      "file": "skills/decision-log-reconciler/SKILL.md",
+      "install": "npx agentscamp add skills/decision-log-reconciler"
     },
     {
       "id": "skills/dependency-audit",
@@ -6850,6 +8677,36 @@
       "install": "npx agentscamp add skills/embedding-set-inspector"
     },
     {
+      "id": "skills/entity-match-candidate-ledger",
+      "type": "skill",
+      "slug": "entity-match-candidate-ledger",
+      "category": "analytics",
+      "title": "Entity Match Candidate Ledger",
+      "description": "Build a field-evidence ledger for proposed duplicate or cross-source record pairs, preserving source keys, original values and match/different/unresolved owner decisions without merging records.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/analytics/entity-match-candidate-ledger",
+      "file": "skills/entity-match-candidate-ledger/SKILL.md",
+      "install": "npx agentscamp add skills/entity-match-candidate-ledger"
+    },
+    {
+      "id": "skills/exit-ticket-builder",
+      "type": "skill",
+      "slug": "exit-ticket-builder",
+      "category": "docs",
+      "title": "Exit Ticket Builder",
+      "description": "Draft a short exit ticket from educator-approved learning objectives and taught material, mapping each question to an objective with an answer key and evidence. Use for low-stakes instructional feedback; do not grade student submissions, diagnose needs or invent curriculum standards.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/docs/exit-ticket-builder",
+      "file": "skills/exit-ticket-builder/SKILL.md",
+      "install": "npx agentscamp add skills/exit-ticket-builder"
+    },
+    {
       "id": "skills/extract-module",
       "type": "skill",
       "slug": "extract-module",
@@ -6877,6 +8734,21 @@
       "url": "https://agentscamp.com/skills/refactor/feature-flag-retirer",
       "file": "skills/feature-flag-retirer/SKILL.md",
       "install": "npx agentscamp add skills/feature-flag-retirer"
+    },
+    {
+      "id": "skills/feedback-codebook-designer",
+      "type": "skill",
+      "slug": "feedback-codebook-designer",
+      "category": "product",
+      "title": "Feedback Codebook Designer",
+      "description": "Design a versioned coding codebook for recurring customer-feedback classification from a supplied pilot sample: define one code per job with inclusion rules, exclusions, verbatim examples, boundary cases, and an unresolved bucket. Use before labeling support tickets or survey comments, or when a feedback taxonomy has overlapping labels; do not synthesize interviews or rank product priorities.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/product/feedback-codebook-designer",
+      "file": "skills/feedback-codebook-designer/SKILL.md",
+      "install": "npx agentscamp add skills/feedback-codebook-designer"
     },
     {
       "id": "skills/finetune-dataset-builder",
@@ -6920,6 +8792,21 @@
       "url": "https://agentscamp.com/skills/performance/flamegraph-analyzer",
       "file": "skills/flamegraph-analyzer/SKILL.md",
       "install": "npx agentscamp add skills/flamegraph-analyzer"
+    },
+    {
+      "id": "skills/geo-content-auditor",
+      "type": "skill",
+      "slug": "geo-content-auditor",
+      "category": "marketing",
+      "title": "GEO Content Auditor",
+      "description": "Audit one published page or draft for answer-engine and LLM-citation readiness: an answer-first lead, question-shaped headings each answered in their first sentence, one fact per sentence, figures with a date and a source beside them, definitions that can be quoted whole, consistent entity names, and a visible FAQ block, then return a pass-or-fix scorecard and an ordered rewrite plan with replacement text. Use when you want to know why a page is not being quoted by AI Overviews or chat assistants and what to change in the prose, not in the markup or the crawl setup.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/marketing/geo-content-auditor",
+      "file": "skills/geo-content-auditor/SKILL.md",
+      "install": "npx agentscamp add skills/geo-content-auditor"
     },
     {
       "id": "skills/git-blame-investigator",
@@ -7034,6 +8921,21 @@
       "install": "npx agentscamp add skills/idempotency-designer"
     },
     {
+      "id": "skills/image-description-draft",
+      "type": "skill",
+      "slug": "image-description-draft",
+      "category": "design",
+      "title": "Image Description Draft",
+      "description": "Draft purpose-specific still-image text alternatives from supplied verified visual observations and page context, separating short alt text from complex-image long-description needs.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/design/image-description-draft",
+      "file": "skills/image-description-draft/SKILL.md",
+      "install": "npx agentscamp add skills/image-description-draft"
+    },
+    {
       "id": "skills/incident-postmortem-writer",
       "type": "skill",
       "slug": "incident-postmortem-writer",
@@ -7047,6 +8949,20 @@
       "url": "https://agentscamp.com/skills/observability/incident-postmortem-writer",
       "file": "skills/incident-postmortem-writer/SKILL.md",
       "install": "npx agentscamp add skills/incident-postmortem-writer"
+    },
+    {
+      "id": "skills/instruction-file-migrator",
+      "type": "skill",
+      "slug": "instruction-file-migrator",
+      "category": "workflow",
+      "title": "Instruction File Migrator",
+      "description": "Convert and synchronize agent instruction files between formats: CLAUDE.md with @imports and CLAUDE.local.md, AGENTS.md nested per directory, Cursor rules (.cursor/rules/*.mdc with description, globs, and alwaysApply frontmatter, plus the legacy .cursorrules), GEMINI.md, GitHub Copilot's copilot-instructions.md and *.instructions.md with applyTo, Windsurf rules, and .clinerules. It preserves each rule's wording, keeps always-on rules separate from path-scoped ones, and reports every rule that has no one-to-one equivalent in the target. Use when a team runs more than one coding agent and the files have drifted, or when switching tools.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/workflow/instruction-file-migrator",
+      "file": "skills/instruction-file-migrator/SKILL.md",
+      "install": "npx agentscamp add skills/instruction-file-migrator"
     },
     {
       "id": "skills/integration-test-designer",
@@ -7076,6 +8992,21 @@
       "url": "https://agentscamp.com/skills/product/investor-update-writer",
       "file": "skills/investor-update-writer/SKILL.md",
       "install": "npx agentscamp add skills/investor-update-writer"
+    },
+    {
+      "id": "skills/job-scorecard-builder",
+      "type": "skill",
+      "slug": "job-scorecard-builder",
+      "category": "product",
+      "title": "Job Scorecard Builder",
+      "description": "Draft a pre-interview job scorecard from supplied role tasks and human-selected priorities: map each criterion to task evidence, write observable three-level anchors and interview prompts, and preserve unresolved weighting choices. Use before interviewing; do not assess or rank candidates.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/product/job-scorecard-builder",
+      "file": "skills/job-scorecard-builder/SKILL.md",
+      "install": "npx agentscamp add skills/job-scorecard-builder"
     },
     {
       "id": "skills/landing-page-copywriter",
@@ -7178,6 +9109,21 @@
       "install": "npx agentscamp add skills/llm-output-schema-generator"
     },
     {
+      "id": "skills/llms-txt-generator",
+      "type": "skill",
+      "slug": "llms-txt-generator",
+      "category": "docs",
+      "title": "llms.txt Generator",
+      "description": "Generate or refresh a site's llms.txt (and, on request, llms-full.txt) from its sitemap, route tree, docs navigation, or content directory, following the llmstxt.org conventions: an H1 with the site name, a blockquote summary, H2 sections of links each with a one-line description taken from the page's own metadata, and an Optional section for secondary pages. Use when a site or docs repository needs the file created, or an existing one checked against the pages that actually exist today.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/docs/llms-txt-generator",
+      "file": "skills/llms-txt-generator/SKILL.md",
+      "install": "npx agentscamp add skills/llms-txt-generator"
+    },
+    {
       "id": "skills/load-test-designer",
       "type": "skill",
       "slug": "load-test-designer",
@@ -7190,6 +9136,21 @@
       "url": "https://agentscamp.com/skills/performance/load-test-designer",
       "file": "skills/load-test-designer/SKILL.md",
       "install": "npx agentscamp add skills/load-test-designer"
+    },
+    {
+      "id": "skills/localization-glossary-builder",
+      "type": "skill",
+      "slug": "localization-glossary-builder",
+      "category": "marketing",
+      "title": "Localization Glossary Builder",
+      "description": "Build a draft bilingual terminology glossary from supplied source-target samples and product references: retain term IDs, approved equivalents, protected strings, context, disallowed variants and unresolved translations. Use before reviewing localized marketing or help copy; do not translate a whole document or invent approved terms.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/marketing/localization-glossary-builder",
+      "file": "skills/localization-glossary-builder/SKILL.md",
+      "install": "npx agentscamp add skills/localization-glossary-builder"
     },
     {
       "id": "skills/localization-readiness-auditor",
@@ -7205,6 +9166,21 @@
       "url": "https://agentscamp.com/skills/workflow/localization-readiness-auditor",
       "file": "skills/localization-readiness-auditor/SKILL.md",
       "install": "npx agentscamp add skills/localization-readiness-auditor"
+    },
+    {
+      "id": "skills/mcp-config-auditor",
+      "type": "skill",
+      "slug": "mcp-config-auditor",
+      "category": "security",
+      "title": "MCP Config Auditor",
+      "description": "Audit the MCP server configuration files a repository or machine actually loads (.mcp.json, any mcpServers block in .claude/settings*.json or managed settings, claude_desktop_config.json, .cursor/mcp.json, .vscode/mcp.json, Codex config.toml) for packages pulled without a pinned version, secrets written inline in env or headers, filesystem servers rooted too high, remote servers reached over plain HTTP or without auth, tool names that duplicate or shadow each other across servers, and tool descriptions that carry instructions to the model, then report each finding with the file, the line, and the fix. Read-only. Use before approving a repository's checked-in servers or after adding one.",
+      "topics": [
+        "mcp",
+        "ai-safety-security"
+      ],
+      "url": "https://agentscamp.com/skills/security/mcp-config-auditor",
+      "file": "skills/mcp-config-auditor/SKILL.md",
+      "install": "npx agentscamp add skills/mcp-config-auditor"
     },
     {
       "id": "skills/mcp-server-scaffolder",
@@ -7337,6 +9313,21 @@
       "install": "npx agentscamp add skills/mvp-scope-cutter"
     },
     {
+      "id": "skills/ocr-correction-ledger",
+      "type": "skill",
+      "slug": "ocr-correction-ledger",
+      "category": "docs",
+      "title": "OCR Correction Ledger",
+      "description": "Build a proposed OCR correction ledger from a fixed OCR text copy and readable source-page images or human-verified image notes, preserving original spans, Unicode offsets, replacements, locators and unresolved status. Use before a reviewer creates a corrected copy; do not extract business conclusions or alter original scans.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/skills/docs/ocr-correction-ledger",
+      "file": "skills/ocr-correction-ledger/SKILL.md",
+      "install": "npx agentscamp add skills/ocr-correction-ledger"
+    },
+    {
       "id": "skills/onboarding-guide-writer",
       "type": "skill",
       "slug": "onboarding-guide-writer",
@@ -7449,6 +9440,21 @@
       "url": "https://agentscamp.com/skills/product/prd-writer",
       "file": "skills/prd-writer/SKILL.md",
       "install": "npx agentscamp add skills/prd-writer"
+    },
+    {
+      "id": "skills/process-to-sop",
+      "type": "skill",
+      "slug": "process-to-sop",
+      "category": "docs",
+      "title": "Process to SOP",
+      "description": "Convert supplied workplace walkthrough notes or readable process captures into one draft SOP with sourced steps, explicit inputs and outputs, observed branches, stop conditions, and an owner review queue. Use after a real process has been captured; do not invent policy or write an incident runbook.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/docs/process-to-sop",
+      "file": "skills/process-to-sop/SKILL.md",
+      "install": "npx agentscamp add skills/process-to-sop"
     },
     {
       "id": "skills/prompt-cache-optimizer",
@@ -7665,6 +9671,36 @@
       "install": "npx agentscamp add skills/release-readiness-reviewer"
     },
     {
+      "id": "skills/research-evidence-extractor",
+      "type": "skill",
+      "slug": "research-evidence-extractor",
+      "category": "data",
+      "title": "Research Evidence Extractor",
+      "description": "Extract a structured study evidence table from supplied paper text or readable research excerpts using a user-defined column schema: record study and source IDs, methods, population, outcomes, units, time points, source locations, and missing data. Use after papers have been selected and before synthesis; do not search for papers, decide eligibility, compute pooled effects, or draft conclusions.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/data/research-evidence-extractor",
+      "file": "skills/research-evidence-extractor/SKILL.md",
+      "install": "npx agentscamp add skills/research-evidence-extractor"
+    },
+    {
+      "id": "skills/rfp-requirement-mapper",
+      "type": "skill",
+      "slug": "rfp-requirement-mapper",
+      "category": "sales",
+      "title": "RFP Requirement Mapper",
+      "description": "Turn supplied RFP instructions and explicit addenda into a draft atomic compliance matrix: preserve requirement IDs and wording, split subparts visibly, map response/evidence locators, and flag missing mandatory or exception authority. Use before assembling a bid; do not write persuasive answers or invent compliance claims.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/sales/rfp-requirement-mapper",
+      "file": "skills/rfp-requirement-mapper/SKILL.md",
+      "install": "npx agentscamp add skills/rfp-requirement-mapper"
+    },
+    {
       "id": "skills/rollback-plan-writer",
       "type": "skill",
       "slug": "rollback-plan-writer",
@@ -7707,6 +9743,21 @@
       "url": "https://agentscamp.com/skills/database/safe-data-backfill-planner",
       "file": "skills/safe-data-backfill-planner/SKILL.md",
       "install": "npx agentscamp add skills/safe-data-backfill-planner"
+    },
+    {
+      "id": "skills/schema-markup-generator",
+      "type": "skill",
+      "slug": "schema-markup-generator",
+      "category": "marketing",
+      "title": "Schema Markup Generator",
+      "description": "Write JSON-LD structured data (Article or TechArticle, FAQPage, HowTo, SoftwareApplication, Product, BreadcrumbList, Organization) from the content that is actually visible on a page, fill the required and recommended properties from Google's structured-data documentation, link the nodes in one @graph, and validate the result with the Schema.org validator and the Rich Results Test before it ships. Use when a page needs structured data written, or an existing block checked property by property.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/marketing/schema-markup-generator",
+      "file": "skills/schema-markup-generator/SKILL.md",
+      "install": "npx agentscamp add skills/schema-markup-generator"
     },
     {
       "id": "skills/secret-scanner",
@@ -7795,6 +9846,21 @@
       "install": "npx agentscamp add skills/seo-content-brief-writer"
     },
     {
+      "id": "skills/seo-technical-auditor",
+      "type": "skill",
+      "slug": "seo-technical-auditor",
+      "category": "marketing",
+      "title": "SEO Technical Auditor",
+      "description": "Audit a website's source or built output (Next.js, Astro, or static HTML) for technical on-page and crawl hygiene: title and meta description length and uniqueness, self-referencing canonicals, one H1 and an unbroken heading hierarchy, presence of JSON-LD, sitemap and robots.txt, redirect chains, internal-link click depth, and image alt text, then return one findings table ordered by severity with the file or route to fix. Use when you want the crawl and markup plumbing checked across a whole site, not the quality of the writing or the correctness of the structured data.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/marketing/seo-technical-auditor",
+      "file": "skills/seo-technical-auditor/SKILL.md",
+      "install": "npx agentscamp add skills/seo-technical-auditor"
+    },
+    {
       "id": "skills/skill-auditor",
       "type": "skill",
       "slug": "skill-auditor",
@@ -7821,6 +9887,36 @@
       "url": "https://agentscamp.com/skills/observability/slo-definer",
       "file": "skills/slo-definer/SKILL.md",
       "install": "npx agentscamp add skills/slo-definer"
+    },
+    {
+      "id": "skills/source-concept-map-builder",
+      "type": "skill",
+      "slug": "source-concept-map-builder",
+      "category": "docs",
+      "title": "Source Concept Map Builder",
+      "description": "Build a concept-node and relationship table from supplied document passages for one focal question, preserving source locations and contested edges before an AI mind map is drawn.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/docs/source-concept-map-builder",
+      "file": "skills/source-concept-map-builder/SKILL.md",
+      "install": "npx agentscamp add skills/source-concept-map-builder"
+    },
+    {
+      "id": "skills/speech-cleanup-review-sheet",
+      "type": "skill",
+      "slug": "speech-cleanup-review-sheet",
+      "category": "marketing",
+      "title": "Speech Cleanup Review Sheet",
+      "description": "Build a timed original-versus-processed speech cleanup review sheet from supplied listener observations, preserving variant IDs, intelligibility concerns, decisions and reviewer evidence. Use after processing a recording; do not transcribe, synthesize voices, edit audio or publish a master.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/skills/marketing/speech-cleanup-review-sheet",
+      "file": "skills/speech-cleanup-review-sheet/SKILL.md",
+      "install": "npx agentscamp add skills/speech-cleanup-review-sheet"
     },
     {
       "id": "skills/spreadsheet-formula-auditor",
@@ -7867,6 +9963,21 @@
       "install": "npx agentscamp add skills/sql-optimizer"
     },
     {
+      "id": "skills/storyboard-shot-brief",
+      "type": "skill",
+      "slug": "storyboard-shot-brief",
+      "category": "design",
+      "title": "Storyboard Shot Brief",
+      "description": "Convert an approved short script into a shot brief with stable beat IDs, action, dialogue, composition, continuity constraints and proposed duration. Use before storyboard image generation; do not write a new script, create final art or approve a production.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/skills/design/storyboard-shot-brief",
+      "file": "skills/storyboard-shot-brief/SKILL.md",
+      "install": "npx agentscamp add skills/storyboard-shot-brief"
+    },
+    {
       "id": "skills/strangler-fig-migrator",
       "type": "skill",
       "slug": "strangler-fig-migrator",
@@ -7893,6 +10004,51 @@
       "url": "https://agentscamp.com/skills/observability/structured-logging-designer",
       "file": "skills/structured-logging-designer/SKILL.md",
       "install": "npx agentscamp add skills/structured-logging-designer"
+    },
+    {
+      "id": "skills/study-card-builder",
+      "type": "skill",
+      "slug": "study-card-builder",
+      "category": "workflow",
+      "title": "Study Card Builder",
+      "description": "Draft source-grounded study flashcards from approved notes for one stated learning goal, with question, answer, exact evidence quote, source locator and unresolved status. Use before learner review; do not generate classroom assessments, final grades or a study schedule.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/workflow/study-card-builder",
+      "file": "skills/study-card-builder/SKILL.md",
+      "install": "npx agentscamp add skills/study-card-builder"
+    },
+    {
+      "id": "skills/support-answer-card-builder",
+      "type": "skill",
+      "slug": "support-answer-card-builder",
+      "category": "docs",
+      "title": "Support Answer Card Builder",
+      "description": "Draft one reusable customer-support answer card per supplied policy question, with approved source locators, applicability, required facts, concise answer wording, exclusions, and an escalation boundary. Use when turning documented policies into an answer library; do not invent policy or send replies.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/docs/support-answer-card-builder",
+      "file": "skills/support-answer-card-builder/SKILL.md",
+      "install": "npx agentscamp add skills/support-answer-card-builder"
+    },
+    {
+      "id": "skills/survey-path-test-builder",
+      "type": "skill",
+      "slug": "survey-path-test-builder",
+      "category": "product",
+      "title": "Survey Path Test Builder",
+      "description": "Build a survey-paths.json test packet from approved single-choice question IDs, complete answer-to-destination rules and named endings; preserve missing routes for owner resolution.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/skills/product/survey-path-test-builder",
+      "file": "skills/survey-path-test-builder/SKILL.md",
+      "install": "npx agentscamp add skills/survey-path-test-builder"
     },
     {
       "id": "skills/test-scaffolder",
@@ -8051,6 +10207,32 @@
       "install": "npx agentscamp add skills/webhook-handler-scaffolder"
     },
     {
+      "id": "tools/abbyy-finereader-pdf",
+      "type": "tool",
+      "slug": "abbyy-finereader-pdf",
+      "category": "platform",
+      "title": "ABBYY FineReader PDF",
+      "description": "ABBYY FineReader PDF applies AI-based OCR to scans and PDFs, with a Windows OCR Editor for checking recognized text against the source image.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/tools/abbyy-finereader-pdf"
+    },
+    {
+      "id": "tools/adobe-podcast",
+      "type": "tool",
+      "slug": "adobe-podcast",
+      "category": "voice",
+      "title": "Adobe Podcast",
+      "description": "Adobe Podcast offers browser recording and editing plus AI Enhance Speech for reducing noise in voice recordings, with free and premium access.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/tools/adobe-podcast"
+    },
+    {
       "id": "tools/agentops",
       "type": "tool",
       "slug": "agentops",
@@ -8088,6 +10270,19 @@
       "url": "https://agentscamp.com/tools/aider"
     },
     {
+      "id": "tools/alttext-ai",
+      "type": "tool",
+      "slug": "alttext-ai",
+      "category": "design",
+      "title": "Alttext AI",
+      "description": "Evaluate AltText.ai drafts against inspected observations, page purpose, correction notes and the actual publishing review process.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/alttext-ai"
+    },
+    {
       "id": "tools/amp",
       "type": "tool",
       "slug": "amp",
@@ -8112,6 +10307,19 @@
       "url": "https://agentscamp.com/tools/antigravity"
     },
     {
+      "id": "tools/anythingllm",
+      "type": "tool",
+      "slug": "anythingllm",
+      "category": "platform",
+      "title": "AnythingLLM",
+      "description": "An MIT-licensed private AI app for chatting with documents and running agents with MCP tools on any local or cloud LLM, as a desktop app or Docker server.",
+      "topics": [
+        "mlops-ai-infra",
+        "rag-retrieval"
+      ],
+      "url": "https://agentscamp.com/tools/anythingllm"
+    },
+    {
       "id": "tools/apollo",
       "type": "tool",
       "slug": "apollo",
@@ -8123,6 +10331,19 @@
         "ai-agents-systems"
       ],
       "url": "https://agentscamp.com/tools/apollo"
+    },
+    {
+      "id": "tools/argilla",
+      "type": "tool",
+      "slug": "argilla",
+      "category": "data",
+      "title": "Argilla",
+      "description": "Evaluate Argilla for a supervised text task with separately preserved suggestions, human responses and decision evidence.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/argilla"
     },
     {
       "id": "tools/arize-phoenix",
@@ -8226,6 +10447,32 @@
       "url": "https://agentscamp.com/tools/baseten"
     },
     {
+      "id": "tools/be-my-eyes",
+      "type": "tool",
+      "slug": "be-my-eyes",
+      "category": "design",
+      "title": "Be My Eyes",
+      "description": "Evaluate Be My Eyes for a personal picture question, recording useful clarification, remaining uncertainty and independent evidence for consequential details.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/be-my-eyes"
+    },
+    {
+      "id": "tools/bland-ai",
+      "type": "tool",
+      "slug": "bland-ai",
+      "category": "voice",
+      "title": "Bland AI",
+      "description": "Enterprise voice-AI platform for phone, SMS and web agents that runs on its own speech and language models, bills one per-minute rate and ships an MCP server.",
+      "topics": [
+        "multimodal-ai",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/bland-ai"
+    },
+    {
       "id": "tools/bolt",
       "type": "tool",
       "slug": "bolt",
@@ -8237,6 +10484,19 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/tools/bolt"
+    },
+    {
+      "id": "tools/boords",
+      "type": "tool",
+      "slug": "boords",
+      "category": "design",
+      "title": "Boords",
+      "description": "Boords uses AI to turn scripts into storyboard structure and image prompts, with frame notes and timed animatic previews for production planning.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/tools/boords"
     },
     {
       "id": "tools/braintrust",
@@ -8299,6 +10559,19 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/tools/bubble"
+    },
+    {
+      "id": "tools/bynder",
+      "type": "tool",
+      "slug": "bynder",
+      "category": "marketing",
+      "title": "Bynder",
+      "description": "Bynder centralizes digital assets and offers AI-assisted metadata and discovery, including image search and similarity-based asset finding.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/bynder"
     },
     {
       "id": "tools/canva",
@@ -8702,6 +10975,19 @@
       "url": "https://agentscamp.com/tools/daytona"
     },
     {
+      "id": "tools/dedupe",
+      "type": "tool",
+      "slug": "dedupe",
+      "category": "data",
+      "title": "Dedupe",
+      "description": "Evaluate Dedupe through an owner-reviewed matching pilot with known pairs, preserved source keys, candidate coverage checks and unresolved cases.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/dedupe"
+    },
+    {
       "id": "tools/deepeval",
       "type": "tool",
       "slug": "deepeval",
@@ -8725,6 +11011,19 @@
         "multimodal-ai"
       ],
       "url": "https://agentscamp.com/tools/deepgram"
+    },
+    {
+      "id": "tools/deepl",
+      "type": "tool",
+      "slug": "deepl",
+      "category": "marketing",
+      "title": "Deepl",
+      "description": "DeepL provides AI translation for text and documents, with preferred-term glossaries and paid options for team translation and customization workflows.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/deepl"
     },
     {
       "id": "tools/deepnote",
@@ -8791,6 +11090,18 @@
       "url": "https://agentscamp.com/tools/devin"
     },
     {
+      "id": "tools/dia-browser",
+      "type": "tool",
+      "slug": "dia-browser",
+      "category": "browser",
+      "title": "Dia Browser",
+      "description": "Dia is The Browser Company's Chromium browser, now part of Atlassian, with a chat sidebar that reads your tabs and connected work apps, plus local memory.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/tools/dia-browser"
+    },
+    {
       "id": "tools/dify",
       "type": "tool",
       "slug": "dify",
@@ -8815,6 +11126,19 @@
         "data-ml"
       ],
       "url": "https://agentscamp.com/tools/docling"
+    },
+    {
+      "id": "tools/dovetail",
+      "type": "tool",
+      "slug": "dovetail",
+      "category": "analytics",
+      "title": "Dovetail",
+      "description": "Dovetail organizes customer research and feedback with AI transcription, project summaries, searchable evidence, and channels for recurring signals.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/dovetail"
     },
     {
       "id": "tools/dspy",
@@ -8852,6 +11176,19 @@
         "multimodal-ai"
       ],
       "url": "https://agentscamp.com/tools/elevenlabs"
+    },
+    {
+      "id": "tools/elicit",
+      "type": "tool",
+      "slug": "elicit",
+      "category": "assistant",
+      "title": "Elicit",
+      "description": "Elicit supports academic research with a Research Agent, research reports, and a structured workflow for screening papers and extracting evidence.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/elicit"
     },
     {
       "id": "tools/emergent",
@@ -8916,6 +11253,18 @@
         "architecture"
       ],
       "url": "https://agentscamp.com/tools/fastmcp"
+    },
+    {
+      "id": "tools/fathom",
+      "type": "tool",
+      "slug": "fathom",
+      "category": "assistant",
+      "title": "Fathom",
+      "description": "Fathom is a free-first AI notetaker that records Zoom, Meet and Teams calls with or without a bot and delivers summaries, action items, clips and CRM sync.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/tools/fathom"
     },
     {
       "id": "tools/figma-make",
@@ -9081,6 +11430,19 @@
       "url": "https://agentscamp.com/tools/gitmcp"
     },
     {
+      "id": "tools/glean",
+      "type": "tool",
+      "slug": "glean",
+      "category": "assistant",
+      "title": "Glean",
+      "description": "Glean is an enterprise AI search and assistant platform that retrieves company knowledge through configured connectors and source access controls.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/glean"
+    },
+    {
       "id": "tools/glide",
       "type": "tool",
       "slug": "glide",
@@ -9131,6 +11493,18 @@
         "coding-languages"
       ],
       "url": "https://agentscamp.com/tools/goose"
+    },
+    {
+      "id": "tools/granola",
+      "type": "tool",
+      "slug": "granola",
+      "category": "assistant",
+      "title": "Granola",
+      "description": "Granola is a bot-free AI meeting notepad that transcribes from device audio, merges your notes with the transcript, and shares them via MCP and integrations.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/tools/granola"
     },
     {
       "id": "tools/greptile",
@@ -9221,6 +11595,19 @@
       "url": "https://agentscamp.com/tools/instructor"
     },
     {
+      "id": "tools/intercom-fin",
+      "type": "tool",
+      "slug": "intercom-fin",
+      "category": "platform",
+      "title": "Intercom Fin",
+      "description": "Fin by Intercom is an AI customer agent with support-content training, guidance, pre-deployment batch testing, and configured human handover workflows.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/intercom-fin"
+    },
+    {
       "id": "tools/jan",
       "type": "tool",
       "slug": "jan",
@@ -9306,6 +11693,32 @@
         "coding-languages"
       ],
       "url": "https://agentscamp.com/tools/kiro"
+    },
+    {
+      "id": "tools/kling",
+      "type": "tool",
+      "slug": "kling",
+      "category": "design",
+      "title": "Kling",
+      "description": "Kuaishou's video studio: Kling 4.0 with native 30-second clips, audio and Omni reference, the native-4K 3.0 series, desktop and mobile apps, API, MCP and CLI.",
+      "topics": [
+        "multimodal-ai",
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/tools/kling"
+    },
+    {
+      "id": "tools/label-studio",
+      "type": "tool",
+      "slug": "label-studio",
+      "category": "data",
+      "title": "Label Studio",
+      "description": "Label Studio is an open-source annotation interface that can present imported or model-generated predictions for people to review and correct.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/label-studio"
     },
     {
       "id": "tools/lancedb",
@@ -9493,6 +11906,19 @@
       "url": "https://agentscamp.com/tools/lm-studio"
     },
     {
+      "id": "tools/loopio",
+      "type": "tool",
+      "slug": "loopio",
+      "category": "sales",
+      "title": "Loopio",
+      "description": "Loopio is an RFP response platform with a reusable answer library, AI-assisted response drafting, project collaboration, and source-scoped generation controls.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/loopio"
+    },
+    {
       "id": "tools/lovable",
       "type": "tool",
       "slug": "lovable",
@@ -9503,6 +11929,19 @@
         "coding-languages"
       ],
       "url": "https://agentscamp.com/tools/lovable"
+    },
+    {
+      "id": "tools/magicschool",
+      "type": "tool",
+      "slug": "magicschool",
+      "category": "assistant",
+      "title": "MagicSchool",
+      "description": "MagicSchool provides AI lesson, worksheet, quiz and rubric drafts that educators can tailor to supplied readings and instructional goals.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/magicschool"
     },
     {
       "id": "tools/marker",
@@ -9557,6 +11996,19 @@
       "url": "https://agentscamp.com/tools/mem0"
     },
     {
+      "id": "tools/meshy",
+      "type": "tool",
+      "slug": "meshy",
+      "category": "design",
+      "title": "Meshy",
+      "description": "Evaluate Meshy with a versioned prop pilot, owner-set requirements, real inspection reports and actual target-application viewer evidence.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/meshy"
+    },
+    {
       "id": "tools/microsoft-copilot",
       "type": "tool",
       "slug": "microsoft-copilot",
@@ -9596,6 +12048,19 @@
       "url": "https://agentscamp.com/tools/milvus"
     },
     {
+      "id": "tools/miro",
+      "type": "tool",
+      "slug": "miro",
+      "category": "design",
+      "title": "Miro",
+      "description": "Evaluate Miro as a shared review surface for an approved concept hierarchy and its relationship ledger.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/miro"
+    },
+    {
       "id": "tools/mistral-ocr",
       "type": "tool",
       "slug": "mistral-ocr",
@@ -9632,6 +12097,19 @@
         "ai-agents-systems"
       ],
       "url": "https://agentscamp.com/tools/n8n"
+    },
+    {
+      "id": "tools/napkin-ai",
+      "type": "tool",
+      "slug": "napkin-ai",
+      "category": "design",
+      "title": "Napkin AI",
+      "description": "Napkin AI turns imported or pasted text into editable visuals for documents and presentations, with export choices that depend on plan.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/napkin-ai"
     },
     {
       "id": "tools/nemo-guardrails",
@@ -9696,6 +12174,18 @@
       "url": "https://agentscamp.com/tools/ollama"
     },
     {
+      "id": "tools/open-webui",
+      "type": "tool",
+      "slug": "open-webui",
+      "category": "platform",
+      "title": "Open WebUI",
+      "description": "Self-hosted AI workspace that fronts Ollama and any OpenAI-compatible API with chat, RAG, MCP tools, agents and enterprise auth, via pip, Docker or Kubernetes.",
+      "topics": [
+        "mlops-ai-infra"
+      ],
+      "url": "https://agentscamp.com/tools/open-webui"
+    },
+    {
       "id": "tools/openai-agents-sdk",
       "type": "tool",
       "slug": "openai-agents-sdk",
@@ -9744,6 +12234,18 @@
       "url": "https://agentscamp.com/tools/openrouter"
     },
     {
+      "id": "tools/opik",
+      "type": "tool",
+      "slug": "opik",
+      "category": "observability",
+      "title": "Opik",
+      "description": "Comet's Apache-2.0 LLM observability and evaluation platform: tracing, experiments, LLM-as-a-judge, test suites and prompt optimization, self-hosted or cloud.",
+      "topics": [
+        "llm-evals"
+      ],
+      "url": "https://agentscamp.com/tools/opik"
+    },
+    {
       "id": "tools/opus-clip",
       "type": "tool",
       "slug": "opus-clip",
@@ -9756,6 +12258,18 @@
         "multimodal-ai"
       ],
       "url": "https://agentscamp.com/tools/opus-clip"
+    },
+    {
+      "id": "tools/otter-ai",
+      "type": "tool",
+      "slug": "otter-ai",
+      "category": "assistant",
+      "title": "Otter AI",
+      "description": "Otter.ai sends its Notetaker bot into Zoom, Teams and Meet calls, or records from desktop and mobile, producing live transcripts, summaries and action items.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/tools/otter-ai"
     },
     {
       "id": "tools/outreach",
@@ -9796,6 +12310,18 @@
       "url": "https://agentscamp.com/tools/parallel"
     },
     {
+      "id": "tools/peec-ai",
+      "type": "tool",
+      "slug": "peec-ai",
+      "category": "marketing",
+      "title": "Peec AI",
+      "description": "Self-serve AI-search analytics that runs tracked prompts daily across AI models and reports brand visibility, position, sentiment, sources, and AI-bot traffic.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/tools/peec-ai"
+    },
+    {
       "id": "tools/perplexity",
       "type": "tool",
       "slug": "perplexity",
@@ -9807,6 +12333,19 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/tools/perplexity"
+    },
+    {
+      "id": "tools/perplexity-comet",
+      "type": "tool",
+      "slug": "perplexity-comet",
+      "category": "browser",
+      "title": "Perplexity Comet",
+      "description": "Comet is Perplexity's free Chromium browser with a built-in assistant that reads pages, works across tabs and runs agent tasks on Mac, Windows, iOS and Android.",
+      "topics": [
+        "ai-at-work",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/perplexity-comet"
     },
     {
       "id": "tools/pgroll",
@@ -9895,6 +12434,18 @@
         "mcp"
       ],
       "url": "https://agentscamp.com/tools/postgres-mcp"
+    },
+    {
+      "id": "tools/profound",
+      "type": "tool",
+      "slug": "profound",
+      "category": "marketing",
+      "title": "Profound",
+      "description": "Enterprise AI-search visibility platform tracking prompts across up to nine answer engines, with citations, sentiment, prompt volumes, and AI-crawler analytics.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/tools/profound"
     },
     {
       "id": "tools/promptfoo",
@@ -10037,6 +12588,19 @@
       "url": "https://agentscamp.com/tools/relume"
     },
     {
+      "id": "tools/remnote",
+      "type": "tool",
+      "slug": "remnote",
+      "category": "assistant",
+      "title": "RemNote",
+      "description": "RemNote combines notes, AI-generated flashcards and quizzes, and spaced review, with a preview step for checking cards against the source.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/remnote"
+    },
+    {
       "id": "tools/replicate",
       "type": "tool",
       "slug": "replicate",
@@ -10074,6 +12638,19 @@
       "url": "https://agentscamp.com/tools/repomix"
     },
     {
+      "id": "tools/retell-ai",
+      "type": "tool",
+      "slug": "retell-ai",
+      "category": "voice",
+      "title": "Retell AI",
+      "description": "A hosted voice-agent platform for phone, web and chat agents with a drag-and-drop flow builder, simulation testing, per-minute pricing and a custom-LLM hook.",
+      "topics": [
+        "multimodal-ai",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/retell-ai"
+    },
+    {
       "id": "tools/roo-code",
       "type": "tool",
       "slug": "roo-code",
@@ -10097,6 +12674,32 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/tools/rork"
+    },
+    {
+      "id": "tools/runway",
+      "type": "tool",
+      "slug": "runway",
+      "category": "design",
+      "title": "Runway",
+      "description": "Runway's AI video platform: Gen-4.5 generation with native audio, Aleph 2.0 editing, Act-Two capture, 54 hosted models, an API, MCP, and Adobe plugins.",
+      "topics": [
+        "multimodal-ai",
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/tools/runway"
+    },
+    {
+      "id": "tools/scribe",
+      "type": "tool",
+      "slug": "scribe",
+      "category": "platform",
+      "title": "Scribe",
+      "description": "Scribe captures on-screen workflows into editable visual guides and adds AI drafting features for titles, descriptions, and process documentation.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/scribe"
     },
     {
       "id": "tools/sentry-mcp",
@@ -10133,6 +12736,18 @@
         "mcp"
       ],
       "url": "https://agentscamp.com/tools/serena"
+    },
+    {
+      "id": "tools/sglang",
+      "type": "tool",
+      "slug": "sglang",
+      "category": "sdk",
+      "title": "SGLang",
+      "description": "An Apache-2.0 inference engine and OpenAI- and Anthropic-compatible model server for LLM, vision-language and diffusion models, built for large-scale serving.",
+      "topics": [
+        "mlops-ai-infra"
+      ],
+      "url": "https://agentscamp.com/tools/sglang"
     },
     {
       "id": "tools/skyvern",
@@ -10197,6 +12812,19 @@
       "url": "https://agentscamp.com/tools/spec-kit"
     },
     {
+      "id": "tools/spellbook",
+      "type": "tool",
+      "slug": "spellbook",
+      "category": "platform",
+      "title": "Spellbook",
+      "description": "Spellbook supports legal contract work with AI questions, source references, Microsoft Word review suggestions, and reusable contract-review instructions.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/spellbook"
+    },
+    {
       "id": "tools/stagehand",
       "type": "tool",
       "slug": "stagehand",
@@ -10259,6 +12887,19 @@
       "url": "https://agentscamp.com/tools/surfer"
     },
     {
+      "id": "tools/surveymonkey",
+      "type": "tool",
+      "slug": "surveymonkey",
+      "category": "workflow",
+      "title": "Surveymonkey",
+      "description": "SurveyMonkey combines AI survey drafting with editable survey questions and plan-dependent skip logic for respondent paths.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/surveymonkey"
+    },
+    {
       "id": "tools/swe-agent",
       "type": "tool",
       "slug": "swe-agent",
@@ -10294,6 +12935,19 @@
         "coding-languages"
       ],
       "url": "https://agentscamp.com/tools/tabnine"
+    },
+    {
+      "id": "tools/tamr",
+      "type": "tool",
+      "slug": "tamr",
+      "category": "data",
+      "title": "Tamr",
+      "description": "Evaluate Tamr with a bounded mastering pilot that preserves source keys, exposes uncertain candidates and names the owner of each decision.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/tamr"
     },
     {
       "id": "tools/tavily",
@@ -10358,6 +13012,19 @@
         "mlops-ai-infra"
       ],
       "url": "https://agentscamp.com/tools/turbopuffer"
+    },
+    {
+      "id": "tools/typeform",
+      "type": "tool",
+      "slug": "typeform",
+      "category": "workflow",
+      "title": "Typeform",
+      "description": "Typeform builds online forms with AI-assisted questions, endings and branching rules that owners can preview and revise.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/typeform"
     },
     {
       "id": "tools/unify",
@@ -10434,6 +13101,19 @@
         "multimodal-ai"
       ],
       "url": "https://agentscamp.com/tools/vapi"
+    },
+    {
+      "id": "tools/veed",
+      "type": "tool",
+      "slug": "veed",
+      "category": "marketing",
+      "title": "VEED",
+      "description": "VEED is a browser video editor with AI-generated subtitles, editable text and timing, and plan-dependent caption-file downloads.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/tools/veed"
     },
     {
       "id": "tools/vercel-ai-sdk",
@@ -10558,6 +13238,19 @@
         "coding-languages"
       ],
       "url": "https://agentscamp.com/tools/windsurf"
+    },
+    {
+      "id": "tools/workable",
+      "type": "tool",
+      "slug": "workable",
+      "category": "platform",
+      "title": "Workable",
+      "description": "Workable combines recruiting and HR software with AI drafting tools, configurable interview kits, shared rating scales, and candidate feedback records.",
+      "topics": [
+        "ai-at-work",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/workable"
     },
     {
       "id": "tools/zapier-agents",
