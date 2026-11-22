@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "source": "https://agentscamp.com",
   "counts": {
-    "guides": 282,
-    "tools": 246,
-    "glossary": 144,
-    "agents": 87,
-    "skills": 163,
-    "commands": 85,
-    "total": 1007
+    "guides": 295,
+    "tools": 260,
+    "glossary": 157,
+    "agents": 89,
+    "skills": 168,
+    "commands": 88,
+    "total": 1057
   },
   "items": [
     {
@@ -760,6 +760,21 @@
       "install": "npx agentscamp add agents/ocr-fidelity-reviewer"
     },
     {
+      "id": "agents/open-model-scout",
+      "type": "agent",
+      "slug": "open-model-scout",
+      "category": "data-ai",
+      "title": "Open Model Scout",
+      "description": "Use this agent to shortlist open-weight models on the Hugging Face Hub for a task under hard constraints (license, parameter count or GPU memory budget, context length, language, gated access). It queries the Hub with huggingface_hub or the hf CLI, reads each candidate's model card and license, and returns a comparison table with caveats. It is read-only and never quotes a benchmark number that is not on the card. Examples — \"find an Apache-2.0 text-generation model under 10B parameters that handles Spanish\", \"which non-gated embedding models fit on one 24 GB GPU?\", \"shortlist code models with long context that we can use commercially\".",
+      "topics": [
+        "mlops-ai-infra",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/agents/data-ai/open-model-scout",
+      "file": "agents/open-model-scout.md",
+      "install": "npx agentscamp add agents/open-model-scout"
+    },
+    {
       "id": "agents/performance-engineer",
       "type": "agent",
       "slug": "performance-engineer",
@@ -1031,6 +1046,21 @@
       "url": "https://agentscamp.com/agents/marketing/seo-specialist",
       "file": "agents/seo-specialist.md",
       "install": "npx agentscamp add agents/seo-specialist"
+    },
+    {
+      "id": "agents/spec-implementer",
+      "type": "agent",
+      "slug": "spec-implementer",
+      "category": "core-development",
+      "title": "Spec Implementer",
+      "description": "Use this agent to implement an approved spec's tasks.md one task at a time: it reads the linked requirements and design, writes the tests that prove each task's acceptance criteria, implements until they pass, and checks the task off only then. It stops and asks when the spec is ambiguous or contradicts the code, and never changes requirements on its own. Examples — \"implement tasks 1 to 3 from docs/specs/report-csv-export/tasks.md\", \"continue the spec where the last session stopped\", \"implement the next unchecked task and show me the test that proves it\".",
+      "topics": [
+        "ai-agents-systems",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/agents/core-development/spec-implementer",
+      "file": "agents/spec-implementer.md",
+      "install": "npx agentscamp add agents/spec-implementer"
     },
     {
       "id": "agents/speech-cleanup-reviewer",
@@ -2038,6 +2068,21 @@
       "install": "npx agentscamp add commands/mcp-audit"
     },
     {
+      "id": "commands/model-card",
+      "type": "command",
+      "slug": "model-card",
+      "category": "docs",
+      "title": "Model Card",
+      "description": "Write or update the Hugging Face model card (README.md with YAML metadata) for a fine-tuned model directory, using only its training config and eval files and marking every gap as needed.",
+      "topics": [
+        "mlops-ai-infra",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/commands/docs/model-card",
+      "file": "commands/model-card.md",
+      "install": "npx agentscamp add commands/model-card"
+    },
+    {
       "id": "commands/new-component",
       "type": "command",
       "slug": "new-component",
@@ -2424,6 +2469,21 @@
       "install": "npx agentscamp add commands/snapshot-handoff"
     },
     {
+      "id": "commands/spec",
+      "type": "command",
+      "slug": "spec",
+      "category": "plan",
+      "title": "Spec",
+      "description": "Draft spec files for a feature: requirements with EARS acceptance criteria, a design, and a traceable task list, in the repo's Kiro or Spec Kit layout. Stops for review before any implementation.",
+      "topics": [
+        "workflow-prompting",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/commands/plan/spec",
+      "file": "commands/spec.md",
+      "install": "npx agentscamp add commands/spec"
+    },
+    {
       "id": "commands/sync-branch",
       "type": "command",
       "slug": "sync-branch",
@@ -2436,6 +2496,21 @@
       "url": "https://agentscamp.com/commands/git/sync-branch",
       "file": "commands/sync-branch.md",
       "install": "npx agentscamp add commands/sync-branch"
+    },
+    {
+      "id": "commands/test-mcp-server",
+      "type": "command",
+      "slug": "test-mcp-server",
+      "category": "testing",
+      "title": "Test MCP Server",
+      "description": "Run MCP Inspector CLI checks against an MCP server given as a launch command or URL: detect its protocol era, list tools with --strict, call one safe tool, call it with bad arguments, and report pass or fail per check with exit codes.",
+      "topics": [
+        "mcp",
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/commands/testing/test-mcp-server",
+      "file": "commands/test-mcp-server.md",
+      "install": "npx agentscamp add commands/test-mcp-server"
     },
     {
       "id": "commands/trace-data-flow",
@@ -2582,6 +2657,19 @@
       "url": "https://agentscamp.com/glossary/agentic-browser"
     },
     {
+      "id": "glossary/agentic-rag",
+      "type": "glossary",
+      "slug": "agentic-rag",
+      "category": "term",
+      "title": "Agentic RAG",
+      "description": "Agentic RAG puts AI agents in charge of retrieval, so the system can plan, search repeatedly, judge what it finds and reformulate instead of retrieving once.",
+      "topics": [
+        "rag-retrieval",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/glossary/agentic-rag"
+    },
+    {
       "id": "glossary/agents-md",
       "type": "glossary",
       "slug": "agents-md",
@@ -2619,6 +2707,19 @@
       "url": "https://agentscamp.com/glossary/ai-app-builder"
     },
     {
+      "id": "glossary/ai-avatar",
+      "type": "glossary",
+      "slug": "ai-avatar",
+      "category": "term",
+      "title": "AI Avatar",
+      "description": "An AI avatar is a synthetic on-screen presenter, a stock actor or a person modelled from footage or a photo, that speaks any script you type with lip sync.",
+      "topics": [
+        "multimodal-ai",
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/glossary/ai-avatar"
+    },
+    {
       "id": "glossary/ai-connectors",
       "type": "glossary",
       "slug": "ai-connectors",
@@ -2643,6 +2744,19 @@
         "data-ml"
       ],
       "url": "https://agentscamp.com/glossary/ai-data-analyst"
+    },
+    {
+      "id": "glossary/ai-gateway",
+      "type": "glossary",
+      "slug": "ai-gateway",
+      "category": "term",
+      "title": "AI Gateway (LLM Gateway)",
+      "description": "An AI gateway is a proxy between your apps and model providers that centralizes keys, routing, fallback, caching, rate limits, logging and cost tracking.",
+      "topics": [
+        "llm-app-dev",
+        "mlops-ai-infra"
+      ],
+      "url": "https://agentscamp.com/glossary/ai-gateway"
     },
     {
       "id": "glossary/ai-overviews",
@@ -2805,6 +2919,18 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/glossary/blocking-record-matching"
+    },
+    {
+      "id": "glossary/bm25",
+      "type": "glossary",
+      "slug": "bm25",
+      "category": "term",
+      "title": "BM25",
+      "description": "BM25 is the classic keyword ranking function: it scores a document by how often the query terms appear, how rare they are, and how long the document is.",
+      "topics": [
+        "rag-retrieval"
+      ],
+      "url": "https://agentscamp.com/glossary/bm25"
     },
     {
       "id": "glossary/brand-voice",
@@ -3312,6 +3438,18 @@
       "url": "https://agentscamp.com/glossary/gguf"
     },
     {
+      "id": "glossary/graphrag",
+      "type": "glossary",
+      "slug": "graphrag",
+      "category": "term",
+      "title": "GraphRAG",
+      "description": "GraphRAG is retrieval-augmented generation over an LLM-built knowledge graph and community summaries, built for questions about a whole corpus.",
+      "topics": [
+        "rag-retrieval"
+      ],
+      "url": "https://agentscamp.com/glossary/graphrag"
+    },
+    {
       "id": "glossary/grounding",
       "type": "glossary",
       "slug": "grounding",
@@ -3346,6 +3484,19 @@
         "llm-evals"
       ],
       "url": "https://agentscamp.com/glossary/hallucination"
+    },
+    {
+      "id": "glossary/hnsw",
+      "type": "glossary",
+      "slug": "hnsw",
+      "category": "term",
+      "title": "HNSW (Hierarchical Navigable Small World)",
+      "description": "HNSW is a graph-based approximate nearest-neighbor index that searches layered proximity graphs from the top down, the core of fast vector search.",
+      "topics": [
+        "rag-retrieval",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/glossary/hnsw"
     },
     {
       "id": "glossary/human-in-the-loop",
@@ -3518,6 +3669,19 @@
       "url": "https://agentscamp.com/glossary/machine-translation-post-editing"
     },
     {
+      "id": "glossary/mcp-gateway",
+      "type": "glossary",
+      "slug": "mcp-gateway",
+      "category": "term",
+      "title": "MCP Gateway",
+      "description": "An MCP gateway is a proxy between AI agents and the MCP servers they call, giving one endpoint with central auth, tool allowlists and audit logging.",
+      "topics": [
+        "mcp",
+        "ai-safety-security"
+      ],
+      "url": "https://agentscamp.com/glossary/mcp-gateway"
+    },
+    {
       "id": "glossary/mixture-of-experts",
       "type": "glossary",
       "slug": "mixture-of-experts",
@@ -3552,6 +3716,19 @@
         "llm-app-dev"
       ],
       "url": "https://agentscamp.com/glossary/model-routing"
+    },
+    {
+      "id": "glossary/multi-agent-system",
+      "type": "glossary",
+      "slug": "multi-agent-system",
+      "category": "term",
+      "title": "Multi-Agent System",
+      "description": "A multi-agent system is several AI agents working on one task, often a lead agent delegating to parallel subagents, trading extra tokens for breadth.",
+      "topics": [
+        "ai-agents-systems",
+        "architecture"
+      ],
+      "url": "https://agentscamp.com/glossary/multi-agent-system"
     },
     {
       "id": "glossary/multimodal-ai",
@@ -3909,6 +4086,19 @@
       "url": "https://agentscamp.com/glossary/spaced-repetition"
     },
     {
+      "id": "glossary/spec-driven-development",
+      "type": "glossary",
+      "slug": "spec-driven-development",
+      "category": "term",
+      "title": "Spec-Driven Development (SDD)",
+      "description": "Spec-driven development is a way of building with AI coding agents where a written spec, not the prompt or the code, is the source of truth for the work.",
+      "topics": [
+        "workflow-prompting",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/glossary/spec-driven-development"
+    },
+    {
       "id": "glossary/speculative-decoding",
       "type": "glossary",
       "slug": "speculative-decoding",
@@ -3932,6 +4122,19 @@
         "multimodal-ai"
       ],
       "url": "https://agentscamp.com/glossary/speech-enhancement"
+    },
+    {
+      "id": "glossary/speech-to-text",
+      "type": "glossary",
+      "slug": "speech-to-text",
+      "category": "term",
+      "title": "Speech-to-Text (STT)",
+      "description": "Speech-to-text (STT), or automatic speech recognition, converts spoken audio into written text, often with timestamps and speaker labels, in batch or live.",
+      "topics": [
+        "multimodal-ai",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/glossary/speech-to-text"
     },
     {
       "id": "glossary/structured-interview",
@@ -4055,6 +4258,19 @@
       "url": "https://agentscamp.com/glossary/text-to-image"
     },
     {
+      "id": "glossary/text-to-speech",
+      "type": "glossary",
+      "slug": "text-to-speech",
+      "category": "term",
+      "title": "Text-to-Speech (TTS)",
+      "description": "Text-to-speech (TTS) turns written text into spoken audio: the engine expands numbers and symbols into words, then generates a voice that reads them.",
+      "topics": [
+        "multimodal-ai",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/glossary/text-to-speech"
+    },
+    {
       "id": "glossary/text-to-sql",
       "type": "glossary",
       "slug": "text-to-sql",
@@ -4066,6 +4282,18 @@
         "data-ml"
       ],
       "url": "https://agentscamp.com/glossary/text-to-sql"
+    },
+    {
+      "id": "glossary/text-to-video",
+      "type": "glossary",
+      "slug": "text-to-video",
+      "category": "term",
+      "title": "Text-to-Video",
+      "description": "Text-to-video is generating a video clip from a written prompt, using models that learn how scenes look from images and how they move from video.",
+      "topics": [
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/glossary/text-to-video"
     },
     {
       "id": "glossary/thematic-analysis",
@@ -4236,6 +4464,19 @@
         "mlops-ai-infra"
       ],
       "url": "https://agentscamp.com/glossary/vision-language-model"
+    },
+    {
+      "id": "glossary/voice-cloning",
+      "type": "glossary",
+      "slug": "voice-cloning",
+      "category": "term",
+      "title": "Voice Cloning",
+      "description": "Voice cloning builds a synthetic copy of a specific person's voice from recorded samples, so a text-to-speech engine can speak any script in that voice.",
+      "topics": [
+        "multimodal-ai",
+        "ai-safety-security"
+      ],
+      "url": "https://agentscamp.com/glossary/voice-cloning"
     },
     {
       "id": "glossary/workflow-automation",
@@ -4776,6 +5017,19 @@
       "url": "https://agentscamp.com/guides/comparisons/base44-vs-lovable"
     },
     {
+      "id": "guides/best-ai-agents-2026",
+      "type": "guide",
+      "slug": "best-ai-agents-2026",
+      "category": "comparisons",
+      "title": "The Best AI Agents in 2026: Manus, Claude, ChatGPT Work, Comet and More",
+      "description": "General-purpose AI agents for knowledge work compared: where each runs, how it asks for approval, and one documented limit each, from Manus to Copilot Cowork.",
+      "topics": [
+        "ai-agents-systems",
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-ai-agents-2026"
+    },
+    {
       "id": "guides/best-ai-app-builders-2026",
       "type": "guide",
       "slug": "best-ai-app-builders-2026",
@@ -4786,6 +5040,19 @@
         "coding-languages"
       ],
       "url": "https://agentscamp.com/guides/comparisons/best-ai-app-builders-2026"
+    },
+    {
+      "id": "guides/best-ai-avatar-video-generators-2026",
+      "type": "guide",
+      "slug": "best-ai-avatar-video-generators-2026",
+      "category": "comparisons",
+      "title": "Best AI Avatar Video Generators in 2026",
+      "description": "HeyGen, Synthesia, Colossyan, D-ID and Captions compared with the avatar features in VEED and Descript, on custom avatars, translation, APIs and consent.",
+      "topics": [
+        "multimodal-ai",
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-ai-avatar-video-generators-2026"
     },
     {
       "id": "guides/best-ai-browsers-2026",
@@ -4941,6 +5208,18 @@
       "url": "https://agentscamp.com/guides/comparisons/best-ai-writing-tools-2026"
     },
     {
+      "id": "guides/best-chatgpt-alternatives-2026",
+      "type": "guide",
+      "slug": "best-chatgpt-alternatives-2026",
+      "category": "comparisons",
+      "title": "The Best ChatGPT Alternatives in 2026 (Free and Paid)",
+      "description": "The best ChatGPT alternatives in 2026 by job: Claude, Gemini, Microsoft Copilot, Perplexity, Grok, DeepSeek, Mistral Vibe, Meta AI and Duck.ai compared.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-chatgpt-alternatives-2026"
+    },
+    {
       "id": "guides/best-claude-code-agents-skills",
       "type": "guide",
       "slug": "best-claude-code-agents-skills",
@@ -5015,6 +5294,18 @@
         "review-qa"
       ],
       "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-code-review"
+    },
+    {
+      "id": "guides/best-claude-skills-for-codebase-onboarding",
+      "type": "guide",
+      "slug": "best-claude-skills-for-codebase-onboarding",
+      "category": "skills",
+      "title": "9 Best Claude Skills for Onboarding to a New Codebase",
+      "description": "Claude skills and commands for getting productive in an unfamiliar repo: settings audits, dev containers, CLAUDE.md, diagrams, code explanations, data-flow traces, and git history.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-codebase-onboarding"
     },
     {
       "id": "guides/best-claude-skills-for-database-work",
@@ -5106,6 +5397,30 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-llm-evals"
+    },
+    {
+      "id": "guides/best-claude-skills-for-mcp-development",
+      "type": "guide",
+      "slug": "best-claude-skills-for-mcp-development",
+      "category": "skills",
+      "title": "7 Best Claude Skills for MCP Server Development",
+      "description": "Claude skills, commands, and agents for building MCP servers: scaffolding, tool schemas, Inspector testing, safe registration, config audits, code review, and plugins.",
+      "topics": [
+        "mcp"
+      ],
+      "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-mcp-development"
+    },
+    {
+      "id": "guides/best-claude-skills-for-observability",
+      "type": "guide",
+      "slug": "best-claude-skills-for-observability",
+      "category": "skills",
+      "title": "9 Best Claude Skills for Observability",
+      "description": "Claude skills for SLOs, structured logs, OpenTelemetry tracing, symptom-based alerts, RED/USE dashboards, async jobs, postmortems, load tests, and CPU profiles.",
+      "topics": [
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-observability"
     },
     {
       "id": "guides/best-claude-skills-for-performance",
@@ -5212,6 +5527,18 @@
       "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-seo"
     },
     {
+      "id": "guides/best-claude-skills-for-system-design",
+      "type": "guide",
+      "slug": "best-claude-skills-for-system-design",
+      "category": "skills",
+      "title": "9 Best Claude Skills for System Design",
+      "description": "Claude skills, commands, and agents for system design: specs, design docs, ADRs, diagrams from code, threat models, idempotency, rate limits, caching, and migrations.",
+      "topics": [
+        "architecture"
+      ],
+      "url": "https://agentscamp.com/guides/skills/best-claude-skills-for-system-design"
+    },
+    {
       "id": "guides/best-claude-skills-for-testing",
       "type": "guide",
       "slug": "best-claude-skills-for-testing",
@@ -5303,6 +5630,18 @@
       "url": "https://agentscamp.com/guides/comparisons/best-local-llm-tools-2026"
     },
     {
+      "id": "guides/best-mcp-gateways-2026",
+      "type": "guide",
+      "slug": "best-mcp-gateways-2026",
+      "category": "comparisons",
+      "title": "Best MCP Gateways in 2026",
+      "description": "Docker, Composio, Microsoft, IBM ContextForge, Kong, Cloudflare, Portkey, Obot, AWS AgentCore and Lasso MCP gateways compared on auth, policy, audit and hosting.",
+      "topics": [
+        "mcp"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-mcp-gateways-2026"
+    },
+    {
       "id": "guides/best-mcp-servers-2026",
       "type": "guide",
       "slug": "best-mcp-servers-2026",
@@ -5338,6 +5677,19 @@
         "rag-retrieval"
       ],
       "url": "https://agentscamp.com/guides/comparisons/best-rag-frameworks-2026"
+    },
+    {
+      "id": "guides/best-spec-driven-development-tools-2026",
+      "type": "guide",
+      "slug": "best-spec-driven-development-tools-2026",
+      "category": "comparisons",
+      "title": "Best Spec-Driven Development Tools in 2026",
+      "description": "GitHub Spec Kit, Kiro, OpenSpec, Taskmaster, BMAD Method, Agent OS and cc-sdd compared on workflow, artifacts, agent support and how much process each adds.",
+      "topics": [
+        "ai-agents-systems",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/comparisons/best-spec-driven-development-tools-2026"
     },
     {
       "id": "guides/best-stt-apis-2026",
@@ -5585,6 +5937,18 @@
       "url": "https://agentscamp.com/guides/advanced/claude-agent-sdk-tutorial"
     },
     {
+      "id": "guides/claude-code-checkpoints",
+      "type": "guide",
+      "slug": "claude-code-checkpoints",
+      "category": "getting-started",
+      "title": "Claude Code Checkpoints: How /rewind Works and What It Can't Undo",
+      "description": "How Claude Code checkpoints work: what /rewind restores, the rewind menu's actions, what isn't tracked, how long snapshots last, and where git fits in.",
+      "topics": [
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/getting-started/claude-code-checkpoints"
+    },
+    {
       "id": "guides/claude-code-ci-github-actions",
       "type": "guide",
       "slug": "claude-code-ci-github-actions",
@@ -5663,6 +6027,19 @@
         "ai-agents-systems"
       ],
       "url": "https://agentscamp.com/guides/sales/claude-code-for-revenue-ops"
+    },
+    {
+      "id": "guides/claude-code-headless-mode",
+      "type": "guide",
+      "slug": "claude-code-headless-mode",
+      "category": "configuration",
+      "title": "Claude Code Headless Mode: Run claude -p in Scripts and CI",
+      "description": "How to run Claude Code headless with claude -p: output formats and JSON fields, --bare, permission defaults, auth, exit codes, sessions, and CI patterns.",
+      "topics": [
+        "workflow-prompting",
+        "devops-infra"
+      ],
+      "url": "https://agentscamp.com/guides/configuration/claude-code-headless-mode"
     },
     {
       "id": "guides/claude-code-hooks",
@@ -5748,6 +6125,19 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/guides/configuration/claude-code-slash-commands"
+    },
+    {
+      "id": "guides/claude-code-subagents",
+      "type": "guide",
+      "slug": "claude-code-subagents",
+      "category": "configuration",
+      "title": "Claude Code Subagents Explained: Built-ins, Frontmatter, Forks, and Limits",
+      "description": "How Claude Code subagents work now: built-in agents, file locations and precedence, every frontmatter field, background runs, nesting, forks, and limits.",
+      "topics": [
+        "ai-agents-systems",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/guides/configuration/claude-code-subagents"
     },
     {
       "id": "guides/claude-code-tips",
@@ -5848,6 +6238,19 @@
         "coding-languages"
       ],
       "url": "https://agentscamp.com/guides/getting-started/claude-code-vscode-extension"
+    },
+    {
+      "id": "guides/claude-code-with-other-models",
+      "type": "guide",
+      "slug": "claude-code-with-other-models",
+      "category": "configuration",
+      "title": "Use Claude Code with Other Models: Gateways, Bedrock, and Third-Party Endpoints",
+      "description": "Claude Code with other models: what Anthropic supports (Bedrock, Agent Platform, Foundry, gateways), the model env vars, and third-party endpoint setups.",
+      "topics": [
+        "workflow-prompting",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/guides/configuration/claude-code-with-other-models"
     },
     {
       "id": "guides/claude-cowork-guide",
@@ -8053,6 +8456,21 @@
       "install": "npx agentscamp add skills/auth-flow-reviewer"
     },
     {
+      "id": "skills/avatar-video-script-writer",
+      "type": "skill",
+      "slug": "avatar-video-script-writer",
+      "category": "marketing",
+      "title": "Avatar Video Script Writer",
+      "description": "Write a scene-by-scene script for an AI avatar video tool such as HeyGen or Synthesia: spoken lines kept inside the tool's per-scene limits (HeyGen's script import caps a segment, which becomes one scene, at 1,000 characters; Synthesia caps a scene's script at 5 minutes), pauses and pronunciation set with that tool's own controls, on-screen text, B-roll notes, and a localization-ready version. It starts with a consent check and will not script a real person's likeness or voice without documented consent. Use when turning a brief, document, or slide deck into an avatar video script.",
+      "topics": [
+        "multimodal-ai",
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/skills/marketing/avatar-video-script-writer",
+      "file": "skills/avatar-video-script-writer/SKILL.md",
+      "install": "npx agentscamp add skills/avatar-video-script-writer"
+    },
+    {
       "id": "skills/background-job-reliability-auditor",
       "type": "skill",
       "slug": "background-job-reliability-auditor",
@@ -9198,6 +9616,21 @@
       "install": "npx agentscamp add skills/mcp-server-scaffolder"
     },
     {
+      "id": "skills/mcp-server-tester",
+      "type": "skill",
+      "slug": "mcp-server-tester",
+      "category": "testing",
+      "title": "MCP Server Tester",
+      "description": "Test an MCP server end to end. First detect its protocol era (stateless 2026-07-28, or a session-based 2025-era server with the initialize handshake), then drive it with the MCP Inspector v2 CLI using --format json and exit codes: tools/list with --strict schema checks, one safe tools/call, and an error-path call that must come back as isError. Then write automated tests with the official v2 SDK clients for TypeScript or Python. Use after changing a server's tools, before connecting a server to a client, or when adding MCP tests to CI.",
+      "topics": [
+        "mcp",
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/skills/testing/mcp-server-tester",
+      "file": "skills/mcp-server-tester/SKILL.md",
+      "install": "npx agentscamp add skills/mcp-server-tester"
+    },
+    {
       "id": "skills/memory-leak-hunter",
       "type": "skill",
       "slug": "memory-leak-hunter",
@@ -9238,6 +9671,21 @@
       "url": "https://agentscamp.com/skills/testing/mock-data-factory",
       "file": "skills/mock-data-factory/SKILL.md",
       "install": "npx agentscamp add skills/mock-data-factory"
+    },
+    {
+      "id": "skills/model-card-writer",
+      "type": "skill",
+      "slug": "model-card-writer",
+      "category": "docs",
+      "title": "Model Card Writer",
+      "description": "Write or update the Hugging Face model card for a fine-tuned model: the repo's README.md with a YAML metadata block (license, language, library_name, pipeline_tag, base_model, datasets, metrics, tags, and a model-index for eval results) followed by the sections of Hugging Face's model card template. Every value comes from the training config, dataset references, and eval output in the repo; anything the repo cannot support is written as [More Information Needed], and no eval number is ever invented. Use when publishing a fine-tune or adapter to the Hub, or when an existing card has no metadata, no limitations section, or scores nobody can trace.",
+      "topics": [
+        "mlops-ai-infra",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/skills/docs/model-card-writer",
+      "file": "skills/model-card-writer/SKILL.md",
+      "install": "npx agentscamp add skills/model-card-writer"
     },
     {
       "id": "skills/model-router-designer",
@@ -9904,6 +10352,21 @@
       "install": "npx agentscamp add skills/source-concept-map-builder"
     },
     {
+      "id": "skills/spec-writer",
+      "type": "skill",
+      "slug": "spec-writer",
+      "category": "workflow",
+      "title": "Spec Writer",
+      "description": "Turn a feature request into spec files a coding agent can execute: requirements with EARS acceptance criteria (WHEN <condition> THE SYSTEM SHALL <behavior>), a design grounded in the current code, and a dependency-ordered task list in which every task traces to the criteria it satisfies. Writes Kiro's requirements.md, design.md, and tasks.md, or Spec Kit's spec.md, plan.md, and tasks.md, whichever the repository already uses. Use before handing a multi-file feature to an agent, or when an existing spec has acceptance criteria nobody can test.",
+      "topics": [
+        "workflow-prompting",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/skills/workflow/spec-writer",
+      "file": "skills/spec-writer/SKILL.md",
+      "install": "npx agentscamp add skills/spec-writer"
+    },
+    {
       "id": "skills/speech-cleanup-review-sheet",
       "type": "skill",
       "slug": "speech-cleanup-review-sheet",
@@ -10105,6 +10568,21 @@
       "url": "https://agentscamp.com/skills/api/tool-definition-generator",
       "file": "skills/tool-definition-generator/SKILL.md",
       "install": "npx agentscamp add skills/tool-definition-generator"
+    },
+    {
+      "id": "skills/tts-script-preparer",
+      "type": "skill",
+      "slug": "tts-script-preparer",
+      "category": "marketing",
+      "title": "TTS Script Preparer",
+      "description": "Prepare a script for text-to-speech on a named engine: expand numbers, dates, currencies, units, URLs, and acronyms into the words the voice should say; add pronunciation fixes in the form that engine accepts (IPA, phoneme tags, pronunciation dictionaries, glossary entries, or plain respelling); and mark pauses with syntax the engine supports. It asks for the target engine, model, and voice type first and never assumes SSML. Returns the prepared script plus a change log of every edit. Use before generating a voiceover with ElevenLabs, HeyGen, Synthesia, or another TTS engine, or when a voice keeps misreading numbers and names.",
+      "topics": [
+        "multimodal-ai",
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/skills/marketing/tts-script-preparer",
+      "file": "skills/tts-script-preparer/SKILL.md",
+      "install": "npx agentscamp add skills/tts-script-preparer"
     },
     {
       "id": "skills/type-coverage-improver",
@@ -10369,6 +10847,19 @@
         "multimodal-ai"
       ],
       "url": "https://agentscamp.com/tools/assemblyai"
+    },
+    {
+      "id": "tools/atlassian-mcp",
+      "type": "tool",
+      "slug": "atlassian-mcp",
+      "category": "mcp",
+      "title": "Atlassian MCP Server",
+      "description": "Atlassian's hosted MCP server, formerly the Atlassian Rovo MCP Server, gives AI agents permission-aware access to Jira, Confluence, Bitbucket and more.",
+      "topics": [
+        "mcp",
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/tools/atlassian-mcp"
     },
     {
       "id": "tools/attio",
@@ -10876,6 +11367,19 @@
       "url": "https://agentscamp.com/tools/cohere-rerank"
     },
     {
+      "id": "tools/composio",
+      "type": "tool",
+      "slug": "composio",
+      "category": "mcp",
+      "title": "Composio",
+      "description": "Composio gives AI agents authenticated access to third-party apps through SDKs, a CLI, the Composio Connect MCP server and a managed MCP gateway.",
+      "topics": [
+        "mcp",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/composio"
+    },
+    {
       "id": "tools/context7",
       "type": "tool",
       "slug": "context7",
@@ -11039,6 +11543,19 @@
       "url": "https://agentscamp.com/tools/deepnote"
     },
     {
+      "id": "tools/deepseek",
+      "type": "tool",
+      "slug": "deepseek",
+      "category": "assistant",
+      "title": "Deepseek",
+      "description": "DeepSeek is a free AI chat app and a pay-as-you-go API running the V4.1-Flash and V4-Pro models, whose weights are published under the MIT License.",
+      "topics": [
+        "ai-at-work",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/tools/deepseek"
+    },
+    {
       "id": "tools/deepwiki-mcp",
       "type": "tool",
       "slug": "deepwiki-mcp",
@@ -11113,6 +11630,18 @@
         "llm-app-dev"
       ],
       "url": "https://agentscamp.com/tools/dify"
+    },
+    {
+      "id": "tools/docker-mcp-toolkit",
+      "type": "tool",
+      "slug": "docker-mcp-toolkit",
+      "category": "mcp",
+      "title": "Docker MCP Toolkit",
+      "description": "Docker Desktop's MCP Toolkit runs MCP servers from Docker's catalog as isolated containers and connects them to Claude Code, Cursor and other clients.",
+      "topics": [
+        "mcp"
+      ],
+      "url": "https://agentscamp.com/tools/docker-mcp-toolkit"
     },
     {
       "id": "tools/docling",
@@ -11519,6 +12048,18 @@
       "url": "https://agentscamp.com/tools/greptile"
     },
     {
+      "id": "tools/grok",
+      "type": "tool",
+      "slug": "grok",
+      "category": "assistant",
+      "title": "Grok",
+      "description": "Grok is the AI assistant from SpaceXSI (formerly xAI), with live web and X search, multi-agent answers, Imagine for images and video, voice, and Grok Bot.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/tools/grok"
+    },
+    {
       "id": "tools/groq",
       "type": "tool",
       "slug": "groq",
@@ -11557,6 +12098,19 @@
       "url": "https://agentscamp.com/tools/hex"
     },
     {
+      "id": "tools/heygen",
+      "type": "tool",
+      "slug": "heygen",
+      "category": "design",
+      "title": "Heygen",
+      "description": "HeyGen is an AI video platform for avatar videos, video translation with lip-sync, voice cloning and prompt-to-video, with a v3 API, a CLI and an MCP server.",
+      "topics": [
+        "multimodal-ai",
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/tools/heygen"
+    },
+    {
       "id": "tools/hubspot-breeze",
       "type": "tool",
       "slug": "hubspot-breeze",
@@ -11568,6 +12122,19 @@
         "ai-agents-systems"
       ],
       "url": "https://agentscamp.com/tools/hubspot-breeze"
+    },
+    {
+      "id": "tools/hugging-face",
+      "type": "tool",
+      "slug": "hugging-face",
+      "category": "platform",
+      "title": "Hugging Face",
+      "description": "The Git-based hub for open models, datasets and Spaces, with serverless Inference Providers, dedicated Inference Endpoints and Apache-2.0 libraries.",
+      "topics": [
+        "mlops-ai-infra",
+        "data-ml"
+      ],
+      "url": "https://agentscamp.com/tools/hugging-face"
     },
     {
       "id": "tools/ideogram",
@@ -11669,6 +12236,19 @@
         "data-ml"
       ],
       "url": "https://agentscamp.com/tools/julius"
+    },
+    {
+      "id": "tools/junie",
+      "type": "tool",
+      "slug": "junie",
+      "category": "agent",
+      "title": "Junie",
+      "description": "JetBrains' AI coding agent. The Junie IDE plugin is retiring as Junie moves into JetBrains Air; Junie CLI and the free Junie Lite tier continue.",
+      "topics": [
+        "workflow-prompting",
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/junie"
     },
     {
       "id": "tools/kilo-code",
@@ -11799,7 +12379,7 @@
       "slug": "lindy",
       "category": "automation",
       "title": "Lindy",
-      "description": "An AI teammate that lives in Slack, joins your meetings, and runs scheduled routines and reusable skills across 1,000+ tools with approvals.",
+      "description": "An AI teammate that lives in Slack, joins your meetings, and runs scheduled routines and reusable skills across 3,000+ integrations with approvals.",
       "topics": [
         "ai-at-work",
         "ai-agents-systems"
@@ -11931,6 +12511,18 @@
       "url": "https://agentscamp.com/tools/lovable"
     },
     {
+      "id": "tools/luma",
+      "type": "tool",
+      "slug": "luma",
+      "category": "marketing",
+      "title": "Luma",
+      "description": "Luma AI, formerly Dream Machine, now sells Luma Agents: creative agents on its Ray3.2 video and Uni-1.1 image models plus hosted models, with an API and MCP.",
+      "topics": [
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/tools/luma"
+    },
+    {
       "id": "tools/magicschool",
       "type": "tool",
       "slug": "magicschool",
@@ -11942,6 +12534,19 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/tools/magicschool"
+    },
+    {
+      "id": "tools/manus",
+      "type": "tool",
+      "slug": "manus",
+      "category": "assistant",
+      "title": "Manus",
+      "description": "Manus is a general-purpose AI agent that plans multi-step jobs in its cloud and runs them in a cloud sandbox, your own browser, or your Mac or Windows PC.",
+      "topics": [
+        "ai-agents-systems",
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/tools/manus"
     },
     {
       "id": "tools/marker",
@@ -12072,6 +12677,18 @@
         "llm-app-dev"
       ],
       "url": "https://agentscamp.com/tools/mistral-ocr"
+    },
+    {
+      "id": "tools/mistral-vibe",
+      "type": "tool",
+      "slug": "mistral-vibe",
+      "category": "assistant",
+      "title": "Mistral Vibe",
+      "description": "Mistral Vibe (formerly Le Chat) is Mistral's assistant for work and code: chat, research, connectors and scheduled tasks, plus a coding agent in your terminal.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/tools/mistral-vibe"
     },
     {
       "id": "tools/modal",
@@ -12779,7 +13396,7 @@
       "slug": "smithery",
       "category": "platform",
       "title": "Smithery",
-      "description": "A registry and hosting platform for Model Context Protocol servers — discover, deploy, and connect MCP servers from one place.",
+      "description": "A public directory of Model Context Protocol servers, now powered by Arcade.dev; its hosting, CLI and API shut down on October 31, 2026.",
       "topics": [
         "mcp",
         "architecture"
@@ -12913,6 +13530,19 @@
       "url": "https://agentscamp.com/tools/swe-agent"
     },
     {
+      "id": "tools/synthesia",
+      "type": "tool",
+      "slug": "synthesia",
+      "category": "design",
+      "title": "Synthesia",
+      "description": "Synthesia is an AI video platform for presenter-led video: Express-3 avatars, AI dubbing in the speaker's voice, interactive avatars, SCORM export and an API.",
+      "topics": [
+        "multimodal-ai",
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/tools/synthesia"
+    },
+    {
       "id": "tools/tabby",
       "type": "tool",
       "slug": "tabby",
@@ -12948,6 +13578,19 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/tools/tamr"
+    },
+    {
+      "id": "tools/taskmaster",
+      "type": "tool",
+      "slug": "taskmaster",
+      "category": "cli",
+      "title": "Taskmaster (task-master-ai)",
+      "description": "Taskmaster (task-master-ai) turns a PRD into dependency-ordered tasks and subtasks that your coding agent works through, from a CLI or an MCP server.",
+      "topics": [
+        "ai-agents-systems",
+        "workflow-prompting"
+      ],
+      "url": "https://agentscamp.com/tools/taskmaster"
     },
     {
       "id": "tools/tavily",
@@ -13200,6 +13843,19 @@
         "coding-languages"
       ],
       "url": "https://agentscamp.com/tools/wave-terminal"
+    },
+    {
+      "id": "tools/weave",
+      "type": "tool",
+      "slug": "weave",
+      "category": "observability",
+      "title": "Weave",
+      "description": "Weights & Biases' observability and evaluation platform for agents and LLM apps: OpenTelemetry tracing, scorers, evals and guardrails, now part of CoreWeave.",
+      "topics": [
+        "llm-evals",
+        "mlops-ai-infra"
+      ],
+      "url": "https://agentscamp.com/tools/weave"
     },
     {
       "id": "tools/weaviate",

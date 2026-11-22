@@ -21,7 +21,7 @@ Do not ask more than once. If the user is terse, pick sane defaults (read-only, 
 
 ## Step 1 — Derive the slug and check for collisions
 
-Convert the purpose into a kebab-case `name` that reads like a role, not a sentence: `migration-reviewer`, `commit-message-writer`, `sentry-triager`. The filename **is** the slug, so `name` must match `<slug>.md`.
+Convert the purpose into a kebab-case `name` that reads like a role, not a sentence: `migration-reviewer`, `commit-message-writer`, `sentry-triager`. Name the file `<slug>.md` to match; Claude Code identifies the agent by `name` alone, so matching is a convention, not a requirement.
 
 Use `Glob` on `.claude/agents/*.md` and `~/.claude/agents/*.md` to check the slug is not already taken. If it collides, `Read` the existing file: if it covers the same job, tell the user it already exists and stop; otherwise pick a more specific slug rather than overwriting.
 
@@ -84,7 +84,7 @@ standard you hold and the value you add.>
 
 Field rationale to honor while filling it in:
 
-- **`name`** must equal the filename slug — that is how the agent is addressed.
+- **`name`** is how the agent is addressed (identity comes only from this field); keep it equal to the filename slug by convention.
 - **`description`** is the delegation trigger (Step 3); spend your effort here.
 - **`model`** controls cost vs. depth — don't default everything to `opus`.
 - **`color`** is just the UI label color; pick one not already used by a sibling agent.

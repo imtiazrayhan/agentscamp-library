@@ -4,7 +4,7 @@
 
 Browse the full directory on [AgentsCamp](https://agentscamp.com/glossary). Each entry links to its canonical page.
 
-**144 glossary** · [← Back to README](README.md)
+**157 glossary** · [← Back to README](README.md)
 
 ## Term
 
@@ -15,11 +15,14 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/glossary). Each
 - **[Agent Skills](https://agentscamp.com/glossary/agent-skills)** — Agent Skills are reusable procedures packaged as folders with a SKILL.md file — loaded by an AI agent on demand when a task matches, now an open standard.
 - **[Agentic AI](https://agentscamp.com/glossary/agentic-ai)** — Agentic AI is the class of AI systems that act toward goals — planning, calling tools, and iterating on results — rather than only generating content.
 - **[Agentic Browser](https://agentscamp.com/glossary/agentic-browser)** — An agentic browser is a web browser or extension with a built-in AI assistant that can read the pages you have open and act in them: click, type and fill forms.
+- **[Agentic RAG](https://agentscamp.com/glossary/agentic-rag)** — Agentic RAG puts AI agents in charge of retrieval, so the system can plan, search repeatedly, judge what it finds and reformulate instead of retrieving once.
 - **[AGENTS.md](https://agentscamp.com/glossary/agents-md)** — AGENTS.md is a versioned instruction file that tells coding agents how to work in a repository — including commands, conventions, boundaries, and checks.
 - **[AI Agent](https://agentscamp.com/glossary/ai-agent)** — An AI agent is an LLM-driven system that pursues a goal in a loop — calling tools, observing results, iterating — instead of returning one answer.
 - **[AI App Builder](https://agentscamp.com/glossary/ai-app-builder)** — An AI app builder is a tool that generates a working application from a natural-language description, usually with hosting and a backend included.
+- **[AI Avatar](https://agentscamp.com/glossary/ai-avatar)** — An AI avatar is a synthetic on-screen presenter, a stock actor or a person modelled from footage or a photo, that speaks any script you type with lip sync.
 - **[AI Connectors](https://agentscamp.com/glossary/ai-connectors)** — AI connectors are the integrations that let an assistant like Claude read and act in tools such as Google Drive, Slack, and Notion; in Claude, MCP servers.
 - **[AI Data Analyst](https://agentscamp.com/glossary/ai-data-analyst)** — An AI data analyst is a tool that takes a data question, writes and runs the code or SQL to answer it, and returns a chart or summary you still have to check.
+- **[AI Gateway (LLM Gateway)](https://agentscamp.com/glossary/ai-gateway)** — An AI gateway is a proxy between your apps and model providers that centralizes keys, routing, fallback, caching, rate limits, logging and cost tracking.
 - **[AI Overviews](https://agentscamp.com/glossary/ai-overviews)** — AI Overviews are Google's AI-generated summaries at the top of Search results, with source links; AI Mode is the fuller conversational version.
 - **[AI SDR](https://agentscamp.com/glossary/ai-sdr)** — An AI SDR is software that runs sales development work such as prospecting, outreach, and follow-up, with autonomy that varies enormously between vendors.
 - **[AI Slop](https://agentscamp.com/glossary/ai-slop)** — AI slop is low-effort, mass-produced AI-generated content — fluent, generic, and unchecked — flooding feeds, search results, and codebases.
@@ -33,6 +36,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/glossary). Each
 - **[Automatic captioning](https://agentscamp.com/glossary/automatic-captioning)** — Automatic captioning uses speech recognition to produce timed text for media; human review checks meaning, speaker cues and meaningful sounds.
 - **[Batch Inference](https://agentscamp.com/glossary/batch-inference)** — Batch inference processes many LLM requests asynchronously instead of one-at-a-time interactively — typically at ~50% discount via provider batch APIs.
 - **[Blocking in Record Matching](https://agentscamp.com/glossary/blocking-record-matching)** — Understand how a candidate-selection rule can miss known pairs and why missing fields need coverage checks before identity review.
+- **[BM25](https://agentscamp.com/glossary/bm25)** — BM25 is the classic keyword ranking function: it scores a document by how often the query terms appear, how rare they are, and how long the document is.
 - **[Brand Voice (in AI prompting)](https://agentscamp.com/glossary/brand-voice)** — Brand voice, in AI prompting, is the documented tone, vocabulary, and style rules a model is given so every draft sounds like one company, not the model.
 - **[Chain-of-Thought (CoT)](https://agentscamp.com/glossary/chain-of-thought)** — Chain-of-thought prompting has a model work through intermediate reasoning steps before answering — improving accuracy on multi-step problems.
 - **[Chunking](https://agentscamp.com/glossary/chunking)** — Chunking splits documents into retrievable pieces before embedding — the RAG design decision that quietly determines retrieval quality.
@@ -74,9 +78,11 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/glossary). Each
 - **[Generative Engine Optimization (GEO)](https://agentscamp.com/glossary/generative-engine-optimization)** — Generative engine optimization (GEO) is making content more likely to be cited or summarized in AI answers from ChatGPT, Gemini, or Google AI Overviews.
 - **[Generative UI](https://agentscamp.com/glossary/generative-ui)** — Generative UI is an interface produced by a model from a prompt — a whole screen, flow, or prototype generated rather than assembled by hand.
 - **[GGUF](https://agentscamp.com/glossary/gguf)** — GGUF is the single-file binary model format used by llama.cpp and other GGML-based runtimes, storing quantized tensors plus typed metadata in one file.
+- **[GraphRAG](https://agentscamp.com/glossary/graphrag)** — GraphRAG is retrieval-augmented generation over an LLM-built knowledge graph and community summaries, built for questions about a whole corpus.
 - **[Grounding](https://agentscamp.com/glossary/grounding)** — Grounding ties a model's output to verifiable sources — retrieved documents, tool results, citations — instead of training-data memory.
 - **[Guardrails](https://agentscamp.com/glossary/guardrails)** — Guardrails are programmatic checks around an LLM — validating inputs and outputs in code — enforcing safety and format rules a prompt alone can't guarantee.
 - **[Hallucination](https://agentscamp.com/glossary/hallucination)** — A hallucination is fluent, confident output that is factually wrong or fabricated — plausible text unsupported by any source, the signature LLM failure mode.
+- **[HNSW (Hierarchical Navigable Small World)](https://agentscamp.com/glossary/hnsw)** — HNSW is a graph-based approximate nearest-neighbor index that searches layered proximity graphs from the top down, the core of fast vector search.
 - **[Human-in-the-Loop (HITL)](https://agentscamp.com/glossary/human-in-the-loop)** — Human-in-the-loop design inserts human judgment at decisive points in an AI workflow — approving actions, resolving ambiguity, owning the irreversible steps.
 - **[Hybrid Search](https://agentscamp.com/glossary/hybrid-search)** — Hybrid search runs keyword (BM25) and semantic (vector) retrieval together and merges the results — catching both exact terms and paraphrases.
 - **[Inference](https://agentscamp.com/glossary/inference)** — Inference is running a trained model to produce output — for LLMs, generating tokens one at a time. Its cost and latency define the economics of AI products.
@@ -91,9 +97,11 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/glossary). Each
 - **[LMArena (now Arena)](https://agentscamp.com/glossary/lmarena)** — LMArena, now Arena and originally Chatbot Arena, is a crowdsourced leaderboard that ranks models from anonymous pairwise votes using Bradley-Terry scores.
 - **[LoRA (Low-Rank Adaptation)](https://agentscamp.com/glossary/lora)** — LoRA fine-tunes a model by training small low-rank adapter matrices instead of all weights — a fraction of the memory and cost, nearly full-tune quality.
 - **[Machine Translation Post-editing](https://agentscamp.com/glossary/machine-translation-post-editing)** — Machine translation post-editing is human revision of machine-translated text against the source, context, terminology, and agreed quality requirements.
+- **[MCP Gateway](https://agentscamp.com/glossary/mcp-gateway)** — An MCP gateway is a proxy between AI agents and the MCP servers they call, giving one endpoint with central auth, tool allowlists and audit logging.
 - **[Mixture of Experts (MoE)](https://agentscamp.com/glossary/mixture-of-experts)** — MoE is a model architecture where a router activates only a few expert subnetworks per token — huge total capacity, a fraction of the compute per token.
 - **[MCP (Model Context Protocol)](https://agentscamp.com/glossary/model-context-protocol)** — MCP is the open standard for connecting AI models to external tools and data: write one server, and any MCP client — Claude Code, IDEs, agents — can use it.
 - **[Model Routing](https://agentscamp.com/glossary/model-routing)** — Model routing sends each request to the cheapest model that can handle it, escalating only hard cases to a stronger model — cutting cost and latency.
+- **[Multi-Agent System](https://agentscamp.com/glossary/multi-agent-system)** — A multi-agent system is several AI agents working on one task, often a lead agent delegating to parallel subagents, trading extra tokens for breadth.
 - **[Multimodal AI](https://agentscamp.com/glossary/multimodal-ai)** — Multimodal AI processes more than one kind of input or output — text, images, audio, video — in a single model, like an LLM that reads screenshots or speaks.
 - **[Needle in a Haystack](https://agentscamp.com/glossary/needle-in-a-haystack)** — Needle in a haystack is a long-context eval that hides a fact in filler text and tests whether the model can retrieve it at varying depths and lengths.
 - **[No-Code AI](https://agentscamp.com/glossary/no-code-ai)** — No-code AI is building software or automations that use AI models through visual tools and prompts, without writing or maintaining code.
@@ -123,8 +131,10 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/glossary). Each
 - **[Skip Logic](https://agentscamp.com/glossary/skip-logic)** — Skip logic routes a respondent to different survey questions or endings based on answers or other stated conditions.
 - **[SLM (Small Language Model)](https://agentscamp.com/glossary/small-language-model)** — A small language model is a compact LLM — roughly 1–15B parameters — that runs cheaply or locally, trading peak capability for speed and deployability.
 - **[Spaced repetition](https://agentscamp.com/glossary/spaced-repetition)** — Spaced repetition schedules reviews over time using recall feedback; AI can draft the cards, while the learner still checks their answers.
+- **[Spec-Driven Development (SDD)](https://agentscamp.com/glossary/spec-driven-development)** — Spec-driven development is a way of building with AI coding agents where a written spec, not the prompt or the code, is the source of truth for the work.
 - **[Speculative Decoding](https://agentscamp.com/glossary/speculative-decoding)** — Speculative decoding speeds up generation: a small draft model proposes tokens, the large model verifies them in one parallel pass — same output, fewer steps.
 - **[Speech enhancement](https://agentscamp.com/glossary/speech-enhancement)** — Speech enhancement reduces unwanted noise or artifacts in recorded speech; AI-processed audio still needs comparison with the original for intelligibility.
+- **[Speech-to-Text (STT)](https://agentscamp.com/glossary/speech-to-text)** — Speech-to-text (STT), or automatic speech recognition, converts spoken audio into written text, often with timestamps and speaker labels, in batch or live.
 - **[Structured Interview](https://agentscamp.com/glossary/structured-interview)** — A structured interview uses predetermined job-related questions and shared evaluation standards so interviewers collect comparable evidence from candidates.
 - **[Structured Output](https://agentscamp.com/glossary/structured-output)** — Structured output makes an LLM return data in a guaranteed shape — JSON matching your schema — so code can consume model responses without parsing prose.
 - **[Subagent](https://agentscamp.com/glossary/subagent)** — A subagent is a specialist agent a primary agent delegates to — running in its own context window with its own prompt and tools, returning only a summary.
@@ -135,7 +145,9 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/glossary). Each
 - **[Terminal-Bench](https://agentscamp.com/glossary/terminal-bench)** — Terminal-Bench is a benchmark of hard, containerized terminal tasks that scores AI agents by resolution rate; version 4.0 (August 2026) has 66 tasks.
 - **[Test-Time Compute](https://agentscamp.com/glossary/test-time-compute)** — Test-time compute is spending more computation at inference — longer reasoning, sampling, or search — to improve answers without retraining the model.
 - **[Text-to-Image](https://agentscamp.com/glossary/text-to-image)** — Text-to-image is generating a picture from a written prompt, using a model trained to turn a description into pixels — or, in some tools, vectors.
+- **[Text-to-Speech (TTS)](https://agentscamp.com/glossary/text-to-speech)** — Text-to-speech (TTS) turns written text into spoken audio: the engine expands numbers and symbols into words, then generates a voice that reads them.
 - **[Text-to-SQL](https://agentscamp.com/glossary/text-to-sql)** — Text-to-SQL is turning a plain-language question into a SQL query a database can run, using a model grounded in your schema, documentation, and past queries.
+- **[Text-to-Video](https://agentscamp.com/glossary/text-to-video)** — Text-to-video is generating a video clip from a written prompt, using models that learn how scenes look from images and how they move from video.
 - **[Thematic Analysis](https://agentscamp.com/glossary/thematic-analysis)** — Thematic analysis interprets patterns of meaning in qualitative data, such as interview transcripts, open survey answers, and customer feedback.
 - **[Ticket Deflection](https://agentscamp.com/glossary/ticket-deflection)** — Ticket deflection means helping a customer find an answer through self-service before they submit a support ticket or need a human support queue.
 - **[Token Streaming](https://agentscamp.com/glossary/token-streaming)** — Token streaming delivers model output incrementally as it's generated — via SSE or websockets — so users see text immediately instead of waiting.
@@ -150,5 +162,6 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/glossary). Each
 - **[Vector Database](https://agentscamp.com/glossary/vector-database)** — A vector database stores embeddings and answers nearest-neighbor queries fast — the retrieval layer under RAG and semantic search, using ANN indexes like HNSW.
 - **[Vibe Coding](https://agentscamp.com/glossary/vibe-coding)** — Vibe coding is building software by describing intent in natural language and letting an AI agent write the code, judging results by behavior.
 - **[VLM (Vision-Language Model)](https://agentscamp.com/glossary/vision-language-model)** — A VLM jointly understands images and text — reading documents, screenshots, charts, and photos and reasoning about them in language.
+- **[Voice Cloning](https://agentscamp.com/glossary/voice-cloning)** — Voice cloning builds a synthetic copy of a specific person's voice from recorded samples, so a text-to-speech engine can speak any script in that voice.
 - **[AI Workflow Automation](https://agentscamp.com/glossary/workflow-automation)** — AI workflow automation is connecting apps so tasks run on triggers, with an AI model handling the judgment steps a fixed rule cannot express.
 - **[Zero-Shot Prompting](https://agentscamp.com/glossary/zero-shot-prompting)** — Zero-shot prompting asks a model to perform a task from instructions alone, with no examples — the default mode for capable modern LLMs.

@@ -4,7 +4,7 @@
 
 Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agentscamp) CLI (`-g` installs to `~/.claude/` instead of the current project), or open the linked file and copy it into your `.claude/commands/` directory. Each entry links to its full page on [AgentsCamp](https://agentscamp.com).
 
-**85 commands** · [← Back to README](README.md)
+**88 commands** · [← Back to README](README.md)
 
 ## Review
 
@@ -43,6 +43,25 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
 - **[Security Scan](commands/security-scan.md)** — Scan the current diff or given paths for security vulnerabilities.
   [↗ Page](https://agentscamp.com/commands/review/security-scan) · `npx agentscamp add commands/security-scan`
 
+## Docs
+
+- **[Add Docstrings](commands/add-docstrings.md)** — Add or improve docstrings for the public API of a file or symbol.
+  [↗ Page](https://agentscamp.com/commands/docs/add-docstrings) · `npx agentscamp add commands/add-docstrings`
+- **[Check Obligation Dates](commands/check-obligation-dates.md)** — Check a human-reviewed obligation CSV against an explicit as-of date with Python: validate calendar dates and status fields, list overdue or due-today open rows, missing owners/dates, and recorded late/future completions. Never infer legal deadlines, breach, or contract status from clauses.
+  [↗ Page](https://agentscamp.com/commands/docs/check-obligation-dates) · `npx agentscamp add commands/check-obligation-dates`
+- **[Check Procedure Graph](commands/check-procedure-graph.md)** — Check explicitly recorded SOP step dependencies with Python: validate IDs and prerequisite references, compute deterministic execution layers for acyclic graphs, and report steps blocked by a cycle without executing the procedure.
+  [↗ Page](https://agentscamp.com/commands/docs/check-procedure-graph) · `npx agentscamp add commands/check-procedure-graph`
+- **[Explain Code](commands/explain-code.md)** — Explain what the given code does, in clear prose with a short summary.
+  [↗ Page](https://agentscamp.com/commands/docs/explain-code) · `npx agentscamp add commands/explain-code`
+- **[llms.txt](commands/llms-txt.md)** — Generate or refresh llms.txt from the project's routes, sitemap, or docs navigation, write it to the static directory, and verify that every link resolves.
+  [↗ Page](https://agentscamp.com/commands/docs/llms-txt) · `npx agentscamp add commands/llms-txt`
+- **[Model Card](commands/model-card.md)** — Write or update the Hugging Face model card (README.md with YAML metadata) for a fine-tuned model directory, using only its training config and eval files and marking every gap as needed.
+  [↗ Page](https://agentscamp.com/commands/docs/model-card) · `npx agentscamp add commands/model-card`
+- **[Snapshot Handoff](commands/snapshot-handoff.md)** — Create a deterministic inventory of an approved handoff directory: record relative file paths, byte lengths, and SHA-256 hashes with code, list skipped symlinks and unreadable files, and write a snapshot without interpreting project status or changing source files.
+  [↗ Page](https://agentscamp.com/commands/docs/snapshot-handoff) · `npx agentscamp add commands/snapshot-handoff`
+- **[Update README](commands/update-readme.md)** — Update the README to reflect the current scripts, structure, and features of the repo.
+  [↗ Page](https://agentscamp.com/commands/docs/update-readme) · `npx agentscamp add commands/update-readme`
+
 ## Scaffold
 
 - **[Add Human Approval Step](commands/add-human-approval.md)** — Scaffold a human-in-the-loop approval gate into an agent so it pauses before a consequential action and resumes after approval.
@@ -62,23 +81,6 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
 - **[Scaffold a vLLM Serving Config](commands/scaffold-vllm-config.md)** — Scaffold a vLLM serving config for a model on a target GPU — pick precision/quantization and parallelism to fit, set batching and context length, and expose an OpenAI-compatible server.
   [↗ Page](https://agentscamp.com/commands/scaffold/scaffold-vllm-config) · `npx agentscamp add commands/scaffold-vllm-config`
 
-## Docs
-
-- **[Add Docstrings](commands/add-docstrings.md)** — Add or improve docstrings for the public API of a file or symbol.
-  [↗ Page](https://agentscamp.com/commands/docs/add-docstrings) · `npx agentscamp add commands/add-docstrings`
-- **[Check Obligation Dates](commands/check-obligation-dates.md)** — Check a human-reviewed obligation CSV against an explicit as-of date with Python: validate calendar dates and status fields, list overdue or due-today open rows, missing owners/dates, and recorded late/future completions. Never infer legal deadlines, breach, or contract status from clauses.
-  [↗ Page](https://agentscamp.com/commands/docs/check-obligation-dates) · `npx agentscamp add commands/check-obligation-dates`
-- **[Check Procedure Graph](commands/check-procedure-graph.md)** — Check explicitly recorded SOP step dependencies with Python: validate IDs and prerequisite references, compute deterministic execution layers for acyclic graphs, and report steps blocked by a cycle without executing the procedure.
-  [↗ Page](https://agentscamp.com/commands/docs/check-procedure-graph) · `npx agentscamp add commands/check-procedure-graph`
-- **[Explain Code](commands/explain-code.md)** — Explain what the given code does, in clear prose with a short summary.
-  [↗ Page](https://agentscamp.com/commands/docs/explain-code) · `npx agentscamp add commands/explain-code`
-- **[llms.txt](commands/llms-txt.md)** — Generate or refresh llms.txt from the project's routes, sitemap, or docs navigation, write it to the static directory, and verify that every link resolves.
-  [↗ Page](https://agentscamp.com/commands/docs/llms-txt) · `npx agentscamp add commands/llms-txt`
-- **[Snapshot Handoff](commands/snapshot-handoff.md)** — Create a deterministic inventory of an approved handoff directory: record relative file paths, byte lengths, and SHA-256 hashes with code, list skipped symlinks and unreadable files, and write a snapshot without interpreting project status or changing source files.
-  [↗ Page](https://agentscamp.com/commands/docs/snapshot-handoff) · `npx agentscamp add commands/snapshot-handoff`
-- **[Update README](commands/update-readme.md)** — Update the README to reflect the current scripts, structure, and features of the repo.
-  [↗ Page](https://agentscamp.com/commands/docs/update-readme) · `npx agentscamp add commands/update-readme`
-
 ## Git
 
 - **[Clean Branches](commands/clean-branches.md)** — Safely prune merged and stale Git branches: drop dead remote-tracking refs, list merged candidates for review, then delete with the safe -d variant.
@@ -95,6 +97,23 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
   [↗ Page](https://agentscamp.com/commands/git/resolve-conflict) · `npx agentscamp add commands/resolve-conflict`
 - **[Sync Branch](commands/sync-branch.md)** — Fetch and rebase the current branch onto its base, resolving conflicts and verifying the build.
   [↗ Page](https://agentscamp.com/commands/git/sync-branch) · `npx agentscamp add commands/sync-branch`
+
+## Testing
+
+- **[Check Support Cases](commands/check-support-cases.md)** — Validate a local JSONL support-answer testset with Python: unique case IDs, exact fields, answer/clarify/escalate expectations, required answer-card references and sources, and explicit escalation reasons; report counts without running a support bot.
+  [↗ Page](https://agentscamp.com/commands/testing/check-support-cases) · `npx agentscamp add commands/check-support-cases`
+- **[Fix Failing Test](commands/fix-failing-test.md)** — Diagnose and fix a failing test by finding the real root cause.
+  [↗ Page](https://agentscamp.com/commands/testing/fix-failing-test) · `npx agentscamp add commands/fix-failing-test`
+- **[Hunt Flaky Tests](commands/flaky-test-hunt.md)** — Reproduce a flaky test, find the real source of nondeterminism, and fix the cause.
+  [↗ Page](https://agentscamp.com/commands/testing/flaky-test-hunt) · `npx agentscamp add commands/flaky-test-hunt`
+- **[Generate E2E Test](commands/generate-e2e-test.md)** — Scaffold a resilient end-to-end test for a user flow grounded in the real UI.
+  [↗ Page](https://agentscamp.com/commands/testing/generate-e2e-test) · `npx agentscamp add commands/generate-e2e-test`
+- **[Run Evals](commands/run-evals.md)** — Run the project's LLM evaluation suite (DeepEval, promptfoo, or RAGAS) and report scores against thresholds before a merge.
+  [↗ Page](https://agentscamp.com/commands/testing/run-evals) · `npx agentscamp add commands/run-evals`
+- **[Test MCP Server](commands/test-mcp-server.md)** — Run MCP Inspector CLI checks against an MCP server given as a launch command or URL: detect its protocol era, list tools with --strict, call one safe tool, call it with bad arguments, and report pass or fail per check with exit codes.
+  [↗ Page](https://agentscamp.com/commands/testing/test-mcp-server) · `npx agentscamp add commands/test-mcp-server`
+- **[Write Tests](commands/write-tests.md)** — Generate tests covering the happy path and edge cases for the given target.
+  [↗ Page](https://agentscamp.com/commands/testing/write-tests) · `npx agentscamp add commands/write-tests`
 
 ## Workflow
 
@@ -113,20 +132,18 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
 - **[Setup Pre-commit Hooks](commands/setup-precommit-hooks.md)** — Set up fast pre-commit hooks that catch problems before they land — detect the repo's existing stack and hook mechanism, run lint/format/typecheck plus a secret scan on staged files only, keep the slow test suite in CI, and make the setup reproducible for the whole team.
   [↗ Page](https://agentscamp.com/commands/workflow/setup-precommit-hooks) · `npx agentscamp add commands/setup-precommit-hooks`
 
-## Testing
+## Plan
 
-- **[Check Support Cases](commands/check-support-cases.md)** — Validate a local JSONL support-answer testset with Python: unique case IDs, exact fields, answer/clarify/escalate expectations, required answer-card references and sources, and explicit escalation reasons; report counts without running a support bot.
-  [↗ Page](https://agentscamp.com/commands/testing/check-support-cases) · `npx agentscamp add commands/check-support-cases`
-- **[Fix Failing Test](commands/fix-failing-test.md)** — Diagnose and fix a failing test by finding the real root cause.
-  [↗ Page](https://agentscamp.com/commands/testing/fix-failing-test) · `npx agentscamp add commands/fix-failing-test`
-- **[Hunt Flaky Tests](commands/flaky-test-hunt.md)** — Reproduce a flaky test, find the real source of nondeterminism, and fix the cause.
-  [↗ Page](https://agentscamp.com/commands/testing/flaky-test-hunt) · `npx agentscamp add commands/flaky-test-hunt`
-- **[Generate E2E Test](commands/generate-e2e-test.md)** — Scaffold a resilient end-to-end test for a user flow grounded in the real UI.
-  [↗ Page](https://agentscamp.com/commands/testing/generate-e2e-test) · `npx agentscamp add commands/generate-e2e-test`
-- **[Run Evals](commands/run-evals.md)** — Run the project's LLM evaluation suite (DeepEval, promptfoo, or RAGAS) and report scores against thresholds before a merge.
-  [↗ Page](https://agentscamp.com/commands/testing/run-evals) · `npx agentscamp add commands/run-evals`
-- **[Write Tests](commands/write-tests.md)** — Generate tests covering the happy path and edge cases for the given target.
-  [↗ Page](https://agentscamp.com/commands/testing/write-tests) · `npx agentscamp add commands/write-tests`
+- **[Breakdown Task](commands/breakdown-task.md)** — Decompose a task into an ordered checklist of small, verifiable steps.
+  [↗ Page](https://agentscamp.com/commands/plan/breakdown-task) · `npx agentscamp add commands/breakdown-task`
+- **[Estimate Effort](commands/estimate-effort.md)** — Produce a grounded effort and complexity estimate for a task by exploring the codebase read-only.
+  [↗ Page](https://agentscamp.com/commands/plan/estimate-effort) · `npx agentscamp add commands/estimate-effort`
+- **[Plan Feature](commands/plan-feature.md)** — Explore the codebase and produce an implementation plan for a feature.
+  [↗ Page](https://agentscamp.com/commands/plan/plan-feature) · `npx agentscamp add commands/plan-feature`
+- **[Spec](commands/spec.md)** — Draft spec files for a feature: requirements with EARS acceptance criteria, a design, and a traceable task list, in the repo's Kiro or Spec Kit layout. Stops for review before any implementation.
+  [↗ Page](https://agentscamp.com/commands/plan/spec) · `npx agentscamp add commands/spec`
+- **[Write Design Doc](commands/write-design-doc.md)** — Explore the codebase and write a decision-oriented design doc / RFC for a feature or system change.
+  [↗ Page](https://agentscamp.com/commands/plan/write-design-doc) · `npx agentscamp add commands/write-design-doc`
 
 ## Marketing
 
@@ -149,17 +166,6 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
   [↗ Page](https://agentscamp.com/commands/perf/profile-postgres-queries) · `npx agentscamp add commands/profile-postgres-queries`
 - **[Set Perf Budget](commands/set-perf-budget.md)** — Define and enforce a cost and latency budget for an LLM feature or endpoint — set p95/p99 latency and cost-per-request ceilings, instrument to measure them against real traffic, and wire a check that fails when the budget is breached.
   [↗ Page](https://agentscamp.com/commands/perf/set-perf-budget) · `npx agentscamp add commands/set-perf-budget`
-
-## Plan
-
-- **[Breakdown Task](commands/breakdown-task.md)** — Decompose a task into an ordered checklist of small, verifiable steps.
-  [↗ Page](https://agentscamp.com/commands/plan/breakdown-task) · `npx agentscamp add commands/breakdown-task`
-- **[Estimate Effort](commands/estimate-effort.md)** — Produce a grounded effort and complexity estimate for a task by exploring the codebase read-only.
-  [↗ Page](https://agentscamp.com/commands/plan/estimate-effort) · `npx agentscamp add commands/estimate-effort`
-- **[Plan Feature](commands/plan-feature.md)** — Explore the codebase and produce an implementation plan for a feature.
-  [↗ Page](https://agentscamp.com/commands/plan/plan-feature) · `npx agentscamp add commands/plan-feature`
-- **[Write Design Doc](commands/write-design-doc.md)** — Explore the codebase and write a decision-oriented design doc / RFC for a feature or system change.
-  [↗ Page](https://agentscamp.com/commands/plan/write-design-doc) · `npx agentscamp add commands/write-design-doc`
 
 ## Refactor
 

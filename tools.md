@@ -4,7 +4,7 @@
 
 Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each entry links to its canonical page.
 
-**246 tools** · [← Back to README](README.md)
+**260 tools** · [← Back to README](README.md)
 
 ## Platform
 
@@ -24,6 +24,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each en
 - **[Fireworks AI](https://agentscamp.com/tools/fireworks-ai)** — Fast production inference for open models — serverless and dedicated GPU deployments, fine-tuning, and an OpenAI-compatible API on a proprietary serving stack.
 - **[Flowise](https://agentscamp.com/tools/flowise)** — Open-source, low-code visual builder for LLM apps and AI agents — drag-and-drop to assemble chains, agents, and RAG; self-host or use Flowise Cloud.
 - **[Groq](https://agentscamp.com/tools/groq)** — GroqCloud runs open-weight LLMs on custom LPU hardware for very fast, low-latency inference through an OpenAI-compatible API.
+- **[Hugging Face](https://agentscamp.com/tools/hugging-face)** — The Git-based hub for open models, datasets and Spaces, with serverless Inference Providers, dedicated Inference Endpoints and Apache-2.0 libraries.
 - **[Intercom Fin](https://agentscamp.com/tools/intercom-fin)** — Fin by Intercom is an AI customer agent with support-content training, guidance, pre-deployment batch testing, and configured human handover workflows.
 - **[Jan](https://agentscamp.com/tools/jan)** — An open-source ChatGPT alternative that runs fully offline — a polished desktop app over llama.cpp with a model hub, MCP support, and a local API server.
 - **[Jina Reader](https://agentscamp.com/tools/jina-reader)** — Prepend r.jina.ai/ to any URL and get LLM-ready markdown — JS rendering, PDFs and Office docs, image captioning, and s.jina.ai for read-the-results search.
@@ -45,7 +46,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each en
 - **[Replicate](https://agentscamp.com/tools/replicate)** — Run and deploy any open ML model — LLMs, image, video, audio — through one API with pay-per-second billing, and package your own with open-source Cog.
 - **[Scribe](https://agentscamp.com/tools/scribe)** — Scribe captures on-screen workflows into editable visual guides and adds AI drafting features for titles, descriptions, and process documentation.
 - **[Skyvern](https://agentscamp.com/tools/skyvern)** — Open-source vision + LLM browser automation aimed at replacing brittle RPA — workflow builder, CAPTCHA/2FA handling, and self-host or cloud.
-- **[Smithery](https://agentscamp.com/tools/smithery)** — A registry and hosting platform for Model Context Protocol servers — discover, deploy, and connect MCP servers from one place.
+- **[Smithery](https://agentscamp.com/tools/smithery)** — A public directory of Model Context Protocol servers, now powered by Arcade.dev; its hosting, CLI and API shut down on October 31, 2026.
 - **[Spellbook](https://agentscamp.com/tools/spellbook)** — Spellbook supports legal contract work with AI questions, source references, Microsoft Word review suggestions, and reusable contract-review instructions.
 - **[Tavily](https://agentscamp.com/tools/tavily)** — The web-access layer for agents — Search, Extract, Crawl, Map, and Research APIs purpose-built for LLMs, behind one key, with a hosted MCP server.
 - **[Together AI](https://agentscamp.com/tools/together-ai)** — A cloud for running, fine-tuning, and deploying open-source models (Llama, DeepSeek, Qwen) via an OpenAI-compatible API plus dedicated GPU endpoints.
@@ -93,12 +94,15 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each en
 
 ## MCP
 
+- **[Atlassian MCP Server](https://agentscamp.com/tools/atlassian-mcp)** — Atlassian's hosted MCP server, formerly the Atlassian Rovo MCP Server, gives AI agents permission-aware access to Jira, Confluence, Bitbucket and more.
 - **[Chrome DevTools MCP](https://agentscamp.com/tools/chrome-devtools-mcp)** — Google's official MCP server that gives coding agents a live Chrome — Puppeteer automation plus DevTools network, console, and performance insights.
 - **[Claude Context](https://agentscamp.com/tools/claude-context)** — Zilliz's MIT-licensed MCP server that indexes your codebase into Milvus or Zilliz Cloud and gives your agent hybrid semantic code search.
 - **[Cloudflare MCP](https://agentscamp.com/tools/cloudflare-mcp)** — Cloudflare's official MCP servers — a Code Mode server covering 2,500 API endpoints in ~1k tokens, plus hosted servers for docs, Workers, and observability.
+- **[Composio](https://agentscamp.com/tools/composio)** — Composio gives AI agents authenticated access to third-party apps through SDKs, a CLI, the Composio Connect MCP server and a managed MCP gateway.
 - **[Context7](https://agentscamp.com/tools/context7)** — Upstash's MCP server that pulls up-to-date, version-specific library documentation into your agent's context — the cure for hallucinated APIs.
 - **[DeepWiki MCP](https://agentscamp.com/tools/deepwiki-mcp)** — Cognition's free, no-auth remote MCP server for DeepWiki: generated wikis and grounded Q&A for any public GitHub repository, from inside your agent.
 - **[Desktop Commander](https://agentscamp.com/tools/desktop-commander)** — MIT-licensed MCP server that gives Claude Desktop and other MCP clients terminal control, file system search, and diff-based file editing.
+- **[Docker MCP Toolkit](https://agentscamp.com/tools/docker-mcp-toolkit)** — Docker Desktop's MCP Toolkit runs MCP servers from Docker's catalog as isolated containers and connects them to Claude Code, Cursor and other clients.
 - **[Figma MCP](https://agentscamp.com/tools/figma-mcp)** — Figma's official MCP server — structured design context, variables, screenshots, and Code Connect mappings for agents, plus write-back to the canvas.
 - **[Github MCP Server](https://agentscamp.com/tools/github-mcp-server)** — GitHub's official MCP server — repos, issues, PRs, Actions, and security data for your agent, as a free hosted remote or a local Docker server.
 - **[GitMCP](https://agentscamp.com/tools/gitmcp)** — Free, open-source remote MCP server that turns any public GitHub repo or Pages site into docs and code-search tools for your agent. No signup or key.
@@ -125,6 +129,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each en
 - **[Claude Design](https://agentscamp.com/tools/claude-design)** — An Anthropic Labs tool for making prototypes, decks, and one-pagers with Claude, using your design system, with PPTX, PDF, HTML, and Canva export.
 - **[Figma Make](https://agentscamp.com/tools/figma-make)** — Figma's prompt-to-app tool: describe an idea or paste a design and get a working, code-backed prototype you can keep editing inside Figma.
 - **[Framer AI](https://agentscamp.com/tools/framer-ai)** — A website design tool with AI agents that generate editable pages, wireframes, CMS content, and code components, then publish to hosting Framer runs.
+- **[Heygen](https://agentscamp.com/tools/heygen)** — HeyGen is an AI video platform for avatar videos, video translation with lip-sync, voice cloning and prompt-to-video, with a v3 API, a CLI and an MCP server.
 - **[Ideogram](https://agentscamp.com/tools/ideogram)** — An image generator built around reliable text rendering, with prompt tooling, background control, on-brand custom models, an API, and an MCP server.
 - **[Kling](https://agentscamp.com/tools/kling)** — Kuaishou's video studio: Kling 4.0 with native 30-second clips, audio and Omni reference, the native-4K 3.0 series, desktop and mobile apps, API, MCP and CLI.
 - **[Meshy](https://agentscamp.com/tools/meshy)** — Evaluate Meshy with a versioned prop pilot, owner-set requirements, real inspection reports and actual target-application viewer evidence.
@@ -135,19 +140,24 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each en
 - **[Relume](https://agentscamp.com/tools/relume)** — An AI site builder that turns a brief into a sitemap, wireframes, and a designed marketing site, then exports to Figma, Webflow, or React.
 - **[Runway](https://agentscamp.com/tools/runway)** — Runway's AI video platform: Gen-4.5 generation with native audio, Aleph 2.0 editing, Act-Two capture, 54 hosted models, an API, MCP, and Adobe plugins.
 - **[Stitch](https://agentscamp.com/tools/stitch)** — Google's AI design canvas that turns prompts, voice, images, or an existing codebase into high-fidelity mobile and web UI, with frontend code and a Figma paste.
+- **[Synthesia](https://agentscamp.com/tools/synthesia)** — Synthesia is an AI video platform for presenter-led video: Express-3 avatars, AI dubbing in the speaker's voice, interactive avatars, SCORM export and an API.
 
 ## Assistant
 
 - **[Chatgpt](https://agentscamp.com/tools/chatgpt)** — OpenAI's general-purpose AI assistant for chat, research, and finished documents, with Projects, memory, plugins, and a Work mode for multi-step tasks.
 - **[Claude](https://agentscamp.com/tools/claude)** — Anthropic's AI assistant app for web, desktop, and mobile, with Projects, connectors, Artifacts, skills, memory, and code execution.
 - **[Claude Cowork](https://agentscamp.com/tools/claude-cowork)** — Anthropic's agent for knowledge work that completes multi-step tasks in your folders, connectors, and browser, on desktop, web, and mobile.
+- **[Deepseek](https://agentscamp.com/tools/deepseek)** — DeepSeek is a free AI chat app and a pay-as-you-go API running the V4.1-Flash and V4-Pro models, whose weights are published under the MIT License.
 - **[Elicit](https://agentscamp.com/tools/elicit)** — Elicit supports academic research with a Research Agent, research reports, and a structured workflow for screening papers and extracting evidence.
 - **[Fathom](https://agentscamp.com/tools/fathom)** — Fathom is a free-first AI notetaker that records Zoom, Meet and Teams calls with or without a bot and delivers summaries, action items, clips and CRM sync.
 - **[Gemini](https://agentscamp.com/tools/gemini)** — Google's Gemini app, a general-purpose AI assistant with Deep Research, Gems, Canvas, and direct integration into Gmail, Docs, Sheets, and Workspace.
 - **[Glean](https://agentscamp.com/tools/glean)** — Glean is an enterprise AI search and assistant platform that retrieves company knowledge through configured connectors and source access controls.
 - **[Granola](https://agentscamp.com/tools/granola)** — Granola is a bot-free AI meeting notepad that transcribes from device audio, merges your notes with the transcript, and shares them via MCP and integrations.
+- **[Grok](https://agentscamp.com/tools/grok)** — Grok is the AI assistant from SpaceXSI (formerly xAI), with live web and X search, multi-agent answers, Imagine for images and video, voice, and Grok Bot.
 - **[MagicSchool](https://agentscamp.com/tools/magicschool)** — MagicSchool provides AI lesson, worksheet, quiz and rubric drafts that educators can tailor to supplied readings and instructional goals.
+- **[Manus](https://agentscamp.com/tools/manus)** — Manus is a general-purpose AI agent that plans multi-step jobs in its cloud and runs them in a cloud sandbox, your own browser, or your Mac or Windows PC.
 - **[Microsoft Copilot](https://agentscamp.com/tools/microsoft-copilot)** — Microsoft's work assistant inside Word, Excel, PowerPoint, Outlook, and Teams, grounded in your company's Microsoft 365 data, with Researcher and Analyst.
+- **[Mistral Vibe](https://agentscamp.com/tools/mistral-vibe)** — Mistral Vibe (formerly Le Chat) is Mistral's assistant for work and code: chat, research, connectors and scheduled tasks, plus a coding agent in your terminal.
 - **[Notebooklm](https://agentscamp.com/tools/notebooklm)** — Google's source-grounded research notebook, renamed from NotebookLM in July 2026, that answers only from your uploaded sources and turns them into media.
 - **[Otter AI](https://agentscamp.com/tools/otter-ai)** — Otter.ai sends its Notetaker bot into Zoom, Teams and Meet calls, or records from desktop and mobile, producing live transcripts, summaries and action items.
 - **[Perplexity](https://agentscamp.com/tools/perplexity)** — An AI answer engine that cites its sources on every response, with a Research mode for long reports, Projects for shared context, and the Comet browser.
@@ -163,6 +173,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each en
 - **[Gamma](https://agentscamp.com/tools/gamma)** — An AI design partner that turns a prompt or a document into presentations, docs, websites, and social posts, with an Agent for edits and a credits-based plan.
 - **[Hubspot Breeze](https://agentscamp.com/tools/hubspot-breeze)** — HubSpot's built-in AI: Breeze Assistant in every plan, pre-built Breeze agents for content, prospecting, and support, and a plain-language Agent Builder.
 - **[Jasper](https://agentscamp.com/tools/jasper)** — An enterprise marketing AI workspace with 100+ purpose-built agents, Jasper IQ brand context, Canvas, and an MCP server for other AI tools.
+- **[Luma](https://agentscamp.com/tools/luma)** — Luma AI, formerly Dream Machine, now sells Luma Agents: creative agents on its Ray3.2 video and Uni-1.1 image models plus hosted models, with an API and MCP.
 - **[Opus Clip](https://agentscamp.com/tools/opus-clip)** — An AI clipping tool that turns long videos into scored, captioned short clips for Shorts, TikTok, and Reels, with a scheduler, brand templates, and an API.
 - **[Peec AI](https://agentscamp.com/tools/peec-ai)** — Self-serve AI-search analytics that runs tracked prompts daily across AI models and reports brand visibility, position, sentiment, sources, and AI-bot traffic.
 - **[Profound](https://agentscamp.com/tools/profound)** — Enterprise AI-search visibility platform tracking prompts across up to nine answer engines, with citations, sentiment, prompt volumes, and AI-crawler analytics.
@@ -182,6 +193,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each en
 - **[pgroll](https://agentscamp.com/tools/pgroll)** — An open-source CLI for zero-downtime, reversible Postgres schema migrations using the expand-contract pattern behind versioned schema views.
 - **[Qwen Code](https://agentscamp.com/tools/qwen-code)** — Alibaba Qwen's Apache-2.0 coding agent for the terminal, editor and desktop: OpenAI, Anthropic, Gemini and Qwen APIs, any provider, or local models.
 - **[Spec Kit](https://agentscamp.com/tools/spec-kit)** — GitHub's open-source toolkit for spec-driven development — a specify CLI and /speckit slash commands that walk any coding agent from spec to implementation.
+- **[Taskmaster (task-master-ai)](https://agentscamp.com/tools/taskmaster)** — Taskmaster (task-master-ai) turns a PRD into dependency-ordered tasks and subtasks that your coding agent works through, from a CLI or an MCP server.
 
 ## Extension
 
@@ -238,6 +250,17 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each en
 - **[Softr](https://agentscamp.com/tools/softr)** — A no-code builder for client portals and internal tools on top of Airtable, Google Sheets, or its own database, now with AI app generation.
 - **[V0](https://agentscamp.com/tools/v0)** — Vercel's generative UI builder that turns prompts into production-ready React, Next.js, and shadcn/ui apps.
 
+## Agent
+
+- **[Amp](https://agentscamp.com/tools/amp)** — Agentic coding tool, independent of Sourcegraph since December 2025: a CLI plus apps for the web, Mac, iPhone, and iPad, tuned for frontier-model coding.
+- **[Devin](https://agentscamp.com/tools/devin)** — Cognition's autonomous AI software engineer that works in its own cloud workspace with an editor, terminal, and browser.
+- **[Factory](https://agentscamp.com/tools/factory)** — Factory is an agent-native software development platform whose Droids plan, write, test, and ship code from the terminal, IDE, and web with org context.
+- **[Goose](https://agentscamp.com/tools/goose)** — Open-source, on-machine AI agent, originally from Block and now an Agentic AI Foundation project — MCP-native and model-agnostic, with a CLI and desktop app.
+- **[Jules](https://agentscamp.com/tools/jules)** — Google's asynchronous coding agent: it clones your GitHub repo into a cloud VM, proposes a plan built with Gemini, and opens a pull request once you approve.
+- **[Junie](https://agentscamp.com/tools/junie)** — JetBrains' AI coding agent. The Junie IDE plugin is retiring as Junie moves into JetBrains Air; Junie CLI and the free Junie Lite tier continue.
+- **[OpenHands](https://agentscamp.com/tools/openhands)** — Open-source autonomous AI software-development agent (formerly OpenDevin) — writes code, runs commands, and browses the web in a sandbox.
+- **[Swe Agent](https://agentscamp.com/tools/swe-agent)** — Open-source autonomous coding agent from Princeton/Stanford that turns an LLM into a software engineer to fix real GitHub issues.
+
 ## Analytics
 
 - **[Databricks Genie](https://agentscamp.com/tools/databricks-genie)** — Databricks' conversational analytics layer: Genie Agents answer natural-language questions over Unity Catalog data using curated instructions and SQL.
@@ -248,16 +271,6 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each en
 - **[Pandasai](https://agentscamp.com/tools/pandasai)** — A Python library that adds a chat method to your dataframes: it generates and runs pandas code to answer questions, with an optional Docker sandbox.
 - **[Thoughtspot Spotter](https://agentscamp.com/tools/thoughtspot-spotter)** — ThoughtSpot's agentic analyst: it resolves questions into search tokens against a governed semantic model rather than raw SQL, then acts on the answer.
 - **[Vanna](https://agentscamp.com/tools/vanna)** — An MIT-licensed Python framework for text-to-SQL: a user-aware agent that learns from successful queries and streams tables, charts, and summaries back.
-
-## Agent
-
-- **[Amp](https://agentscamp.com/tools/amp)** — Agentic coding tool, independent of Sourcegraph since December 2025: a CLI plus apps for the web, Mac, iPhone, and iPad, tuned for frontier-model coding.
-- **[Devin](https://agentscamp.com/tools/devin)** — Cognition's autonomous AI software engineer that works in its own cloud workspace with an editor, terminal, and browser.
-- **[Factory](https://agentscamp.com/tools/factory)** — Factory is an agent-native software development platform whose Droids plan, write, test, and ship code from the terminal, IDE, and web with org context.
-- **[Goose](https://agentscamp.com/tools/goose)** — Open-source, on-machine AI agent, originally from Block and now an Agentic AI Foundation project — MCP-native and model-agnostic, with a CLI and desktop app.
-- **[Jules](https://agentscamp.com/tools/jules)** — Google's asynchronous coding agent: it clones your GitHub repo into a cloud VM, proposes a plan built with Gemini, and opens a pull request once you approve.
-- **[OpenHands](https://agentscamp.com/tools/openhands)** — Open-source autonomous AI software-development agent (formerly OpenDevin) — writes code, runs commands, and browses the web in a sandbox.
-- **[Swe Agent](https://agentscamp.com/tools/swe-agent)** — Open-source autonomous coding agent from Princeton/Stanford that turns an LLM into a software engineer to fix real GitHub issues.
 
 ## IDE
 
@@ -277,6 +290,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each en
 - **[Langfuse](https://agentscamp.com/tools/langfuse)** — An open-source LLM engineering platform for tracing, evals, prompt management, and metrics.
 - **[LangSmith](https://agentscamp.com/tools/langsmith)** — LangChain's platform for tracing, evaluating, and monitoring LLM apps — framework-agnostic.
 - **[Opik](https://agentscamp.com/tools/opik)** — Comet's Apache-2.0 LLM observability and evaluation platform: tracing, experiments, LLM-as-a-judge, test suites and prompt optimization, self-hosted or cloud.
+- **[Weave](https://agentscamp.com/tools/weave)** — Weights & Biases' observability and evaluation platform for agents and LLM apps: OpenTelemetry tracing, scorers, evals and guardrails, now part of CoreWeave.
 
 ## Data
 
@@ -300,7 +314,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each en
 
 ## Automation
 
-- **[Lindy](https://agentscamp.com/tools/lindy)** — An AI teammate that lives in Slack, joins your meetings, and runs scheduled routines and reusable skills across 1,000+ tools with approvals.
+- **[Lindy](https://agentscamp.com/tools/lindy)** — An AI teammate that lives in Slack, joins your meetings, and runs scheduled routines and reusable skills across 3,000+ integrations with approvals.
 - **[Zapier Agents](https://agentscamp.com/tools/zapier-agents)** — Zapier's no-code AI agents that take plain-English instructions and act across 9,000+ apps on a schedule, on app events, or on demand.
 
 ## Browser

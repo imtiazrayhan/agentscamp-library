@@ -4,7 +4,7 @@
 
 Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agentscamp) CLI (`-g` installs to `~/.claude/` instead of the current project), or open the linked file and copy it into your `.claude/agents/` directory. Each entry links to its full page on [AgentsCamp](https://agentscamp.com).
 
-**87 agents** · [← Back to README](README.md)
+**89 agents** · [← Back to README](README.md)
 
 ## Data AI
 
@@ -30,6 +30,8 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
   [↗ Page](https://agentscamp.com/agents/data-ai/llm-observability-engineer) · `npx agentscamp add agents/llm-observability-engineer`
 - **[ML Engineer](agents/ml-engineer.md)** — Use this agent for production ML — pipelines, training, serving, evaluation, and MLOps. Examples — building a training pipeline, deploying a model, setting up evaluation.
   [↗ Page](https://agentscamp.com/agents/data-ai/ml-engineer) · `npx agentscamp add agents/ml-engineer`
+- **[Open Model Scout](agents/open-model-scout.md)** — Use this agent to shortlist open-weight models on the Hugging Face Hub for a task under hard constraints (license, parameter count or GPU memory budget, context length, language, gated access). It queries the Hub with huggingface_hub or the hf CLI, reads each candidate's model card and license, and returns a comparison table with caveats. It is read-only and never quotes a benchmark number that is not on the card. Examples — "find an Apache-2.0 text-generation model under 10B parameters that handles Spanish", "which non-gated embedding models fit on one 24 GB GPU?", "shortlist code models with long context that we can use commercially".
+  [↗ Page](https://agentscamp.com/agents/data-ai/open-model-scout) · `npx agentscamp add agents/open-model-scout`
 - **[Postgres Migration Engineer](agents/postgres-migration-engineer.md)** — Use this agent to plan and execute a zero-downtime Postgres schema migration — decomposing a breaking change into expand-contract steps, writing batched backfills, building indexes CONCURRENTLY, validating constraints online, and keeping every step reversible with the project's migration tooling. Examples — "add a NOT NULL column to a 200M-row table without downtime", "rename a column safely across a rolling deploy", "split this risky migration into reversible expand/contract steps".
   [↗ Page](https://agentscamp.com/agents/data-ai/postgres-migration-engineer) · `npx agentscamp add agents/postgres-migration-engineer`
 - **[Prompt Engineer](agents/prompt-engineer.md)** — Use this agent to design and iterate the prompts behind an LLM-powered product feature — instructions, few-shot examples, tool schemas, and the evals that prove a change actually helped. Examples — "this classification prompt is flaky, make it reliable", "design the system prompt and function schema for our support agent", "our extraction prompt regressed after I tweaked it, set up evals so this stops happening".
@@ -89,6 +91,25 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
 - **[Test Engineer](agents/test-engineer.md)** — Use this agent to write and improve automated tests — unit, integration, and edge cases. Examples — adding coverage to an untested module, writing regression tests for a bug, designing a test plan.
   [↗ Page](https://agentscamp.com/agents/quality-security/test-engineer) · `npx agentscamp add agents/test-engineer`
 
+## Core Development
+
+- **[API Architect](agents/api-architect.md)** — Use this agent to design APIs — resource modeling, versioning, pagination, error contracts, REST vs GraphQL. Examples — designing a public API, reviewing an API spec, planning a breaking change.
+  [↗ Page](https://agentscamp.com/agents/core-development/api-architect) · `npx agentscamp add agents/api-architect`
+- **[Backend Developer](agents/backend-developer.md)** — Use this agent to build server-side features — endpoints, business logic, data access, background jobs. Examples — a new REST/GraphQL endpoint, a queue worker, a database integration.
+  [↗ Page](https://agentscamp.com/agents/core-development/backend-developer) · `npx agentscamp add agents/backend-developer`
+- **[Database Architect](agents/database-architect.md)** — Use this agent to design data models and storage strategy from access patterns — schema design, normalization vs deliberate denormalization, relational vs document vs key-value vs wide-column vs graph selection, indexing, partitioning/sharding, transaction boundaries, and consistency models. Examples — modeling a new feature's schema, choosing a database for a write-heavy event workload, reviewing a schema for missing indexes or scaling cliffs, planning how to shard a table that no longer fits one node.
+  [↗ Page](https://agentscamp.com/agents/core-development/database-architect) · `npx agentscamp add agents/database-architect`
+- **[Frontend Developer](agents/frontend-developer.md)** — Use this agent to build UI — responsive layouts, components, accessibility, and design-system work. Examples — implementing a Figma design, fixing a11y issues, building a reusable component.
+  [↗ Page](https://agentscamp.com/agents/core-development/frontend-developer) · `npx agentscamp add agents/frontend-developer`
+- **[GraphQL Architect](agents/graphql-architect.md)** — Use this agent to design GraphQL schemas and resolvers — types, nullability, connections, dataloaders, federation, depth/complexity limits. Examples — designing a new schema from requirements, killing N+1 queries in resolvers, planning a deprecation, hardening a public graph.
+  [↗ Page](https://agentscamp.com/agents/core-development/graphql-architect) · `npx agentscamp add agents/graphql-architect`
+- **[Mobile Developer](agents/mobile-developer.md)** — Use this agent to build cross-platform mobile apps with React Native + Expo — screens, navigation, native modules, and shipping via EAS. Examples — adding a tab-based navigation flow, fixing a janky FlatList, shipping a build to TestFlight with EAS.
+  [↗ Page](https://agentscamp.com/agents/core-development/mobile-developer) · `npx agentscamp add agents/mobile-developer`
+- **[Spec Implementer](agents/spec-implementer.md)** — Use this agent to implement an approved spec's tasks.md one task at a time: it reads the linked requirements and design, writes the tests that prove each task's acceptance criteria, implements until they pass, and checks the task off only then. It stops and asks when the spec is ambiguous or contradicts the code, and never changes requirements on its own. Examples — "implement tasks 1 to 3 from docs/specs/report-csv-export/tasks.md", "continue the spec where the last session stopped", "implement the next unchecked task and show me the test that proves it".
+  [↗ Page](https://agentscamp.com/agents/core-development/spec-implementer) · `npx agentscamp add agents/spec-implementer`
+- **[System Architect](agents/system-architect.md)** — Use this agent for high-level system design — service boundaries, data flow, scaling, trade-offs. Examples — designing a new system, evaluating a monolith-to-services split, a scalability review.
+  [↗ Page](https://agentscamp.com/agents/core-development/system-architect) · `npx agentscamp add agents/system-architect`
+
 ## Product
 
 - **[Contract Obligation Reviewer](agents/contract-obligation-reviewer.md)** — Compare a prepared vendor-contract obligation register with supplied agreement and amendment text: flag missing qualifying language, unsupported dates or parties, unresolved cross-references, and unproven supersession. Return a source-linked review packet for qualified counsel; do not give legal conclusions or approve terms.
@@ -124,23 +145,6 @@ Install any of these with the [`agentscamp`](https://www.npmjs.com/package/agent
   [↗ Page](https://agentscamp.com/agents/analytics/ocr-fidelity-reviewer) · `npx agentscamp add agents/ocr-fidelity-reviewer`
 - **[Study Card Reviewer](agents/study-card-reviewer.md)** — Review a draft flashcard set against supplied notes and stated learning targets. Identify unsupported answers, compound questions, duplicate targets and source conflicts in a card-by-card report; do not draft a new set, schedule practice or infer learner ability.
   [↗ Page](https://agentscamp.com/agents/analytics/study-card-reviewer) · `npx agentscamp add agents/study-card-reviewer`
-
-## Core Development
-
-- **[API Architect](agents/api-architect.md)** — Use this agent to design APIs — resource modeling, versioning, pagination, error contracts, REST vs GraphQL. Examples — designing a public API, reviewing an API spec, planning a breaking change.
-  [↗ Page](https://agentscamp.com/agents/core-development/api-architect) · `npx agentscamp add agents/api-architect`
-- **[Backend Developer](agents/backend-developer.md)** — Use this agent to build server-side features — endpoints, business logic, data access, background jobs. Examples — a new REST/GraphQL endpoint, a queue worker, a database integration.
-  [↗ Page](https://agentscamp.com/agents/core-development/backend-developer) · `npx agentscamp add agents/backend-developer`
-- **[Database Architect](agents/database-architect.md)** — Use this agent to design data models and storage strategy from access patterns — schema design, normalization vs deliberate denormalization, relational vs document vs key-value vs wide-column vs graph selection, indexing, partitioning/sharding, transaction boundaries, and consistency models. Examples — modeling a new feature's schema, choosing a database for a write-heavy event workload, reviewing a schema for missing indexes or scaling cliffs, planning how to shard a table that no longer fits one node.
-  [↗ Page](https://agentscamp.com/agents/core-development/database-architect) · `npx agentscamp add agents/database-architect`
-- **[Frontend Developer](agents/frontend-developer.md)** — Use this agent to build UI — responsive layouts, components, accessibility, and design-system work. Examples — implementing a Figma design, fixing a11y issues, building a reusable component.
-  [↗ Page](https://agentscamp.com/agents/core-development/frontend-developer) · `npx agentscamp add agents/frontend-developer`
-- **[GraphQL Architect](agents/graphql-architect.md)** — Use this agent to design GraphQL schemas and resolvers — types, nullability, connections, dataloaders, federation, depth/complexity limits. Examples — designing a new schema from requirements, killing N+1 queries in resolvers, planning a deprecation, hardening a public graph.
-  [↗ Page](https://agentscamp.com/agents/core-development/graphql-architect) · `npx agentscamp add agents/graphql-architect`
-- **[Mobile Developer](agents/mobile-developer.md)** — Use this agent to build cross-platform mobile apps with React Native + Expo — screens, navigation, native modules, and shipping via EAS. Examples — adding a tab-based navigation flow, fixing a janky FlatList, shipping a build to TestFlight with EAS.
-  [↗ Page](https://agentscamp.com/agents/core-development/mobile-developer) · `npx agentscamp add agents/mobile-developer`
-- **[System Architect](agents/system-architect.md)** — Use this agent for high-level system design — service boundaries, data flow, scaling, trade-offs. Examples — designing a new system, evaluating a monolith-to-services split, a scalability review.
-  [↗ Page](https://agentscamp.com/agents/core-development/system-architect) · `npx agentscamp add agents/system-architect`
 
 ## Infrastructure DevOps
 
