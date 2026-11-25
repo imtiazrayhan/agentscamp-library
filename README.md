@@ -20,14 +20,14 @@ Replace `agents/<slug>` with any id from the catalogs below (e.g. `skills/<slug>
 
 | Type | Count | About |
 | --- | --- | --- |
-| [Guides](guides.md) | 298 | Tutorials and deep-dives |
+| [Guides](guides.md) | 301 | Tutorials and deep-dives |
 | [Tools](tools.md) | 262 | The AI tooling directory |
 | [Glossary](glossary.md) | 157 | AI terms, defined precisely |
 | [Agents](agents.md) | 89 | Specialized subagents for focused work |
 | [Skills](skills.md) | 168 | Reusable capabilities Claude loads on demand |
 | [Commands](commands.md) | 88 | Slash commands for Claude Code |
 
-**1062 items**, all linking back to their canonical pages on [AgentsCamp](https://agentscamp.com).
+**1065 items**, all linking back to their canonical pages on [AgentsCamp](https://agentscamp.com).
 
 ## Catalogs
 

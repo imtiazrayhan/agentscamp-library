@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "source": "https://agentscamp.com",
   "counts": {
-    "guides": 298,
+    "guides": 301,
     "tools": 262,
     "glossary": 157,
     "agents": 89,
     "skills": 168,
     "commands": 88,
-    "total": 1062
+    "total": 1065
   },
   "items": [
     {
@@ -5003,6 +5003,19 @@
       "url": "https://agentscamp.com/guides/workflow/analyze-customer-feedback-with-ai"
     },
     {
+      "id": "guides/api-rate-limiting-design",
+      "type": "guide",
+      "slug": "api-rate-limiting-design",
+      "category": "api",
+      "title": "API Rate Limiting Design: Algorithms, Distributed State & LLM Quotas",
+      "description": "Design production API rate limiting with token bucket vs sliding window algorithms, atomic Redis state, per-tier keys, 429 headers, and LLM token budgets.",
+      "topics": [
+        "architecture",
+        "llm-app-dev"
+      ],
+      "url": "https://agentscamp.com/guides/api/api-rate-limiting-design"
+    },
+    {
       "id": "guides/are-claude-skills-safe",
       "type": "guide",
       "slug": "are-claude-skills-safe",
@@ -5136,7 +5149,7 @@
       "slug": "best-ai-sales-tools-2026",
       "category": "comparisons",
       "title": "The Best AI Sales Tools in 2026",
-      "description": "Ten AI sales tools re-verified in September 2026: what each one does, whether Claude can connect to it, and how the AI is metered apart from the seat.",
+      "description": "Ten AI sales tools verified through November 2026: what each one does, whether Claude can connect to it, and how the AI is metered apart from the seat.",
       "topics": [
         "ai-at-work",
         "ai-agents-systems"
@@ -5686,7 +5699,7 @@
       "slug": "best-open-source-llms-2026",
       "category": "comparisons",
       "title": "Best Open-Source LLMs in 2026: The Open-Weight Families Compared",
-      "description": "The open-weight LLM families current in October 2026, from DeepSeek and Qwen to Gemma 4 and Muse, with sizes, context, the exact licence and where to run them.",
+      "description": "The open-weight LLM families current in November 2026, from DeepSeek, Mistral Large 4, and Qwen to Gemma 4 and Muse, with sizes, context, and exact licences.",
       "topics": [
         "mlops-ai-infra"
       ],
@@ -6466,7 +6479,7 @@
       "slug": "claude-plans-compared-2026",
       "category": "getting-started",
       "title": "Claude Free vs Pro vs Max vs Team (2026): Which Plan Unlocks What",
-      "description": "Every Claude plan compared as of September 2026: prices, usage tiers, and which plan unlocks Claude Code, Cowork, Design, Excel, Chrome, projects, and models.",
+      "description": "Every Claude plan compared as of November 2026: Free, Pro, Max, Ultra, Team, and Enterprise prices, usage tiers, and which plan unlocks Claude Code and Cowork.",
       "topics": [
         "ai-at-work",
         "workflow-prompting"
@@ -6796,6 +6809,19 @@
       "url": "https://agentscamp.com/guides/testing/contract-testing-microservices"
     },
     {
+      "id": "guides/core-web-vitals-optimization-guide",
+      "type": "guide",
+      "slug": "core-web-vitals-optimization-guide",
+      "category": "performance",
+      "title": "Core Web Vitals Optimization Guide: Fix LCP, CLS, and INP From Field Data",
+      "description": "Diagnose and fix Core Web Vitals (LCP, CLS, and INP) using real-user p75 field data, targeted root-cause fixes, and before/after verification.",
+      "topics": [
+        "devops-infra",
+        "review-qa"
+      ],
+      "url": "https://agentscamp.com/guides/performance/core-web-vitals-optimization-guide"
+    },
+    {
       "id": "guides/cursor-vs-claude-code-vs-copilot-vs-windsurf-2026",
       "type": "guide",
       "slug": "cursor-vs-claude-code-vs-copilot-vs-windsurf-2026",
@@ -6905,6 +6931,19 @@
         "workflow-prompting"
       ],
       "url": "https://agentscamp.com/guides/prompting/designing-system-prompts"
+    },
+    {
+      "id": "guides/distributed-tracing-opentelemetry",
+      "type": "guide",
+      "slug": "distributed-tracing-opentelemetry",
+      "category": "observability",
+      "title": "Distributed Tracing with OpenTelemetry: End-to-End Request Visibility",
+      "description": "Instrument services, queues, and LLM workflows with OpenTelemetry — W3C trace context propagation, useful spans, tail sampling, and trace_id log correlation.",
+      "topics": [
+        "devops-infra",
+        "llm-evals"
+      ],
+      "url": "https://agentscamp.com/guides/observability/distributed-tracing-opentelemetry"
     },
     {
       "id": "guides/dspy-prompt-optimization",

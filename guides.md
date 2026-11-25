@@ -4,7 +4,7 @@
 
 Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each entry links to its canonical page.
 
-**298 guides** · [← Back to README](README.md)
+**301 guides** · [← Back to README](README.md)
 
 ## Comparisons
 
@@ -17,7 +17,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 - **[Best AI Code Review Tools in 2026](https://agentscamp.com/guides/comparisons/best-ai-code-review-tools-2026)** — The AI code reviewers worth running in 2026 — CodeRabbit, Greptile, Qodo, Cursor Bugbot, and GitHub Copilot code review compared, with a verdict for each.
 - **[The Best AI Image Generators in 2026 (for Design Work)](https://agentscamp.com/guides/comparisons/best-ai-image-generators-2026)** — AI image generators compared for design work in 2026: text rendering, vector output, style control, commercial licensing, API access, and pricing model.
 - **[Best AI Meeting Note Takers in 2026](https://agentscamp.com/guides/comparisons/best-ai-meeting-note-takers-2026)** — Granola, Otter.ai, Fathom, Fireflies and tl;dv compared with the notetakers built into Zoom, Meet and Teams, by capture method, platforms and extras.
-- **[The Best AI Sales Tools in 2026](https://agentscamp.com/guides/comparisons/best-ai-sales-tools-2026)** — Ten AI sales tools re-verified in September 2026: what each one does, whether Claude can connect to it, and how the AI is metered apart from the seat.
+- **[The Best AI Sales Tools in 2026](https://agentscamp.com/guides/comparisons/best-ai-sales-tools-2026)** — Ten AI sales tools verified through November 2026: what each one does, whether Claude can connect to it, and how the AI is metered apart from the seat.
 - **[The Best AI Tools for Data Analysts in 2026](https://agentscamp.com/guides/comparisons/best-ai-tools-for-data-analysts-2026)** — The AI tools data analysts actually use in 2026: assistants that run code, spreadsheet add-ins, notebooks, text-to-SQL, and agents in the terminal.
 - **[The Best AI Tools for Designers in 2026](https://agentscamp.com/guides/comparisons/best-ai-tools-for-designers-2026)** — The AI tools designers actually use in 2026: prototyping, websites, image generation, decks, design-to-code, and design systems, with a verdict per category.
 - **[The Best AI Tools for Founders in 2026](https://agentscamp.com/guides/comparisons/best-ai-tools-for-founders-2026)** — The AI tools founders run a company on in 2026: assistants, app builders, agents and automation, decks and docs, and building, with a verdict per category.
@@ -33,7 +33,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 - **[The Best LLM Observability Tools in 2026: Langfuse vs LangSmith vs Braintrust vs Phoenix](https://agentscamp.com/guides/comparisons/best-llm-observability-tools-2026)** — Langfuse, LangSmith, Braintrust, Arize Phoenix, Helicone and AgentOps compared on tracing, cost tracking, agent debugging, OpenTelemetry and self-hosting.
 - **[Best Tools for Running LLMs Locally in 2026](https://agentscamp.com/guides/comparisons/best-local-llm-tools-2026)** — The local LLM stack ranked by job — Ollama, LM Studio, Jan, llama.cpp, vLLM, and LiteLLM — with a verdict each and the line where local inference stops paying.
 - **[Best MCP Gateways in 2026](https://agentscamp.com/guides/comparisons/best-mcp-gateways-2026)** — Docker, Composio, Microsoft, IBM ContextForge, Kong, Cloudflare, Portkey, Obot, AWS AgentCore and Lasso MCP gateways compared on auth, policy, audit and hosting.
-- **[Best Open-Source LLMs in 2026: The Open-Weight Families Compared](https://agentscamp.com/guides/comparisons/best-open-source-llms-2026)** — The open-weight LLM families current in October 2026, from DeepSeek and Qwen to Gemma 4 and Muse, with sizes, context, the exact licence and where to run them.
+- **[Best Open-Source LLMs in 2026: The Open-Weight Families Compared](https://agentscamp.com/guides/comparisons/best-open-source-llms-2026)** — The open-weight LLM families current in November 2026, from DeepSeek, Mistral Large 4, and Qwen to Gemma 4 and Muse, with sizes, context, and exact licences.
 - **[Best RAG Frameworks in 2026](https://agentscamp.com/guides/comparisons/best-rag-frameworks-2026)** — The RAG frameworks worth building on in 2026 — LlamaIndex, LangChain, LangGraph, DSPy, Dify and Mastra — plus the retrieval layer that decides answer quality.
 - **[Best Spec-Driven Development Tools in 2026](https://agentscamp.com/guides/comparisons/best-spec-driven-development-tools-2026)** — GitHub Spec Kit, Kiro, OpenSpec, Taskmaster, BMAD Method, Agent OS and cc-sdd compared on workflow, artifacts, agent support and how much process each adds.
 - **[The Best Text-to-SQL Tools in 2026](https://agentscamp.com/guides/comparisons/best-text-to-sql-tools-2026)** — Text-to-SQL tools compared on how they ground the model in your schema, what accuracy really means, read-only safety, deployment, licensing, and pricing model.
@@ -167,7 +167,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 - **[Claude Code in VS Code: The Extension, Setup, and What It Adds](https://agentscamp.com/guides/getting-started/claude-code-vscode-extension)** — Install the Claude Code VS Code extension, see what it adds over the terminal CLI (inline diffs, plan review, @-mentions, checkpoints), requirements, and fixes.
 - **[What Is Claude Cowork? The Complete Guide for Non-Developers](https://agentscamp.com/guides/getting-started/claude-cowork-guide)** — Claude Cowork explained for non-developers: what the desktop agent does with your files and apps, how it differs from chat and Claude Code, plans, and safety.
 - **[Anthropic's Knowledge-Work Plugins: Every Role Plugin, Explained](https://agentscamp.com/guides/getting-started/claude-knowledge-work-plugins)** — Every Anthropic knowledge-work plugin for Claude Cowork and Claude Code cataloged: what each role plugin bundles, the install commands, and how to fork one.
-- **[Claude Free vs Pro vs Max vs Team (2026): Which Plan Unlocks What](https://agentscamp.com/guides/getting-started/claude-plans-compared-2026)** — Every Claude plan compared as of September 2026: prices, usage tiers, and which plan unlocks Claude Code, Cowork, Design, Excel, Chrome, projects, and models.
+- **[Claude Free vs Pro vs Max vs Team (2026): Which Plan Unlocks What](https://agentscamp.com/guides/getting-started/claude-plans-compared-2026)** — Every Claude plan compared as of November 2026: Free, Pro, Max, Ultra, Team, and Enterprise prices, usage tiers, and which plan unlocks Claude Code and Cowork.
 - **[Getting Started with Claude Code Agents](https://agentscamp.com/guides/getting-started/getting-started-with-agents)** — What Claude Code subagents are, why they help, and how to add your first one.
 - **[Installing Claude Code](https://agentscamp.com/guides/getting-started/installing-claude-code)** — Install Claude Code, authenticate, start a session in a real project, and add a minimal CLAUDE.md.
 - **[OpenAI Codex: A Practical Guide for Developers](https://agentscamp.com/guides/getting-started/openai-codex-guide)** — Learn how OpenAI Codex works across the terminal, IDE, desktop app, and cloud — then set up a safe, repeatable workflow for real repositories.
@@ -363,6 +363,11 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 - **[How to Test AI-Generated Code](https://agentscamp.com/guides/testing/testing-ai-generated-code)** — AI writes the code; tests decide whether to trust it. The verification stack for agent-written changes — contracts, generated tests, and the review that's left.
 - **[Testing LLM Applications: How to Test Non-Deterministic Software](https://agentscamp.com/guides/testing/testing-llm-applications)** — How to test software that calls LLMs when outputs are non-deterministic — the testing pyramid, assertion strategies, golden datasets, and CI gating.
 
+## API
+
+- **[API Rate Limiting Design: Algorithms, Distributed State & LLM Quotas](https://agentscamp.com/guides/api/api-rate-limiting-design)** — Design production API rate limiting with token bucket vs sliding window algorithms, atomic Redis state, per-tier keys, 429 headers, and LLM token budgets.
+- **[Idempotency Keys: Design APIs That Are Safe to Retry](https://agentscamp.com/guides/api/idempotency-keys-api-design)** — Design idempotent API mutations with client keys, atomic claims, response replay, payload fingerprints, in-flight handling, TTLs, and downstream safety.
+
 ## Data
 
 - **[Adjudicate AI-Assisted Text Labels with an Evidence Ledger](https://agentscamp.com/guides/data/adjudicate-ai-assisted-text-labels)** — Resolve disputed text labels by preserving each response, source excerpt and task-rule version rather than accepting the model or majority automatically.
@@ -373,14 +378,12 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 - **[AI Black Friday Deals 2026: Verified Discounts on AI Tools](https://agentscamp.com/guides/deals/ai-black-friday-deals)** — Black Friday 2026 deals on AI tools, checked on each vendor's own page: ElevenLabs, Synthesia, Recraft, OpenArt, Otter, Grammarly and more, with end dates.
 - **[AI Video and Voice Black Friday Deals 2026](https://agentscamp.com/guides/deals/ai-video-voice-black-friday-deals)** — Black Friday 2026 deals on AI video and voice tools, checked on vendors' own pages: ElevenLabs, Synthesia, InVideo, VEED, Fliki, Suno and Adobe Firefly.
 
-## API
-
-- **[Idempotency Keys: Design APIs That Are Safe to Retry](https://agentscamp.com/guides/api/idempotency-keys-api-design)** — Design idempotent API mutations with client keys, atomic claims, response replay, payload fingerprints, in-flight handling, TTLs, and downstream safety.
-
 ## Observability
 
+- **[Distributed Tracing with OpenTelemetry: End-to-End Request Visibility](https://agentscamp.com/guides/observability/distributed-tracing-opentelemetry)** — Instrument services, queues, and LLM workflows with OpenTelemetry — W3C trace context propagation, useful spans, tail sampling, and trace_id log correlation.
 - **[SLOs and Error Budgets: A Practical Reliability Guide](https://agentscamp.com/guides/observability/slo-error-budget-guide)** — Define user-centered SLIs and SLOs, calculate error budgets, create burn-rate alerts, set release policy, and keep reliability targets meaningful.
 
 ## Performance
 
+- **[Core Web Vitals Optimization Guide: Fix LCP, CLS, and INP From Field Data](https://agentscamp.com/guides/performance/core-web-vitals-optimization-guide)** — Diagnose and fix Core Web Vitals (LCP, CLS, and INP) using real-user p75 field data, targeted root-cause fixes, and before/after verification.
 - **[Web Performance Budgets: Turn Speed Into a Release Gate](https://agentscamp.com/guides/performance/web-performance-budgets)** — Define and enforce web performance budgets for Core Web Vitals, JavaScript, images, fonts, third parties, and critical journeys in CI and production.
