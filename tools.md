@@ -4,7 +4,7 @@
 
 Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each entry links to its canonical page.
 
-**260 tools** · [← Back to README](README.md)
+**262 tools** · [← Back to README](README.md)
 
 ## Platform
 
@@ -15,6 +15,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each en
 - **[Browserbase](https://agentscamp.com/tools/browserbase)** — Managed headless-browser infrastructure for AI agents and web automation — serverless cloud browsers with stealth, proxies, live view, and Playwright/Stagehand.
 - **[Cerebras](https://agentscamp.com/tools/cerebras)** — Cerebras Inference serves open-weight LLMs on wafer-scale chips for very fast output, through an OpenAI-compatible API with a free trial credit.
 - **[Cohere Rerank](https://agentscamp.com/tools/cohere-rerank)** — A hosted reranking API that reorders retrieved passages by true relevance to a query.
+- **[Context.dev](https://agentscamp.com/tools/context-dev)** — A web data API for AI agents: scrape any URL into Markdown or structured JSON, with web search, crawl and map on the same API, plus a hosted MCP server.
 - **[Daytona](https://agentscamp.com/tools/daytona)** — Sub-90ms agent sandboxes — isolated computers with snapshots, volumes, Git and LSP tools, on Linux, Windows, or Android; AGPL self-host or managed cloud.
 - **[Dify](https://agentscamp.com/tools/dify)** — The visual platform for LLM apps and agentic workflows — canvas-built chatflows, RAG pipeline, agent nodes with 50+ tools, and LLMOps, self-hosted via Docker.
 - **[E2b](https://agentscamp.com/tools/e2b)** — Open-source Firecracker-microVM sandboxes where AI agents safely run untrusted code — stateful interpreters, full Linux, pause/resume, desktop VMs.
@@ -120,6 +121,28 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each en
 - **[Stripe MCP](https://agentscamp.com/tools/stripe-mcp)** — Stripe's official MCP server — customers, invoices, payment links, subscriptions, refunds, and docs search for agents, hosted at mcp.stripe.com.
 - **[Supabase MCP](https://agentscamp.com/tools/supabase-mcp)** — Supabase's official MCP server — run SQL and migrations, read logs and advisors, generate types, and deploy Edge Functions, with read-only and project scoping.
 
+## Assistant
+
+- **[Chatgpt](https://agentscamp.com/tools/chatgpt)** — OpenAI's general-purpose AI assistant for chat, research, and finished documents, with Projects, memory, plugins, and a Work mode for multi-step tasks.
+- **[ChatLLM](https://agentscamp.com/tools/chatllm)** — ChatLLM by Abacus.AI puts GPT, Claude, Gemini, Grok and open models in one app, with RouteLLM to pick a model per prompt and an agent that builds apps.
+- **[Claude](https://agentscamp.com/tools/claude)** — Anthropic's AI assistant app for web, desktop, and mobile, with Projects, connectors, Artifacts, skills, memory, and code execution.
+- **[Claude Cowork](https://agentscamp.com/tools/claude-cowork)** — Anthropic's agent for knowledge work that completes multi-step tasks in your folders, connectors, and browser, on desktop, web, and mobile.
+- **[Deepseek](https://agentscamp.com/tools/deepseek)** — DeepSeek is a free AI chat app and a pay-as-you-go API running the V4.1-Flash and V4-Pro models, whose weights are published under the MIT License.
+- **[Elicit](https://agentscamp.com/tools/elicit)** — Elicit supports academic research with a Research Agent, research reports, and a structured workflow for screening papers and extracting evidence.
+- **[Fathom](https://agentscamp.com/tools/fathom)** — Fathom is a free-first AI notetaker that records Zoom, Meet and Teams calls with or without a bot and delivers summaries, action items, clips and CRM sync.
+- **[Gemini](https://agentscamp.com/tools/gemini)** — Google's Gemini app, a general-purpose AI assistant with Deep Research, Gems, Canvas, and direct integration into Gmail, Docs, Sheets, and Workspace.
+- **[Glean](https://agentscamp.com/tools/glean)** — Glean is an enterprise AI search and assistant platform that retrieves company knowledge through configured connectors and source access controls.
+- **[Granola](https://agentscamp.com/tools/granola)** — Granola is a bot-free AI meeting notepad that transcribes from device audio, merges your notes with the transcript, and shares them via MCP and integrations.
+- **[Grok](https://agentscamp.com/tools/grok)** — Grok is the AI assistant from SpaceXSI (formerly xAI), with live web and X search, multi-agent answers, Imagine for images and video, voice, and Grok Bot.
+- **[MagicSchool](https://agentscamp.com/tools/magicschool)** — MagicSchool provides AI lesson, worksheet, quiz and rubric drafts that educators can tailor to supplied readings and instructional goals.
+- **[Manus](https://agentscamp.com/tools/manus)** — Manus is a general-purpose AI agent that plans multi-step jobs in its cloud and runs them in a cloud sandbox, your own browser, or your Mac or Windows PC.
+- **[Microsoft Copilot](https://agentscamp.com/tools/microsoft-copilot)** — Microsoft's work assistant inside Word, Excel, PowerPoint, Outlook, and Teams, grounded in your company's Microsoft 365 data, with Researcher and Analyst.
+- **[Mistral Vibe](https://agentscamp.com/tools/mistral-vibe)** — Mistral Vibe (formerly Le Chat) is Mistral's assistant for work and code: chat, research, connectors and scheduled tasks, plus a coding agent in your terminal.
+- **[Notebooklm](https://agentscamp.com/tools/notebooklm)** — Google's source-grounded research notebook, renamed from NotebookLM in July 2026, that answers only from your uploaded sources and turns them into media.
+- **[Otter AI](https://agentscamp.com/tools/otter-ai)** — Otter.ai sends its Notetaker bot into Zoom, Teams and Meet calls, or records from desktop and mobile, producing live transcripts, summaries and action items.
+- **[Perplexity](https://agentscamp.com/tools/perplexity)** — An AI answer engine that cites its sources on every response, with a Research mode for long reports, Projects for shared context, and the Comet browser.
+- **[RemNote](https://agentscamp.com/tools/remnote)** — RemNote combines notes, AI-generated flashcards and quizzes, and spaced review, with a preview step for checking cards against the source.
+
 ## Design
 
 - **[Alttext AI](https://agentscamp.com/tools/alttext-ai)** — Evaluate AltText.ai drafts against inspected observations, page purpose, correction notes and the actual publishing review process.
@@ -141,27 +164,6 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/tools). Each en
 - **[Runway](https://agentscamp.com/tools/runway)** — Runway's AI video platform: Gen-4.5 generation with native audio, Aleph 2.0 editing, Act-Two capture, 54 hosted models, an API, MCP, and Adobe plugins.
 - **[Stitch](https://agentscamp.com/tools/stitch)** — Google's AI design canvas that turns prompts, voice, images, or an existing codebase into high-fidelity mobile and web UI, with frontend code and a Figma paste.
 - **[Synthesia](https://agentscamp.com/tools/synthesia)** — Synthesia is an AI video platform for presenter-led video: Express-3 avatars, AI dubbing in the speaker's voice, interactive avatars, SCORM export and an API.
-
-## Assistant
-
-- **[Chatgpt](https://agentscamp.com/tools/chatgpt)** — OpenAI's general-purpose AI assistant for chat, research, and finished documents, with Projects, memory, plugins, and a Work mode for multi-step tasks.
-- **[Claude](https://agentscamp.com/tools/claude)** — Anthropic's AI assistant app for web, desktop, and mobile, with Projects, connectors, Artifacts, skills, memory, and code execution.
-- **[Claude Cowork](https://agentscamp.com/tools/claude-cowork)** — Anthropic's agent for knowledge work that completes multi-step tasks in your folders, connectors, and browser, on desktop, web, and mobile.
-- **[Deepseek](https://agentscamp.com/tools/deepseek)** — DeepSeek is a free AI chat app and a pay-as-you-go API running the V4.1-Flash and V4-Pro models, whose weights are published under the MIT License.
-- **[Elicit](https://agentscamp.com/tools/elicit)** — Elicit supports academic research with a Research Agent, research reports, and a structured workflow for screening papers and extracting evidence.
-- **[Fathom](https://agentscamp.com/tools/fathom)** — Fathom is a free-first AI notetaker that records Zoom, Meet and Teams calls with or without a bot and delivers summaries, action items, clips and CRM sync.
-- **[Gemini](https://agentscamp.com/tools/gemini)** — Google's Gemini app, a general-purpose AI assistant with Deep Research, Gems, Canvas, and direct integration into Gmail, Docs, Sheets, and Workspace.
-- **[Glean](https://agentscamp.com/tools/glean)** — Glean is an enterprise AI search and assistant platform that retrieves company knowledge through configured connectors and source access controls.
-- **[Granola](https://agentscamp.com/tools/granola)** — Granola is a bot-free AI meeting notepad that transcribes from device audio, merges your notes with the transcript, and shares them via MCP and integrations.
-- **[Grok](https://agentscamp.com/tools/grok)** — Grok is the AI assistant from SpaceXSI (formerly xAI), with live web and X search, multi-agent answers, Imagine for images and video, voice, and Grok Bot.
-- **[MagicSchool](https://agentscamp.com/tools/magicschool)** — MagicSchool provides AI lesson, worksheet, quiz and rubric drafts that educators can tailor to supplied readings and instructional goals.
-- **[Manus](https://agentscamp.com/tools/manus)** — Manus is a general-purpose AI agent that plans multi-step jobs in its cloud and runs them in a cloud sandbox, your own browser, or your Mac or Windows PC.
-- **[Microsoft Copilot](https://agentscamp.com/tools/microsoft-copilot)** — Microsoft's work assistant inside Word, Excel, PowerPoint, Outlook, and Teams, grounded in your company's Microsoft 365 data, with Researcher and Analyst.
-- **[Mistral Vibe](https://agentscamp.com/tools/mistral-vibe)** — Mistral Vibe (formerly Le Chat) is Mistral's assistant for work and code: chat, research, connectors and scheduled tasks, plus a coding agent in your terminal.
-- **[Notebooklm](https://agentscamp.com/tools/notebooklm)** — Google's source-grounded research notebook, renamed from NotebookLM in July 2026, that answers only from your uploaded sources and turns them into media.
-- **[Otter AI](https://agentscamp.com/tools/otter-ai)** — Otter.ai sends its Notetaker bot into Zoom, Teams and Meet calls, or records from desktop and mobile, producing live transcripts, summaries and action items.
-- **[Perplexity](https://agentscamp.com/tools/perplexity)** — An AI answer engine that cites its sources on every response, with a Research mode for long reports, Projects for shared context, and the Comet browser.
-- **[RemNote](https://agentscamp.com/tools/remnote)** — RemNote combines notes, AI-generated flashcards and quizzes, and spaced review, with a preview step for checking cards against the source.
 
 ## Marketing
 

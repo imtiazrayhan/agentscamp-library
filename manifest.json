@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "source": "https://agentscamp.com",
   "counts": {
-    "guides": 295,
-    "tools": 260,
+    "guides": 298,
+    "tools": 262,
     "glossary": 157,
     "agents": 89,
     "skills": 168,
     "commands": 88,
-    "total": 1057
+    "total": 1062
   },
   "items": [
     {
@@ -4618,6 +4618,19 @@
       "url": "https://agentscamp.com/guides/marketing/ai-asset-search-acceptance-test"
     },
     {
+      "id": "guides/ai-black-friday-deals",
+      "type": "guide",
+      "slug": "ai-black-friday-deals",
+      "category": "deals",
+      "title": "AI Black Friday Deals 2026: Verified Discounts on AI Tools",
+      "description": "Black Friday 2026 deals on AI tools, checked on each vendor's own page: ElevenLabs, Synthesia, Recraft, OpenArt, Otter, Grammarly and more, with end dates.",
+      "topics": [
+        "ai-at-work",
+        "multimodal-ai"
+      ],
+      "url": "https://agentscamp.com/guides/deals/ai-black-friday-deals"
+    },
+    {
       "id": "guides/ai-chart-long-descriptions",
       "type": "guide",
       "slug": "ai-chart-long-descriptions",
@@ -4952,6 +4965,19 @@
       "url": "https://agentscamp.com/guides/workflow/ai-vendor-contract-review-packet"
     },
     {
+      "id": "guides/ai-video-voice-black-friday-deals",
+      "type": "guide",
+      "slug": "ai-video-voice-black-friday-deals",
+      "category": "deals",
+      "title": "AI Video and Voice Black Friday Deals 2026",
+      "description": "Black Friday 2026 deals on AI video and voice tools, checked on vendors' own pages: ElevenLabs, Synthesia, InVideo, VEED, Fliki, Suno and Adobe Firefly.",
+      "topics": [
+        "multimodal-ai",
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/guides/deals/ai-video-voice-black-friday-deals"
+    },
+    {
       "id": "guides/aider-vs-claude-code",
       "type": "guide",
       "slug": "aider-vs-claude-code",
@@ -5213,7 +5239,7 @@
       "slug": "best-chatgpt-alternatives-2026",
       "category": "comparisons",
       "title": "The Best ChatGPT Alternatives in 2026 (Free and Paid)",
-      "description": "The best ChatGPT alternatives in 2026 by job: Claude, Gemini, Microsoft Copilot, Perplexity, Grok, DeepSeek, Mistral Vibe, Meta AI and Duck.ai compared.",
+      "description": "The best ChatGPT alternatives in 2026 by job: Claude, Gemini, Microsoft Copilot, Perplexity, ChatLLM, Grok, DeepSeek, Mistral Vibe, Meta AI and Duck.ai compared.",
       "topics": [
         "ai-at-work"
       ],
@@ -5762,7 +5788,7 @@
       "slug": "best-web-search-apis-for-ai-agents-2026",
       "category": "comparisons",
       "title": "Best Web Search APIs for AI Agents in 2026: Tavily vs Exa vs Brave vs Parallel",
-      "description": "Tavily, Exa, the Brave Search API, Parallel, Jina Reader and Firecrawl compared on search, extraction, answers, index ownership, and official MCP servers.",
+      "description": "Context.dev, Tavily, Exa, Brave, Parallel, Jina Reader and Firecrawl compared on search, extraction, answers, index ownership, and official MCP servers.",
       "topics": [
         "ai-agents-systems",
         "rag-retrieval"
@@ -7343,6 +7369,20 @@
         "architecture"
       ],
       "url": "https://agentscamp.com/guides/mcp/mcp-ecosystem-statistics"
+    },
+    {
+      "id": "guides/mcp-server-token-overhead-benchmark",
+      "type": "guide",
+      "slug": "mcp-server-token-overhead-benchmark",
+      "category": "mcp",
+      "title": "MCP Server Context-Token Overhead Benchmark (2026): 16 Servers Measured",
+      "description": "We probed 16 real MCP servers over stdio and HTTP to measure exact tools/list context-window token overhead — from 172 tokens (Ref) to 7,143 tokens (Supabase).",
+      "topics": [
+        "mcp",
+        "workflow-prompting",
+        "architecture"
+      ],
+      "url": "https://agentscamp.com/guides/mcp/mcp-server-token-overhead-benchmark"
     },
     {
       "id": "guides/mcp-troubleshooting",
@@ -11117,6 +11157,18 @@
       "url": "https://agentscamp.com/tools/chatgpt"
     },
     {
+      "id": "tools/chatllm",
+      "type": "tool",
+      "slug": "chatllm",
+      "category": "assistant",
+      "title": "ChatLLM",
+      "description": "ChatLLM by Abacus.AI puts GPT, Claude, Gemini, Grok and open models in one app, with RouteLLM to pick a model per prompt and an agent that builds apps.",
+      "topics": [
+        "ai-at-work"
+      ],
+      "url": "https://agentscamp.com/tools/chatllm"
+    },
+    {
       "id": "tools/chonkie",
       "type": "tool",
       "slug": "chonkie",
@@ -11378,6 +11430,18 @@
         "ai-agents-systems"
       ],
       "url": "https://agentscamp.com/tools/composio"
+    },
+    {
+      "id": "tools/context-dev",
+      "type": "tool",
+      "slug": "context-dev",
+      "category": "platform",
+      "title": "Context.dev",
+      "description": "A web data API for AI agents: scrape any URL into Markdown or structured JSON, with web search, crawl and map on the same API, plus a hosted MCP server.",
+      "topics": [
+        "ai-agents-systems"
+      ],
+      "url": "https://agentscamp.com/tools/context-dev"
     },
     {
       "id": "tools/context7",

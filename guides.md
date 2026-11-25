@@ -4,7 +4,7 @@
 
 Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each entry links to its canonical page.
 
-**295 guides** · [← Back to README](README.md)
+**298 guides** · [← Back to README](README.md)
 
 ## Comparisons
 
@@ -25,7 +25,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 - **[Best AI Video Generators in 2026](https://agentscamp.com/guides/comparisons/best-ai-video-generators-2026)** — Runway, Kling, Google Veo, Luma, MiniMax H3, Pika, Wan, and Seedance compared on clip length, resolution, audio, API, and ownership, plus Sora's shutdown.
 - **[Best AI Visibility Tools in 2026 (GEO and AEO Tracking)](https://agentscamp.com/guides/comparisons/best-ai-visibility-tools-2026)** — Profound, Peec AI, Otterly, Semrush, Ahrefs, Surfer, Clearscope, Scrunch, and AthenaHQ compared on engines, prompt volume, citations, bot analytics, and API.
 - **[The Best AI Writing Tools in 2026](https://agentscamp.com/guides/comparisons/best-ai-writing-tools-2026)** — Six AI writing tools compared by job: long-form, ad copy, email, and writing inside Docs or Word. Jasper, Copy.ai, Claude, ChatGPT, Gemini, and Copilot.
-- **[The Best ChatGPT Alternatives in 2026 (Free and Paid)](https://agentscamp.com/guides/comparisons/best-chatgpt-alternatives-2026)** — The best ChatGPT alternatives in 2026 by job: Claude, Gemini, Microsoft Copilot, Perplexity, Grok, DeepSeek, Mistral Vibe, Meta AI and Duck.ai compared.
+- **[The Best ChatGPT Alternatives in 2026 (Free and Paid)](https://agentscamp.com/guides/comparisons/best-chatgpt-alternatives-2026)** — The best ChatGPT alternatives in 2026 by job: Claude, Gemini, Microsoft Copilot, Perplexity, ChatLLM, Grok, DeepSeek, Mistral Vibe, Meta AI and Duck.ai compared.
 - **[The Best Claude Code Alternatives in 2026 (Free, Open-Source, and Paid)](https://agentscamp.com/guides/comparisons/best-claude-code-alternatives-2026)** — The best Claude Code alternatives in 2026, sorted by why you're leaving: cost, open source, local models, an IDE, cloud agents, or OpenAI and Google.
 - **[The Best Document Parsers for RAG in 2026: LlamaParse vs Docling vs Unstructured vs Reducto](https://agentscamp.com/guides/comparisons/best-document-parsers-for-rag-2026)** — LlamaParse, Docling, Unstructured, Reducto, Marker and Mistral OCR compared on deployment, license, OCR, tables and output, with a verdict for each.
 - **[The Best GitHub Copilot Alternatives in 2026 (Free and Paid)](https://agentscamp.com/guides/comparisons/best-github-copilot-alternatives-2026)** — The best GitHub Copilot alternatives in 2026: AI-native editors, open-source VS Code and JetBrains agents, self-hosted assistants and terminal agents.
@@ -38,7 +38,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 - **[Best Spec-Driven Development Tools in 2026](https://agentscamp.com/guides/comparisons/best-spec-driven-development-tools-2026)** — GitHub Spec Kit, Kiro, OpenSpec, Taskmaster, BMAD Method, Agent OS and cc-sdd compared on workflow, artifacts, agent support and how much process each adds.
 - **[The Best Text-to-SQL Tools in 2026](https://agentscamp.com/guides/comparisons/best-text-to-sql-tools-2026)** — Text-to-SQL tools compared on how they ground the model in your schema, what accuracy really means, read-only safety, deployment, licensing, and pricing model.
 - **[Best Voice Agent Platforms in 2026: Vapi vs Retell AI vs Bland AI vs LiveKit](https://agentscamp.com/guides/comparisons/best-voice-agent-platforms-2026)** — Vapi, Retell AI, Bland AI, LiveKit Agents, Pipecat, ElevenLabs Agents and OpenAI Realtime compared on build-vs-buy, telephony, custom LLMs and open source.
-- **[Best Web Search APIs for AI Agents in 2026: Tavily vs Exa vs Brave vs Parallel](https://agentscamp.com/guides/comparisons/best-web-search-apis-for-ai-agents-2026)** — Tavily, Exa, the Brave Search API, Parallel, Jina Reader and Firecrawl compared on search, extraction, answers, index ownership, and official MCP servers.
+- **[Best Web Search APIs for AI Agents in 2026: Tavily vs Exa vs Brave vs Parallel](https://agentscamp.com/guides/comparisons/best-web-search-apis-for-ai-agents-2026)** — Context.dev, Tavily, Exa, Brave, Parallel, Jina Reader and Firecrawl compared on search, extraction, answers, index ownership, and official MCP servers.
 - **[Browser Agents in 2026: Browser Use vs Stagehand vs Skyvern vs Playwright MCP](https://agentscamp.com/guides/comparisons/browser-agents-compared-2026)** — Seven ways to give AI a browser — Browser Use, Stagehand, Skyvern, the MCP servers, Claude in Chrome, Browserbase and Firecrawl — compared with a verdict each.
 - **[ChatGPT Projects vs Claude Projects for Teams](https://agentscamp.com/guides/comparisons/chatgpt-projects-vs-claude-projects)** — Compare shared AI project context in ChatGPT and Claude, then build a team brief with clear instructions, source ownership, and a review process.
 - **[ChatGPT vs Claude for Data Analysis](https://agentscamp.com/guides/comparisons/chatgpt-vs-claude-for-data-analysis)** — ChatGPT vs Claude for data analysis, compared on sandbox behavior, file limits, Excel add-ins, chart output, citations, warehouse access, and verification.
@@ -282,6 +282,7 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 - **[Deploying a Remote MCP Server: Stateless, Streamable HTTP, and Horizontal Scaling](https://agentscamp.com/guides/mcp/deploy-remote-mcp-server)** — Take an MCP server from local stdio to a remote, multi-user HTTP service — Streamable HTTP, stateless vs. stateful sessions, OAuth, and horizontal scaling.
 - **[Connecting and Governing MCP Servers: Registries, Gateways, and Tool Sprawl](https://agentscamp.com/guides/mcp/govern-mcp-servers)** — As MCP servers multiply, discovery, trust, and tool sprawl become the problem. How registries, gateways, and curation keep a growing fleet secure and usable.
 - **[MCP Ecosystem Statistics 2026](https://agentscamp.com/guides/mcp/mcp-ecosystem-statistics)** — The Model Context Protocol by the numbers — SDK downloads, server counts across registries, governance facts, and growth since the Linux Foundation donation.
+- **[MCP Server Context-Token Overhead Benchmark (2026): 16 Servers Measured](https://agentscamp.com/guides/mcp/mcp-server-token-overhead-benchmark)** — We probed 16 real MCP servers over stdio and HTTP to measure exact tools/list context-window token overhead — from 172 tokens (Ref) to 7,143 tokens (Supabase).
 - **[MCP vs A2A: AI Agent Protocols Explained](https://agentscamp.com/guides/mcp/mcp-vs-a2a)** — What MCP and A2A each standardize, how Agent Cards and Tasks work, why the two protocols are complementary, and who governs them now (both Linux Foundation).
 
 ## Sales
@@ -366,6 +367,11 @@ Browse the full directory on [AgentsCamp](https://agentscamp.com/guides). Each e
 
 - **[Adjudicate AI-Assisted Text Labels with an Evidence Ledger](https://agentscamp.com/guides/data/adjudicate-ai-assisted-text-labels)** — Resolve disputed text labels by preserving each response, source excerpt and task-rule version rather than accepting the model or majority automatically.
 - **[Prelabel a Text Dataset with AI Without Replacing Review](https://agentscamp.com/guides/data/ai-text-dataset-prelabeling)** — Prepare a small supervised text-labeling batch with separate model suggestions and human responses, using stable record IDs and an approved task specification.
+
+## Deals
+
+- **[AI Black Friday Deals 2026: Verified Discounts on AI Tools](https://agentscamp.com/guides/deals/ai-black-friday-deals)** — Black Friday 2026 deals on AI tools, checked on each vendor's own page: ElevenLabs, Synthesia, Recraft, OpenArt, Otter, Grammarly and more, with end dates.
+- **[AI Video and Voice Black Friday Deals 2026](https://agentscamp.com/guides/deals/ai-video-voice-black-friday-deals)** — Black Friday 2026 deals on AI video and voice tools, checked on vendors' own pages: ElevenLabs, Synthesia, InVideo, VEED, Fliki, Suno and Adobe Firefly.
 
 ## API
 

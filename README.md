@@ -20,14 +20,14 @@ Replace `agents/<slug>` with any id from the catalogs below (e.g. `skills/<slug>
 
 | Type | Count | About |
 | --- | --- | --- |
-| [Guides](guides.md) | 295 | Tutorials and deep-dives |
-| [Tools](tools.md) | 260 | The AI tooling directory |
+| [Guides](guides.md) | 298 | Tutorials and deep-dives |
+| [Tools](tools.md) | 262 | The AI tooling directory |
 | [Glossary](glossary.md) | 157 | AI terms, defined precisely |
 | [Agents](agents.md) | 89 | Specialized subagents for focused work |
 | [Skills](skills.md) | 168 | Reusable capabilities Claude loads on demand |
 | [Commands](commands.md) | 88 | Slash commands for Claude Code |
 
-**1057 items**, all linking back to their canonical pages on [AgentsCamp](https://agentscamp.com).
+**1062 items**, all linking back to their canonical pages on [AgentsCamp](https://agentscamp.com).
 
 ## Catalogs
 
@@ -37,6 +37,15 @@ Replace `agents/<slug>` with any id from the catalogs below (e.g. `skills/<slug>
 - **[Agents](agents.md)** — Specialized subagents for focused work
 - **[Skills](skills.md)** — Reusable capabilities Claude loads on demand
 - **[Commands](commands.md)** — Slash commands for Claude Code
+
+## Popular starting points on AgentsCamp
+
+- [MCP Server Context-Token Overhead Benchmark (16 Servers Measured)](https://agentscamp.com/guides/mcp/mcp-server-token-overhead-benchmark)
+- [Best Claude Skills in 2026](https://agentscamp.com/guides/skills/best-claude-skills-2026)
+- [The Best MCP Servers in 2026](https://agentscamp.com/guides/mcp/best-mcp-servers-2026)
+- [Best Claude Code Alternatives in 2026](https://agentscamp.com/guides/comparisons/best-claude-code-alternatives-2026)
+- [AI Coding Statistics (2026)](https://agentscamp.com/guides/concepts/ai-coding-statistics-2026)
+- [Start here by role](https://agentscamp.com/for) · [llms.txt](https://agentscamp.com/llms.txt) · [RSS feed](https://agentscamp.com/feed.xml) · [X (@agentscamp)](https://x.com/agentscamp)
 
 ## About
 
